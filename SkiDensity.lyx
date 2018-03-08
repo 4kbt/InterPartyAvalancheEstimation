@@ -76,13 +76,13 @@ Density
 
 \begin_layout Abstract
 We estimate, from first principles, a common-sense result: When the density
- of backcountry travelers becomes comparable to the size of a typical avalanche,
- multi-party avalanche incidents become likely.
+ of backcountry travelers becomes comparable to the size of a day's potential
+ avalanches, multi-party avalanche incidents become likely.
  Furthermore, the likelihood is quadratic in the density of travelers –
- twice as many people quadruples the likelihood.
+ twice as many parties quadruples the likelihood.
  The argument is made, with recent examples from Washington State, that
  multi-party incidents are a timely concern.
- In order to drive conversation, we enumerate a variety of untested strategies
+ To stimulate conversation, we enumerate a variety of untested strategies
  to mitigate the hazard.
 \end_layout
 
@@ -90,17 +90,379 @@ We estimate, from first principles, a common-sense result: When the density
 Introduction
 \end_layout
 
+\begin_layout Standard
+The number and density of backcountry skiers continues to increase [XXXRC
+ cite...
+ NSAW UAC talk] in the United States and around the world.
+\end_layout
+
 \begin_layout Section
 Estimation
 \end_layout
 
+\begin_layout Subsection
+Derivation
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Derivation"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
-Figure: Probability of multi-party avalanche incidents as a function of
- skier density.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Probability of multi-party avalanche incidents as a function of skier density.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Suppose that there 
+\begin_inset Formula $n$
+\end_inset
+
+ parties of winter-travelers per unit area (square kilometer or square mile,
+ if you like).
+ If there are few-enough parties that they only ever get caught in their
+ own avalanches, you'd expect the avalanche-accident rate to be proportional
+ to the area of the start zones (
+\begin_inset Formula $A_{\text{startzones}}$
+\end_inset
+
+) and the party density:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+R_{\text{avalanche}}\propto A_{\text{startzones}}n\label{eq:Single party avalanche rate}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The implications are straightforward: More parties, proportionally more
+ accidents.
+ More/larger start zones, proportionally more accidents.
+\end_layout
+
+\begin_layout Standard
+What if there are enough parties around that there's a chance that one group
+ could trigger a slide that hits another group?
+\end_layout
+
+\begin_layout Standard
+There are two factors that are important:
+\end_layout
+
+\begin_layout Enumerate
+When there are more parties in an area, they will trigger more avalanches
+ (probability 
+\begin_inset Formula $A_{\text{startzones}}n$
+\end_inset
+
+), just as before.
+ 
+\end_layout
+
+\begin_layout Enumerate
+If the average avalanche that day sweeps through a total area 
+\begin_inset Formula $A_{\text{avalanche}}$
+\end_inset
+
+, the rate at which others parties might be struck by that avalanche is
+ then 
+\begin_inset Formula $A_{\text{avalanche}}n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+So, the rate of inter-party avalanche accidents ought to go something like
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+R_{\text{inter-party}}\propto A_{\text{startzones}}A_{\text{avalanche}}n^{2}.\label{eq:Quadratic Scaling}
+\end{equation}
+
+\end_inset
+
+ 
+\series bold
+The rate of multi-party accidents should scale like the skier-density 
+\emph on
+squared
+\series default
+\emph default
+ (
+\begin_inset Formula $n^{2}$
+\end_inset
+
+).
+ This is the most important observation in this essay.
+ Everything that follows is only to argue that the time is now to be concerned
+ about inter-party accidents.
+\end_layout
+
+\begin_layout Standard
+Why is 
+\begin_inset Formula $n^{2}$
+\end_inset
+
+ important? Let's look at the probability that our parties will be involved
+ in an accident of either kind; we add them up:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R_{\text{accident}}=R_{\text{avalanche}}+R_{\text{multi-party}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+That is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R_{\text{accident}}=A_{\text{start-zones}}(n+A_{\text{avalanche}}n^{2})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+or, suggestively,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+R_{\text{accident}}=A_{\text{start-zones}}n(1+A_{\text{avalanche}}n)\label{eq:Combined Single and multi-party accident rate}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If the skier density, 
+\begin_inset Formula $n$
+\end_inset
+
+, is small, then 
+\begin_inset Formula $n^{2}$
+\end_inset
+
+ is smaller still, just as 
+\begin_inset Formula $(0.1)^{2}$
+\end_inset
+
+ is 0.01.
+ If 
+\begin_inset Formula $n$
+\end_inset
+
+ is larger than 1, though, then 
+\begin_inset Formula $n^{2}$
+\end_inset
+
+ dominates the problem, just as 
+\begin_inset Formula $10^{2}$
+\end_inset
+
+ is 100.
+ Okay, great; what sets the scale of "1" ?
+\end_layout
+
+\begin_layout Standard
+Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Combined Single and multi-party accident rate"
+
+\end_inset
+
+ holds the answer: it is the size of the day's typical avalanche that matters.
+ Once 
+\begin_inset Formula $A_{avalanche}n>1$
+\end_inset
+
+, inter-party incidents will dominate.
+ This is a common-sense idea – once there is roughly one party per avalanche-are
+a, any triggered avalanche is likely to hit another party.
+\end_layout
+
+\begin_layout Standard
+Intuitively, we know this to be true – in-bounds slides at ski areas are
+ scary in part because the skier density is so high.
+ It also suggests that inter-party incidents are likely to be a larger fraction
+ of accidents involving large avalanches – another common sense idea.
+\end_layout
+
+\begin_layout Subsection
+Relationship of multi-party accident rate to avalanche size
+\end_layout
+
+\begin_layout Standard
+Equations 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Quadratic Scaling"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Combined Single and multi-party accident rate"
+
+\end_inset
+
+ hold more for us, another common-sense result.
+ If the size or likelihood of a day's avalanches is greater, we should expect
+ the rate at which multi-party accidents occur to be greater.
+ If slides are more likely/larger, 
+\begin_inset Formula $A_{\text{startzones}}$
+\end_inset
+
+ will tend to increase, and if slides are larger, 
+\begin_inset Formula $A_{\text{avalanche}}$
+\end_inset
+
+ is surely larger.
+ As backcountry travelers, larger and more-likely slides will force us to
+ look across larger areas (further uphill) and in more places (increased
+ number of potential start zones).
+\end_layout
+
+\begin_layout Subsection
+Relationship of multi-party accident rate to terrain
+\end_layout
+
+\begin_layout Standard
+Looking at the equations in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Derivation"
+
+\end_inset
+
+, one would expect both the accident rate and the multi-party accident rates
+ to be relatively low.
+ Even in mountainous terrain, it is a rare region in which the entire area
+ is a start zone, and much of even mountainous terrain is not avalanche
+ terrain.
+\end_layout
+
+\begin_layout Standard
+Critically, however, 
+\emph on
+backcountry travelers
+\emph default
+ often concentrate in both start zones and avalanche terrain.
+ Furthermore, limited access points (mountain passes/trailheads) for those
+ parties tend to further concentrate those parties into yet higher densities.
+ 
+\end_layout
+
+\begin_layout Standard
+These concentrated party densities can be large.
+ As an example, consider 
+\begin_inset Quotes eld
+\end_inset
+
+The Slot
+\begin_inset Quotes erd
+\end_inset
+
+, a popular backcountry ski route at Snoqualmie Pass, WA.
+ In its narrow upper reaches, it is perhaps 30
+\begin_inset space ~
+\end_inset
+
+m wide and 250
+\begin_inset space ~
+\end_inset
+
+m long.
+ If there are but two parties in the couloir, the effective party density
+ is greater than 250
+\begin_inset space ~
+\end_inset
+
+parties/km
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ For scale, the population density of the nearby city of Seattle, WA is
+ about 3,200 people/km
+\begin_inset Formula $^{2}$
+\end_inset
+
+ [XXXRC cite].
 \end_layout
 
 \begin_layout Section
 Events
+\end_layout
+
+\begin_layout Standard
+Kendall
+\end_layout
+
+\begin_layout Standard
+Baker
+\end_layout
+
+\begin_layout Standard
+Doug Krause's legal thing
+\end_layout
+
+\begin_layout Standard
+UAC 2011 frenzy
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Section
