@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -21,15 +21,18 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format default
 \output_sync 0
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -49,15 +52,26 @@
 \suppress_date false
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\headheight 2cm
+\headsep 2cm
+\footskip 2cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -78,8 +92,9 @@ Density
 We estimate, from first principles, a common-sense result: When the density
  of backcountry travelers becomes comparable to the size of a day's potential
  avalanches, multi-party avalanche incidents become likely.
- Furthermore, the likelihood is quadratic in the density of travelers –
- twice as many parties quadruples the likelihood.
+ Furthermore, our model suggests that the likelihood of multi-party accidents
+ is quadratic in the density of travelers – twice as many parties quadruples
+ the likelihood.
  The argument is made, with recent examples from Washington State, that
  multi-party incidents are a timely concern.
  To stimulate conversation, we enumerate a variety of untested strategies
@@ -98,6 +113,10 @@ The number and density of backcountry skiers continues to increase [XXXRC
 
 \begin_layout Section
 Estimation
+\end_layout
+
+\begin_layout Standard
+XXXRC motivate estimation
 \end_layout
 
 \begin_layout Subsection
@@ -143,11 +162,14 @@ Suppose that there
 \begin_inset Formula $n$
 \end_inset
 
- parties of winter-travelers per unit area (square kilometer or square mile,
- if you like).
+ parties of winter-travelers per unit area (e.g.
+ square kilometer or square mile).
  If there are few-enough parties that they only ever get caught in their
- own avalanches, you'd expect the avalanche-accident rate to be proportional
- to the area of the start zones (
+ own avalanches, one expects the avalanche-accident rate, 
+\begin_inset Formula $R_{\text{avalanche}}$
+\end_inset
+
+, to be proportional to the total area of the start zones (
 \begin_inset Formula $A_{\text{startzones}}$
 \end_inset
 
@@ -195,8 +217,8 @@ If the average avalanche that day sweeps through a total area
 \begin_inset Formula $A_{\text{avalanche}}$
 \end_inset
 
-, the rate at which others parties might be struck by that avalanche is
- then 
+, the rate at which other parties might be struck by that avalanche is then
+ approximately 
 \begin_inset Formula $A_{\text{avalanche}}n$
 \end_inset
 
@@ -204,7 +226,11 @@ If the average avalanche that day sweeps through a total area
 \end_layout
 
 \begin_layout Standard
-So, the rate of inter-party avalanche accidents ought to go something like
+So, the rate of inter-party avalanche accidents, 
+\begin_inset Formula $R_{\text{inter-party}}$
+\end_inset
+
+, ought to scale like
 \end_layout
 
 \begin_layout Standard
@@ -227,7 +253,7 @@ squared
 \end_inset
 
 ).
- This is the most important observation in this essay.
+ This is this paper's key observation.
  Everything that follows is only to argue that the time is now to be concerned
  about inter-party accidents.
 \end_layout
@@ -309,7 +335,7 @@ If the skier density,
 \end_inset
 
  is 100.
- Okay, great; what sets the scale of "1" ?
+ What, then, sets the scale of "1" ?
 \end_layout
 
 \begin_layout Standard
@@ -328,13 +354,9 @@ reference "eq:Combined Single and multi-party accident rate"
 , inter-party incidents will dominate.
  This is a common-sense idea – once there is roughly one party per avalanche-are
 a, any triggered avalanche is likely to hit another party.
-\end_layout
-
-\begin_layout Standard
-Intuitively, we know this to be true – in-bounds slides at ski areas are
- scary in part because the skier density is so high.
- It also suggests that inter-party incidents are likely to be a larger fraction
- of accidents involving large avalanches – another common sense idea.
+ This notion makes intuitive sense – in-bounds slides at ski areas are scary
+ in part because the skier density is so high.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -397,7 +419,8 @@ Critically, however,
 \emph on
 backcountry travelers
 \emph default
- often concentrate in both start zones and avalanche terrain.
+ are often concentrated in both start zones and avalanche terrain by the
+ desire for quality skiing and the travel-focusing effects of terrain itself.
  Furthermore, limited access points (mountain passes/trailheads) for those
  parties tend to further concentrate those parties into yet higher densities.
  
