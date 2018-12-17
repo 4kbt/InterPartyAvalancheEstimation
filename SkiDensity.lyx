@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass article
+\textclass revtex4-1
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -43,7 +43,7 @@
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine basic
+\cite_engine natbib
 \cite_engine_type default
 \biblio_style plain
 \use_bibtopic false
@@ -72,7 +72,7 @@
 \math_numbering_side default
 \quotes_style english
 \dynamic_quotes 0
-\papercolumns 1
+\papercolumns 2
 \papersides 1
 \paperpagestyle default
 \tracking_changes false
@@ -85,7 +85,7 @@
 \begin_body
 
 \begin_layout Title
-Density
+Increased Skier Density Will Increase Inter-Party Avalanche Accidents
 \end_layout
 
 \begin_layout Abstract
@@ -109,6 +109,16 @@ Introduction
 The number and density of backcountry skiers continues to increase [XXXRC
  cite...
  NSAW UAC talk] in the United States and around the world.
+ It is common sense that, at some density of backcountry travelers, avalanches
+ triggered by one party will be likely to strike another.
+ This work aims to give formal voice to this idea and, further, that the
+ time when such accidents become common is either now or in the near future.
+ In Section XXXRC, we attempt to estimate this critical density from first
+ principles.
+ In Section XXXRC, we examine several recent avalanche accidents in the
+ Pacific Northwest and elsewhere.
+ In Section XXXRC, we enumerate and discuss a limited number of strategies
+ that may help to mitigate the risks somewhat.
 \end_layout
 
 \begin_layout Section
@@ -464,23 +474,123 @@ parties/km
  [XXXRC cite].
 \end_layout
 
+\begin_layout Subsection
+Weather and snow conditions as density and consequence amplifiers
+\end_layout
+
+\begin_layout Subsubsection
+Storm-skiing
+\end_layout
+
+\begin_layout Standard
+It is but a guess, but the Pacific-Northwestern interparty avlanche hazard
+ may be at its greatest on deep-snow storm-skiing days, when trailbreaking
+ is arduous, avalanches are likely, and powder fever is high.
+ Arduous trailbreaking may be the most-powerful concentrator of backcountry
+ travelers, amplifying the already-powerful magnetism of an extant skintrack
+ considerably.
+\end_layout
+
+\begin_layout Standard
+On storm-skiing days, almost everyone who hasn't winter-camped overnight
+ embarks from a limited set of trailheads and heads for a limited set of
+ 
+\begin_inset Quotes eld
+\end_inset
+
+safe
+\begin_inset Quotes erd
+\end_inset
+
+ objectives.
+ In Washington State, there are approximately eight such popular trailheads:
+ Mount Baker, Stevens Pass, Yodelin, Alpental, Commonwealth Basin, Bullion
+ Basin, Paradise, and White Pass.
+ As the skintracks are forged more-deeply into the morning, they bifurcate,
+ but the number of traditional and natural ski options remains slim.
+\end_layout
+
+\begin_layout Subsubsection
+Optimal conditions
+\end_layout
+
+\begin_layout Standard
+Perhaps paradoxically, 
+\begin_inset Quotes eld
+\end_inset
+
+good
+\begin_inset Quotes erd
+\end_inset
+
+ conditions can also concentrate parties.
+ Mountains and routes offer up only certain optimal times for passage.
+ In the Cascades, and perhaps everywhere, this can be seen prominently in
+ periods of spring/summer skiing; both snowpack and limited access curtail
+ skiing at other times.
+ There are narrow optimal windows for all of Tahoma/Rainier's Fuhrer Finger,
+ the NFNWR of Pahto/Adams, and Ulrich's Couloirs of Stuart – these are listed
+ for their combination of popularity and constrained terrain, where a small
+ summer slide can ravage those below.
+\end_layout
+
+\begin_layout Standard
+Wintertime weather windows provide perhaps even more temporal concentration,
+ as the number of good days for attempting bold routes is slim, perhaps
+ only one or two weekends per season.
+ Fortunately, for now, the number of skiers attempting bold winter routes
+ seems low-enough that inter-party hazard is likely to be a smaller concern.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Reduced visibility
+\end_layout
+
 \begin_layout Section
 Events
 \end_layout
 
 \begin_layout Standard
-Kendall
+In this Section, we enumerate a series of inter-party accidents, near-misses,
+ and possible inter-party accidents.
+ A subjective summary from an inter-party context is providedThe reader
+ is directed to the references for more detail
+\end_layout
+
+\begin_layout Subsection
+Kendall Peak Accident
 \end_layout
 
 \begin_layout Standard
+This accident is the catalyst for this article.
+ 
+\end_layout
+
+\begin_layout Subsection
 Baker
 \end_layout
 
-\begin_layout Standard
-Doug Krause's legal thing
+\begin_layout Subsection
+Hawkins Mountain
+\end_layout
+
+\begin_layout Subsection
+Turbo Hillclimb
 \end_layout
 
 \begin_layout Standard
+Perhaps the epitome of the interparty accident.
+ In XXXRC, a snowmobiler highmarking (XXXRC?) in a snowmobiling festival/competi
+tion triggered a size XXXRC slide above XXXRC people watching below XXXRC
+ cite.
+\end_layout
+
+\begin_layout Subsection
+Doug Krause's legal thing
+\end_layout
+
+\begin_layout Subsection
 UAC 2011 frenzy
 \end_layout
 
@@ -492,20 +602,472 @@ UAC 2011 frenzy
 Mitigation
 \end_layout
 
+\begin_layout Standard
+It is unlikely, and perhaps undesireable, that the number of backcountry
+ travelers be reduced.
+ Therefore, we must find ways to limit the likelihood of inter-party accidents.
+ The following are a few ways that one might mitigate the risk.
+ There are likely to be many more – these are suggested to catalyze conversation.
+\end_layout
+
+\begin_layout Subsection
+Density reduction
+\end_layout
+
+\begin_layout Standard
+The root of this problem is not the 
+\emph on
+number
+\emph default
+ of backcountry travelers, but rather their 
+\emph on
+density
+\emph default
+.
+ Backcountry travelers use a tiny fraction of North American alpine terrain,
+ perhaps primarily due to access constraints.
+ Following the accident described in XXXRC-citeBusbee, the author has sharply
+ curtailed trips into densely-skied terrain, choosing lesser-known destinations,
+ difficult access, or lower-quality snow in order to decrease overhead risk
+ from other parties.
+ While this strategy has its limits, there are still lonely places with
+ great skiing to be found on the map.
+\end_layout
+
+\begin_layout Subsection
+Travel practices
+\end_layout
+
+\begin_layout Standard
+If density cannot be wholly avoided, then we must find ways to limit our
+ susceptibility to other parties and the risks we may pose to others.
+ We cannot control others' choices, but we can control our own.
+\end_layout
+
+\begin_layout Subsubsection
+Defensive routefinding
+\end_layout
+
+\begin_layout Standard
+Like defensive driving, defensive routefinding consists of making choices
+ that mitigate the risks that others may pose.
+ Careful selection of routes through terrain, and, to a lesser extent, times
+ to pass through terrain, can strongly limit the chance that another party's
+ avalanche might hit us.
+ 
+\end_layout
+
+\begin_layout Standard
+Examples: 
+\end_layout
+
+\begin_layout Itemize
+Many ridgelines are not susceptible to slides from above – travelling upon
+ such a ridgeline inherently prevents protection from any inter-party accident.
+\end_layout
+
+\begin_layout Itemize
+Some routes pass through areas of unavoidable avalanche hazard – there are
+ plenty of famous examples [XXXRC Mousetrap].
+ Choosing not to ski through those regions during times that 
+\emph on
+human-triggered
+\emph default
+ slides are likely, rather than only when natural slides are likely, will
+ limit the risk of an inter-party accident
+\end_layout
+
+\begin_layout Itemize
+Avalanche accidents of all kinds only happen in avalanche terrain – if avalanche
+s are a concern, avoiding avalanche terrain is a sure-fire way to avoid
+ avalanche accidents of all kinds, including inter-party accidents
+\end_layout
+
+\begin_layout Standard
+Choosing 
+\emph on
+not
+\emph default
+ to ski (down or up) routes at times that we expect others might be ascending
+ or descending is also a form of defensive routefinding.
+ Anticipating the choices of others and making our own conservative diversion
+ or delay in order to limit the risks we might present to others is a mark
+ of a conscientious traveler.
+\end_layout
+
+\begin_layout Subsubsection
+Active measures
+\end_layout
+
+\begin_layout Standard
+When we ski in start zones, we are potential triggers for avalanches.
+ In addition to passive measures to ensure that we are not skiing atop other
+ people, there are small measures we can take (with presumably limited efficacy)
+ to communicate with those who might be below.
+ As a simple measure, rock climbers and mountaineers yell 
+\begin_inset Quotes eld
+\end_inset
+
+Rope!
+\begin_inset Quotes erd
+\end_inset
+
+ before tossing down a rappel rope, 
+\begin_inset Quotes eld
+\end_inset
+
+On Rappel!
+\begin_inset Quotes erd
+\end_inset
+
+ before rappelling (which can dislodge rock), 
+\begin_inset Quotes eld
+\end_inset
+
+Off Rappel
+\begin_inset Quotes erd
+\end_inset
+
+ to communicate to those above and below, and 
+\begin_inset Quotes eld
+\end_inset
+
+Rope
+\begin_inset Quotes erd
+\end_inset
+
+ again, when the rope is pulled (which can generate more rockfall).
+ The wording is important, but in the snow world, something akin to 
+\begin_inset Quotes eld
+\end_inset
+
+Entering Slope!
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+Skiing!
+\begin_inset Quotes erd
+\end_inset
+
+, and 
+\begin_inset Quotes eld
+\end_inset
+
+Off Slope!
+\begin_inset Quotes erd
+\end_inset
+
+ could provide warning and an opportunity for communication with those below.
+ Similarly, for a group entering constrained terrain from below, it might
+ be appropriate to shout (or radio (see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Radios"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+)), 
+\begin_inset Quotes eld
+\end_inset
+
+Entering Couloir!
+\begin_inset Quotes erd
+\end_inset
+
+ and make an occasional shout as they ascend.
+\end_layout
+
+\begin_layout Standard
+These verbal warnings are, of course, antithetical to a low-impact and quiet
+ winter day.
+ If the rate of inter-party accidents continues to grow, the necessity of
+ such measures, and the approximate skier density at which they are appropriate,
+ will become self-evident.
+ It is perhaps more welcome than it is jarring to hear a climber yell, 
+\begin_inset Quotes eld
+\end_inset
+
+Rope!
+\begin_inset Quotes erd
+\end_inset
+
+ as they begin an orderly descent.
+\end_layout
+
+\begin_layout Standard
+In addition to verbal warnings, making micro-route decisions during ascent
+ and descent to maximize the leader's ability to see up/down-slope can increase
+ the likelihood of noting a potential inter-party conflict before it becomes
+ reality.
+ 
+\end_layout
+
+\begin_layout Subsection
+Regional travel standards for routes
+\end_layout
+
+\begin_layout Standard
+There are a bevy of options available to improve communication 
+\end_layout
+
+\begin_layout Subsubsection
+Run lists
+\end_layout
+
+\begin_layout Standard
+In recent years [XXXRC Canadian in/out paper, TAR articles, etc], the notion
+ of a 
+\begin_inset Quotes eld
+\end_inset
+
+Run List
+\begin_inset Quotes erd
+\end_inset
+
+ has moved from professional operations discussions into the mainstream.
+ A 
+\begin_inset Quotes eld
+\end_inset
+
+run list
+\begin_inset Quotes erd
+\end_inset
+
+ is a shared enumeration/mapping of regions and ski runs used to facilitate
+ discussion and improve adherence to each day's terrain assessment/plan.
+ In courses at the Washington Alpine Club, run lists have become an integral
+ part of our courses, and our students often refer to them after the course
+ is complete.
+ A publicly-shared run list can serve as a basis for conditions reporting,
+ accident response, and general communication.
+ While run lists themselves will not offer any advantage for inter-party
+ accidents – they may even serve to concentrate travelers during times of
+ higher hazard – a strong basis for communication is the bedrock upon which
+ many mitigation strategies can be built.
+\end_layout
+
+\begin_layout Standard
+It is our understanding [XXXRC NWAC, personal communication] that the NWAC
+ plans to publish run lists/maps to facilitate these goals.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Terrain-specific traditions
+\end_layout
+
+\begin_layout Standard
+In certain high-density traffic locations, it may be optimal to establish
+ certain local traffic patterns.
+ The aviation industry has 
+\begin_inset Quotes eld
+\end_inset
+
+NOTAM
+\begin_inset Quotes erd
+\end_inset
+
+ – notices to airmen (XXXRC check whether it is NOTAM if it is a permanent
+ variance) – which describe location-specific variation from generally-accepted
+ practices.
+ These may be best described by example:
+\end_layout
+
+\begin_layout Standard
+Near the Mount Baker Ski Area, there is a backcountry ski run known as 
+\begin_inset Quotes eld
+\end_inset
+
+Blueberry Chutes
+\begin_inset Quotes erd
+\end_inset
+
+.
+ It is a high-traffic run in avalanche terrain, XXXRC km from a parking
+ lot, with a straightforward and comparatively safe alternative ascent route
+ that reaches the run at the top.
+ It is also possible to ascend the run directly, which is arduous, slow,
+ exposed to avalanche hazard, and importantly exposed to skiers dropping
+ in from above.
+ In addition, those ascending from the bottom sometimes choose to transition
+ to downhill skiing mid-slope, spending even longer in a hazardous spot.
+ This location has become the site of inter-party conflicts [XXXRC TAY,
+ TGR].
+ Such a location is a prime opportunity for a simple local understanding
+ – downhill traffic only in Blueberry Chutes – to be more-formally known.
+ While this would have some impact on weaker skiers incapable of skiing
+ the steepest top pitch, it also isolates those weaker skiers from getting
+ clobbered from above.
+\end_layout
+
+\begin_layout Standard
+The Slot, a committing couloir on Snoqualmie Mountain near Snoqualmie Pass,
+ WA, was once primarily a climbing route, 
+\begin_inset Quotes eld
+\end_inset
+
+Enigma Gully
+\begin_inset Quotes erd
+\end_inset
+
+ [XXXRC].
+ In 2004, it was sufficiently rarely skied that it still made occasional
+ sense to ascend directly up the route for convenience.
+ The Slot is now routinely skied, even by those who ski before their work
+ in Seattle.
+ It is a rare thing to be the first to the Slot's entrance, and it is common
+ to encounter multiple people at the entrance.
+ In the present environment, it is hard to imagine a good reason to ascend
+ the Slot in winter.
+ The hazard from above is significant.
+\end_layout
+
+\begin_layout Standard
+Furthermore, the overhead hazard to descending parties 
+\end_layout
+
+\begin_layout Standard
+The Alpental Ski Area sits in a constrained valley, with densely-used ski-tourin
+g terrain at, and beyond, its head.
+ The area has a relatively-unique policy of limited avalanche control within
+ its 
+\begin_inset Quotes eld
+\end_inset
+
+Back Bowls
+\begin_inset Quotes erd
+\end_inset
+
+ backcountry terrain.
+ The slide paths and runouts from that terrain reach the valley bottom.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset Quotes eld
+\end_inset
+
+Run board
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+One of the principal difficulties in avoiding conflict between disparate
+ groups is the simple awareness of the existence and location of other parties.
+ If parties leaving a trailhead were to publicly note their number, intended
+ destination, and approximate schedule, perhaps akin to filing a flight
+ plan, subsequent parties would have the opportunity to know who might be
+ ahead, and where.
+ Furthermore, if a radio channel were appended, communication with those
+ ahead might be possible.
+\end_layout
+
+\begin_layout Standard
+The problems with such a system are myriad, but it may offer some utility
+ to the concientious.
+\end_layout
+
+\begin_layout Standard
+A run board may offer greater utility in constrained terrain, like The Slot,
+ where entering parties might note their number and the time at which they
+ entered, as a note for those who follow behind.
+ The shareability of a photo of a run board atop a popular run (#firsttracks
+ ?) might increase the likelihood of its use.
+\end_layout
+
 \begin_layout Subsection
 Radios
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Radios"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Radios have emerged as an increasingly common tool in the backcountry –
+ a remarkable fact for a sport which eschews complication and weight.
+ In the author's North American experience, FRS/GMRS radios are a de-facto
+ standard, the range limitations of the standard are transcended (XXXMI
+ word) by the unlicensed nature of the spectrum
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+GMRS has a licensing requirement in the United States, though many users
+ do not apply for one
+\end_layout
+
+\end_inset
+
+.
+ In 2018, theses radios have as many as XXXRC possible XXXRC-km-range (FRS)
+ channels and overlapping XXXRC XXXRC-km-range (GMRS).
+ These radios, in general, offer the possibility of digital 
+\begin_inset Quotes eld
+\end_inset
+
+privacy codes
+\begin_inset Quotes erd
+\end_inset
+
+ to define a sub-channel by selective muting within each channel.
+ (XXXRC can you run party/private simultaneously?)
+\end_layout
+
+\begin_layout Standard
+In addition to the utility within a party, radios offer the opportunity
+ to promote situational awareness and coordination between parties.
 \end_layout
 
 \begin_layout Subsubsection
 Community channel/party channel
 \end_layout
 
-\begin_layout Subsection
-Regional standards for routes
+\begin_layout Standard
+There are certain regions that have begun to define community radio channels
+ [XXXRC Cite Bear Creek and more], where, by convention, skiers in the region
+ set their radios to a common channel.
+ XXXRC – ask around about radio usage.
+ How does it work in practice? Does radio traffic become overwhelming? Is
+ chatter a problem? Do people use it to ride herd?
+\end_layout
+
+\begin_layout Standard
+As skier density increases, it may be necessary for radio manufacturers
+ to add the ability to monitor a community channel and a party channel
 \end_layout
 
 \begin_layout Subsection
 Awareness
+\end_layout
+
+\begin_layout Standard
+The simple awareness of the increasing likelihood of interparty conflict
+ with density may, on its own, help to curtail interparty accidents.
+ That is, of course, the intent of this work.
+ In places where the density of skiers approaches the critical density,
+ the hazard should be discussed, with at least a passing awareness of inter-part
+y hazard reaching education at all levels.
+\end_layout
+
+\begin_layout Standard
+As better understanding of the factors that lead to inter-party avalanche
+ accidents become understood, it will make sense to bring light to the hazard
+ in avalanche bulletins.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -514,6 +1076,33 @@ Notecard
 
 \begin_layout Section
 Conclusion
+\end_layout
+
+\begin_layout Standard
+Tell 'em what you told 'em.
+\end_layout
+
+\begin_layout Standard
+As I type this sentence in an autumn Seattle coffee shop, customers nearby
+ are discussing how their friends encountered 
+\begin_inset Quotes eld
+\end_inset
+
+lines of cars
+\begin_inset Quotes erd
+\end_inset
+
+ at a local hiking trailhead.
+ This aligns with our experience this summer, with unprecedented numbers
+ of wilderness travelers at every trailhead.
+ Inter-party avalanche accidents are coming, if they have not already arrived.
+ It behooves us, individually and as a community, to develop strategies
+ to address this new hazard proactively.
+\end_layout
+
+\begin_layout Standard
+http://www.cascadecrusades.org/SkiMountaineering/snoqualmiemtn/slotcouloir/slotcro
+oked2004.htm
 \end_layout
 
 \end_body
