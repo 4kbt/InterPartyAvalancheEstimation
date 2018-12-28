@@ -92,7 +92,7 @@ Increased Skier Density Will Increase Inter-Party Avalanche Accidents
 We estimate, from first principles, a common-sense result: When the density
  of backcountry travelers becomes comparable to the size of a day's potential
  avalanches, multi-party avalanche incidents become likely.
- Furthermore, our model suggests that the likelihood of multi-party accidents
+ Furthermore, this model suggests that the likelihood of multi-party accidents
  is quadratic in the density of travelers – twice as many parties quadruples
  the likelihood.
  The argument is made, with recent examples from Washington State, that
@@ -503,10 +503,10 @@ safe
 \end_inset
 
  objectives.
- In Washington State, there are approximately eight such popular trailheads:
- Mount Baker, Stevens Pass, Yodelin, Alpental, Commonwealth Basin, Bullion
- Basin, Paradise, and White Pass.
- As the skintracks are forged more-deeply into the morning, they bifurcate,
+ In Western Washington State, there are approximately nine such popular
+ trailheads: Mount Baker, Stevens Pass, Yodelin, Alpental, Commonwealth
+ Basin, Bullion Basin, Paradise, Hurricane Ridge, and White Pass.
+ As skintracks are forged more-deeply into the morning, they bifurcate,
  but the number of traditional and natural ski options remains slim.
 \end_layout
 
@@ -531,7 +531,7 @@ good
  There are narrow optimal windows for all of Tahoma/Rainier's Fuhrer Finger,
  the NFNWR of Pahto/Adams, and Ulrich's Couloirs of Stuart – these are listed
  for their combination of popularity and constrained terrain, where a small
- summer slide can ravage those below.
+ summer slide can ravage anyone below.
 \end_layout
 
 \begin_layout Standard
@@ -547,36 +547,101 @@ Wintertime weather windows provide perhaps even more temporal concentration,
 Reduced visibility
 \end_layout
 
+\begin_layout Standard
+If a nearby parties cannot be seen, and the distances between parties are
+ greater than that allowed by voice contact, it is impossible to be aware
+ of anyone above or below.
+ In low-visibility conditions in densely-skied areas, this may drive us
+ to avoid skiing or ascending an otherwise-reasonable route simply because
+ it may not be possible to verify that the route is free of other travelers.
+\end_layout
+
 \begin_layout Section
-Events
+Significant Accidents
 \end_layout
 
 \begin_layout Standard
 In this Section, we enumerate a series of inter-party accidents, near-misses,
  and possible inter-party accidents.
- A subjective summary from an inter-party context is providedThe reader
- is directed to the references for more detail
+ A subjective summary from an inter-party-accident context is provided.
+ The reader is directed to the references for more detail
 \end_layout
 
 \begin_layout Subsection
-Kendall Peak Accident
+Kendall Peak, December 19, 2015
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:December19"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-This accident is the catalyst for this article.
- 
+This accident is the catalyst for this article, as it affected the author
+ personally.
+ A solo skier disappeared after early afternoon on December 19, the first
+ deep storm-skiing Saturday of the 15/16 season at Snoqualmie Pass.
+ The number of skiers in the area was remarkably high.
+\end_layout
+
+\begin_layout Standard
+After an extensive search effort, exceeding XXXRC person-hours, his remains
+ were recovered on June 6 (XXXRC?).
+ The accident location, and the injuries to the skier, were consistent with
+ an avalanche-related fatality.
+ Subsequent investigation revealed that two parties had triggered avalanches
+ uphill of the accident site.
+ Furthermore, the first of those avalanches can be regarded as an inter-party
+ near miss, as a minute's difference in timing would have seen the second
+ party struck by the first.
+ NWAC's analysis of the accident does not take a position on whether the
+ fatality was caused by an inter-party avalanche – both a soloist's self-trigger
+ed third avalanche or a natural avalanche are viable alternative hypotheses.
 \end_layout
 
 \begin_layout Subsection
-Baker
+Mt.
+ Herman
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Herman"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
-Hawkins Mountain
+Hawkins Mountain (XXXRC Date) 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Hawkins"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A snowmobiler triggered a large slide (D3 XXXRC), running full-path, XXXRC
+ m, XXXRC m vertically.
+ At the time of the slide, a separate party of two snowmobilers was eating
+ lunch (XXXRC) in the runout zone, with their machines turned off.
+ The lower party ran from the slide, narrowly avoiding burial (XXXRC).
+ The 
 \end_layout
 
 \begin_layout Subsection
 Turbo Hillclimb
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Turbo"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -587,15 +652,11 @@ tion triggered a size XXXRC slide above XXXRC people watching below XXXRC
 \end_layout
 
 \begin_layout Subsection
-Doug Krause's legal thing
+Doug Krause's legal thing/Telluride references
 \end_layout
 
 \begin_layout Subsection
 UAC 2011 frenzy
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Section
@@ -604,10 +665,10 @@ Mitigation
 
 \begin_layout Standard
 It is unlikely, and perhaps undesireable, that the number of backcountry
- travelers be reduced.
+ travelers will be reduced.
  Therefore, we must find ways to limit the likelihood of inter-party accidents.
- The following are a few ways that one might mitigate the risk.
- There are likely to be many more – these are suggested to catalyze conversation.
+ The following are a few strategies that may mitigate the risk.
+ There are likely to be more – these are suggested to catalyze conversation.
 \end_layout
 
 \begin_layout Subsection
@@ -630,8 +691,16 @@ density
  curtailed trips into densely-skied terrain, choosing lesser-known destinations,
  difficult access, or lower-quality snow in order to decrease overhead risk
  from other parties.
- While this strategy has its limits, there are still lonely places with
- great skiing to be found on the map.
+ While this strategy has limits, there are still lonely places with great
+ skiing to be found on the map.
+\end_layout
+
+\begin_layout Standard
+As advocacy organizations work to expand wintertime access, it may be reasonable
+ to add safety to the reasons for improved access.
+ Inferring our from introductory analysis, it is natural to require party
+ densities at less than one per characteristic-avalanche-size (XXXRC < 0.1-1
+ parties/acre?)
 \end_layout
 
 \begin_layout Subsection
@@ -674,13 +743,40 @@ Some routes pass through areas of unavoidable avalanche hazard – there are
 human-triggered
 \emph default
  slides are likely, rather than only when natural slides are likely, will
- limit the risk of an inter-party accident
+ limit the risk of an inter-party accident.
+\end_layout
+
+\begin_layout Itemize
+The particular examples of the Hawkins Mountain (Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Hawkins"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) and Turbo Hillclimb (Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Turbo"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) accidents make clear the danger of extended loitering in inter-party-avalanche
+ terrain.
+ When assessing safe spots, the likelihood of human triggers above must
+ be considered.
 \end_layout
 
 \begin_layout Itemize
 Avalanche accidents of all kinds only happen in avalanche terrain – if avalanche
 s are a concern, avoiding avalanche terrain is a sure-fire way to avoid
- avalanche accidents of all kinds, including inter-party accidents
+ avalanche accidents of all kinds, including inter-party accidents.
 \end_layout
 
 \begin_layout Standard
@@ -702,9 +798,20 @@ Active measures
 \begin_layout Standard
 When we ski in start zones, we are potential triggers for avalanches.
  In addition to passive measures to ensure that we are not skiing atop other
- people, there are small measures we can take (with presumably limited efficacy)
- to communicate with those who might be below.
- As a simple measure, rock climbers and mountaineers yell 
+ people, there are small measures we can take to communicate with those
+ who might be below.
+ Radios (see Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Radios"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) are the superior method of communication in the backcountry, but sup As
+ a simple measure, rock climbers and mountaineers yell 
 \begin_inset Quotes eld
 \end_inset
 
@@ -790,7 +897,8 @@ These verbal warnings are, of course, antithetical to a low-impact and quiet
  If the rate of inter-party accidents continues to grow, the necessity of
  such measures, and the approximate skier density at which they are appropriate,
  will become self-evident.
- It is perhaps more welcome than it is jarring to hear a climber yell, 
+ At a crowded crag, it is perhaps more welcome than it is jarring to hear
+ a climber yell, 
 \begin_inset Quotes eld
 \end_inset
 
@@ -814,7 +922,9 @@ Regional travel standards for routes
 \end_layout
 
 \begin_layout Standard
-There are a bevy of options available to improve communication 
+Just as we all agree to drive on one side of a road in order to prevent
+ head-on automotive collisions, community standards can improve mutually-benefic
+ial cooperation between parties that have never met.
 \end_layout
 
 \begin_layout Subsubsection
@@ -849,8 +959,8 @@ run list
  accident response, and general communication.
  While run lists themselves will not offer any advantage for inter-party
  accidents – they may even serve to concentrate travelers during times of
- higher hazard – a strong basis for communication is the bedrock upon which
- many mitigation strategies can be built.
+ higher hazard – a strong basis for communication is an essential bedrock
+ upon which many mitigation strategies can be built.
 \end_layout
 
 \begin_layout Standard
@@ -902,9 +1012,9 @@ Blueberry Chutes
  TGR].
  Such a location is a prime opportunity for a simple local understanding
  – downhill traffic only in Blueberry Chutes – to be more-formally known.
- While this would have some impact on weaker skiers incapable of skiing
- the steepest top pitch, it also isolates those weaker skiers from getting
- clobbered from above.
+ While this strategy would have an impact on weaker skiers incapable of
+ skiing the steepest top pitch, it also protects those weaker skiers from
+ getting clobbered from above.
 \end_layout
 
 \begin_layout Standard
@@ -920,7 +1030,7 @@ Enigma Gully
  [XXXRC].
  In 2004, it was sufficiently rarely skied that it still made occasional
  sense to ascend directly up the route for convenience.
- The Slot is now routinely skied, even by those who ski before their work
+ The Slot is now routinely skied, even by those who ski before their day-jobs
  in Seattle.
  It is a rare thing to be the first to the Slot's entrance, and it is common
  to encounter multiple people at the entrance.
@@ -981,8 +1091,14 @@ The problems with such a system are myriad, but it may offer some utility
 A run board may offer greater utility in constrained terrain, like The Slot,
  where entering parties might note their number and the time at which they
  entered, as a note for those who follow behind.
- The shareability of a photo of a run board atop a popular run (#firsttracks
- ?) might increase the likelihood of its use.
+ The social-network (XXXRC 
+\backslash
+ref Instagram :) ) shareability of a photo of a run board atop a popular
+ run (#firsttracks ?) might increase the likelihood of its use.
+\end_layout
+
+\begin_layout Standard
+Communication protocols
 \end_layout
 
 \begin_layout Subsection
@@ -1013,7 +1129,7 @@ GMRS has a licensing requirement in the United States, though many users
 \end_inset
 
 .
- In 2018, theses radios have as many as XXXRC possible XXXRC-km-range (FRS)
+ In 2018, these radios have as many as XXXRC possible XXXRC-km-range (FRS)
  channels and overlapping XXXRC XXXRC-km-range (GMRS).
  These radios, in general, offer the possibility of digital 
 \begin_inset Quotes eld
@@ -1059,8 +1175,9 @@ The simple awareness of the increasing likelihood of interparty conflict
  with density may, on its own, help to curtail interparty accidents.
  That is, of course, the intent of this work.
  In places where the density of skiers approaches the critical density,
- the hazard should be discussed, with at least a passing awareness of inter-part
-y hazard reaching education at all levels.
+ the hazard should be discussed and mitigated.
+ At least a passing mention of inter-party hazard in avalanche education
+ at all levels now seems prudent.
 \end_layout
 
 \begin_layout Standard
@@ -1097,7 +1214,7 @@ lines of cars
  of wilderness travelers at every trailhead.
  Inter-party avalanche accidents are coming, if they have not already arrived.
  It behooves us, individually and as a community, to develop strategies
- to address this new hazard proactively.
+ to proactively address this emerging hazard.
 \end_layout
 
 \begin_layout Standard
