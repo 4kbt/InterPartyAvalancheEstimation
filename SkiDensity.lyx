@@ -799,7 +799,39 @@ literal "false"
 \end_layout
 
 \begin_layout Subsection
-UAC 2011 frenzy
+Little Cottonwood 
+\begin_inset Quotes eld
+\end_inset
+
+frenzy
+\begin_inset Quotes erd
+\end_inset
+
+, November 13, 2011
+\end_layout
+
+\begin_layout Standard
+In November of 2011, the year's first skiable snow arrived atop faceted
+ autumn snow, drawing many backcountry skiers into the un-opened Little
+ Cottonwood Canyon ski resorts.
+ At least 11 human-triggered avalanches were reported, yielding one fatality
+ and one broken femur.
+ Perhaps most-striking in the fatality's accident report
+\begin_inset CommandInset citation
+LatexCommand citep
+key "GadValleyUACFrenzy"
+literal "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Quote
+It was reported that other parties at Alta continued to ski and knock down
+ avalanches into Greeley Bowl while the rescue was in progress.
+ Creating another incident during this situation is unacceptable.
+ 
 \end_layout
 
 \begin_layout Section
