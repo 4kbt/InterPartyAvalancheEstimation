@@ -85,7 +85,7 @@
 \begin_body
 
 \begin_layout Title
-Increased Skier Density Will Increase Inter-Party Avalanche Accidents
+Increased Skier Density Must Increase Inter-Party Avalanche Accidents
 \end_layout
 
 \begin_layout Abstract
@@ -111,18 +111,55 @@ The number and density of backcountry skiers continues to increase [XXXRC
  NSAW UAC talk] in the United States and around the world.
  It is common sense that, at some density of backcountry travelers, avalanches
  triggered by one party will be likely to strike another.
- This work aims to give formal voice to this idea and, further, that the
- time when such accidents become common is either now or in the near future.
- In Section XXXRC, we attempt to estimate this critical density from first
- principles.
- In Section XXXRC, we examine several recent avalanche accidents in the
- Pacific Northwest and elsewhere.
- In Section XXXRC, we enumerate and discuss a limited number of strategies
- that may help to mitigate the risks somewhat.
+ This work aims to give formal voice to this idea and, further, suggest
+ that the time when such accidents become frequent is either now or in the
+ near future.
+ In Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Estimation"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we attempt to estimate this critical density from first principles.
+ In Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Significant-Accidents"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we examine several recent avalanche accidents in the Pacific Northwest
+ and elsewhere.
+ In Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Mitigation"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we enumerate and discuss a limited number of strategies that may partially
+ mitigate the risk.
 \end_layout
 
 \begin_layout Section
 Estimation
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Estimation"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -558,6 +595,13 @@ If a nearby parties cannot be seen, and the distances between parties are
 
 \begin_layout Section
 Significant Accidents
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Significant-Accidents"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -565,6 +609,10 @@ In this Section, we enumerate a series of inter-party accidents, near-misses,
  and possible inter-party accidents.
  A subjective summary from an inter-party-accident context is provided.
  The reader is directed to the references for more detail
+\end_layout
+
+\begin_layout Standard
+XXXRC Compute densities for each.
 \end_layout
 
 \begin_layout Subsection
@@ -579,16 +627,23 @@ name "subsec:December19"
 \end_layout
 
 \begin_layout Standard
-This accident is the catalyst for this article, as it affected the author
- personally.
- A solo skier disappeared after early afternoon on December 19, the first
+This accident is the catalyst for this article.
+ As detailed by the NWAC accident report 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "KendallDecember19"
+literal "false"
+
+\end_inset
+
+, a solo skier disappeared after early afternoon on December 19, the first
  deep storm-skiing Saturday of the 15/16 season at Snoqualmie Pass.
  The number of skiers in the area was remarkably high.
 \end_layout
 
 \begin_layout Standard
-After an extensive search effort, exceeding XXXRC person-hours, his remains
- were recovered on June 6 (XXXRC?).
+After an extensive search effort, exceeding 3000 person-hours, his remains
+ were recovered on June 4, 2016.
  The accident location, and the injuries to the skier, were consistent with
  an avalanche-related fatality.
  Subsequent investigation revealed that two parties had triggered avalanches
@@ -603,7 +658,7 @@ ed third avalanche or a natural avalanche are viable alternative hypotheses.
 
 \begin_layout Subsection
 Mt.
- Herman
+ Herman, March 4, 2017
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:Herman"
@@ -613,8 +668,31 @@ name "subsec:Herman"
 
 \end_layout
 
+\begin_layout Standard
+As reported in NWAC's accident summaries
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1617AccidentSummaries"
+literal "false"
+
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Quote
+Widespread 1-2 ft storm slabs and larger 3-5 ft wind slabs were reported
+ in the backcountry near Mt Baker on Saturday, March 4th.
+ An incident occurred on Mt Herman when a large wind slab on an east aspect
+ was triggered from a party above, partially burying two and completely
+ burying one in a separate party at the base of the slide path.
+ The impacted party was transitioning back to climbing skins when they were
+ caught in the avalanche.
+ 
+\end_layout
+
 \begin_layout Subsection
-Hawkins Mountain (XXXRC Date) 
+Hawkins Mountain, March 4, 2017 
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:Hawkins"
@@ -625,16 +703,23 @@ name "subsec:Hawkins"
 \end_layout
 
 \begin_layout Standard
-A snowmobiler triggered a large slide (D3 XXXRC), running full-path, XXXRC
- m, XXXRC m vertically.
+As detailed by the NWAC accident report 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "HawkinsMountain"
+literal "false"
+
+\end_inset
+
+, a party of two snowmobilers triggered a large slide (D2+).
  At the time of the slide, a separate party of two snowmobilers was eating
  lunch (XXXRC) in the runout zone, with their machines turned off.
- The lower party ran from the slide, narrowly avoiding burial (XXXRC).
- The 
+ The lower party ran from the slide – their sleds and rescue gear were buried.
+ 
 \end_layout
 
 \begin_layout Subsection
-Turbo Hillclimb
+Boulder/Turbo Mountain, March 13, 2010 
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:Turbo"
@@ -645,14 +730,72 @@ name "subsec:Turbo"
 \end_layout
 
 \begin_layout Standard
-Perhaps the epitome of the interparty accident.
- In XXXRC, a snowmobiler highmarking (XXXRC?) in a snowmobiling festival/competi
-tion triggered a size XXXRC slide above XXXRC people watching below XXXRC
- cite.
+Perhaps the most-spectacular interparty accident
+\begin_inset CommandInset citation
+LatexCommand citep
+key "CodeBlackBoulderMountain,BoulderMountainResponseReview"
+literal "false"
+
+\end_inset
+
+ of which the author is aware: A snowmobiler highmarking (XXXRC?) in a snowmobil
+ing festival/competition triggered a D3 slide above 200 people watching
+ below XXXRC cite.
+ Approximately forty people were buried, with 32 injured and two fatalities.
+ The on-scene coordination and rescue response were remarkably effective
+ for such a chaotic event.
+\end_layout
+
+\begin_layout Standard
+After-action review 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ParksCanadaBoulderMountainPresentation"
+literal "false"
+
+\end_inset
+
+ notes the probability of legal charges in similar future events.
 \end_layout
 
 \begin_layout Subsection
-Doug Krause's legal thing/Telluride references
+Eagle Pass Avalanche
+\end_layout
+
+\begin_layout Standard
+Snowmos, one killed by interparty slide.
+ D4 slide
+\end_layout
+
+\begin_layout Subsection
+Grandfather Couloir, April 3, 2016
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Grandfather-Couloir"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As detailed by the CAIC accident report
+\begin_inset CommandInset citation
+LatexCommand citep
+key "GrandfatherCouloirTwoPartyInteraction"
+literal "false"
+
+\end_inset
+
+ and subsequent lawsuit
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SanMiguelCountyJudgement"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -661,6 +804,13 @@ UAC 2011 frenzy
 
 \begin_layout Section
 Mitigation
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Mitigation"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -676,11 +826,11 @@ Density reduction
 \end_layout
 
 \begin_layout Standard
-The root of this problem is not the 
+The root of this concern is not the 
 \emph on
 number
 \emph default
- of backcountry travelers, but rather their 
+ of backcountry travelers, but their 
 \emph on
 density
 \emph default
@@ -1220,6 +1370,18 @@ lines of cars
 \begin_layout Standard
 http://www.cascadecrusades.org/SkiMountaineering/snoqualmiemtn/slotcouloir/slotcro
 oked2004.htm
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "SkiDensity"
+options "plain"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
