@@ -627,7 +627,7 @@ name "subsec:December19"
 \end_layout
 
 \begin_layout Standard
-This accident is the catalyst for this article.
+This accident is the catalyst for this work.
  As detailed by the NWAC accident report 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -740,7 +740,8 @@ literal "false"
 
  of which the author is aware: A snowmobiling festival/competition, with
  snowmobiles highmarking above ~200 spectators below at the time of the
- slide, was directly struck by a D3 slide.
+ slide, was directly struck by a D3 slide presumed to have been triggered
+ by a participant.
  Approximately forty people were buried, with 32 injured and two fatalities.
  The on-scene coordination and rescue response were remarkably effective
  for such a chaotic event.
@@ -759,12 +760,33 @@ literal "false"
 \end_layout
 
 \begin_layout Subsection
-Eagle Pass Avalanche
+Eagle Pass Avalanche, March 19, 2010
 \end_layout
 
 \begin_layout Standard
-Snowmos, one killed by interparty slide.
- D4 slide
+No official report appears to be available for this accident; this synopsis
+ is composed from news articles and indirect references in the Boulder Mountain
+ accident reporting.
+ One week following the Boulder Mountain slide, a snowmobiling party of
+ two triggered a D4 slide above at least one party of at least ten snowmobilers,
+ yielding one fatality and at least one injury
+\begin_inset CommandInset citation
+LatexCommand citep
+key "EaglePassNewsArticle1,EaglePassNewsArticle2"
+literal "false"
+
+\end_inset
+
+.
+ The total number of people involved may have been as large as 19
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ParksCanadaBoulderMountainPresentation"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
@@ -831,7 +853,43 @@ literal "false"
 It was reported that other parties at Alta continued to ski and knock down
  avalanches into Greeley Bowl while the rescue was in progress.
  Creating another incident during this situation is unacceptable.
- 
+\end_layout
+
+\begin_layout Subsection
+Bear Creek, Temptation slide path, February 19, 2019
+\end_layout
+
+\begin_layout Standard
+A group of three snowboarders left the Telluride ski area to ski a permanently-c
+losed but frequently-skied
+\begin_inset CommandInset citation
+LatexCommand citep
+key "TemptationSlideArticle"
+literal "false"
+
+\end_inset
+
+ route.
+ Partway through the descent, a boarder triggered a slide that stepped down,
+ D2 in size, running 2,000 vertical feet
+\begin_inset CommandInset citation
+LatexCommand citep
+key "TemptationCAICAccidentReport"
+literal "false"
+
+\end_inset
+
+.
+ The slide buried six feet deep a solo skier out for a short exercise jaunt
+ on a heavily-used trail.
+\end_layout
+
+\begin_layout Standard
+Seeing many tracks entering and leaving the deposition zone, the uphill
+ party beacon-searched and spot-probed the debris pile without result before
+ returning to town.
+ The solo skier, reported missing by his wife, was located by probe-line
+ the following day.
 \end_layout
 
 \begin_layout Section
