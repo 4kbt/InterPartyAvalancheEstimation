@@ -111,9 +111,8 @@ The number and density of backcountry skiers continues to increase [XXXRC
  NSAW UAC talk] in the United States and around the world.
  It is common sense that, at some density of backcountry travelers, avalanches
  triggered by one party will be likely to strike another.
- This work aims to give formal voice to this idea and, further, suggest
- that the time when such accidents become frequent is either now or in the
- near future.
+ This work gives formal voice to this idea and, further, suggests that the
+ time when such accidents become frequent is either now or in the near future.
  In Section 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -124,7 +123,7 @@ noprefix "false"
 
 \end_inset
 
-, we attempt to estimate this critical density from first principles.
+, we attempt to estimate the relevant critical density from first principles.
  In Section 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -135,7 +134,7 @@ noprefix "false"
 
 \end_inset
 
-, we examine several recent avalanche accidents in the Pacific Northwest
+, we enumerate several recent avalanche accidents in the Pacific Northwest
  and elsewhere.
  In Section 
 \begin_inset CommandInset ref
@@ -205,7 +204,7 @@ Probability of multi-party avalanche incidents as a function of skier density.
 \end_layout
 
 \begin_layout Standard
-Suppose that there 
+Suppose that there are 
 \begin_inset Formula $n$
 \end_inset
 
@@ -274,7 +273,7 @@ If the average avalanche that day sweeps through a total area
 
 \begin_layout Standard
 So, the rate of inter-party avalanche accidents, 
-\begin_inset Formula $R_{\text{inter-party}}$
+\begin_inset Formula $R_{\text{interparty}}$
 \end_inset
 
 , ought to scale like
@@ -283,7 +282,7 @@ So, the rate of inter-party avalanche accidents,
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-R_{\text{inter-party}}\propto A_{\text{startzones}}A_{\text{avalanche}}n^{2}.\label{eq:Quadratic Scaling}
+R_{\text{interparty}}\propto A_{\text{startzones}}A_{\text{avalanche}}n^{2}.\label{eq:Quadratic Scaling}
 \end{equation}
 
 \end_inset
@@ -311,13 +310,13 @@ Why is
 \end_inset
 
  important? Let's look at the probability that our parties will be involved
- in an accident of either kind; we add them up:
+ in an accident of either kind by summing the probabilities:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-R_{\text{accident}}=R_{\text{avalanche}}+R_{\text{multi-party}}
+R_{\text{accident}}=R_{\text{avalanche}}+R_{\text{interparty}}
 \]
 
 \end_inset
@@ -332,7 +331,7 @@ That is:
 \begin_layout Standard
 \begin_inset Formula 
 \[
-R_{\text{accident}}=A_{\text{start-zones}}(n+A_{\text{avalanche}}n^{2})
+R_{\text{accident}}\propto A_{\text{start-zones}}(n+A_{\text{avalanche}}n^{2})
 \]
 
 \end_inset
@@ -347,7 +346,7 @@ or, suggestively,
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-R_{\text{accident}}=A_{\text{start-zones}}n(1+A_{\text{avalanche}}n)\label{eq:Combined Single and multi-party accident rate}
+R_{\text{accident}}\propto A_{\text{start-zones}}n(1+A_{\text{avalanche}}n)\label{eq:Combined Single and multi-party accident rate}
 \end{equation}
 
 \end_inset
@@ -401,8 +400,8 @@ reference "eq:Combined Single and multi-party accident rate"
 , inter-party incidents will dominate.
  This is a common-sense idea – once there is roughly one party per avalanche-are
 a, any triggered avalanche is likely to hit another party.
- This notion makes intuitive sense – in-bounds slides at ski areas are scary
- in part because the skier density is so high.
+ This notion makes intuitive sense – in-bounds avalanches at ski areas are
+ scary in part because the skier density is so high.
  
 \end_layout
 
@@ -425,9 +424,9 @@ reference "eq:Combined Single and multi-party accident rate"
 
 \end_inset
 
- hold more for us, another common-sense result.
- If the size or likelihood of a day's avalanches is greater, we should expect
- the rate at which multi-party accidents occur to be greater.
+ suggest an important corollary: If the size or likelihood of a day's avalanches
+ is greater, we should expect the rate at which multi-party accidents occur
+ to be greater.
  If slides are more likely/larger, 
 \begin_inset Formula $A_{\text{startzones}}$
 \end_inset
@@ -437,9 +436,9 @@ reference "eq:Combined Single and multi-party accident rate"
 \end_inset
 
  is surely larger.
- As backcountry travelers, larger and more-likely slides will force us to
- look across larger areas (further uphill) and in more places (increased
- number of potential start zones).
+ As backcountry travelers, larger and more-likely slides will force wary
+ travelers to consider larger areas (further uphill) and more places (increased
+ number of potential start zones) in the context of inter-party accidents.
 \end_layout
 
 \begin_layout Subsection
@@ -520,7 +519,7 @@ Storm-skiing
 \end_layout
 
 \begin_layout Standard
-It is but a guess, but the Pacific-Northwestern interparty avlanche hazard
+It is but a guess, but the Pacific-Northwestern inter-party avalanche hazard
  may be at its greatest on deep-snow storm-skiing days, when trailbreaking
  is arduous, avalanches are likely, and powder fever is high.
  Arduous trailbreaking may be the most-powerful concentrator of backcountry
@@ -561,7 +560,7 @@ good
 \end_inset
 
  conditions can also concentrate parties.
- Mountains and routes offer up only certain optimal times for passage.
+ Mountains and routes offer only certain optimal times for passage.
  In the Cascades, and perhaps everywhere, this can be seen prominently in
  periods of spring/summer skiing; both snowpack and limited access curtail
  skiing at other times.
@@ -697,7 +696,6 @@ Widespread 1-2 ft storm slabs and larger 3-5 ft wind slabs were reported
  burying one in a separate party at the base of the slide path.
  The impacted party was transitioning back to climbing skins when they were
  caught in the avalanche.
- 
 \end_layout
 
 \begin_layout Subsection
@@ -829,12 +827,16 @@ literal "false"
 
 \end_layout
 
+\begin_layout Standard
+XXXRC expand
+\end_layout
+
 \begin_layout Subsection
 Little Cottonwood 
 \begin_inset Quotes eld
 \end_inset
 
-frenzy
+Frenzy
 \begin_inset Quotes erd
 \end_inset
 
@@ -862,6 +864,24 @@ literal "false"
 It was reported that other parties at Alta continued to ski and knock down
  avalanches into Greeley Bowl while the rescue was in progress.
  Creating another incident during this situation is unacceptable.
+\end_layout
+
+\begin_layout Subsection
+Rogers Pass, Avalanche Crest, February 14, 2016
+\end_layout
+
+\begin_layout Standard
+A party of two led the way into an alpine zone in an attempt to get ahead
+ of the Rogers Pass crowds.
+ After a short lap, they encountered four other parties (from four nationalities
+!) on their way up Avalanche Crest proper.
+ Two of the foreign parties trailed them as they pushed higher.
+ The party of two reached their highpoint and skied.
+ Before they were clear of the line, one of the parties above began to ski,
+ triggering a D2.5-3 avalanche.
+ Both of the skiers below were caught and carried, one sustaining life-threateni
+ng injury.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -914,10 +934,11 @@ name "sec:Mitigation"
 
 \begin_layout Standard
 It is unlikely, and perhaps undesireable, that the number of backcountry
- travelers will be reduced.
+ travelers be reduced.
  Therefore, we must find ways to limit the likelihood of inter-party accidents.
  The following are a few strategies that may mitigate the risk.
- There are likely to be more – these are suggested to catalyze conversation.
+ There are certainly more – these are suggested to organize and catalyze
+ discussion.
 \end_layout
 
 \begin_layout Subsection
@@ -925,7 +946,7 @@ Density reduction
 \end_layout
 
 \begin_layout Standard
-The root of this concern is not the 
+The root of inter-party accidents is not the 
 \emph on
 number
 \emph default
@@ -936,10 +957,17 @@ density
 .
  Backcountry travelers use a tiny fraction of North American alpine terrain,
  perhaps primarily due to access constraints.
- Following the accident described in XXXRC-citeBusbee, the author has sharply
- curtailed trips into densely-skied terrain, choosing lesser-known destinations,
- difficult access, or lower-quality snow in order to decrease overhead risk
- from other parties.
+ Following the Kendall Peak accident
+\begin_inset CommandInset citation
+LatexCommand citep
+key "KendallDecember19"
+literal "false"
+
+\end_inset
+
+, the author has sharply curtailed trips into densely-skied terrain, choosing
+ lesser-known destinations, difficult access, or lower-quality snow in order
+ to decrease overhead risk from other parties.
  While this strategy has limits, there are still lonely places with great
  skiing to be found on the map.
 \end_layout
@@ -947,9 +975,9 @@ density
 \begin_layout Standard
 As advocacy organizations work to expand wintertime access, it may be reasonable
  to add safety to the reasons for improved access.
- Inferring our from introductory analysis, it is natural to require party
- densities at less than one per characteristic-avalanche-size (XXXRC < 0.1-1
- parties/acre?)
+ Inferring our from introductory analysis, it is natural to encourage party
+ densities below one per characteristic-avalanche-size (XXXRC < 0.1-1 parties/acr
+e?)
 \end_layout
 
 \begin_layout Subsection
@@ -981,7 +1009,8 @@ Examples:
 
 \begin_layout Itemize
 Many ridgelines are not susceptible to slides from above – travelling upon
- such a ridgeline inherently prevents protection from any inter-party accident.
+ such a ridgeline inherently provides substantial protection from any inter-part
+y accident.
 \end_layout
 
 \begin_layout Itemize
