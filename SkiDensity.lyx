@@ -85,7 +85,7 @@
 \begin_body
 
 \begin_layout Title
-Increased Skier Density Must Increase Inter-Party Avalanche Accidents
+Inter-Party Avalanche Accidents May Increase Quadratically With Skier Density
 \end_layout
 
 \begin_layout Abstract
@@ -106,8 +106,15 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-The number and density of backcountry skiers continues to increase [XXXRC
- cite...
+The number and density of backcountry skiers continues to increase
+\begin_inset CommandInset citation
+LatexCommand citep
+key "WWAHumans"
+literal "false"
+
+\end_inset
+
+[XXXMA cite...
  NSAW UAC talk] in the United States and around the world.
  It is common sense that, at some density of backcountry travelers, avalanches
  triggered by one party will be likely to strike another.
@@ -503,11 +510,19 @@ parties/km
 
 .
  For scale, the population density of the nearby city of Seattle, WA is
- about 3,200 people/km
+ about 3,400 people/km
 \begin_inset Formula $^{2}$
 \end_inset
 
- [XXXRC cite].
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "CensusDensity"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
@@ -720,7 +735,7 @@ literal "false"
 
 , a party of two snowmobilers triggered a large slide (D2+).
  At the time of the slide, a separate party of two snowmobilers was eating
- lunch (XXXRC) in the runout zone, with their machines turned off.
+ lunch in the runout zone, with their machines turned off.
  The lower party ran from the slide – their sleds and rescue gear were buried.
  
 \end_layout
@@ -881,7 +896,7 @@ A party of two led the way into an alpine zone in an attempt to get ahead
  triggering a D2.5-3 avalanche.
  Both of the skiers below were caught and carried, one sustaining life-threateni
 ng injury.
- 
+ XXXRC citations
 \end_layout
 
 \begin_layout Subsection
@@ -1375,8 +1390,12 @@ ref Instagram :) ) shareability of a photo of a run board atop a popular
  run (#firsttracks ?) might increase the likelihood of its use.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsubsection
 Communication protocols
+\end_layout
+
+\begin_layout Standard
+XXXRC
 \end_layout
 
 \begin_layout Subsection
