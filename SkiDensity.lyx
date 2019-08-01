@@ -638,106 +638,8 @@ In this Section, we enumerate a series of inter-party accidents, near-misses,
 XXXRC Compute densities for each.
 \end_layout
 
-\begin_layout Subsection
-Kendall Peak, December 19, 2015
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:December19"
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
-This accident is the catalyst for this work.
- As detailed by the NWAC accident report 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "KendallDecember19"
-literal "false"
-
-\end_inset
-
-, a solo skier disappeared after early afternoon on December 19, the first
- deep storm-skiing Saturday of the 15/16 season at Snoqualmie Pass.
- The number of skiers in the area was remarkably high.
-\end_layout
-
-\begin_layout Standard
-After an extensive search effort, exceeding 3000 person-hours, his remains
- were recovered on June 4, 2016.
- The accident location, and the injuries to the skier, were consistent with
- an avalanche-related fatality.
- Subsequent investigation revealed that two parties had triggered avalanches
- uphill of the accident site.
- Furthermore, the first of those avalanches can be regarded as an inter-party
- near miss, as a minute's difference in timing would have seen the second
- party struck by the first.
- NWAC's analysis of the accident does not take a position on whether the
- fatality was caused by an inter-party avalanche – both a soloist's self-trigger
-ed third avalanche or a natural avalanche are viable alternative hypotheses.
-\end_layout
-
-\begin_layout Subsection
-Mt.
- Herman, March 4, 2017
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:Herman"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-As reported in NWAC's accident summaries
-\begin_inset CommandInset citation
-LatexCommand citep
-key "1617AccidentSummaries"
-literal "false"
-
-\end_inset
-
-: 
-\end_layout
-
-\begin_layout Quote
-Widespread 1-2 ft storm slabs and larger 3-5 ft wind slabs were reported
- in the backcountry near Mt Baker on Saturday, March 4th.
- An incident occurred on Mt Herman when a large wind slab on an east aspect
- was triggered from a party above, partially burying two and completely
- burying one in a separate party at the base of the slide path.
- The impacted party was transitioning back to climbing skins when they were
- caught in the avalanche.
-\end_layout
-
-\begin_layout Subsection
-Hawkins Mountain, March 4, 2017 
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:Hawkins"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-As detailed by the NWAC accident report 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "HawkinsMountain"
-literal "false"
-
-\end_inset
-
-, a party of two snowmobilers triggered a large slide (D2+).
- At the time of the slide, a separate party of two snowmobilers was eating
- lunch in the runout zone, with their machines turned off.
- The lower party ran from the slide – their sleds and rescue gear were buried.
- 
+XXXRC note that monty is the reason for this article.
 \end_layout
 
 \begin_layout Subsection
@@ -812,41 +714,6 @@ literal "false"
 \end_layout
 
 \begin_layout Subsection
-Grandfather Couloir, April 3, 2016
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:Grandfather-Couloir"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-As detailed by the CAIC accident report
-\begin_inset CommandInset citation
-LatexCommand citep
-key "GrandfatherCouloirTwoPartyInteraction"
-literal "false"
-
-\end_inset
-
- and subsequent lawsuit
-\begin_inset CommandInset citation
-LatexCommand citep
-key "SanMiguelCountyJudgement"
-literal "false"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-XXXRC expand
-\end_layout
-
-\begin_layout Subsection
 Little Cottonwood 
 \begin_inset Quotes eld
 \end_inset
@@ -882,6 +749,47 @@ It was reported that other parties at Alta continued to ski and knock down
 \end_layout
 
 \begin_layout Subsection
+Kendall Peak, December 19, 2015
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:December19"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This accident is the catalyst for this work.
+ As detailed by the NWAC accident report 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "KendallDecember19"
+literal "false"
+
+\end_inset
+
+, a solo skier disappeared after early afternoon on December 19, the first
+ deep storm-skiing Saturday of the 15/16 season at Snoqualmie Pass.
+ The number of skiers in the area was remarkably high.
+\end_layout
+
+\begin_layout Standard
+After an extensive search effort, exceeding 3000 person-hours, his remains
+ were recovered on June 4, 2016.
+ The accident location, and the injuries to the skier, were consistent with
+ an avalanche-related fatality.
+ Subsequent investigation revealed that two parties had triggered avalanches
+ uphill of the accident site.
+ Furthermore, the first of those avalanches can be regarded as an inter-party
+ near miss, as a minute's difference in timing would have seen the second
+ party struck by the first.
+ NWAC's analysis of the accident does not take a position on whether the
+ fatality was caused by an inter-party avalanche – both a soloist's self-trigger
+ed third avalanche or a natural avalanche are viable alternative hypotheses.
+\end_layout
+
+\begin_layout Subsection
 Rogers Pass, Avalanche Crest, February 14, 2016
 \end_layout
 
@@ -897,6 +805,101 @@ A party of two led the way into an alpine zone in an attempt to get ahead
  Both of the skiers below were caught and carried, one sustaining life-threateni
 ng injury.
  XXXRC citations
+\end_layout
+
+\begin_layout Subsection
+Grandfather Couloir, April 3, 2016
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Grandfather-Couloir"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As detailed by the CAIC accident report
+\begin_inset CommandInset citation
+LatexCommand citep
+key "GrandfatherCouloirTwoPartyInteraction"
+literal "false"
+
+\end_inset
+
+ and subsequent lawsuit
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SanMiguelCountyJudgement"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+XXXRC expand
+\end_layout
+
+\begin_layout Subsection
+Mt.
+ Herman, March 4, 2017
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Herman"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As reported in NWAC's accident summaries
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1617AccidentSummaries"
+literal "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Quote
+Widespread 1-2 ft storm slabs and larger 3-5 ft wind slabs were reported
+ in the backcountry near Mt Baker on Saturday, March 4th.
+ An incident occurred on Mt Herman when a large wind slab on an east aspect
+ was triggered from a party above, partially burying two and completely
+ burying one in a separate party at the base of the slide path.
+ The impacted party was transitioning back to climbing skins when they were
+ caught in the avalanche.
+\end_layout
+
+\begin_layout Subsection
+Hawkins Mountain, March 4, 2017 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Hawkins"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As detailed by the NWAC accident report 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "HawkinsMountain"
+literal "false"
+
+\end_inset
+
+, a party of two snowmobilers triggered a large slide (D2+).
+ At the time of the slide, a separate party of two snowmobilers was eating
+ lunch in the runout zone, with their machines turned off.
+ The lower party ran from the slide – their sleds and rescue gear were buried.
 \end_layout
 
 \begin_layout Subsection
@@ -1186,7 +1189,8 @@ Entering Couloir!
 
 \begin_layout Standard
 These verbal warnings are, of course, antithetical to a low-impact and quiet
- winter day.
+ winter day (and may lead to confusion, as shouts are generally a sign of
+ an emergency).
  If the rate of inter-party accidents continues to grow, the necessity of
  such measures, and the approximate skier density at which they are appropriate,
  will become self-evident.
@@ -1388,14 +1392,6 @@ A run board may offer greater utility in constrained terrain, like The Slot,
 \backslash
 ref Instagram :) ) shareability of a photo of a run board atop a popular
  run (#firsttracks ?) might increase the likelihood of its use.
-\end_layout
-
-\begin_layout Subsubsection
-Communication protocols
-\end_layout
-
-\begin_layout Standard
-XXXRC
 \end_layout
 
 \begin_layout Subsection
