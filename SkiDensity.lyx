@@ -1477,7 +1477,7 @@ name "subsec:Radios"
 
 \begin_layout Standard
 Radios have emerged as an increasingly common tool in the backcountry –
- a remarkable fact for a sport which eschews complication and weight.
+ remarkable for a sport which eschews complication and weight.
  In the author's North American experience, FRS/GMRS radios are a de-facto
  standard, the range limitations of the standard are transcended (XXXMI
  word) by the unlicensed nature of the spectrum
@@ -1492,23 +1492,29 @@ GMRS has a licensing requirement in the United States, though many users
 \end_inset
 
 .
- In 2018, these radios have as many as XXXRC possible XXXRC-km-range (FRS)
- channels and overlapping XXXRC XXXRC-km-range (GMRS).
- These radios, in general, offer the possibility of digital 
-\begin_inset Quotes eld
+ In 2018, these radios have as many as 14 possible <1 km-range (FRS)
+\begin_inset CommandInset citation
+LatexCommand citep
+key "FCCFRS"
+literal "false"
+
 \end_inset
 
-privacy codes
-\begin_inset Quotes erd
+ channels and partially-overlapping 14 3-10 km-range (GMRS)
+\begin_inset CommandInset citation
+LatexCommand citep
+key "FCCGMRS,BCLink1,BCLink2"
+literal "false"
+
 \end_inset
 
- to define a sub-channel by selective muting within each channel.
- (XXXRC can you run party/private simultaneously?)
+.
 \end_layout
 
 \begin_layout Standard
-In addition to the utility within a party, radios offer the opportunity
- to promote situational awareness and coordination between parties.
+In addition to the considerable utility radios add for communication within
+ a party, radios offer the opportunity to promote situational awareness
+ and coordination between parties.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1525,8 +1531,71 @@ There are certain regions that have begun to define community radio channels
 \end_layout
 
 \begin_layout Standard
-As skier density increases, it may be necessary for radio manufacturers
- to add the ability to monitor a community channel and a party channel
+As skier density increases, it may be necessary for backcountry-specific
+ radio manufacturers to add the ability to monitor a community channel and
+ a party channel simultaneously, so that intra-party communication need
+ not obstruct inter-party communication.
+ Such a system could be confusing in the haste of an accident – good radio
+ discipline on a party channel is preferable, if it remains practical.
+\end_layout
+
+\begin_layout Standard
+FRS/GMRS radios, in general, offer the user the reverse feature.
+ Digital 
+\begin_inset Quotes eld
+\end_inset
+
+privacy codes
+\begin_inset Quotes erd
+\end_inset
+
+ can be used define a sub-channel by selective muting within each channel.
+ Operating the radio tuned to a channel, but without a 
+\begin_inset Quotes eld
+\end_inset
+
+privacy code
+\begin_inset Quotes erd
+\end_inset
+
+, may allow a listener to hear all of the traffic on a particular channel.
+ An example: A radio tuned to 
+\begin_inset Quotes eld
+\end_inset
+
+4-20
+\begin_inset Quotes erd
+\end_inset
+
+ will make audible only those transmissions sent from other 
+\begin_inset Quotes eld
+\end_inset
+
+4-20
+\begin_inset Quotes erd
+\end_inset
+
+ radios.
+ A radio tuned to 
+\begin_inset Quotes eld
+\end_inset
+
+4
+\begin_inset Quotes erd
+\end_inset
+
+ alone will hear transmissions from 
+\begin_inset Quotes eld
+\end_inset
+
+4, 4-1, 4-2, ..., 4-20, ...
+ 
+\begin_inset Quotes eld
+\end_inset
+
+.
+ If radio traffic is not copious, such a setting could provide the wary
+ traveler with slightly more information about other parties.
 \end_layout
 
 \begin_layout Subsection
