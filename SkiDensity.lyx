@@ -101,6 +101,13 @@ We estimate, from first principles, a common-sense result: When the density
  to mitigate the hazard.
 \end_layout
 
+\begin_layout Standard
+
+\emph on
+For Monty Busbee, and for you.
+ May we learn from tragedy.
+\end_layout
+
 \begin_layout Section
 Introduction
 \end_layout
@@ -631,15 +638,68 @@ name "sec:Significant-Accidents"
 In this Section, we enumerate a series of inter-party accidents, near-misses,
  and possible inter-party accidents.
  A subjective summary from an inter-party-accident context is provided.
- The reader is directed to the references for more detail
+ The reader is directed to the references for more detail.
+\end_layout
+
+\begin_layout Standard
+While the driving force for this entire work is the accident described in
+ Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:December19"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, these incidents are presented in chronological order.
+ This enumeration is not intended to be comprehensive, but rather to provide
+ both a sense of the varied types of inter-party incidents and to make clear
+ that these incidents are not rare.
 \end_layout
 
 \begin_layout Standard
 XXXRC Compute densities for each.
 \end_layout
 
+\begin_layout Subsection
+Nisqually/Wilson Glaciers, June 14, 2008
+\end_layout
+
 \begin_layout Standard
-XXXRC note that monty is the reason for this article.
+On a weekend that surprised skiers on at least three Cascadian volcanoes
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "CharlieWyeast,CrokattHood,HummelCircumnav,CharlieSWChutes"
+literal "false"
+
+\end_inset
+
+with large summertime slab avalanches, a party of descending skiers triggered
+ a slab
+\begin_inset CommandInset citation
+LatexCommand citep
+key "RyanWilsonThread"
+literal "false"
+
+\end_inset
+
+ that caught an ascending solo splitboarder and nearly caught an ascending
+ climbing party at the convergence of the Wilson and Nisqually glaciers.
+ The splitboarder and triggering skier were carried and sustained only minor
+ injury.
+ A second trip-report
+\begin_inset CommandInset citation
+LatexCommand citep
+key "HelmstaderWilson"
+literal "false"
+
+\end_inset
+
+ from Rainier's south side emphasizes the day's instability during what
+ is generally prime volcano-ski season.
 \end_layout
 
 \begin_layout Subsection
@@ -900,6 +960,16 @@ literal "false"
  At the time of the slide, a separate party of two snowmobilers was eating
  lunch in the runout zone, with their machines turned off.
  The lower party ran from the slide – their sleds and rescue gear were buried.
+ The lower party was able to rescue one of the triggering snowmobilers and
+ locate/extract the body of the second
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SnowestHawkins"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
