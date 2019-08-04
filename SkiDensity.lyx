@@ -116,7 +116,7 @@ Introduction
 The number and density of backcountry skiers continues to increase
 \begin_inset CommandInset citation
 LatexCommand citep
-key "WWAHumans"
+key "WWAHumans,AvalancheHourEvelynLees"
 literal "false"
 
 \end_inset
@@ -1367,16 +1367,34 @@ Blueberry Chutes
 \end_inset
 
 .
- It is a high-traffic run in avalanche terrain, XXXRC km from a parking
- lot, with a straightforward and comparatively safe alternative ascent route
- that reaches the run at the top.
+ It is a high-traffic run in avalanche terrain, 1.5
+\begin_inset space ~
+\end_inset
+
+km from a parking lot, with a straightforward and comparatively safe alternative
+ ascent route that reaches the run at the top.
  It is also possible to ascend the run directly, which is arduous, slow,
  exposed to avalanche hazard, and importantly exposed to skiers dropping
  in from above.
  In addition, those ascending from the bottom sometimes choose to transition
  to downhill skiing mid-slope, spending even longer in a hazardous spot.
- This location has become the site of inter-party conflicts [XXXRC TAY,
- TGR].
+ This location has become the site of inter-party conflicts 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BlueberryBagleyTAY,BlueberryDecemberHop,BlueberrySeattleSkintrack"
+literal "false"
+
+\end_inset
+
+ and can deliver plenty of consequence
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BlueberryAprilFools,BlueberryAprilFoolsVideo"
+literal "false"
+
+\end_inset
+
+.
  Such a location is a prime opportunity for a simple local understanding
  – downhill traffic only in Blueberry Chutes – to be more-formally known.
  While this strategy would have an impact on weaker skiers incapable of
