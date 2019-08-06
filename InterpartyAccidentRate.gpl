@@ -1,0 +1,58 @@
+set term postscript enhanced solid color
+set output 'InterpartyAccidentRate.eps'
+set term pdf 
+set output 'InterpartyAccidentRate.pdf'
+
+set xlabel 'Party Density (parties/km^2)'
+set ylabel 'Inter-party incident rate /day/km^2'
+
+LowDensity = 0.05*1000
+HighDensity = 0.15*1000
+
+D1LowDepth = 0.1;
+D1HighDepth = 1;
+D1Mass = 10000
+
+D2LowDepth = 0.2;
+D2HighDepth = 2;
+D2Mass = 100000;
+
+D3LowDepth = 0.5;
+D3HighDepth = 3;
+D3Mass = 1000000;
+
+D1AreaLow  = D1Mass / HighDensity / D1HighDepth
+D1AreaHigh = D1Mass / LowDensity  / D1LowDepth
+
+D2AreaLow  = D2Mass / HighDensity / D2HighDepth
+D2AreaHigh = D2Mass / LowDensity  / D2LowDepth
+
+D3AreaLow  = D3Mass / HighDensity / D3HighDepth
+D3AreaHigh = D3Mass / LowDensity  / D3LowDepth
+
+set logsc
+D1L(x) = D1AreaLow /10*x/1e6*(1+D1AreaLow *x/1e6)
+D1H(x) = D1AreaHigh/4 *x/1e6*(1+D1AreaHigh*x/1e6)
+D1IL(x) = D1AreaLow /10*x/1e6*(D1AreaLow *x/1e6)
+D1IH(x) = D1AreaHigh/4 *x/1e6*(D1AreaHigh*x/1e6)
+D2L(x) = D2AreaLow /10*x/1e6*(1+D2AreaLow *x/1e6)
+D2H(x) = D2AreaHigh/4 *x/1e6*(1+D2AreaHigh*x/1e6)
+D2IL(x) = D2AreaLow /10*x/1e6*(D2AreaLow *x/1e6)
+D2IH(x) = D2AreaHigh/4 *x/1e6*(D2AreaHigh*x/1e6)
+D3L(x) = D3AreaLow /10*x/1e6*(1+D3AreaLow *x/1e6)
+D3H(x) = D3AreaHigh/4 *x/1e6*(1+D3AreaHigh*x/1e6)
+D3IL(x) = D3AreaLow /10*x/1e6*(D3AreaLow *x/1e6)
+D3IH(x) = D3AreaHigh/4 *x/1e6*(D3AreaHigh*x/1e6)
+
+set style fill transparent pattern 4 bo
+set style fill transparent pattern 2 bo
+
+set key top left noauto
+
+pl [0.1:3200][1e-6:10000]\
+	'+' u 1:(D3L($1)):(D3H($1)) w filledcurves lt 1 fs pattern 4 tit 'D3 Total',\
+	'+' u 1:(D2L($1)):(D2H($1)) w filledcurves lt 2 fs pattern 5 tit 'D2 Total',\
+	'+' u 1:(D1L($1)):(D1H($1)) w filledcurves lt 3 fs pattern 6 tit 'D1 Total',\
+	'+' u 1:(D3IL($1)):(D3IH($1)) w filledcurves lt 1 fs pattern 2 tit 'D3 Inter-party',\
+	'+' u 1:(D2IL($1)):(D2IH($1)) w filledcurves lt 2 fs pattern 2 tit 'D2 Inter-party',\
+	'+' u 1:(D1IL($1)):(D1IH($1)) w filledcurves lt 3 fs pattern 2 tit 'D1 Inter-party'
