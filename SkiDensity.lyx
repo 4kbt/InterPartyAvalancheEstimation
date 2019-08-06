@@ -639,11 +639,15 @@ In this Section, we enumerate a series of inter-party accidents, near-misses,
  and possible inter-party accidents.
  A subjective summary from an inter-party-accident context is provided.
  The reader is directed to the references for more detail.
+ Several of the incidents appear to have been reported only informally.
+ It is a particular surprise that it has been difficult to find official
+ accident reports for many of the Canadian avalanches, all of which have
+ required rescue or a coroner.
 \end_layout
 
 \begin_layout Standard
-While the driving force for this entire work is the accident described in
- Section 
+While the driving force for this entire paper is the accident described
+ in Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:December19"
@@ -809,6 +813,35 @@ It was reported that other parties at Alta continued to ski and knock down
 \end_layout
 
 \begin_layout Subsection
+Taylor Mountain Near-Miss, January 24, 2012
+\end_layout
+
+\begin_layout Standard
+A skier ski-cutting a popular run on a reportedly-unstable day triggered
+ a D3.5, R4 avalanche
+\begin_inset CommandInset citation
+LatexCommand citep
+key "TaylorMountainJHAvalanche"
+literal "false"
+
+\end_inset
+
+ that crossed the uptrack for nearby slopes and ascended an adjoining slope.
+ The uptrack was buried under up to twenty feet of debris.
+ Fortunately, nobody was caught, though a small shift in timing would have
+ yielded an inter-party accident.
+ The outcry and subsequent discussion
+\begin_inset CommandInset citation
+LatexCommand citep
+key "TaylorMountainTARMusings,TaylorMountainTetonAT,TaylorMountainTetonValleyNews"
+literal "false"
+
+\end_inset
+
+ was intense and sustained.
+\end_layout
+
+\begin_layout Subsection
 Kendall Peak, December 19, 2015
 \begin_inset CommandInset label
 LatexCommand label
@@ -855,16 +888,31 @@ Rogers Pass, Avalanche Crest, February 14, 2016
 
 \begin_layout Standard
 A party of two led the way into an alpine zone in an attempt to get ahead
- of the Rogers Pass crowds.
+ of the Rogers Pass crowds
+\begin_inset CommandInset citation
+LatexCommand citep
+key "AvalancheCrestBigLines,AvalancheCrestRogersPassScared"
+literal "false"
+
+\end_inset
+
+.
  After a short lap, they encountered four other parties (from four nationalities
 !) on their way up Avalanche Crest proper.
  Two of the foreign parties trailed them as they pushed higher.
  The party of two reached their highpoint and skied.
  Before they were clear of the line, one of the parties above began to ski,
- triggering a D2.5-3 avalanche.
+ triggering a D2.5-3 avalanche
+\begin_inset CommandInset citation
+LatexCommand citep
+key "AvalancheCrestAvalancheVideo"
+literal "false"
+
+\end_inset
+
+.
  Both of the skiers below were caught and carried, one sustaining life-threateni
 ng injury.
- XXXRC citations
 \end_layout
 
 \begin_layout Subsection
@@ -1103,8 +1151,16 @@ y accident.
 
 \begin_layout Itemize
 Some routes pass through areas of unavoidable avalanche hazard – there are
- plenty of famous examples [XXXRC Mousetrap].
- Choosing not to ski through those regions during times that 
+ plenty of famous examples: The Mousetrap
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MousetrapAsulkanGuide"
+literal "false"
+
+\end_inset
+
+ at Roger's Pass, Source Lake Basin at Snoqualmie Pass.
+ Avoiding those areas during times that 
 \emph on
 human-triggered
 \emph default
@@ -1648,6 +1704,10 @@ As better understanding of the factors that lead to inter-party avalanche
 Notecard
 \end_layout
 
+\begin_layout Standard
+XXXRC
+\end_layout
+
 \begin_layout Section
 Conclusion
 \end_layout
@@ -1677,6 +1737,14 @@ lines of cars
 \begin_layout Standard
 http://www.cascadecrusades.org/SkiMountaineering/snoqualmiemtn/slotcouloir/slotcro
 oked2004.htm
+\end_layout
+
+\begin_layout Section
+Acknowledgements
+\end_layout
+
+\begin_layout Standard
+Susan Ashlock, Peg Achterman, XXXRC
 \end_layout
 
 \begin_layout Standard
