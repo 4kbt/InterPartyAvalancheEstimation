@@ -113,7 +113,15 @@ We estimate from first principles a common-sense result: When the density
 \begin_layout Standard
 
 \emph on
-For Monty Busbee, and for you.
+For Monty Busbee
+\begin_inset CommandInset citation
+LatexCommand citep
+key "KendallDecember19"
+literal "false"
+
+\end_inset
+
+, and for you.
  May we learn from tragedy.
 \end_layout
 
@@ -872,13 +880,21 @@ literal "false"
 \end_inset
 
 , a solo skier disappeared after early afternoon on December 19, the first
- deep storm-skiing Saturday of the 15/16 season at Snoqualmie Pass.
- The number of skiers in the area was remarkably high.
+ deep storm-skiing Saturday of the 2015/2016 season at Snoqualmie Pass
+\begin_inset CommandInset citation
+LatexCommand citep
+key "KendallTrap"
+literal "false"
+
+\end_inset
+
+.
+ The number of skiers and parties in the area was remarkably high.
 \end_layout
 
 \begin_layout Standard
-After an extensive search effort, exceeding 3000 person-hours, his remains
- were recovered on June 4, 2016.
+After an extensive search effort, exceeding 3000 person-hours, the solo-skier's
+ remains were recovered on June 4, 2016.
  The accident location, and the injuries to the skier, were consistent with
  an avalanche-related fatality.
  Subsequent investigation revealed that two parties had triggered avalanches
