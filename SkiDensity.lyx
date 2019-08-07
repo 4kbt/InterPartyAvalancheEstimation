@@ -97,16 +97,17 @@ Charles Hagedorn
 \end_layout
 
 \begin_layout Abstract
-We estimate, from first principles, a common-sense result: When the density
+We estimate from first principles a common-sense result: When the density
  of backcountry travelers becomes comparable to the size of a day's potential
- avalanches, inter-party avalanche incidents become likely.
+ avalanches, inter-party avalanche incidents will become a substantial fraction
+ of all avalanche incidents.
  Furthermore, this model suggests that the likelihood of inter-party accidents
  is quadratic in the density of travelers – twice as many parties quadruples
  the likelihood.
- The argument is made, with recent examples from Washington State, that
- inter-party incidents are a timely concern.
- To stimulate conversation, we enumerate a variety of untested strategies
- to mitigate the hazard.
+ The argument is made, with selected North American incidents from 2008-2019,
+ that inter-party incidents are a timely concern.
+ To spur conversation, we enumerate a variety of untested strategies to
+ mitigate inter-party hazard.
 \end_layout
 
 \begin_layout Standard
@@ -272,7 +273,7 @@ There are two factors that are important:
 
 \begin_layout Enumerate
 When there are more parties in an area, they will trigger more avalanches
- (probability 
+ (rate 
 \begin_inset Formula $A_{\text{startzones}}n$
 \end_inset
 
@@ -331,8 +332,8 @@ Why is
 \begin_inset Formula $n^{2}$
 \end_inset
 
- important? Let's look at the probability that our parties will be involved
- in an accident of either kind by summing the probabilities:
+ important? Let's look at the rate that our parties will be involved in
+ an accident of either kind by summing the probabilities:
 \end_layout
 
 \begin_layout Standard
@@ -977,7 +978,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-The judgment from the San Miguel County Court is remarkable for its detailed
+The judgment from the San Miguel County Court is notable for its detailed
  analysis of the accident, its humanity, and reasoned approach to assigning
  fault.
  Pursuant to important details in the case, Group 2 was found to be financially
