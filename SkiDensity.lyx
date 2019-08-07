@@ -5,11 +5,15 @@
 \save_transient_properties true
 \origin unavailable
 \textclass revtex4-1
+\begin_preamble
+\usepackage[colorlinks]{hyperref}
+\end_preamble
+\options longbibliography
 \use_default_options true
 \maintain_unincluded_children false
 \language english
 \language_package default
-\inputencoding auto
+\inputencoding utf8
 \fontencoding global
 \font_roman "default" "default"
 \font_sans "default" "default"
@@ -44,7 +48,7 @@
 \use_package stmaryrd 1
 \use_package undertilde 1
 \cite_engine natbib
-\cite_engine_type default
+\cite_engine_type authoryear
 \biblio_style plain
 \use_bibtopic false
 \use_indices false
@@ -86,6 +90,10 @@
 
 \begin_layout Title
 Inter-Party Avalanche Accidents May Increase Quadratically With Skier Density
+\end_layout
+
+\begin_layout Author
+Charles Hagedorn
 \end_layout
 
 \begin_layout Abstract
@@ -1629,8 +1637,16 @@ Community channel/party channel
 \end_layout
 
 \begin_layout Standard
-There are certain regions that have begun to define community radio channels
- [XXXRC Cite Bear Creek and more], where, by convention, skiers in the region
+There are certain regions, Telluride's Bear Creek in particular that have
+ begun to define community radio channels 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BearCreekEdgerlyISSW"
+literal "false"
+
+\end_inset
+
+[XXXRC Cite Bear Creek and more], where, by convention, skiers in the region
  set their radios to a common channel.
  XXXRC – ask around about radio usage.
  How does it work in practice? Does radio traffic become overwhelming? Is
@@ -1739,10 +1755,6 @@ Conclusion
 \end_layout
 
 \begin_layout Standard
-Tell 'em what you told 'em.
-\end_layout
-
-\begin_layout Standard
 As I type this sentence in an autumn Seattle coffee shop, customers nearby
  are discussing how their friends encountered 
 \begin_inset Quotes eld
@@ -1778,7 +1790,7 @@ Susan Ashlock, Peg Achterman, Doug Krause – key referenceXXXRC
 LatexCommand bibtex
 btprint "btPrintCited"
 bibfiles "SkiDensity"
-options "plain"
+options "apsrev4-2"
 
 \end_inset
 
