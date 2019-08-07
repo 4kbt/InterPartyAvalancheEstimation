@@ -99,12 +99,12 @@ Charles Hagedorn
 \begin_layout Abstract
 We estimate, from first principles, a common-sense result: When the density
  of backcountry travelers becomes comparable to the size of a day's potential
- avalanches, multi-party avalanche incidents become likely.
- Furthermore, this model suggests that the likelihood of multi-party accidents
+ avalanches, inter-party avalanche incidents become likely.
+ Furthermore, this model suggests that the likelihood of inter-party accidents
  is quadratic in the density of travelers – twice as many parties quadruples
  the likelihood.
  The argument is made, with recent examples from Washington State, that
- multi-party incidents are a timely concern.
+ inter-party incidents are a timely concern.
  To stimulate conversation, we enumerate a variety of untested strategies
  to mitigate the hazard.
 \end_layout
@@ -208,7 +208,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Probability of multi-party avalanche incidents as a function of skier density.
+Probability of inter-party avalanche incidents as a function of skier density.
 \end_layout
 
 \end_inset
@@ -311,7 +311,7 @@ R_{\text{interparty}}\propto A_{\text{startzones}}A_{\text{avalanche}}n^{2}.\lab
 
  
 \series bold
-The rate of multi-party accidents should scale like the skier-density 
+The rate of inter-party accidents should scale like the skier-density 
 \emph on
 squared
 \series default
@@ -428,7 +428,7 @@ a, any triggered avalanche is likely to hit another party.
 \end_layout
 
 \begin_layout Subsection
-Relationship of multi-party accident rate to avalanche size
+Relationship of inter-party accident rate to avalanche size
 \end_layout
 
 \begin_layout Standard
@@ -447,7 +447,7 @@ reference "eq:Combined Single and multi-party accident rate"
 \end_inset
 
  suggest an important corollary: If the size or likelihood of a day's avalanches
- is greater, we should expect the rate at which multi-party accidents occur
+ is greater, we should expect the rate at which inter-party accidents occur
  to be greater.
  If slides are more likely/larger, 
 \begin_inset Formula $A_{\text{startzones}}$
@@ -464,7 +464,7 @@ reference "eq:Combined Single and multi-party accident rate"
 \end_layout
 
 \begin_layout Subsection
-Relationship of multi-party accident rate to terrain
+Relationship of inter-party accident rate to terrain
 \end_layout
 
 \begin_layout Standard
@@ -475,7 +475,7 @@ reference "subsec:Derivation"
 
 \end_inset
 
-, one would expect both the accident rate and the multi-party accident rates
+, one would expect both the accident rate and the inter-party accident rates
  to be relatively low.
  Even in mountainous terrain, it is a rare region in which the entire area
  is a start zone, and much of even mountainous terrain is not avalanche
@@ -726,7 +726,7 @@ name "subsec:Turbo"
 \end_layout
 
 \begin_layout Standard
-Perhaps the most-spectacular interparty accident
+Perhaps the most-spectacular inter-party accident
 \begin_inset CommandInset citation
 LatexCommand citep
 key "CodeBlackBoulderMountain,BoulderMountainResponseReview,TurboHillPreliminaryReport"
@@ -1726,8 +1726,8 @@ Awareness
 \end_layout
 
 \begin_layout Standard
-The simple awareness of the increasing likelihood of interparty conflict
- with density may, on its own, help to curtail interparty accidents.
+The simple awareness of the increasing likelihood of inter-party conflict
+ with density may, on its own, help to curtail inter-party accidents.
  That is, of course, the intent of this work.
  In places where the density of skiers approaches the critical density,
  the hazard should be discussed and mitigated.
