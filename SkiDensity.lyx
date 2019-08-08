@@ -101,7 +101,7 @@ We estimate from first principles a common-sense result: When the density
  of backcountry travelers becomes comparable to the size of a day's potential
  avalanches, inter-party avalanche incidents will become a substantial fraction
  of all avalanche incidents.
- Furthermore, this model suggests that the likelihood of inter-party accidents
+ Furthermore, this model suggests that the likelihood of inter-party incidents
  is quadratic in the density of travelers – twice as many parties quadruples
  the likelihood.
  The argument is made, with selected North American incidents from 2008-2019,
@@ -181,6 +181,19 @@ noprefix "false"
  mitigate the risk.
 \end_layout
 
+\begin_layout Standard
+Many authors have described, directly[XXXRC cite] and indirectly[XXXRC cite],
+ the emerging hazard of inter-party incidents.
+ The purpose of this work is to provide a framework within which to discuss
+ and estimate the magnitude of the concern, address it directly as a seperate
+ hazard, and spur discussion of strategies to reduce the likelihood of future
+ inter-party incidents.
+\end_layout
+
+\begin_layout Standard
+XXXRC cite Krause' Slide episode.
+\end_layout
+
 \begin_layout Section
 Estimation
 \begin_inset CommandInset label
@@ -193,7 +206,26 @@ name "sec:Estimation"
 \end_layout
 
 \begin_layout Standard
-XXXRC motivate estimation
+With the emergence of inter-party avalanche incidents as a concern (see
+ Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Significant-Accidents"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), it is interesting and useful to develop a first-principles model for
+ their likelihood.
+ The estimation that follows is a simple approach to the problem that is
+ likely to require small corrections to yield quantitiatively-accurate predictio
+ns.
+ This model does, however, have qualitative predictive power, predicting
+ both that the inter-party incident rate is quadratic in party density and
+ that there is a critical density at which the inter-party incident rate
+ becomes significant.
 \end_layout
 
 \begin_layout Subsection
