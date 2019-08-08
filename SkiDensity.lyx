@@ -1489,8 +1489,15 @@ Run lists
 \end_layout
 
 \begin_layout Standard
-In recent years [XXXRC Canadian in/out paper, TAR articles, etc], the notion
- of a 
+In recent years 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "NWACRunList,RunListIsraelson"
+literal "false"
+
+\end_inset
+
+[XXXMI add more citations], the notion of a 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1516,8 +1523,8 @@ run list
  accident response, and general communication.
  While run lists themselves will not offer any advantage for inter-party
  accidents – they may even serve to concentrate travelers during times of
- higher hazard – a strong basis for communication is an essential bedrock
- upon which many mitigation strategies can be built.
+ higher hazard – a strong basis for communication is bedrock upon which
+ many mitigation strategies can be built.
 \end_layout
 
 \begin_layout Standard
@@ -1741,25 +1748,60 @@ There are certain regions, Telluride's Bear Creek in particular, that have
  begun to define community radio channels 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "BearCreekEdgerlyISSW"
+key "BearCreekEdgerlyISSW,TellurideBackcountryRadio,ConwayRadioProtocol,BCASafetyBlurb,BearCreekShopArticle"
 literal "false"
 
 \end_inset
 
-[XXXRC Cite Bear Creek and more], where, by convention, skiers in the region
- set their radios to a common channel.
- XXXRC – ask around about radio usage.
- How does it work in practice? Does radio traffic become overwhelming? Is
- chatter a problem? Do people use it to ride herd?
+.
+ This is an emerging and promising trend.
+ While the majority of the documentation praising the effort has been from
+ the radio manufacturer, at present, it appears to have made a positive
+ difference in promoting coordination between parties and speeding rescue
+ efforts.
+ Indeed, the court decision
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SanMiguelCountyJudgement"
+literal "false"
+
+\end_inset
+
+ regarding the Bear Creek accident specifically states that radios are 
+\begin_inset Quotes eld
+\end_inset
+
+commonly used to facilitate communication between groups in similar scenarios.
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 As skier density increases, it may be necessary for backcountry-specific
  radio manufacturers to add the ability to monitor a community channel and
- a party channel simultaneously, so that intra-party communication need
- not obstruct inter-party communication.
+ an intra-party channel simultaneously, so that intra-party communication
+ need not obstruct inter-party communication.
  Such a system could be confusing in the haste of an accident – good radio
  discipline on a party channel is preferable, so long as it remains practical.
+ Steen and Edgerly
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BearCreekEdgerlyISSW"
+literal "false"
+
+\end_inset
+
+ make a similar suggestion of a the addition of a 
+\begin_inset Quotes eld
+\end_inset
+
+scan
+\begin_inset Quotes erd
+\end_inset
+
+ functionality to future radios.
 \end_layout
 
 \begin_layout Standard
