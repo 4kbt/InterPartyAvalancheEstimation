@@ -208,33 +208,6 @@ name "subsec:Derivation"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Probability of inter-party avalanche incidents as a function of skier density.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Suppose that there are 
 \begin_inset Formula $N$
 \end_inset
@@ -485,9 +458,55 @@ While it is challenging to predict an overall incident rate, as
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-\frac{R_{\text{interparty}}}{R_{\text{incident}}}=\frac{A_{\text{avalanche}}n^{2}}{n+A_{\text{avalanche}}n^{2}}=\frac{1}{\frac{1}{A_{\text{avalanche }}n}+1}
-\]
+\begin{equation}
+\frac{R_{\text{interparty}}}{R_{\text{incident}}}=\frac{A_{\text{avalanche}}n^{2}}{n+A_{\text{avalanche}}n^{2}}=\frac{1}{\frac{1}{A_{\text{avalanche }}n}+1}\label{eq:RelativeIncidentFraction}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename RelativeInterpartyIncidentFraction.pdf
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Approximate fraction of inter-party avalanche incidents as a function of
+ party-density, measured in units of avalanche-area, as described by Equation
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:RelativeIncidentFraction"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 

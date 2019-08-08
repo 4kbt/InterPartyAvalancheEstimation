@@ -1,0 +1,16 @@
+set term pdf size 4,2.5
+set output 'RelativeInterpartyIncidentFraction.pdf'
+
+
+set xlabel 'Parties per avalanche-area'
+set ylabel 'Fraction of incidents that are inter-party'
+
+set key noauto
+set logsc x
+
+set ytics 0,0.5,1
+set format x "10^{%T}"
+
+pl [1e-6:100][0:1]\
+	1/(1/x+1)
+
