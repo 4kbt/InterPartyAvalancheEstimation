@@ -1,5 +1,5 @@
-set term postscript enhanced solid color
-set output 'InterpartyAccidentRate.eps'
+#set term postscript enhanced solid color
+#set output 'InterpartyAccidentRate.eps'
 set term pdf 
 set output 'InterpartyAccidentRate.pdf'
 
