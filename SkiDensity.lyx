@@ -5,11 +5,15 @@
 \save_transient_properties true
 \origin unavailable
 \textclass revtex4-1
+\begin_preamble
+\usepackage[colorlinks]{hyperref}
+\end_preamble
+\options longbibliography
 \use_default_options true
 \maintain_unincluded_children false
 \language english
 \language_package default
-\inputencoding auto
+\inputencoding utf8
 \fontencoding global
 \font_roman "default" "default"
 \font_sans "default" "default"
@@ -44,7 +48,7 @@
 \use_package stmaryrd 1
 \use_package undertilde 1
 \cite_engine natbib
-\cite_engine_type default
+\cite_engine_type authoryear
 \biblio_style plain
 \use_bibtopic false
 \use_indices false
@@ -88,23 +92,36 @@
 Inter-Party Avalanche Accidents May Increase Quadratically With Skier Density
 \end_layout
 
+\begin_layout Author
+Charles Hagedorn
+\end_layout
+
 \begin_layout Abstract
-We estimate, from first principles, a common-sense result: When the density
+We estimate from first principles a common-sense result: When the density
  of backcountry travelers becomes comparable to the size of a day's potential
- avalanches, multi-party avalanche incidents become likely.
- Furthermore, this model suggests that the likelihood of multi-party accidents
+ avalanches, inter-party avalanche incidents will become a substantial fraction
+ of all avalanche incidents.
+ Furthermore, this model suggests that the likelihood of inter-party accidents
  is quadratic in the density of travelers – twice as many parties quadruples
  the likelihood.
- The argument is made, with recent examples from Washington State, that
- multi-party incidents are a timely concern.
- To stimulate conversation, we enumerate a variety of untested strategies
- to mitigate the hazard.
+ The argument is made, with selected North American incidents from 2008-2019,
+ that inter-party incidents are a timely concern.
+ To spur conversation, we enumerate a variety of untested strategies to
+ mitigate inter-party hazard.
 \end_layout
 
 \begin_layout Standard
 
 \emph on
-For Monty Busbee, and for you.
+For Monty Busbee
+\begin_inset CommandInset citation
+LatexCommand citep
+key "KendallDecember19"
+literal "false"
+
+\end_inset
+
+, and for you.
  May we learn from tragedy.
 \end_layout
 
@@ -200,7 +217,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Probability of multi-party avalanche incidents as a function of skier density.
+Probability of inter-party avalanche incidents as a function of skier density.
 \end_layout
 
 \end_inset
@@ -219,13 +236,48 @@ Probability of multi-party avalanche incidents as a function of skier density.
 
 \begin_layout Standard
 Suppose that there are 
+\begin_inset Formula $N$
+\end_inset
+
+ parties of winter travelers in a region of area 
+\begin_inset Formula $A$
+\end_inset
+
+, where 
+\begin_inset Formula $N\gg1$
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Astute readers will note that when 
+\begin_inset Formula $N$
+\end_inset
+
+ is small, the analysis is more complex and, therefore, distracting.
+ The large 
+\begin_inset Formula $N$
+\end_inset
+
+ analysis still applies when 
 \begin_inset Formula $n$
 \end_inset
 
- parties of winter-travelers per unit area (e.g.
- square kilometer or square mile).
+ is small.
+\end_layout
+
+\end_inset
+
+.
+ Let 
+\begin_inset Formula $n=N/A$
+\end_inset
+
+ be the party-density.
  If there are few-enough parties that they only ever get caught in their
- own avalanches, one expects the avalanche-accident rate, 
+ own avalanches, one expects the avalanche-incident rate, 
 \begin_inset Formula $R_{\text{avalanche}}$
 \end_inset
 
@@ -233,13 +285,17 @@ Suppose that there are
 \begin_inset Formula $A_{\text{startzones}}$
 \end_inset
 
-) and the party density:
+), the likelihood to trigger a start zone 
+\begin_inset Formula $L$
+\end_inset
+
+, and the party density:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-R_{\text{avalanche}}\propto A_{\text{startzones}}n\label{eq:Single party avalanche rate}
+R_{\text{avalanche}}=LA_{\text{startzones}}n\label{eq:Single party avalanche rate}
 \end{equation}
 
 \end_inset
@@ -249,8 +305,8 @@ R_{\text{avalanche}}\propto A_{\text{startzones}}n\label{eq:Single party avalanc
 
 \begin_layout Standard
 The implications are straightforward: More parties, proportionally more
- accidents.
- More/larger start zones, proportionally more accidents.
+ incidents.
+ More/larger start zones, proportionally more incident.
 \end_layout
 
 \begin_layout Standard
@@ -264,8 +320,8 @@ There are two factors that are important:
 
 \begin_layout Enumerate
 When there are more parties in an area, they will trigger more avalanches
- (probability 
-\begin_inset Formula $A_{\text{startzones}}n$
+ (rate 
+\begin_inset Formula $LA_{\text{startzones}}n$
 \end_inset
 
 ), just as before.
@@ -286,7 +342,7 @@ If the average avalanche that day sweeps through a total area
 \end_layout
 
 \begin_layout Standard
-So, the rate of inter-party avalanche accidents, 
+So, the rate of inter-party avalanche incidents, 
 \begin_inset Formula $R_{\text{interparty}}$
 \end_inset
 
@@ -296,14 +352,14 @@ So, the rate of inter-party avalanche accidents,
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-R_{\text{interparty}}\propto A_{\text{startzones}}A_{\text{avalanche}}n^{2}.\label{eq:Quadratic Scaling}
+R_{\text{interparty}}=LA_{\text{startzones}}A_{\text{avalanche}}n^{2}.\label{eq:Quadratic Scaling}
 \end{equation}
 
 \end_inset
 
  
 \series bold
-The rate of multi-party accidents should scale like the skier-density 
+The rate of inter-party accidents should scale like the skier-density 
 \emph on
 squared
 \series default
@@ -313,7 +369,7 @@ squared
 \end_inset
 
 ).
- This is this paper's key observation.
+ This is the key observation.
  Everything that follows is only to argue that the time is now to be concerned
  about inter-party accidents.
 \end_layout
@@ -323,14 +379,14 @@ Why is
 \begin_inset Formula $n^{2}$
 \end_inset
 
- important? Let's look at the probability that our parties will be involved
- in an accident of either kind by summing the probabilities:
+ important? Let's look at the rate that our a given party will be involved
+ in an incident of either kind by summing the rates:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-R_{\text{accident}}=R_{\text{avalanche}}+R_{\text{interparty}}
+R_{\text{incident}}=R_{\text{avalanche}}+R_{\text{interparty}}
 \]
 
 \end_inset
@@ -345,7 +401,7 @@ That is:
 \begin_layout Standard
 \begin_inset Formula 
 \[
-R_{\text{accident}}\propto A_{\text{start-zones}}(n+A_{\text{avalanche}}n^{2})
+R_{\text{incident}}=LA_{\text{start-zones}}(n+A_{\text{avalanche}}n^{2})
 \]
 
 \end_inset
@@ -360,7 +416,7 @@ or, suggestively,
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-R_{\text{accident}}\propto A_{\text{start-zones}}n(1+A_{\text{avalanche}}n)\label{eq:Combined Single and multi-party accident rate}
+R_{\text{incident}}=LA_{\text{start-zones}}n(1+A_{\text{avalanche}}n)\label{eq:Combined Single and multi-party accident rate}
 \end{equation}
 
 \end_inset
@@ -408,7 +464,7 @@ reference "eq:Combined Single and multi-party accident rate"
 
  holds the answer: it is the size of the day's typical avalanche that matters.
  Once 
-\begin_inset Formula $A_{avalanche}n>1$
+\begin_inset Formula $A_{avalanche}n\gtrsim1$
 \end_inset
 
 , inter-party incidents will dominate.
@@ -416,11 +472,30 @@ reference "eq:Combined Single and multi-party accident rate"
 a, any triggered avalanche is likely to hit another party.
  This notion makes intuitive sense – in-bounds avalanches at ski areas are
  scary in part because the skier density is so high.
- 
+\end_layout
+
+\begin_layout Standard
+While it is challenging to predict an overall incident rate, as 
+\begin_inset Formula $L$
+\end_inset
+
+ in particular is problematic, one can look at the ratio of inter-party
+ incidents to total incidents:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{R_{\text{interparty}}}{R_{\text{incident}}}=\frac{A_{\text{avalanche}}n^{2}}{n+A_{\text{avalanche}}n^{2}}=\frac{1}{\frac{1}{A_{\text{avalanche }}n}+1}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
-Relationship of multi-party accident rate to avalanche size
+Relationship of inter-party accident rate to avalanche size
 \end_layout
 
 \begin_layout Standard
@@ -439,10 +514,10 @@ reference "eq:Combined Single and multi-party accident rate"
 \end_inset
 
  suggest an important corollary: If the size or likelihood of a day's avalanches
- is greater, we should expect the rate at which multi-party accidents occur
+ is greater, we should expect the rate at which inter-party accidents occur
  to be greater.
- If slides are more likely/larger, 
-\begin_inset Formula $A_{\text{startzones}}$
+ If slides are more likely or larger, 
+\begin_inset Formula $LA_{\text{startzones}}$
 \end_inset
 
  will tend to increase, and if slides are larger, 
@@ -456,7 +531,7 @@ reference "eq:Combined Single and multi-party accident rate"
 \end_layout
 
 \begin_layout Subsection
-Relationship of multi-party accident rate to terrain
+Relationship of inter-party accident rate to terrain
 \end_layout
 
 \begin_layout Standard
@@ -467,7 +542,7 @@ reference "subsec:Derivation"
 
 \end_inset
 
-, one would expect both the accident rate and the multi-party accident rates
+, one would expect both the accident rate and the inter-party accident rates
  to be relatively low.
  Even in mountainous terrain, it is a rare region in which the entire area
  is a start zone, and much of even mountainous terrain is not avalanche
@@ -541,12 +616,11 @@ Storm-skiing
 \end_layout
 
 \begin_layout Standard
-It is but a guess, but the Pacific-Northwestern inter-party avalanche hazard
+It is a guess, but the Pacific-Northwestern inter-party avalanche hazard
  may be at its greatest on deep-snow storm-skiing days, when trailbreaking
  is arduous, avalanches are likely, and powder fever is high.
  Arduous trailbreaking may be the most-powerful concentrator of backcountry
- travelers, amplifying the already-powerful magnetism of an extant skintrack
- considerably.
+ travelers, amplifying the already-powerful magnetism of an extant skintrack.
 \end_layout
 
 \begin_layout Standard
@@ -561,9 +635,18 @@ safe
 \end_inset
 
  objectives.
- In Western Washington State, there are approximately nine such popular
- trailheads: Mount Baker, Stevens Pass, Yodelin, Alpental, Commonwealth
- Basin, Bullion Basin, Paradise, Hurricane Ridge, and White Pass.
+ In Western Washington State, with a population of thousands of active backcount
+ry skiers
+\begin_inset CommandInset citation
+LatexCommand citep
+key "NWACAnnualReport2018"
+literal "false"
+
+\end_inset
+
+, there are approximately nine such popular trailheads: Mount Baker, Stevens
+ Pass, Yodelin, Alpental, Commonwealth Basin, Bullion Basin, Paradise, Hurricane
+ Ridge, and White Pass.
  As skintracks are forged more-deeply into the morning, they bifurcate,
  but the number of traditional and natural ski options remains slim.
 \end_layout
@@ -587,9 +670,9 @@ good
  periods of spring/summer skiing; both snowpack and limited access curtail
  skiing at other times.
  There are narrow optimal windows for all of Tahoma/Rainier's Fuhrer Finger,
- the NFNWR of Pahto/Adams, and Ulrich's Couloirs of Stuart – these are listed
- for their combination of popularity and constrained terrain, where a small
- summer slide can ravage anyone below.
+ the North Face of the Northwest Ridge of Pahto/Adams, and Ulrich's Couloirs
+ of Stuart – these are listed for their combination of popularity and constraine
+d terrain, where a small summer slide can ravage anyone below.
  Indeed, on April 1, 2019, it was reported
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -610,12 +693,29 @@ Wintertime weather windows provide perhaps even more temporal concentration,
  seems low-enough that inter-party hazard is likely to be a smaller concern.
 \end_layout
 
+\begin_layout Standard
+In addition to temporal concentration at the scale of days, safety and ski-quali
+ty considerations may also concentrate skiers on shorter durations.
+ Springtime daily melt-freeze/corn cycles can constrain safe skiing to time
+ intervals measured in hours.
+ The arrival of a storm or imminent warming can force travelers to enter
+ or cross slopes before hazard increases.
+ Finally, the perceived pressure from other people, whether to make the
+ first tracks on a slope or, again paradoxically, to cross/descend a slope
+ 
+\emph on
+before
+\emph default
+ the presence of other skiers can make the slope more hazardous, can concentrate
+ parties in small areas.
+\end_layout
+
 \begin_layout Subsubsection
 Reduced visibility
 \end_layout
 
 \begin_layout Standard
-If a nearby parties cannot be seen, and the distances between parties are
+If nearby parties cannot be seen, and the distances between parties are
  greater than that allowed by voice contact, it is impossible to be aware
  of anyone above or below.
  In low-visibility conditions in densely-skied areas, this may drive us
@@ -624,7 +724,7 @@ If a nearby parties cannot be seen, and the distances between parties are
 \end_layout
 
 \begin_layout Section
-Significant Accidents
+Significant Incidents
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Significant-Accidents"
@@ -635,9 +735,9 @@ name "sec:Significant-Accidents"
 \end_layout
 
 \begin_layout Standard
-In this Section, we enumerate a series of inter-party accidents, near-misses,
- and possible inter-party accidents.
- A subjective summary from an inter-party-accident context is provided.
+In this Section, we enumerate a series of inter-party incidents, near-misses,
+ and possible inter-party incidents.
+ A subjective summary from an inter-party-incident context is provided.
  The reader is directed to the references for more detail.
  Several of the incidents appear to have been reported only informally.
  It is a particular surprise that it has been difficult to find official
@@ -718,7 +818,7 @@ name "subsec:Turbo"
 \end_layout
 
 \begin_layout Standard
-Perhaps the most-spectacular interparty accident
+Perhaps the most-spectacular inter-party accident
 \begin_inset CommandInset citation
 LatexCommand citep
 key "CodeBlackBoulderMountain,BoulderMountainResponseReview,TurboHillPreliminaryReport"
@@ -863,13 +963,21 @@ literal "false"
 \end_inset
 
 , a solo skier disappeared after early afternoon on December 19, the first
- deep storm-skiing Saturday of the 15/16 season at Snoqualmie Pass.
- The number of skiers in the area was remarkably high.
+ deep storm-skiing Saturday of the 2015/2016 season at Snoqualmie Pass
+\begin_inset CommandInset citation
+LatexCommand citep
+key "KendallTrap"
+literal "false"
+
+\end_inset
+
+.
+ The number of skiers and parties in the area was remarkably high.
 \end_layout
 
 \begin_layout Standard
-After an extensive search effort, exceeding 3000 person-hours, his remains
- were recovered on June 4, 2016.
+After an extensive search effort, exceeding 3000 person-hours, the solo-skier's
+ remains were recovered on June 4, 2016.
  The accident location, and the injuries to the skier, were consistent with
  an avalanche-related fatality.
  Subsequent investigation revealed that two parties had triggered avalanches
@@ -969,7 +1077,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-The judgment from the San Miguel County Court is remarkable for its detailed
+The judgment from the San Miguel County Court is notable for its detailed
  analysis of the accident, its humanity, and reasoned approach to assigning
  fault.
  Pursuant to important details in the case, Group 2 was found to be financially
@@ -1177,7 +1285,7 @@ y accident.
 
 \begin_layout Itemize
 Some routes pass through areas of unavoidable avalanche hazard – there are
- plenty of famous examples: The Mousetrap
+ plenty of examples: The Mousetrap
 \begin_inset CommandInset citation
 LatexCommand citep
 key "MousetrapAsulkanGuide"
@@ -1185,7 +1293,7 @@ literal "false"
 
 \end_inset
 
- at Roger's Pass, Source Lake Basin at Snoqualmie Pass.
+ at Roger's Pass, Source Lake Basin and Mushroom Couloir at Snoqualmie Pass.
  Avoiding those areas during times that 
 \emph on
 human-triggered
@@ -1195,7 +1303,7 @@ human-triggered
 \end_layout
 
 \begin_layout Itemize
-The particular examples of the Hawkins Mountain (Section 
+The Hawkins Mountain (Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:Hawkins"
@@ -1296,7 +1404,7 @@ Rope
 \begin_inset Quotes eld
 \end_inset
 
-Entering Slope!
+Hello Below!
 \begin_inset Quotes erd
 \end_inset
 
@@ -1312,7 +1420,7 @@ Skiing!
 \begin_inset Quotes eld
 \end_inset
 
-Off Slope!
+Clear!
 \begin_inset Quotes erd
 \end_inset
 
@@ -1564,9 +1672,9 @@ The problems with such a system are myriad, but it may offer some utility
 \end_layout
 
 \begin_layout Standard
-A run board may offer greater utility in constrained terrain, like The Slot,
- where entering parties might note their number and the time at which they
- entered, as a note for those who follow behind.
+A run board may offer greater utility in constrained terrain, like The Slot
+ at Snoqualmie Pass, where entering parties might note their number and
+ the time at which they entered, as a note for those who follow behind.
  The social-network shareability of a photo of a run board atop a popular
  run (#firsttracks ?) might increase the likelihood of its use.
 \end_layout
@@ -1586,8 +1694,8 @@ name "subsec:Radios"
 Radios have emerged as an increasingly common tool in the backcountry –
  remarkable for a sport which eschews complication and weight.
  In the author's North American experience, FRS/GMRS radios are a de-facto
- standard, the range limitations of the standard are transcended (XXXMI
- word) by the unlicensed nature of the spectrum
+ standard, the range limitations of the FRS/GMRS standards are eclipsed
+ by the unlicensed nature of the spectrum
 \begin_inset Foot
 status open
 
@@ -1629,8 +1737,16 @@ Community channel/party channel
 \end_layout
 
 \begin_layout Standard
-There are certain regions that have begun to define community radio channels
- [XXXRC Cite Bear Creek and more], where, by convention, skiers in the region
+There are certain regions, Telluride's Bear Creek in particular, that have
+ begun to define community radio channels 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BearCreekEdgerlyISSW"
+literal "false"
+
+\end_inset
+
+[XXXRC Cite Bear Creek and more], where, by convention, skiers in the region
  set their radios to a common channel.
  XXXRC – ask around about radio usage.
  How does it work in practice? Does radio traffic become overwhelming? Is
@@ -1643,7 +1759,7 @@ As skier density increases, it may be necessary for backcountry-specific
  a party channel simultaneously, so that intra-party communication need
  not obstruct inter-party communication.
  Such a system could be confusing in the haste of an accident – good radio
- discipline on a party channel is preferable, if it remains practical.
+ discipline on a party channel is preferable, so long as it remains practical.
 \end_layout
 
 \begin_layout Standard
@@ -1706,12 +1822,12 @@ privacy code
 \end_layout
 
 \begin_layout Subsection
-Awareness
+Awareness and Education
 \end_layout
 
 \begin_layout Standard
-The simple awareness of the increasing likelihood of interparty conflict
- with density may, on its own, help to curtail interparty accidents.
+The simple awareness of the increasing likelihood of inter-party conflict
+ with density may, on its own, help to curtail inter-party accidents.
  That is, of course, the intent of this work.
  In places where the density of skiers approaches the critical density,
  the hazard should be discussed and mitigated.
@@ -1736,10 +1852,6 @@ XXXRC
 
 \begin_layout Section
 Conclusion
-\end_layout
-
-\begin_layout Standard
-Tell 'em what you told 'em.
 \end_layout
 
 \begin_layout Standard
@@ -1778,7 +1890,7 @@ Susan Ashlock, Peg Achterman, Doug Krause – key referenceXXXRC
 LatexCommand bibtex
 btprint "btPrintCited"
 bibfiles "SkiDensity"
-options "plain"
+options "apsrev4-2"
 
 \end_inset
 
