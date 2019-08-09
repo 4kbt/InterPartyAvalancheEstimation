@@ -841,7 +841,30 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-XXXRC Compute densities for each.
+For accidents where documentation makes it possible, we have attempted to
+ measure the areas in question, the number of parties, and compute both
+ the party density and 
+\begin_inset Formula $nA_{\text{avalanche}}$
+\end_inset
+
+.
+ The areas were measured using Caltopo 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Caltopo"
+literal "false"
+
+\end_inset
+
+ and attempt to cover the terrain that would reasonably be regarded as 
+\begin_inset Quotes eld
+\end_inset
+
+connected
+\begin_inset Quotes erd
+\end_inset
+
+ by an observer on the ground; this is an inherently-subjective measurement.
 \end_layout
 
 \begin_layout Subsection
@@ -883,6 +906,57 @@ literal "false"
  is generally prime volcano-ski season.
 \end_layout
 
+\begin_layout Standard
+
+\series bold
+Density: 
+\series default
+Area commonly travelled on the Wilson/lower-Nisqually: 
+\begin_inset Formula $\sim1.3$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ 3+ parties 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $n\gtrsim2.3$
+\end_inset
+
+ parties/km
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $A_{\text{avalanche}}\sim0.02$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $nA_{\text{avalanche}}\sim0.05$
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Subsection
 Boulder/Turbo Mountain, March 13, 2010 
 \begin_inset CommandInset label
@@ -922,6 +996,56 @@ literal "false"
 \end_inset
 
  notes the probability of legal charges in similar future events.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Density:
+\series default
+ Upper drainage area: 
+\begin_inset Formula $1\text{-}2$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset Formula $^{2}$
+\end_inset
+
+, 30-100 parties 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $15<n<100$
+\end_inset
+
+ parties/km
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $A_{\text{avalanche}}\sim0.2$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $3<nA_{\text{avalanche}}<20$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
@@ -1067,6 +1191,44 @@ After an extensive search effort, exceeding 3000 person-hours, the solo-skier's
 ed third avalanche or a natural avalanche are viable alternative hypotheses.
 \end_layout
 
+\begin_layout Standard
+
+\series bold
+Density:
+\series default
+ Area: 1.0 km
+\begin_inset Formula $^{2}$
+\end_inset
+
+, 9+ parties 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $n>9$
+\end_inset
+
+ parties/km
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ Avalanche area: 0.01
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $nA_{\text{avalanche}}\sim0.1$
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Subsection
 Rogers Pass, Avalanche Crest, February 14, 2016
 \end_layout
@@ -1098,6 +1260,32 @@ literal "false"
 .
  Both of the skiers below were caught and carried, one sustaining life-threateni
 ng injury.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Density:
+\series default
+ Area: 2-5
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ 5+ parties 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $1<n<5$
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -1161,6 +1349,60 @@ The judgment from the San Miguel County Court is notable for its detailed
  liable for the injuries sustained by Group 1.
 \end_layout
 
+\begin_layout Standard
+
+\series bold
+Density:
+\series default
+ Upper drainage area: 
+\begin_inset Formula $\sim0.16$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset Formula $^{2}$
+\end_inset
+
+, 2 parties 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $n\sim12.5$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+parties/km
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ Avalanche area: 
+\begin_inset Formula $0.02\text{-}0.08$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $nA_{\text{avalanche}}\approx0.3\text{-}1$
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Subsection
 Mt.
  Herman, March 4, 2017
@@ -1195,6 +1437,36 @@ Widespread 1-2 ft storm slabs and larger 3-5 ft wind slabs were reported
  caught in the avalanche.
 \end_layout
 
+\begin_layout Standard
+
+\series bold
+Density: 
+\series default
+Area: 0.4-1.2
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset Formula $^{2}$
+\end_inset
+
+, 2+ parties 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula $2\text{-5}<n$
+\end_inset
+
+.
+ This area is extremely popular.
+ 
+\begin_inset Formula $n$
+\end_inset
+
+ could easily be 10 times larger.
+\end_layout
+
 \begin_layout Subsection
 Hawkins Mountain, March 4, 2017 
 \begin_inset CommandInset label
@@ -1226,6 +1498,48 @@ LatexCommand citep
 key "SnowestHawkins"
 literal "false"
 
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Density:
+\series default
+ Drainage area: 
+\begin_inset Formula $0.6\text{-}1$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset Formula $^{2}$
+\end_inset
+
+, 2-3 parties 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula $2<n<5$
+\end_inset
+
+.
+ Avalanche area:0.03-0.05
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $nA_{\text{avalanche}}\approx0.06\text{-}0.25$
 \end_inset
 
 .
@@ -1832,10 +2146,13 @@ literal "false"
 
 .
  This is an emerging and promising trend.
- While the majority of the documentation praising the effort has been from
- the radio manufacturer, at present, it appears to have made a positive
- difference in promoting coordination between parties and speeding rescue
- efforts.
+ Both a glance at a map of Bear Creek and the inclusion of two Bear Creek
+ accidents in this paper suggest that, for Bear Creek locals, inter-party
+ coordination is essential.
+ While the majority of the documentation praising the effort has, perhaps
+ necessarily, been from the radio manufacturer, community radio channels
+ appear to have made a positive difference in promoting coordination between
+ parties and speeding rescue efforts.
  Indeed, the court decision
 \begin_inset CommandInset citation
 LatexCommand citep
