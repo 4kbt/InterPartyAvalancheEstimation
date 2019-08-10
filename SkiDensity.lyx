@@ -138,8 +138,18 @@ literal "false"
 
 \end_inset
 
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 [XXXMA cite...
- NSAW UAC talk] in the United States and around the world.
+ NSAW UAC talk] 
+\end_layout
+
+\end_inset
+
+in the United States and around the world.
  It is common sense that, at some density of backcountry travelers, avalanches
  triggered by one party will be likely to strike another.
  This work gives formal voice to this idea and, further, suggests that the
@@ -190,7 +200,16 @@ Many authors have described, directly[XXXRC cite] and indirectly[XXXRC cite],
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 XXXRC cite Krause' Slide episode.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1902,7 +1921,17 @@ literal "false"
 
 \end_inset
 
-[XXXMI add more citations], the notion of a 
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+[XXXMI add more citations]
+\end_layout
+
+\end_inset
+
+, the notion of a 
 \begin_inset Quotes eld
 \end_inset
 
