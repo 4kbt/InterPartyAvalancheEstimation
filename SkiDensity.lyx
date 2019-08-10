@@ -355,7 +355,7 @@ Astute readers will note that when
 \begin_inset Formula $N$
 \end_inset
 
- is small, the analysis is more complex and, therefore, distracting.
+ is small, the analysis is complex and distracting.
  The large 
 \begin_inset Formula $N$
 \end_inset
@@ -364,9 +364,35 @@ Astute readers will note that when
 \begin_inset Formula $n$
 \end_inset
 
- is small.
+ is small, and the 
+\begin_inset Formula $n^{2}$
+\end_inset
+
+ scaling should persist for small 
+\begin_inset Formula $N$
+\end_inset
+
+
 \end_layout
 
+\end_inset
+
+.
+ This analysis is independent of the definition of a 
+\begin_inset Quotes eld
+\end_inset
+
+party
+\begin_inset Quotes erd
+\end_inset
+
+, but for some of the estimates that follow, we loosely define a party as
+ 
+\begin_inset Quotes eld
+\end_inset
+
+any group, perhaps as small as one person, that travels independently
+\begin_inset Quotes erd
 \end_inset
 
 .
@@ -810,9 +836,8 @@ It is a guess, but the Pacific-Northwestern inter-party avalanche hazard
 \end_layout
 
 \begin_layout Standard
-On storm-skiing days, almost everyone who hasn't winter-camped overnight
- embarks from a limited set of trailheads and heads for a limited set of
- 
+On storm-skiing days, day-tripping backcountry skiers embark from a limited
+ set of trailheads and head for a limited set of 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1442,8 +1467,8 @@ noprefix "false"
 
 \end_inset
 
-, but Group 2 did not.) Group 1 skied the couloir without incident, and while
- mid-rappel, was struck by a slide from above, sustaning injury.
+, but Group 2 did not.) Group 1 skied the couloir without incident but, while
+ mid-rappel, was struck by a slide from above, sustaining injury.
  Group 2 had waited roughly 45 minutes and attempted to call Group 1 once.
  Warming snow and the imminent arrival of at least one more Group had spurred
  Group 2 into skiing before receiving a call from Group 1.
@@ -1709,6 +1734,26 @@ It is unlikely, and perhaps undesireable, that the number of backcountry
  The following are a few strategies that may mitigate the risk.
  There are certainly more – these are suggested to organize and catalyze
  discussion.
+\end_layout
+
+\begin_layout Subsection
+Awareness and Education
+\end_layout
+
+\begin_layout Standard
+The simple awareness of the increasing likelihood of inter-party conflict
+ with density may, on its own, help to curtail inter-party incidents.
+ That is, of course, the intent of this work.
+ In places where the density of skiers approaches the critical density,
+ the hazard should be discussed and mitigated.
+ At least a passing mention of inter-party hazard in avalanche education
+ at all levels now seems prudent.
+\end_layout
+
+\begin_layout Standard
+As better understanding of the factors that lead to inter-party avalanche
+ incidents becomes understood, it will make sense to bring light to the
+ hazard in avalanche bulletins.
 \end_layout
 
 \begin_layout Subsection
@@ -2157,19 +2202,6 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Furthermore, the overhead hazard to descending parties is non-negligible.
- The 370
-\begin_inset space ~
-\end_inset
-
-m-tall couloir has a visibility-obscuring dog-leg about a third of the way
- down.
- Without coordination between parties in the couloir, it is possible for
- a group descending the couloir to be impacted by the actions of a group
- they've never seen.
-\end_layout
-
-\begin_layout Standard
 The Alpental Ski Area sits in a constrained valley, with densely-used ski-tourin
 g terrain at, and beyond, its head.
  The area has a relatively-unique policy of limited avalanche control within
@@ -2233,8 +2265,39 @@ The problems with such a system are myriad, but it may offer some utility
 A run board may offer greater utility in constrained terrain, like The Slot
  at Snoqualmie Pass, where entering parties might note their number and
  the time at which they entered, as a note for those who follow behind.
+ In The Slot, the overhead inter-party hazard to descending parties is non-negli
+gible.
+ The 370
+\begin_inset space ~
+\end_inset
+
+m-tall couloir has a visibility-obscuring dog-leg about a third of the way
+ down.
+ Without coordination between parties in the couloir, it is possible for
+ a group descending the couloir to be impacted by the actions of a group
+ they've never seen.
+ A concientious party arriving at the Slot's entrance could, seeing that
+ a party had entered the couloir only minutes before, choose to wait a few
+ minutes for those below to clear the run.
  The social-network shareability of a photo of a run board atop a popular
  run (#firsttracks ?) might increase the likelihood of its use.
+ A 
+\begin_inset Quotes eld
+\end_inset
+
+run-clock
+\begin_inset Quotes erd
+\end_inset
+
+, fashioned after the out-of-office 
+\begin_inset Quotes eld
+\end_inset
+
+back at 3pm
+\begin_inset Quotes erd
+\end_inset
+
+ clock-signs may also suffice.
 \end_layout
 
 \begin_layout Subsection
@@ -2443,27 +2506,6 @@ privacy code
  traveler with slightly more information about other parties.
 \end_layout
 
-\begin_layout Subsection
-Awareness and Education
-\end_layout
-
-\begin_layout Standard
-The simple awareness of the increasing likelihood of inter-party conflict
- with density may, on its own, help to curtail inter-party incidents.
- That is, of course, the intent of this work.
- In places where the density of skiers approaches the critical density,
- the hazard should be discussed and mitigated.
- At least a passing mention of inter-party hazard in avalanche education
- at all levels now seems prudent.
-\end_layout
-
-\begin_layout Standard
-As better understanding of the factors that lead to inter-party avalanche
- incidents becomes understood, it will make sense to bring light to the
- hazard in avalanche bulletins.
- 
-\end_layout
-
 \begin_layout Section
 Conclusion
 \end_layout
@@ -2494,9 +2536,11 @@ Acknowledgements
 I would like to thank Susan Ashlock for her perpetual support/tolerance
  of this project; Peg Achterman for helping to bring this paper back to
  life; Jason Alferness, Dallas Glass, and Doug Krause for assistance with
- references; and finally, the many avalanche/search-and-rescue organizations
- who have not only saved many of the lives described herein, but also generated
- the documentation needed to help us save lives in the future.
+ references; S.A.
+ for proofreading and suggestions; and finally, the many avalanche/search-and-re
+scue organizations who have not only saved many of the lives described herein,
+ but also generated the documentation needed to help us save lives in the
+ future.
 \end_layout
 
 \begin_layout Standard
