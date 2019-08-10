@@ -89,7 +89,7 @@
 \begin_body
 
 \begin_layout Title
-Inter-Party Avalanche Ancidents May Increase Quadratically With Skier Density
+Inter-Party Avalanche Incidents May Increase Quadratically With Skier Density
 \end_layout
 
 \begin_layout Author
@@ -246,6 +246,72 @@ ns.
  becomes significant.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename CartoonLayout.svg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagram showing the definitions of 
+\begin_inset Formula $A$
+\end_inset
+
+, 
+\begin_inset Formula $A_{\text{startzones}},$
+\end_inset
+
+and 
+\begin_inset Formula $A_{\text{avalanche}}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $A_{\text{startzones}}$
+\end_inset
+
+ is the 
+\emph on
+sum
+\emph default
+ of the area of the start-zones.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagram-showing-the"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Derivation
 \begin_inset CommandInset label
@@ -264,6 +330,16 @@ Suppose that there are
 
  parties of winter travelers in a region of area 
 \begin_inset Formula $A$
+\end_inset
+
+, shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagram-showing-the"
+plural "false"
+caps "false"
+noprefix "false"
+
 \end_inset
 
 , where 
