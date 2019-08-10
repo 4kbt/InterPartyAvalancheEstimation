@@ -1935,13 +1935,30 @@ In certain high-density traffic locations, it may be optimal to establish
 \begin_inset Quotes eld
 \end_inset
 
-NOTAM
+Approach Procedures
 \begin_inset Quotes erd
 \end_inset
 
- – notices to airmen (XXXRC check whether it is NOTAM if it is a permanent
- variance) – which describe location-specific variation from generally-accepted
- practices.
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Instrument Approach Procedures
+\begin_inset Quotes erd
+\end_inset
+
+ (IAP)
+\begin_inset CommandInset citation
+LatexCommand citep
+key "FAAApproaches"
+literal "false"
+
+\end_inset
+
+ for most airports that describe the airport-specific information needed
+ to land and take off safely.
+ While IAPs contain a level of detail not needed for backcountry travel,
+ the occasional publicized traffic pattern may be of use.
  These may be best described by example:
 \end_layout
 
@@ -1992,21 +2009,29 @@ literal "false"
 
 \begin_layout Standard
 The Slot, a committing couloir on Snoqualmie Mountain near Snoqualmie Pass,
- WA, was once primarily a climbing route, 
-\begin_inset Quotes eld
+ WA, was once regarded more as a climbing route
+\begin_inset CommandInset citation
+LatexCommand citep
+key "PhilEnigma"
+literal "false"
+
 \end_inset
 
-Enigma Gully
-\begin_inset Quotes erd
-\end_inset
-
- [XXXRC].
+ as a ski line..
  In 2004, it was sufficiently rarely skied that it still made occasional
- sense to ascend directly up the route for convenience.
+ sense
+\begin_inset CommandInset citation
+LatexCommand citep
+key "HummelSlot"
+literal "false"
+
+\end_inset
+
+ to ascend directly up the route for convenience.
  The Slot is now routinely skied, even by those who ski before their day-jobs
  in Seattle.
- It is a rare thing to be the first to the Slot's entrance, and it is common
- to encounter multiple parties at the entrance.
+ It is a rare thing to be the first to the Slot's entrance after a storm,
+ and it is common to encounter multiple parties at the entrance.
  In the present environment, it is hard to imagine a good reason to ascend
  the Slot in winter.
  The hazard from above is significant.
@@ -2039,7 +2064,23 @@ Back Bowls
 
  backcountry terrain.
  The slide paths and runouts from that terrain reach the valley bottom.
- XXXRC
+ Passing beneath the area during times of control work, or traveling beneath
+ the lift-accessible backcountry during times of instability is inadvisable.
+ Furthermore, the skiers returning to the ski area are often travelling
+ fast on the most-tempting skintrack.
+ Recent efforts [cite] have helped to separate uphill and downhill traffic,
+ and move the uphill traffic to safer locations.
+ The US Ski Mountaineering Association maintains an updated list
+\begin_inset CommandInset citation
+LatexCommand citet
+key "UphillPolicies"
+literal "false"
+
+\end_inset
+
+ of uphill travel and boundary policies for ski areas – it could make sense
+ to broaden it, or a similar repository, to include travel traditions for
+ high-traffic backcountry terrain.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2196,6 +2237,32 @@ scan
 \end_inset
 
  functionality to future radios.
+ Aviation radios
+\begin_inset CommandInset citation
+LatexCommand citet
+key "RadioGarmin,RadioBendix"
+literal "false"
+
+\end_inset
+
+ have two-channel 
+\begin_inset Quotes eld
+\end_inset
+
+Active
+\begin_inset Quotes erd
+\end_inset
+
+-channel and 
+\begin_inset Quotes eld
+\end_inset
+
+Standby
+\begin_inset Quotes erd
+\end_inset
+
+-channel functionality, enabling listening to both and transmitting on one
+ or the other easily.
 \end_layout
 
 \begin_layout Standard
@@ -2278,14 +2345,6 @@ As better understanding of the factors that lead to inter-party avalanche
  
 \end_layout
 
-\begin_layout Subsection
-Notecard
-\end_layout
-
-\begin_layout Standard
-XXXRC
-\end_layout
-
 \begin_layout Section
 Conclusion
 \end_layout
@@ -2306,11 +2365,6 @@ lines of cars
  Inter-party avalanche accidents are coming, if they have not already arrived.
  It behooves us, individually and as a community, to develop strategies
  to proactively address this emerging hazard.
-\end_layout
-
-\begin_layout Standard
-http://www.cascadecrusades.org/SkiMountaineering/snoqualmiemtn/slotcouloir/slotcro
-oked2004.htm
 \end_layout
 
 \begin_layout Section
