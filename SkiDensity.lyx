@@ -527,7 +527,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename RelativeInterpartyIncidentFraction.pdf
+	filename RelativeInterpartyData.pdf
 	width 100col%
 
 \end_inset
@@ -539,12 +539,27 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Approximate fraction of inter-party avalanche incidents as a function of
- party-density, measured in units of avalanche-area, as described by Equation
- 
+Upper Panel: Approximate fraction of inter-party avalanche incidents as
+ a function of party-density, measured in units of avalanche-area, as described
+ by Equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:RelativeIncidentFraction"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Lower Panel: Approximate values of 
+\begin_inset Formula $nA_{\text{avalanche }}$
+\end_inset
+
+ from incidents described in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Significant-Accidents"
 plural "false"
 caps "false"
 noprefix "false"
@@ -2318,7 +2333,12 @@ Acknowledgements
 \end_layout
 
 \begin_layout Standard
-Susan Ashlock, Peg Achterman, Doug Krause – key referenceXXXRC
+I would like to thank Susan Ashlock for her perpetual support/tolerance
+ of this project; Peg Achterman for helping to bring this paper back to
+ life; Jason Alferness, Dallas Glass, and Doug Krause for assistance with
+ references; and finally, the many avalanche/search-and-rescue organizations
+ who have not only saved many of the lives described herein, but also generated
+ the documentation needed to help us save lives in the future.
 \end_layout
 
 \begin_layout Standard

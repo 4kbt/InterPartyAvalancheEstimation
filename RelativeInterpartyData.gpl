@@ -1,0 +1,34 @@
+set term pdf size 4,5  
+set output 'RelativeInterpartyData.pdf'  
+                                                    
+
+set multiplot layout 2,1 
+
+set logsc x
+
+set ylabel 'Fraction of incidents that are inter-party'                         
+              
+set lmargin at screen 0.15                                                                 
+set key noauto                                                                  
+set logsc x                                                                     
+                                                                                
+set ytics 0,0.5,1                                                               
+set format x ""                                                          
+                                                                                
+pl [1e-6:100][0:1]\
+        1/(1/x+1)     
+
+set ylabel " "
+unset ytics
+set xlabel 'Parties per avalanche-area'                                         
+set format x "10^{%T}"                                                          
+
+set label 'Nisqually Glacier' 		at 0.2e-5,-1 left front
+set label 'Boulder/Turbo Mountain' 	at 0.2e-5,-2 left front
+set label 'Kendall Peak' 		at 0.2e-5,-3 left front
+set label 'Grandfather Couloir'		at 0.2e-5,-4 left front
+set label 'Hawkins Mountain' 		at 0.2e-5,-5 left front
+
+pl [1e-6:1e2] [-6:0]\
+	'Densities.dat' u 1:(-$0):1:2 w xerror ps 0 lw 2
+
