@@ -89,7 +89,7 @@
 \begin_body
 
 \begin_layout Title
-Inter-Party Avalanche Accidents May Increase Quadratically With Skier Density
+Inter-Party Avalanche Ancidents May Increase Quadratically With Skier Density
 \end_layout
 
 \begin_layout Author
@@ -143,7 +143,7 @@ literal "false"
  It is common sense that, at some density of backcountry travelers, avalanches
  triggered by one party will be likely to strike another.
  This work gives formal voice to this idea and, further, suggests that the
- time when such accidents become frequent is either now or in the near future.
+ time when such incidents become frequent is either now or in the near future.
  In Section 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -165,8 +165,7 @@ noprefix "false"
 
 \end_inset
 
-, we enumerate several recent avalanche accidents in the Pacific Northwest
- and elsewhere.
+, we enumerate several recent avalanche accidents in North America.
  In Section 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -364,7 +363,7 @@ R_{\text{interparty}}=LA_{\text{startzones}}A_{\text{avalanche}}n^{2}.\label{eq:
 
  
 \series bold
-The rate of inter-party accidents should scale like the skier-density 
+The rate of inter-party incidents should scale like the skier-density 
 \emph on
 squared
 \series default
@@ -376,7 +375,7 @@ squared
 ).
  This is the key observation.
  Everything that follows is only to argue that the time is now to be concerned
- about inter-party accidents.
+ about inter-party incidents.
 \end_layout
 
 \begin_layout Standard
@@ -510,7 +509,7 @@ noprefix "false"
 
 \end_inset
 
-, this has the expected behavior, where inter-party accidents become significant
+, this has the expected behavior, where inter-party incidents become significant
  as 
 \begin_inset Formula $A_{\text{avalanche}}n$
 \end_inset
@@ -587,7 +586,7 @@ name "fig:Approximate-fraction-of"
 \end_layout
 
 \begin_layout Subsection
-Relationship of inter-party accident rate to avalanche size
+Relationship of inter-party incident rate to avalanche size
 \end_layout
 
 \begin_layout Standard
@@ -606,7 +605,7 @@ reference "eq:Combined Single and multi-party accident rate"
 \end_inset
 
  suggest an important corollary: If the size or likelihood of a day's avalanches
- is greater, we should expect the rate at which inter-party accidents occur
+ is greater, we should expect the rate at which inter-party incidents occur
  to be greater.
  If slides are more likely or larger, 
 \begin_inset Formula $LA_{\text{startzones}}$
@@ -619,11 +618,11 @@ reference "eq:Combined Single and multi-party accident rate"
  is surely larger.
  As backcountry travelers, larger and more-likely slides will force wary
  travelers to consider larger areas (further uphill) and more places (increased
- number of potential start zones) in the context of inter-party accidents.
+ number of potential start zones) in the context of inter-party incidents.
 \end_layout
 
 \begin_layout Subsection
-Relationship of inter-party accident rate to terrain
+Relationship of inter-party incident rate to terrain
 \end_layout
 
 \begin_layout Standard
@@ -634,7 +633,7 @@ reference "subsec:Derivation"
 
 \end_inset
 
-, one would expect both the accident rate and the inter-party accident rates
+, one would expect both the incident rate and the inter-party incident rates
  to be relatively low.
  Even in mountainous terrain, it is a rare region in which the entire area
  is a start zone, and much of even mountainous terrain is not avalanche
@@ -856,7 +855,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-For accidents where documentation makes it possible, we have attempted to
+For incidents where documentation makes it possible, we have attempted to
  measure the areas in question, the number of parties, and compute both
  the party density and 
 \begin_inset Formula $nA_{\text{avalanche}}$
@@ -1611,7 +1610,7 @@ name "sec:Mitigation"
 \begin_layout Standard
 It is unlikely, and perhaps undesireable, that the number of backcountry
  travelers be reduced.
- Therefore, we must find ways to limit the likelihood of inter-party accidents.
+ Therefore, we must find ways to limit the likelihood of inter-party incidents.
  The following are a few strategies that may mitigate the risk.
  There are certainly more – these are suggested to organize and catalyze
  discussion.
@@ -1622,7 +1621,7 @@ Density reduction
 \end_layout
 
 \begin_layout Standard
-The root of inter-party accidents is not the 
+The root of inter-party incidents is not the 
 \emph on
 number
 \emph default
@@ -1686,7 +1685,7 @@ Examples:
 \begin_layout Itemize
 Many ridgelines are not susceptible to slides from above – travelling upon
  such a ridgeline inherently provides substantial protection from any inter-part
-y accident.
+y incident.
 \end_layout
 
 \begin_layout Itemize
@@ -1705,7 +1704,7 @@ literal "false"
 human-triggered
 \emph default
  slides are likely, rather than only when natural slides are likely, will
- limit the risk of an inter-party accident.
+ limit the risk of an inter-party incident.
 \end_layout
 
 \begin_layout Itemize
@@ -1736,9 +1735,9 @@ noprefix "false"
 \end_layout
 
 \begin_layout Itemize
-Avalanche accidents of all kinds only happen in avalanche terrain – if avalanche
+Avalanche incidents of all kinds only happen in avalanche terrain – if avalanche
 s are a concern, avoiding avalanche terrain is a sure-fire way to avoid
- avalanche accidents of all kinds, including inter-party accidents.
+ avalanche incidents of all kinds, including inter-party incidents.
 \end_layout
 
 \begin_layout Standard
@@ -1857,7 +1856,7 @@ Entering Couloir!
 These verbal warnings are, of course, antithetical to a low-impact and quiet
  winter day (and may lead to confusion, as shouts are generally a sign of
  an emergency).
- If the rate of inter-party accidents continues to grow, the necessity of
+ If the rate of inter-party incidents continues to grow, the necessity of
  such measures, and the approximate skier density at which they are appropriate,
  will become self-evident.
  At a crowded crag, it is perhaps more welcome than it is jarring to hear
@@ -1926,9 +1925,9 @@ run list
  part of our courses, and our students often refer to them after the course
  is complete.
  A publicly-shared run list can serve as a basis for conditions reporting,
- accident response, and general communication.
+ incident response, and general communication.
  While run lists themselves will not offer any advantage for inter-party
- accidents – they may even serve to concentrate travelers during times of
+ incidents – they may even serve to concentrate travelers during times of
  higher hazard – a strong basis for communication is bedrock upon which
  many mitigation strategies can be built.
 \end_layout
@@ -2233,7 +2232,7 @@ As skier density increases, it may be necessary for backcountry-specific
  radio manufacturers to add the ability to monitor a community channel and
  an intra-party channel simultaneously, so that intra-party communication
  need not obstruct inter-party communication.
- Such a system could be confusing in the haste of an accident – good radio
+ Such a system could be confusing in the haste of an incident – good radio
  discipline on a party channel is preferable, so long as it remains practical.
  Steen and Edgerly
 \begin_inset CommandInset citation
@@ -2345,7 +2344,7 @@ Awareness and Education
 
 \begin_layout Standard
 The simple awareness of the increasing likelihood of inter-party conflict
- with density may, on its own, help to curtail inter-party accidents.
+ with density may, on its own, help to curtail inter-party incidents.
  That is, of course, the intent of this work.
  In places where the density of skiers approaches the critical density,
  the hazard should be discussed and mitigated.
@@ -2355,8 +2354,8 @@ The simple awareness of the increasing likelihood of inter-party conflict
 
 \begin_layout Standard
 As better understanding of the factors that lead to inter-party avalanche
- accidents become understood, it will make sense to bring light to the hazard
- in avalanche bulletins.
+ incidents becomes understood, it will make sense to bring light to the
+ hazard in avalanche bulletins.
  
 \end_layout
 
@@ -2377,7 +2376,7 @@ lines of cars
  at a local hiking trailhead.
  This aligns with our experience this summer, with unprecedented numbers
  of wilderness travelers at every trailhead.
- Inter-party avalanche accidents are coming, if they have not already arrived.
+ Inter-party avalanche incidents are coming, if they have not already arrived.
  It behooves us, individually and as a community, to develop strategies
  to proactively address this emerging hazard.
 \end_layout
