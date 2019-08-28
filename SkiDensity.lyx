@@ -325,7 +325,7 @@ name "subsec:Derivation"
 
 \begin_layout Standard
 Suppose that there are 
-\begin_inset Formula $N$
+\begin_inset Formula $N_{\text{parties}}$
 \end_inset
 
  parties of winter travelers in a region of area 
@@ -397,30 +397,49 @@ any group, perhaps as small as one person, that travels independently
 
 .
  Let 
-\begin_inset Formula $n=N/A$
+\begin_inset Formula $n_{\text{party}}=N_{\text{parties}}/A$
 \end_inset
 
  be the party-density.
  If there are few-enough parties that they only ever get caught in their
- own avalanches, one expects the avalanche-incident rate, 
-\begin_inset Formula $R_{\text{avalanche}}$
+ own avalanches, one expects the avalanche-incident rate per unit area per
+ unit time, 
+\begin_inset Formula $r_{\text{avalanche}}$
 \end_inset
 
 , to be proportional to the total area of the start zones (
-\begin_inset Formula $A_{\text{startzones}}$
+\begin_inset Formula $A_{\text{start-zone}}$
 \end_inset
 
-), the likelihood to trigger a start zone 
+), the density of start-zones 
+\begin_inset Formula $(n_{\text{start-zones}}\equiv N_{\text{start-zones}}/A)$
+\end_inset
+
+, and the likelihood for a party to trigger a start zone 
 \begin_inset Formula $L$
 \end_inset
 
-, and the party density:
+ (
+\begin_inset Formula $L$
+\end_inset
+
+ has units – definition in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Deriving-likelihood"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), and the party density:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-R_{\text{avalanche}}=LA_{\text{startzones}}n\label{eq:Single party avalanche rate}
+r_{\text{single-party}}=Ln_{\text{start-zones}}A_{\text{start-zone}}n_{\text{party}}\equiv r_{0}n_{\text{party}}\label{eq:Single party avalanche rate}
 \end{equation}
 
 \end_inset
@@ -446,7 +465,7 @@ There are two factors that are important:
 \begin_layout Enumerate
 When there are more parties in an area, they will trigger more avalanches
  (rate 
-\begin_inset Formula $LA_{\text{startzones}}n$
+\begin_inset Formula $r_{0}n_{\text{party}}$
 \end_inset
 
 ), just as before.
@@ -458,9 +477,9 @@ If the average avalanche that day sweeps through a total area
 \begin_inset Formula $A_{\text{avalanche}}$
 \end_inset
 
-, the rate at which other parties might be struck by that avalanche is then
+, the number of other parties that will be struck by that avalanche is then
  approximately 
-\begin_inset Formula $A_{\text{avalanche}}n$
+\begin_inset Formula $A_{\text{avalanche}}n_{\text{party}}$
 \end_inset
 
 .
@@ -468,7 +487,7 @@ If the average avalanche that day sweeps through a total area
 
 \begin_layout Standard
 So, the rate of inter-party avalanche incidents, 
-\begin_inset Formula $R_{\text{interparty}}$
+\begin_inset Formula $r_{\text{interparty}}$
 \end_inset
 
 , ought to scale like
@@ -476,8 +495,23 @@ So, the rate of inter-party avalanche incidents,
 
 \begin_layout Standard
 \begin_inset Formula 
+\[
+r_{\text{interparty}}=r_{\text{single-party}}A_{\text{avalanche}}n_{\text{party}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
 \begin{equation}
-R_{\text{interparty}}=LA_{\text{startzones}}A_{\text{avalanche}}n^{2}.\label{eq:Quadratic Scaling}
+r_{\text{interparty}}=r_{0}A_{\text{avalanche}}n_{\text{party}}^{2}.\label{eq:Quadratic Scaling}
 \end{equation}
 
 \end_inset
@@ -495,13 +529,12 @@ squared
 
 ).
  This is the key observation.
- Everything that follows is only to argue that the time is now to be concerned
- about inter-party incidents.
+ 
 \end_layout
 
 \begin_layout Standard
 Why is 
-\begin_inset Formula $n^{2}$
+\begin_inset Formula $n_{\text{party}}^{2}$
 \end_inset
 
  important? Let's look at the rate that our a given party will be involved
@@ -511,7 +544,7 @@ Why is
 \begin_layout Standard
 \begin_inset Formula 
 \[
-R_{\text{incident}}=R_{\text{avalanche}}+R_{\text{interparty}}
+r_{\text{incident}}=r_{\text{avalanche}}+r_{\text{interparty}}
 \]
 
 \end_inset
@@ -526,7 +559,7 @@ That is:
 \begin_layout Standard
 \begin_inset Formula 
 \[
-R_{\text{incident}}=LA_{\text{start-zones}}(n+A_{\text{avalanche}}n^{2})
+r_{\text{incident}}=r_{0}(n_{\text{party}}+A_{\text{avalanche}}n_{\text{party}}^{2})
 \]
 
 \end_inset
@@ -541,7 +574,7 @@ or, suggestively,
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-R_{\text{incident}}=LA_{\text{start-zones}}n(1+A_{\text{avalanche}}n)\label{eq:Combined Single and multi-party accident rate}
+r_{\text{incident}}=r_{0}n_{\text{party}}(1+A_{\text{avalanche}}n_{\text{party}})\label{eq:Combined Single and multi-party accident rate}
 \end{equation}
 
 \end_inset
@@ -550,12 +583,12 @@ R_{\text{incident}}=LA_{\text{start-zones}}n(1+A_{\text{avalanche}}n)\label{eq:C
 \end_layout
 
 \begin_layout Standard
-If the skier density, 
-\begin_inset Formula $n$
+If the party density, 
+\begin_inset Formula $n_{\text{party}}$
 \end_inset
 
 , is small, then 
-\begin_inset Formula $n^{2}$
+\begin_inset Formula $n_{\text{party}}^{2}$
 \end_inset
 
  is smaller still, just as 
@@ -564,11 +597,11 @@ If the skier density,
 
  is 0.01.
  If 
-\begin_inset Formula $n$
+\begin_inset Formula $n_{\text{party}}$
 \end_inset
 
  is larger than 1, though, then 
-\begin_inset Formula $n^{2}$
+\begin_inset Formula $n_{\text{party}}^{2}$
 \end_inset
 
  dominates the problem, just as 
@@ -587,31 +620,31 @@ reference "eq:Combined Single and multi-party accident rate"
 
 \end_inset
 
- holds the answer: it is the size of the day's typical avalanche that matters.
- Once 
-\begin_inset Formula $A_{\text{avalanche}}n\gtrsim1$
+ holds the answer: Once 
+\begin_inset Formula $A_{\text{avalanche}}n_{\text{party}}\gtrsim1$
 \end_inset
 
 , inter-party incidents will dominate.
- This is a common-sense idea – once there is roughly one party per avalanche-are
-a, any triggered avalanche is likely to hit another party.
- This notion makes intuitive sense – in-bounds avalanches at ski areas are
- scary in part because the skier density is so high.
+ This makes sense – once there is roughly one party per avalanche-area,
+ any triggered avalanche is likely to hit another party.
+ This notion is intuitive – in-bounds avalanches at ski areas are scary
+ in large part because the skier-density is so high.
 \end_layout
 
 \begin_layout Standard
-While it is challenging to predict an overall incident rate, as 
+While it is difficult to predict the overall incident rate, as the determination
+ of 
 \begin_inset Formula $L$
 \end_inset
 
- in particular is problematic, one can look at the ratio of inter-party
- incidents to total incidents:
+ is generally uncertain, one can consider the ratio of inter-party incidents
+ to total incidents:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\frac{R_{\text{interparty}}}{R_{\text{incident}}}=\frac{A_{\text{avalanche}}n^{2}}{n+A_{\text{avalanche}}n^{2}}=\frac{1}{\frac{1}{A_{\text{avalanche }}n}+1}\label{eq:RelativeIncidentFraction}
+\frac{r_{\text{interparty}}}{r_{\text{incident}}}=\frac{A_{\text{avalanche}}n_{\text{party}}^{2}}{n_{\text{party}}+A_{\text{avalanche}}n_{\text{party}}^{2}}=\frac{1}{\frac{1}{A_{\text{avalanche }}n_{\text{party}}}+1}\label{eq:RelativeIncidentFraction}
 \end{equation}
 
 \end_inset
@@ -632,7 +665,7 @@ noprefix "false"
 
 , this has the expected behavior, where inter-party incidents become significant
  as 
-\begin_inset Formula $A_{\text{avalanche}}n$
+\begin_inset Formula $A_{\text{avalanche}}n_{\text{party}}$
 \end_inset
 
  approaches 1.
@@ -704,6 +737,159 @@ name "fig:Approximate-fraction-of"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+Deriving 
+\begin_inset Formula $L$
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Deriving-likelihood"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It behooves us to discern what underpins the likelihood-of-triggering 
+\begin_inset Formula $L$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+In a day's travel, a party will affect the snow on a convoluted strip of
+ width 
+\begin_inset Formula $w_{\text{party}}$
+\end_inset
+
+ and length 
+\begin_inset Formula $l$
+\end_inset
+
+, hence 
+\begin_inset Formula $A_{\text{party}}=lw_{\text{party}}$
+\end_inset
+
+ or, more-generally, 
+\begin_inset Formula $A_{\text{party}}=w_{\text{party}}s_{\text{party}}t$
+\end_inset
+
+, where 
+\begin_inset Formula $s_{\text{party}}$
+\end_inset
+
+ is the party's speed.
+ For a ski party, 
+\begin_inset Formula $w\sim1$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+m, and 
+\begin_inset Formula $s\sim10$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+km/d.
+ The number of slides 
+\begin_inset Formula $N_{\text{slides}}$
+\end_inset
+
+ triggered in a day is then 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+N_{\text{slides}}=N_{\text{parties}}\frac{A_{\text{party}}}{A}N_{\text{start-zones}}\frac{A_{\text{start-zone}}}{A}P_{\text{trigger}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where 
+\begin_inset Formula $P_{\text{trigger}}$
+\end_inset
+
+ is the probability of triggering a given start-zone (alternatively, the
+ fraction of each start-zone that is actually triggerable).
+\end_layout
+
+\begin_layout Standard
+If we switch to densities (
+\begin_inset Formula $r_{\text{single-party}}t\equiv N_{\text{slides}}/A$
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{\text{single-party}}t=n_{\text{party}}A_{\text{party}}n_{\text{start-zones}}A_{\text{start-zone}}P_{\text{trigger}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{\text{single-party}}=w_{\text{party}}s_{\text{party}}n_{\text{party}}n_{\text{start-zones}}A_{\text{start-zone}}P_{\text{trigger}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $n_{\text{slides}}$
+\end_inset
+
+ has units of slides per unit time per unit area.
+\end_layout
+
+\begin_layout Standard
+For clarity of the original argument, we subsume some parameters into the
+ likelihood-of-triggering 
+\begin_inset Formula $L\equiv w_{\text{party}}s_{\text{party}}P_{\text{trigger}}$
+\end_inset
+
+, which has units of area per unit time.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{\text{single-party}}=Ln_{\text{start-zones}}A_{\text{start-zone}}n_{\text{party}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+as before.
 \end_layout
 
 \begin_layout Subsection
