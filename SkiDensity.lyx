@@ -404,28 +404,16 @@ any group, perhaps as small as one person, that travels independently
  If there are few-enough parties that they only ever get caught in their
  own avalanches, one expects the avalanche-incident rate per unit area per
  unit time, 
-\begin_inset Formula $r_{\text{avalanche}}$
+\begin_inset Formula $r_{\text{single-party}}$
 \end_inset
 
-, to be proportional to the total area of the start zones (
-\begin_inset Formula $A_{\text{start-zone}}$
-\end_inset
-
-), the density of start-zones 
-\begin_inset Formula $(n_{\text{start-zones}}\equiv N_{\text{start-zones}}/A)$
-\end_inset
-
-, the rate 
-\begin_inset Formula $R_{\text{trigger}}$
-\end_inset
-
- at which a party will trigger start zones, and the party density:
+, to be proportional to the party density:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-r_{\text{single-party}}=R_{\text{trigger}}n_{\text{start-zones}}A_{\text{start-zone}}n_{\text{party}}\equiv r_{0}n_{\text{party}}\label{eq:Single party avalanche rate}
+r_{\text{single-party}}=r_{0}n_{\text{party}}\label{eq:Single party avalanche rate}
 \end{equation}
 
 \end_inset
@@ -436,12 +424,26 @@ r_{\text{single-party}}=R_{\text{trigger}}n_{\text{start-zones}}A_{\text{start-z
 \begin_layout Standard
 The implications are straightforward: More parties, proportionally more
  incidents.
- More/larger start zones, proportionally more incident.
+ We estimate the many factors subsumed into 
+\begin_inset Formula $r_{0}$
+\end_inset
+
+ (avalanches per party per unit time) in Appendix 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Deriving-likelihood"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-What if there are enough parties around that there's a chance that one group
- could trigger a slide that hits another group?
+What if there are enough parties that there is a chance one group could
+ trigger a slide that hits another group?
 \end_layout
 
 \begin_layout Standard
@@ -569,6 +571,95 @@ r_{\text{incident}}=r_{0}n_{\text{party}}(1+A_{\text{avalanche}}n_{\text{party}}
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ExampleIncidentRates.pdf
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Illustrative plots showing quadratic growth in inter-party incidents surpassing
+ linear growth in single-party incidents when 
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
+\end_inset
+
+ exceeds 1; when there is more than one party per avalanche-area.
+ In this example, the critical density, 
+\begin_inset Formula $n_{\text{critical}}=XXXRC$
+\end_inset
+
+.
+ The vertical scale is poorly-determined (see Appendix 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Deriving-likelihood"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), and will vary 
+\emph on
+greatly 
+\emph default
+from day to day, but the relative rates between single-party and inter-party
+ incidents should depend only on 
+\begin_inset Formula $A_{\text{avalanche}}$
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Illustrative-example-of"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An illustrative example of these rates is shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Illustrative-example-of"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
 If the party density, 
 \begin_inset Formula $n_{\text{party}}$
 \end_inset
@@ -620,7 +711,7 @@ reference "eq:Combined Single and multi-party accident rate"
 \begin_layout Standard
 While it is difficult to predict the overall incident rate, as the determination
  of 
-\begin_inset Formula $R_{\text{trigger}}$
+\begin_inset Formula $r_{0}$
 \end_inset
 
  is generally uncertain, one can consider the ratio of inter-party incidents
@@ -726,283 +817,6 @@ name "fig:Approximate-fraction-of"
 \end_layout
 
 \begin_layout Subsection
-Deriving 
-\begin_inset Formula $R_{\text{trigger}}$
-\end_inset
-
- 
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:Deriving-likelihood"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-It behooves us to discern what underpins the likelihood-of-triggering 
-\begin_inset Formula $R_{\text{trigger}}$
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Standard
-In a day's travel, a party will affect the snow on a convoluted strip of
- width 
-\begin_inset Formula $w_{\text{party}}$
-\end_inset
-
- and length 
-\begin_inset Formula $l$
-\end_inset
-
-, hence 
-\begin_inset Formula $A_{\text{party}}=lw_{\text{party}}$
-\end_inset
-
- or, more-generally, 
-\begin_inset Formula $A_{\text{party}}=w_{\text{party}}s_{\text{party}}t$
-\end_inset
-
-, where 
-\begin_inset Formula $s_{\text{party}}$
-\end_inset
-
- is the party's speed and 
-\begin_inset Formula $t$
-\end_inset
-
- the day's travel time.
- For a ski party, 
-\begin_inset Formula $w\sim1$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-m, and 
-\begin_inset Formula $s\sim10$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km/d.
- The number of slides 
-\begin_inset Formula $N_{\text{slides}}$
-\end_inset
-
- triggered in a day is: 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-\begin_inset Formula 
-\[
-N_{\text{slides}}=N_{\text{parties}}\frac{avalanches}{party}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula 
-\[
-N_{\text{slides}}=N_{\text{parties}}N_{\text{start-zones}}\frac{avalanches}{party\cdot startzone}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula 
-\[
-N_{\text{slides}}=N_{\text{parties}}N_{\text{start-zones}}f_{\text{trigger}}\frac{startzoneVisits}{party\cdot startzone}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula 
-\[
-N_{\text{slides}}=N_{\text{parties}}N_{\text{start-zones}}f_{\text{trigger}}\frac{A_{\text{party}}}{A}\frac{A_{\text{start-zone}}}{A},
-\]
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-\begin_inset Formula 
-\[
-Avalanches=Parties\frac{Area}{Party}\frac{1}{Area}Startzones\frac{Area}{Startzone}\frac{1}{area}Avalanches,
-\]
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-where 
-\begin_inset Formula $f_{\text{trigger}}$
-\end_inset
-
- is the fraction of the start-zone where travel will trigger an avalanche.
- When avalanche-conditions are 'touchy', 
-\begin_inset Formula $f_{\text{trigger}}\sim1$
-\end_inset
-
-; when conditions are 'stubborn', 
-\begin_inset Formula $f_{\text{trigger }}\ll1$
-\end_inset
-
-.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-\begin_inset Formula $f_{\text{trigger}}$
-\end_inset
-
-has units of avalanches
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-If we switch to densities (
-\begin_inset Formula $r_{\text{single-party}}t\equiv N_{\text{slides}}/A$
-\end_inset
-
-):
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-r_{\text{single-party}}tA=n_{\text{party}}A_{\text{party}}n_{\text{start-zones}}A_{\text{start-zone}}f_{\text{trigger}}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-\begin_inset Formula 
-\[
-\frac{avalanches}{time-area}time-area=\frac{parties}{area}\frac{area}{party}\frac{startzones}{area}\frac{area}{startzone}avalanches
-\]
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-r_{\text{single-party}}=\frac{w_{\text{party}}s_{\text{party}}f_{\text{trigger}}}{A}n_{\text{party}}n_{\text{start-zones}}A_{\text{start-zone}}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-where 
-\begin_inset Formula $n_{\text{slides}}$
-\end_inset
-
- has units of slides per unit time per unit area.
-\end_layout
-
-\begin_layout Standard
-For clarity of the original argument, we subsume some parameters into the
- rate 
-\begin_inset Formula $R_{\text{trigger}}\equiv w_{\text{party}}s_{\text{party}}f_{\text{trigger}}/A$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-r_{\text{single-party}}=R_{\text{trigger}}n_{\text{start-zones}}A_{\text{start-zone}}n_{\text{party}}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-as before.
-\end_layout
-
-\begin_layout Subsection
-Sensitivity to area estimation XXXRC
-\end_layout
-
-\begin_layout Standard
-Show that 
-\begin_inset Formula $r_{\text{single-party}}\propto\frac{1}{A^{3}}$
-\end_inset
-
-, so the assignment of 
-\begin_inset Formula $A$
-\end_inset
-
- is of spectacular importance.
- XXXRC Consider moving sections B and C to an Appendix? XXXRC
-\end_layout
-
-\begin_layout Subsection
 Relationship of inter-party incident rate to avalanche size
 \end_layout
 
@@ -1025,7 +839,7 @@ reference "eq:Combined Single and multi-party accident rate"
  is greater, we should expect the rate at which inter-party incidents occur
  to be greater.
  If slides are more likely or larger, 
-\begin_inset Formula $LA_{\text{startzones}}$
+\begin_inset Formula $r_{0}$
 \end_inset
 
  will tend to increase, and if slides are larger, 
@@ -1036,6 +850,32 @@ reference "eq:Combined Single and multi-party accident rate"
  As backcountry travelers, larger and more-likely slides will force wary
  travelers to consider larger areas (further uphill) and more places (increased
  number of potential start zones) in the context of inter-party incidents.
+ In our model, situations with 
+\begin_inset Formula $A_{\text{avalanche}}n_{\text{party}}\gtrsim1$
+\end_inset
+
+ are likely to involve inter-party incidents.
+ Indeed, if 
+\begin_inset Formula $A_{\text{avalanche}}$
+\end_inset
+
+ is large-enough, as in the 0.13
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset Formula $^{2}$
+\end_inset
+
+ Jumbo Mountain slide
+\begin_inset CommandInset citation
+LatexCommand citet
+key "JumboMountain"
+literal "false"
+
+\end_inset
+
+, backcountry travelers can even bury parties sitting at home on a sofa.
 \end_layout
 
 \begin_layout Subsection
@@ -2837,6 +2677,384 @@ I would like to thank Susan Ashlock for her perpetual support/tolerance
 scue organizations who have not only saved many of the lives described herein,
  but also generated the documentation needed to help us save lives in the
  future.
+\end_layout
+
+\begin_layout Section
+\start_of_appendix
+Estimating the triggering-likelihood 
+\begin_inset Formula $r_{0}$
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Deriving-likelihood"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is interesting to discern what underpins the likelihood-of-triggering
+ 
+\begin_inset Formula $r_{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Let the area of the day's typical start zones be 
+\begin_inset Formula $A_{\text{start-zone}}$
+\end_inset
+
+ and the density of start-zones be 
+\begin_inset Formula $n_{\text{start-zones}}\equiv N_{\text{start-zones}}/A$
+\end_inset
+
+.
+ In a day's travel, a party will affect the snow on a convoluted strip of
+ width 
+\begin_inset Formula $w_{\text{party}}$
+\end_inset
+
+ and length 
+\begin_inset Formula $l$
+\end_inset
+
+, hence 
+\begin_inset Formula $A_{\text{party}}=lw_{\text{party}}$
+\end_inset
+
+ or, more-generally, 
+\begin_inset Formula $A_{\text{party}}=w_{\text{party}}s_{\text{party}}t$
+\end_inset
+
+, where 
+\begin_inset Formula $s_{\text{party}}$
+\end_inset
+
+ is the party's speed and 
+\begin_inset Formula $t$
+\end_inset
+
+ the day's travel time.
+ For a ski party, 
+\begin_inset Formula $w\sim1$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+m, and 
+\begin_inset Formula $s\sim10$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+km/d.
+ The number of slides 
+\begin_inset Formula $N_{\text{slides}}$
+\end_inset
+
+ triggered in a day is then: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+N_{\text{slides}}=N_{\text{parties}}\frac{A_{\text{party}}}{A}N_{\text{start-zones}}\frac{A_{\text{start-zone}}}{A}f_{\text{trigger}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+N_{\text{slides}}=N_{\text{parties}}\frac{avalanches}{party}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+N_{\text{slides}}=N_{\text{parties}}N_{\text{start-zones}}\frac{avalanches}{party\cdot startzone}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+N_{\text{slides}}=N_{\text{parties}}N_{\text{start-zones}}f_{\text{trigger}}\frac{startzoneVisits}{party\cdot startzone}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+N_{\text{slides}}=N_{\text{parties}}N_{\text{start-zones}}f_{\text{trigger}}\frac{A_{\text{party}}}{A}\frac{A_{\text{start-zone}}}{A},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+Avalanches=Parties\frac{Area}{Party}\frac{1}{Area}Startzones\frac{Area}{Startzone}\frac{1}{area}Avalanches,
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $f_{\text{trigger}}$
+\end_inset
+
+ is the fraction of the start-zone where travel will trigger an avalanche.
+ When avalanche-conditions are 'touchy', 
+\begin_inset Formula $f_{\text{trigger}}\sim1$
+\end_inset
+
+; when conditions are 'stubborn', 
+\begin_inset Formula $f_{\text{trigger }}\ll1$
+\end_inset
+
+.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Formula $f_{\text{trigger}}$
+\end_inset
+
+has units of avalanches
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If we switch to densities (
+\begin_inset Formula $r_{\text{single-party}}t\equiv N_{\text{slides}}/A$
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{\text{single-party}}tA=n_{\text{party}}A_{\text{party}}n_{\text{start-zones}}A_{\text{start-zone}}f_{\text{trigger}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\frac{avalanches}{time-area}time-area=\frac{parties}{area}\frac{area}{party}\frac{startzones}{area}\frac{area}{startzone}avalanches
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{\text{single-party}}=\frac{w_{\text{party}}s_{\text{party}}f_{\text{trigger}}}{A}n_{\text{party}}n_{\text{start-zones}}A_{\text{start-zone}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $n_{\text{slides}}$
+\end_inset
+
+ has units of slides per unit time per unit area.
+\end_layout
+
+\begin_layout Standard
+For simplicity, we can now define 
+\begin_inset Formula $r_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{0}\equiv\frac{w_{\text{party}}s_{\text{party}}f_{\text{trigger}}}{A}n_{\text{start-zones}}A_{\text{start-zone}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+so that
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{\text{single-party}}=r_{0}n_{\text{party}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+as needed.
+\end_layout
+
+\begin_layout Subsection
+Sensitivity to area estimation
+\end_layout
+
+\begin_layout Standard
+These estimations are sensitive to the determination of 
+\begin_inset Formula $A$
+\end_inset
+
+, which is subjective.
+ If our parties and start-zones are uniformly distributed, these rates are
+ insensitive to 
+\begin_inset Formula $A$
+\end_inset
+
+, but if our parties tend to congregate near start-zones, 
+\begin_inset Formula $A$
+\end_inset
+
+'s determination becomes a challenge; the only compensatory term is the
+ time spent within 
+\begin_inset Formula $A$
+\end_inset
+
+, 
+\begin_inset Formula $t$
+\end_inset
+
+, which will tend to decrease as 
+\begin_inset Formula $A$
+\end_inset
+
+ contracts.
+\end_layout
+
+\begin_layout Standard
+The crossover from single-party incidents to inter-party incidents is least-sens
+itive:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+n_{\text{party}}A_{\text{avalanche}}=\frac{N_{\text{parties}}A_{\text{avalanche}}}{A}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The rate estimations are very sensitive, as 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{\text{single-party}}=\frac{N_{\text{parties}}}{A}\frac{w_{\text{party}}s_{\text{party}}f_{\text{trigger}}}{A}\frac{1}{t}\frac{N_{\text{start-zones}}}{A}A_{\text{start-zone}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\frac{1}{A^{3}t}N_{\text{parties}}w_{\text{party}}s_{\text{party}}f_{\text{trigger}}N_{\text{start-zones}}A_{\text{start-zone}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For these reasons, it will be difficult for quantitative estimates of these
+ rates and critical densities to be more accurate than a factor of two in
+ the best of cases and often substantially more.
 \end_layout
 
 \begin_layout Standard
