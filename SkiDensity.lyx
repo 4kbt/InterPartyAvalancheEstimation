@@ -415,31 +415,17 @@ any group, perhaps as small as one person, that travels independently
 \begin_inset Formula $(n_{\text{start-zones}}\equiv N_{\text{start-zones}}/A)$
 \end_inset
 
-, and the likelihood for a party to trigger a start zone 
-\begin_inset Formula $L$
+, the rate 
+\begin_inset Formula $R_{\text{trigger}}$
 \end_inset
 
- (
-\begin_inset Formula $L$
-\end_inset
-
- has units – definition in Section 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "subsec:Deriving-likelihood"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-), and the party density:
+ at which a party will trigger start zones, and the party density:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-r_{\text{single-party}}=Ln_{\text{start-zones}}A_{\text{start-zone}}n_{\text{party}}\equiv r_{0}n_{\text{party}}\label{eq:Single party avalanche rate}
+r_{\text{single-party}}=R_{\text{trigger}}n_{\text{start-zones}}A_{\text{start-zone}}n_{\text{party}}\equiv r_{0}n_{\text{party}}\label{eq:Single party avalanche rate}
 \end{equation}
 
 \end_inset
@@ -634,7 +620,7 @@ reference "eq:Combined Single and multi-party accident rate"
 \begin_layout Standard
 While it is difficult to predict the overall incident rate, as the determination
  of 
-\begin_inset Formula $L$
+\begin_inset Formula $R_{\text{trigger}}$
 \end_inset
 
  is generally uncertain, one can consider the ratio of inter-party incidents
@@ -741,7 +727,7 @@ name "fig:Approximate-fraction-of"
 
 \begin_layout Subsection
 Deriving 
-\begin_inset Formula $L$
+\begin_inset Formula $R_{\text{trigger}}$
 \end_inset
 
  
@@ -756,7 +742,7 @@ name "subsec:Deriving-likelihood"
 
 \begin_layout Standard
 It behooves us to discern what underpins the likelihood-of-triggering 
-\begin_inset Formula $L$
+\begin_inset Formula $R_{\text{trigger}}$
 \end_inset
 
 .
@@ -785,7 +771,11 @@ In a day's travel, a party will affect the snow on a convoluted strip of
 \begin_inset Formula $s_{\text{party}}$
 \end_inset
 
- is the party's speed.
+ is the party's speed and 
+\begin_inset Formula $t$
+\end_inset
+
+ the day's travel time.
  For a ski party, 
 \begin_inset Formula $w\sim1$
 \end_inset
@@ -807,13 +797,17 @@ km/d.
 \begin_inset Formula $N_{\text{slides}}$
 \end_inset
 
- triggered in a day is then 
+ triggered in a day is: 
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 \begin_inset Formula 
 \[
-N_{\text{slides}}=N_{\text{parties}}\frac{A_{\text{party}}}{A}N_{\text{start-zones}}\frac{A_{\text{start-zone}}}{A}P_{\text{trigger}}
+N_{\text{slides}}=N_{\text{parties}}\frac{avalanches}{party}
 \]
 
 \end_inset
@@ -821,13 +815,92 @@ N_{\text{slides}}=N_{\text{parties}}\frac{A_{\text{party}}}{A}N_{\text{start-zon
 
 \end_layout
 
-\begin_layout Standard
-Where 
-\begin_inset Formula $P_{\text{trigger}}$
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+N_{\text{slides}}=N_{\text{parties}}N_{\text{start-zones}}\frac{avalanches}{party\cdot startzone}
+\]
+
 \end_inset
 
- is the probability of triggering a given start-zone (alternatively, the
- fraction of each start-zone that is actually triggerable).
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+N_{\text{slides}}=N_{\text{parties}}N_{\text{start-zones}}f_{\text{trigger}}\frac{startzoneVisits}{party\cdot startzone}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+N_{\text{slides}}=N_{\text{parties}}N_{\text{start-zones}}f_{\text{trigger}}\frac{A_{\text{party}}}{A}\frac{A_{\text{start-zone}}}{A},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+Avalanches=Parties\frac{Area}{Party}\frac{1}{Area}Startzones\frac{Area}{Startzone}\frac{1}{area}Avalanches,
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $f_{\text{trigger}}$
+\end_inset
+
+ is the fraction of the start-zone where travel will trigger an avalanche.
+ When avalanche-conditions are 'touchy', 
+\begin_inset Formula $f_{\text{trigger}}\sim1$
+\end_inset
+
+; when conditions are 'stubborn', 
+\begin_inset Formula $f_{\text{trigger }}\ll1$
+\end_inset
+
+.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $f_{\text{trigger}}$
+\end_inset
+
+has units of avalanches
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -841,8 +914,28 @@ If we switch to densities (
 \begin_layout Standard
 \begin_inset Formula 
 \[
-r_{\text{single-party}}t=n_{\text{party}}A_{\text{party}}n_{\text{start-zones}}A_{\text{start-zone}}P_{\text{trigger}}
+r_{\text{single-party}}tA=n_{\text{party}}A_{\text{party}}n_{\text{start-zones}}A_{\text{start-zone}}f_{\text{trigger}}
 \]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\frac{avalanches}{time-area}time-area=\frac{parties}{area}\frac{area}{party}\frac{startzones}{area}\frac{area}{startzone}avalanches
+\]
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -852,7 +945,7 @@ r_{\text{single-party}}t=n_{\text{party}}A_{\text{party}}n_{\text{start-zones}}A
 \begin_layout Standard
 \begin_inset Formula 
 \[
-r_{\text{single-party}}=w_{\text{party}}s_{\text{party}}n_{\text{party}}n_{\text{start-zones}}A_{\text{start-zone}}P_{\text{trigger}}
+r_{\text{single-party}}=\frac{w_{\text{party}}s_{\text{party}}f_{\text{trigger}}}{A}n_{\text{party}}n_{\text{start-zones}}A_{\text{start-zone}}
 \]
 
 \end_inset
@@ -870,17 +963,17 @@ where
 
 \begin_layout Standard
 For clarity of the original argument, we subsume some parameters into the
- likelihood-of-triggering 
-\begin_inset Formula $L\equiv w_{\text{party}}s_{\text{party}}P_{\text{trigger}}$
+ rate 
+\begin_inset Formula $R_{\text{trigger}}\equiv w_{\text{party}}s_{\text{party}}f_{\text{trigger}}/A$
 \end_inset
 
-, which has units of area per unit time.
+.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-r_{\text{single-party}}=Ln_{\text{start-zones}}A_{\text{start-zone}}n_{\text{party}}
+r_{\text{single-party}}=R_{\text{trigger}}n_{\text{start-zones}}A_{\text{start-zone}}n_{\text{party}}
 \]
 
 \end_inset
