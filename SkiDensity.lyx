@@ -986,6 +986,23 @@ as before.
 \end_layout
 
 \begin_layout Subsection
+Sensitivity to area estimation XXXRC
+\end_layout
+
+\begin_layout Standard
+Show that 
+\begin_inset Formula $r_{\text{single-party}}\propto\frac{1}{A^{3}}$
+\end_inset
+
+, so the assignment of 
+\begin_inset Formula $A$
+\end_inset
+
+ is of spectacular importance.
+ XXXRC Consider moving sections B and C to an Appendix? XXXRC
+\end_layout
+
+\begin_layout Subsection
 Relationship of inter-party incident rate to avalanche size
 \end_layout
 
