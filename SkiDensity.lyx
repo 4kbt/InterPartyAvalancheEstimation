@@ -1989,7 +1989,15 @@ As advocacy organizations work to expand wintertime access, it may be reasonable
 \begin_inset Formula $^{2}$
 \end_inset
 
- in area.
+ in area
+\begin_inset CommandInset citation
+LatexCommand citet
+key "SWAG"
+literal "false"
+
+\end_inset
+
+.
  Hence, encouraging party densities below 10-100 parties/km
 \begin_inset Formula $^{2}$
 \end_inset
