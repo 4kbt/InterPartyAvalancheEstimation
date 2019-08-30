@@ -572,23 +572,22 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-[XXXRC plot is wrong]
-\end_layout
-
-\end_inset
-
 Illustrative plots showing quadratic growth in inter-party incidents surpassing
  linear growth in single-party incidents when 
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
 \end_inset
 
  exceeds 1; when there is more than one party per avalanche-area.
- In this example, the critical density, 
-\begin_inset Formula $n_{\text{critical}}=XXXRC$
+ In this example, the critical density is 
+\begin_inset Formula $n_{\text{critical}}=100$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+parties/km
+\begin_inset Formula $^{2}$
 \end_inset
 
 .
@@ -603,15 +602,21 @@ noprefix "false"
 \end_inset
 
 ), and will vary 
+\bar under
+greatly
 \emph on
-greatly 
+\bar default
+ 
 \emph default
 from day to day, but the relative rates between single-party and inter-party
- incidents should depend only on 
+ incidents depend only on 
 \begin_inset Formula $A_{\text{avalanche}}$
 \end_inset
 
 .
+ The parameters were chosen to emulate the Kendall Peak incident; if the
+ absolute rates seem low, it is likely because this model does not account
+ for travelers' affinity for start zones.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Illustrative-example-of"
@@ -1974,7 +1979,26 @@ literal "false"
 As advocacy organizations work to expand wintertime access, it may be reasonable
  to add safety to the reasons for improved access.
  Inferring from our estimates, it is natural to encourage party densities
- below one per characteristic-avalanche-size (XXXRC < 0.1-1 parties/acre?)
+ below one per characteristic-avalanche-size.
+ D2 slides are roughly 0.01 km
+\begin_inset Formula $^{2}$
+\end_inset
+
+ in area.
+ D3 slides are roughly 0.1 km
+\begin_inset Formula $^{2}$
+\end_inset
+
+ in area.
+ Hence, encouraging party densities below 10-100 parties/km
+\begin_inset Formula $^{2}$
+\end_inset
+
+ 
+\emph on
+in localized avalanche terrain
+\emph default
+ would be prudent.
 \end_layout
 
 \begin_layout Subsection
