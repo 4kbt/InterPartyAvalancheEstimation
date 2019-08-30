@@ -881,7 +881,7 @@ km
 
  Jumbo Mountain slide
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "JumboMountain"
 literal "false"
 
@@ -1123,19 +1123,9 @@ For incidents where documentation makes it possible, we have attempted to
 .
  The areas were measured using Caltopo 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Caltopo"
 literal "false"
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-XXXRC citation error
-\end_layout
 
 \end_inset
 
@@ -1267,16 +1257,6 @@ Perhaps the most-spectacular inter-party accident
 LatexCommand citep
 key "CodeBlackBoulderMountain,BoulderMountainResponseReview,TurboHillPreliminaryReport"
 literal "false"
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-XXXRC citation error
-\end_layout
 
 \end_inset
 
@@ -2437,19 +2417,9 @@ Back Bowls
  traffic, and move the uphill traffic to safer locations.
  The US Ski Mountaineering Association maintains an updated list
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "UphillPolicies"
 literal "false"
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-XXXRC citation broken
-\end_layout
 
 \end_inset
 
@@ -2653,19 +2623,9 @@ scan
  functionality to future radios.
  Aviation radios
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "RadioGarmin,RadioBendix"
 literal "false"
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-XXXRC broken citation
-\end_layout
 
 \end_inset
 
