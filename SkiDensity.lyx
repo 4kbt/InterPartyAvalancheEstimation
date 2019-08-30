@@ -2713,16 +2713,32 @@ Conclusion
 \end_layout
 
 \begin_layout Standard
-XXXRC 
-\begin_inset Formula $A_{\text{avalanche}}$
-\end_inset
-
- matters!
+We have made a first-principles estimation of the scaling of inter-party
+ avalanche incidents with party-density and found it to be quadratic.
+ Furthermore, we find that inter-party incidents should become a significant
+ fraction of avalanche incidents with the localized party density approaches
+ one party per avalanche area.
+ This result is independent of the day's likelihood of triggering avalanches.
 \end_layout
 
 \begin_layout Standard
-As I type this sentence in an autumn Seattle coffee shop, customers nearby
- are discussing how their friends encountered 
+We explored a series of North-American avalanche incidents in order to show
+ varied ways in which inter-party incidents have occurred.
+ Moreover, the party-densities at which these incidents occurred are roughly
+ consistent with our model.
+\end_layout
+
+\begin_layout Standard
+We enumerated and discussed a number of possible strategies for mitigating
+ inter-party avalanche hazards.
+ Improved awareness, spreading our parties out over greater area, travelling
+ with others in mind, implementing regional travel standards, and communicating
+ more-effectively may all help to limit the number of incidents.
+\end_layout
+
+\begin_layout Standard
+As this work was drafted in an autumn-2018 Seattle coffee shop, customers
+ discussed how their friends encountered 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2731,8 +2747,9 @@ lines of cars
 \end_inset
 
  at a local hiking trailhead.
- This aligns with our experience this summer, with unprecedented numbers
- of wilderness travelers at every trailhead.
+ This aligns with our experience in recent years, with unprecedented numbers
+ of wilderness travelers at every trailhead and the disappearance of lonely
+ places in the mountains.
  Inter-party avalanche incidents are coming, if they have not already arrived.
  It behooves us, individually and as a community, to develop strategies
  to proactively address this emerging hazard.
