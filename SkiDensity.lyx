@@ -2413,8 +2413,16 @@ Back Bowls
  the lift-accessible backcountry during times of instability is inadvisable.
  Furthermore, the skiers returning to the ski area are often travelling
  fast on the most-tempting skintrack.
- Recent efforts [XXXRC cite] have helped to separate uphill and downhill
- traffic, and move the uphill traffic to safer locations.
+ Recent efforts
+\begin_inset CommandInset citation
+LatexCommand citep
+key "NWACUphillPanel"
+literal "false"
+
+\end_inset
+
+ have helped to separate uphill and downhill traffic, and move uphill traffic
+ to safer locations.
  The US Ski Mountaineering Association maintains an updated list
 \begin_inset CommandInset citation
 LatexCommand citep
