@@ -111,6 +111,7 @@ We estimate from first principles a common-sense result: When the density
 \end_layout
 
 \begin_layout Standard
+\align center
 
 \emph on
 For Monty Busbee
@@ -122,7 +123,6 @@ literal "false"
 \end_inset
 
 , and for you.
- May we learn from tragedy.
 \end_layout
 
 \begin_layout Section
@@ -149,9 +149,9 @@ status open
 
 \end_inset
 
-in the United States and around the world.
- It is common sense that, at some density of backcountry travelers, avalanches
- triggered by one party will be likely to strike another.
+ in the United States and around the world.
+ At some density of backcountry travelers, avalanches triggered by one party
+ will be likely to strike another.
  This work gives formal voice to this idea and, further, suggests that the
  time when such incidents become frequent is either now or in the near future.
  In Section 
@@ -164,7 +164,7 @@ noprefix "false"
 
 \end_inset
 
-, we attempt to estimate the relevant critical density from first principles.
+, we estimate the relevant critical density from first principles.
  In Section 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -175,7 +175,7 @@ noprefix "false"
 
 \end_inset
 
-, we enumerate several recent avalanche accidents in North America.
+, we enumerate several recent inter-party avalanche incidents in North America.
  In Section 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -186,17 +186,16 @@ noprefix "false"
 
 \end_inset
 
-, we enumerate and discuss a limited number of strategies that may partially
- mitigate the risk.
+, we enumerate and discuss strategies that may partially mitigate the risk.
 \end_layout
 
 \begin_layout Standard
 Many authors have described, directly[XXXRC cite] and indirectly[XXXRC cite],
  the emerging hazard of inter-party incidents.
  The purpose of this work is to provide a framework within which to discuss
- and estimate the magnitude of the concern, address it directly as a seperate
- hazard, and spur discussion of strategies to reduce the likelihood of future
- inter-party incidents.
+ and estimate the magnitude of the concern, address it directly as a hazard,
+ and spur discussion of strategies to reduce the likelihood of future inter-part
+y incidents.
 \end_layout
 
 \begin_layout Standard
@@ -224,26 +223,13 @@ name "sec:Estimation"
 \end_layout
 
 \begin_layout Standard
-With the emergence of inter-party avalanche incidents as a concern (see
- Section 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:Significant-Accidents"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-), it is interesting and useful to develop a first-principles model for
- their likelihood.
+To assess inter-party avalanche incidents as a concern, it is interesting
+ and useful to develop a first-principles model for their likelihood.
  The estimation that follows is a simple approach to the problem that is
- likely to require small corrections to yield quantitiatively-accurate predictio
-ns.
- This model does, however, have qualitative predictive power, predicting
- both that the inter-party incident rate is quadratic in party density and
- that there is a critical density at which the inter-party incident rate
- becomes significant.
+ likely to require small corrections to yield quantitiative predictions.
+ This model has qualitative predictive power, predicting both that the inter-par
+ty incident rate is quadratic in party density and that there is a critical
+ party-density at which the inter-party incident rate becomes significant.
 \end_layout
 
 \begin_layout Standard
@@ -272,7 +258,7 @@ Diagram showing the definitions of
 \end_inset
 
 , 
-\begin_inset Formula $A_{\text{startzones}},$
+\begin_inset Formula $A_{\text{startzone}},$
 \end_inset
 
 and 
@@ -281,14 +267,10 @@ and
 
 .
  
-\begin_inset Formula $A_{\text{startzones}}$
+\begin_inset Formula $A_{\text{startzone}}$
 \end_inset
 
- is the 
-\emph on
-sum
-\emph default
- of the area of the start-zones.
+ is the area of a day's typical individual start-zone.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Diagram-showing-the"
@@ -343,7 +325,7 @@ noprefix "false"
 \end_inset
 
 , where 
-\begin_inset Formula $N\gg1$
+\begin_inset Formula $N_{\text{parties}}>1$
 \end_inset
 
 
@@ -352,27 +334,27 @@ status open
 
 \begin_layout Plain Layout
 Astute readers will note that when 
-\begin_inset Formula $N$
+\begin_inset Formula $N_{\text{parties}}$
 \end_inset
 
  is small, the analysis is complex and distracting.
  The large 
-\begin_inset Formula $N$
+\begin_inset Formula $N_{\text{parties}}$
 \end_inset
 
  analysis still applies when 
-\begin_inset Formula $n$
+\begin_inset Formula $n_{\text{party}}$
 \end_inset
 
  is small, and the 
-\begin_inset Formula $n^{2}$
+\begin_inset Formula $n_{\text{party}}^{2}$
 \end_inset
 
  scaling should persist for small 
-\begin_inset Formula $N$
+\begin_inset Formula $N_{\text{parties}}$
 \end_inset
 
-
+.
 \end_layout
 
 \end_inset
@@ -391,7 +373,7 @@ party
 \begin_inset Quotes eld
 \end_inset
 
-any group, perhaps as small as one person, that travels independently
+any group, as small as one person, that travels independently
 \begin_inset Quotes erd
 \end_inset
 
@@ -422,8 +404,7 @@ r_{\text{single-party}}=r_{0}n_{\text{party}}\label{eq:Single party avalanche ra
 \end_layout
 
 \begin_layout Standard
-The implications are straightforward: More parties, proportionally more
- incidents.
+The implication is straightforward: More parties, proportionally more incidents.
  We estimate the many factors subsumed into 
 \begin_inset Formula $r_{0}$
 \end_inset
@@ -447,7 +428,7 @@ What if there are enough parties that there is a chance one group could
 \end_layout
 
 \begin_layout Standard
-There are two factors that are important:
+There are two important factors:
 \end_layout
 
 \begin_layout Enumerate
@@ -456,12 +437,12 @@ When there are more parties in an area, they will trigger more avalanches
 \begin_inset Formula $r_{0}n_{\text{party}}$
 \end_inset
 
-), just as before.
+), as before.
  
 \end_layout
 
 \begin_layout Enumerate
-If the average avalanche that day sweeps through a total area 
+If the average avalanche that day sweeps through an area 
 \begin_inset Formula $A_{\text{avalanche}}$
 \end_inset
 
@@ -525,8 +506,8 @@ Why is
 \begin_inset Formula $n_{\text{party}}^{2}$
 \end_inset
 
- important? Let's look at the rate that our a given party will be involved
- in an incident of either kind by summing the rates:
+ important? Let's look at the rate that parties will be involved in an incident
+ of either kind by summing the rates:
 \end_layout
 
 \begin_layout Standard
@@ -591,6 +572,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+[XXXRC plot is wrong]
+\end_layout
+
+\end_inset
+
 Illustrative plots showing quadratic growth in inter-party incidents surpassing
  linear growth in single-party incidents when 
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
@@ -646,7 +636,7 @@ name "fig:Illustrative-example-of"
 \end_layout
 
 \begin_layout Standard
-An illustrative example of these rates is shown in Figure 
+An illustrative plot of these rates is shown in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Illustrative-example-of"
@@ -706,6 +696,23 @@ reference "eq:Combined Single and multi-party accident rate"
  any triggered avalanche is likely to hit another party.
  This notion is intuitive – in-bounds avalanches at ski areas are scary
  in large part because the skier-density is so high.
+ 
+\end_layout
+
+\begin_layout Standard
+We define this critical density as 
+\begin_inset Formula $n_{\text{critical}}\equiv1/A_{\text{avalanche}}$
+\end_inset
+
+.
+ It is of particular utility because it depends 
+\bar under
+only
+\bar default
+ on the expected size of a day's avalanches, and not on any other property
+ of a day's anticipated instability, including the likelihood of triggering
+ a slide.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -714,8 +721,8 @@ While it is difficult to predict the overall incident rate, as the determination
 \begin_inset Formula $r_{0}$
 \end_inset
 
- is generally uncertain, one can consider the ratio of inter-party incidents
- to total incidents:
+ is uncertain, one can consider the ratio of inter-party incidents to total
+ incidents:
 \end_layout
 
 \begin_layout Standard
@@ -835,10 +842,10 @@ reference "eq:Combined Single and multi-party accident rate"
 
 \end_inset
 
- suggest an important corollary: If the size or likelihood of a day's avalanches
+ have an important corollary: If the size or likelihood of a day's avalanches
  is greater, we should expect the rate at which inter-party incidents occur
  to be greater.
- If slides are more likely or larger, 
+ If slides are more likely, 
 \begin_inset Formula $r_{0}$
 \end_inset
 
@@ -846,7 +853,7 @@ reference "eq:Combined Single and multi-party accident rate"
 \begin_inset Formula $A_{\text{avalanche}}$
 \end_inset
 
- is surely larger.
+ is larger.
  As backcountry travelers, larger and more-likely slides will force wary
  travelers to consider larger areas (further uphill) and more places (increased
  number of potential start zones) in the context of inter-party incidents.
@@ -883,18 +890,10 @@ Relationship of inter-party incident rate to terrain
 \end_layout
 
 \begin_layout Standard
-Looking at the equations in Section 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "subsec:Derivation"
-
-\end_inset
-
-, one would expect both the incident rate and the inter-party incident rates
- to be relatively low.
- Even in mountainous terrain, it is a rare region in which the entire area
- is a start zone, and much of even mountainous terrain is not avalanche
- terrain.
+Looking at the equations alone, one would expect both the incident rate
+ and the inter-party incident rates to be relatively low.
+ Even in mountainous terrain, start-zones are comparatively small, and much
+ of the area is not avalanche terrain.
 \end_layout
 
 \begin_layout Standard
@@ -939,8 +938,8 @@ parties/km
 \end_inset
 
 .
- For scale, the population density of the nearby city of Seattle, WA is
- about 3,400 people/km
+ For scale, the population density of the nearby city of Seattle, Washington
+ is about 3,400 people/km
 \begin_inset Formula $^{2}$
 \end_inset
 
@@ -1082,19 +1081,18 @@ name "sec:Significant-Accidents"
 \end_layout
 
 \begin_layout Standard
-In this Section, we enumerate a series of inter-party incidents, near-misses,
- and possible inter-party incidents.
+Here, we enumerate a series of inter-party incidents, near-misses, and possible
+ inter-party incidents.
  A subjective summary from an inter-party-incident context is provided.
  The reader is directed to the references for more detail.
  Several of the incidents appear to have been reported only informally.
- It is a particular surprise that it has been difficult to find official
- accident reports for many of the Canadian avalanches, all of which have
- required rescue or a coroner.
+ It is a particular surprise that it has been difficult to find formal accident
+ reports for many of the Canadian avalanches, all of which have required
+ rescue or a coroner.
 \end_layout
 
 \begin_layout Standard
-While the driving force for this entire paper is the accident described
- in Section 
+While the catalyst for this paper is the accident described in Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:December19"
@@ -1107,7 +1105,7 @@ noprefix "false"
 , these incidents are presented in chronological order.
  This enumeration is not intended to be comprehensive, but rather to provide
  both a sense of the varied types of inter-party incidents and to make clear
- that these incidents are not rare.
+ that these incidents happen.
 \end_layout
 
 \begin_layout Standard
@@ -1126,6 +1124,16 @@ literal "false"
 
 \end_inset
 
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+XXXRC citation error
+\end_layout
+
+\end_inset
+
  and attempt to cover the terrain that would reasonably be regarded as 
 \begin_inset Quotes eld
 \end_inset
@@ -1134,7 +1142,18 @@ connected
 \begin_inset Quotes erd
 \end_inset
 
- by an observer on the ground; this is an inherently-subjective measurement.
+ by an observer on the ground; this is an inherently-subjective measurement
+ (see Appendix 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Sensitivity-to-area"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Subsection
@@ -1143,7 +1162,6 @@ Nisqually/Wilson Glaciers, June 14, 2008
 
 \begin_layout Standard
 On a weekend that surprised skiers on at least three Cascadian volcanoes
- 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "CharlieWyeast,CrokattHood,HummelCircumnav,CharlieSWChutes"
@@ -1151,7 +1169,7 @@ literal "false"
 
 \end_inset
 
-with large summertime slab avalanches, a party of descending skiers triggered
+ with large summer slab avalanches, a party of descending skiers triggered
  a slab
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1199,7 +1217,7 @@ km
 \end_inset
 
  
-\begin_inset Formula $n\gtrsim2.3$
+\begin_inset Formula $n_{\text{party}}\gtrsim2.3$
 \end_inset
 
  parties/km
@@ -1221,7 +1239,7 @@ km
 
 .
  
-\begin_inset Formula $nA_{\text{avalanche}}\sim0.05$
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.05$
 \end_inset
 
 .
@@ -1247,17 +1265,30 @@ literal "false"
 
 \end_inset
 
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+XXXRC citation error
+\end_layout
+
+\end_inset
+
  of which the author is aware: A snowmobiling festival/competition, with
- snowmobiles highmarking above ~200 spectators below at the time of the
- slide, was directly struck by a D3 slide presumed to have been triggered
- by a participant.
+ snowmobiles highmarking above 
+\begin_inset Formula $\sim200$
+\end_inset
+
+ spectators below at the time of the slide, was directly struck by a D3
+ slide presumed to have been triggered by a participant.
  Approximately forty people were buried, with 32 injured and two fatalities.
  The on-scene coordination and rescue response were remarkably effective
  for such a chaotic event.
 \end_layout
 
 \begin_layout Standard
-After-action review 
+After-action review
 \begin_inset CommandInset citation
 LatexCommand citep
 key "ParksCanadaBoulderMountainPresentation"
@@ -1290,7 +1321,7 @@ km
 \end_inset
 
  
-\begin_inset Formula $15<n<100$
+\begin_inset Formula $15<n_{\text{party}}<100$
 \end_inset
 
  parties/km
@@ -1312,7 +1343,7 @@ km
 
 .
  
-\begin_inset Formula $3<nA_{\text{avalanche}}<20$
+\begin_inset Formula $3<n_{\text{party}}A_{\text{avalanche}}<20$
 \end_inset
 
 .
@@ -1425,7 +1456,7 @@ name "subsec:December19"
 
 \begin_layout Standard
 This accident is the catalyst for this work.
- As detailed by the NWAC accident report 
+ As detailed by the NWAC accident report
 \begin_inset CommandInset citation
 LatexCommand citep
 key "KendallDecember19"
@@ -1457,8 +1488,8 @@ After an extensive search effort, exceeding 3000 person-hours, the solo-skier's
  near miss, as a minute's difference in timing would have seen the second
  party struck by the first.
  NWAC's analysis of the accident does not take a position on whether the
- fatality was caused by an inter-party avalanche – both a soloist's self-trigger
-ed third avalanche or a natural avalanche are viable alternative hypotheses.
+ fatality was caused by an inter-party avalanche – both a third avalanche
+ triggered by the soloist or a natural avalanche remain viable hypotheses.
 \end_layout
 
 \begin_layout Standard
@@ -1475,7 +1506,7 @@ Density:
 \end_inset
 
  
-\begin_inset Formula $n>9$
+\begin_inset Formula $n_{\text{party}}>9$
 \end_inset
 
  parties/km
@@ -1493,7 +1524,7 @@ km
 
 .
  
-\begin_inset Formula $nA_{\text{avalanche}}\sim0.1$
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.1$
 \end_inset
 
 .
@@ -1551,7 +1582,15 @@ km
 \end_inset
 
  
-\begin_inset Formula $1<n<5$
+\begin_inset Formula $1<n_{\text{party}}<5$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+parties/km
+\begin_inset Formula $^{2}$
 \end_inset
 
 .
@@ -1641,7 +1680,7 @@ km
 \end_inset
 
  
-\begin_inset Formula $n\sim12.5$
+\begin_inset Formula $n_{\text{party}}\sim12.5$
 \end_inset
 
 
@@ -1667,7 +1706,7 @@ km
 
 .
  
-\begin_inset Formula $nA_{\text{avalanche}}\approx0.3\text{-}1$
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\approx0.3\text{-}1$
 \end_inset
 
 .
@@ -1795,7 +1834,15 @@ km
 \end_inset
 
 
-\begin_inset Formula $2<n<5$
+\begin_inset Formula $2<n_{\text{party}}<5$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+parties/km
+\begin_inset Formula $^{2}$
 \end_inset
 
 .
@@ -1809,7 +1856,7 @@ km
 
 .
  
-\begin_inset Formula $nA_{\text{avalanche}}\approx0.06\text{-}0.25$
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\approx0.06\text{-}0.25$
 \end_inset
 
 .
@@ -1867,7 +1914,7 @@ name "sec:Mitigation"
 It is unlikely, and perhaps undesireable, that the number of backcountry
  travelers be reduced.
  Therefore, we must find ways to limit the likelihood of inter-party incidents.
- The following are a few strategies that may mitigate the risk.
+ The following are strategies that may mitigate the risk.
  There are certainly more – these are suggested to organize and catalyze
  discussion.
 \end_layout
@@ -1877,8 +1924,8 @@ Awareness and Education
 \end_layout
 
 \begin_layout Standard
-The simple awareness of the increasing likelihood of inter-party conflict
- with density may, on its own, help to curtail inter-party incidents.
+Awareness of the increasing likelihood of inter-party conflict with density
+ may, on its own, help to curtail inter-party incidents.
  That is, of course, the intent of this work.
  In places where the density of skiers approaches the critical density,
  the hazard should be discussed and mitigated.
@@ -1926,9 +1973,8 @@ literal "false"
 \begin_layout Standard
 As advocacy organizations work to expand wintertime access, it may be reasonable
  to add safety to the reasons for improved access.
- Inferring our from introductory analysis, it is natural to encourage party
- densities below one per characteristic-avalanche-size (XXXRC < 0.1-1 parties/acr
-e?)
+ Inferring from our estimates, it is natural to encourage party densities
+ below one per characteristic-avalanche-size (XXXRC < 0.1-1 parties/acre?)
 \end_layout
 
 \begin_layout Subsection
@@ -2021,7 +2067,7 @@ Choosing
 \emph on
 not
 \emph default
- to ski (down or up) routes at times that we expect others might be ascending
+ to travel (down or up) routes at times that we expect others might be ascending
  or descending is also a form of defensive routefinding.
  Anticipating the choices of others and making our own conservative diversion
  or delay in order to limit the risks we might present to others is a mark
@@ -2033,7 +2079,7 @@ Active measures
 \end_layout
 
 \begin_layout Standard
-When we ski in start zones, we are potential triggers for avalanches.
+When we travel in start zones, we are potential triggers for avalanches.
  In addition to passive measures to ensure that we are not skiing atop other
  people, there are small measures we can take to communicate with those
  who might be below.
@@ -2047,8 +2093,9 @@ noprefix "false"
 
 \end_inset
 
-) are the superior method of communication in the backcountry, but sup As
- a simple measure, rock climbers and mountaineers yell 
+) are the superior method of communication in the backcountry, but are not
+ used by everyone, nor are they completely reliable.
+ As a simple measure, rock climbers and mountaineers yell 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2129,9 +2176,8 @@ Entering Couloir!
 \end_layout
 
 \begin_layout Standard
-These verbal warnings are, of course, antithetical to a low-impact and quiet
- winter day (and may lead to confusion, as shouts are generally a sign of
- an emergency).
+Verbal warnings are, of course, antithetical to a low-impact and quiet winter
+ day (and may lead to confusion, as shouts are generally a sign of an emergency).
  If the rate of inter-party incidents continues to grow, the necessity of
  such measures, and the approximate skier density at which they are appropriate,
  will become self-evident.
@@ -2162,7 +2208,7 @@ Regional travel standards for routes
 \begin_layout Standard
 Just as we all agree to drive on one side of a road in order to prevent
  head-on automotive collisions, community standards can improve mutually-benefic
-ial cooperation between parties that have never met.
+ial cooperation between parties who have never met.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2229,7 +2275,7 @@ Terrain-specific traditions
 \end_layout
 
 \begin_layout Standard
-In certain high-density traffic locations, it may be optimal to establish
+In certain high-density traffic locations, it may be helpful to establish
  certain local traffic patterns.
  The aviation industry has 
 \begin_inset Quotes eld
@@ -2259,7 +2305,7 @@ literal "false"
  to land and take off safely.
  While IAPs contain a level of detail not needed for backcountry travel,
  the occasional publicized traffic pattern may be of use.
- These may be best described by example:
+ These may be best described by examples:
 \end_layout
 
 \begin_layout Standard
@@ -2283,7 +2329,7 @@ km from a parking lot, with a straightforward and comparatively safe alternative
  in from above.
  In addition, those ascending from the bottom sometimes choose to transition
  to downhill skiing mid-slope, spending even longer in a hazardous spot.
- This location has become the site of inter-party conflicts 
+ This location has become the site of inter-party conflicts
 \begin_inset CommandInset citation
 LatexCommand citep
 key "BlueberryBagleyTAY,BlueberryDecemberHop,BlueberrySeattleSkintrack"
@@ -2355,13 +2401,23 @@ Back Bowls
  the lift-accessible backcountry during times of instability is inadvisable.
  Furthermore, the skiers returning to the ski area are often travelling
  fast on the most-tempting skintrack.
- Recent efforts [cite] have helped to separate uphill and downhill traffic,
- and move the uphill traffic to safer locations.
+ Recent efforts [XXXRC cite] have helped to separate uphill and downhill
+ traffic, and move the uphill traffic to safer locations.
  The US Ski Mountaineering Association maintains an updated list
 \begin_inset CommandInset citation
 LatexCommand citet
 key "UphillPolicies"
 literal "false"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+XXXRC citation broken
+\end_layout
 
 \end_inset
 
@@ -2393,8 +2449,8 @@ One of the principal difficulties in avoiding conflict between disparate
 \end_layout
 
 \begin_layout Standard
-The problems with such a system are myriad, but it may offer some utility
- to the concientious.
+The potential problems with such a system are myriad, but it may offer some
+ utility to the concientious.
 \end_layout
 
 \begin_layout Standard
@@ -2411,7 +2467,7 @@ m-tall couloir has a visibility-obscuring dog-leg about a third of the way
  down.
  Without coordination between parties in the couloir, it is possible for
  a group descending the couloir to be impacted by the actions of a group
- they've never seen.
+ they have never seen.
  A concientious party arriving at the Slot's entrance could, seeing that
  a party had entered the couloir only minutes before, choose to wait a few
  minutes for those below to clear the run.
@@ -2433,7 +2489,15 @@ back at 3pm
 \begin_inset Quotes erd
 \end_inset
 
- clock-signs may also suffice.
+ clock-signs, altered to 
+\begin_inset Quotes eld
+\end_inset
+
+dropped in at 7:45 am
+\begin_inset Quotes erd
+\end_inset
+
+ may suffice.
 \end_layout
 
 \begin_layout Subsection
@@ -2480,7 +2544,7 @@ literal "false"
 
 \end_inset
 
-.
+ channels.
 \end_layout
 
 \begin_layout Standard
@@ -2504,7 +2568,7 @@ literal "false"
 \end_inset
 
 .
- This is an emerging and promising trend.
+ This is a promising trend.
  Both a glance at a map of Bear Creek and the inclusion of two Bear Creek
  accidents in this paper suggest that, for Bear Creek locals, inter-party
  coordination is essential.
@@ -2560,6 +2624,16 @@ scan
 LatexCommand citet
 key "RadioGarmin,RadioBendix"
 literal "false"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+XXXRC broken citation
+\end_layout
 
 \end_inset
 
@@ -2647,6 +2721,14 @@ Conclusion
 \end_layout
 
 \begin_layout Standard
+XXXRC 
+\begin_inset Formula $A_{\text{avalanche}}$
+\end_inset
+
+ matters!
+\end_layout
+
+\begin_layout Standard
 As I type this sentence in an autumn Seattle coffee shop, customers nearby
  are discussing how their friends encountered 
 \begin_inset Quotes eld
@@ -2669,14 +2751,14 @@ Acknowledgements
 \end_layout
 
 \begin_layout Standard
-I would like to thank Susan Ashlock for her perpetual support/tolerance
+Big thank-yous to Susan Ashlock for her perpetual support for and tolerance
  of this project; Peg Achterman for helping to bring this paper back to
  life; Jason Alferness, Dallas Glass, and Doug Krause for assistance with
  references; S.A.
  for proofreading and suggestions; and finally, the many avalanche/search-and-re
 scue organizations who have not only saved many of the lives described herein,
- but also generated the documentation needed to help us save lives in the
- future.
+ but also generated the documentation needed to help us prevent incidents
+ in the future.
 \end_layout
 
 \begin_layout Section
@@ -2854,11 +2936,11 @@ where
 \end_inset
 
  is the fraction of the start-zone where travel will trigger an avalanche.
- When avalanche-conditions are 'touchy', 
+ When avalanche-conditions are `touchy', 
 \begin_inset Formula $f_{\text{trigger}}\sim1$
 \end_inset
 
-; when conditions are 'stubborn', 
+; when conditions are `stubborn', 
 \begin_inset Formula $f_{\text{trigger }}\ll1$
 \end_inset
 
@@ -2971,11 +3053,18 @@ r_{\text{single-party}}=r_{0}n_{\text{party}}
 \end_layout
 
 \begin_layout Standard
-as needed.
+as required.
 \end_layout
 
 \begin_layout Subsection
 Sensitivity to area estimation
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Sensitivity-to-area"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3054,7 +3143,7 @@ r_{\text{single-party}}=\frac{N_{\text{parties}}}{A}\frac{w_{\text{party}}s_{\te
 \begin_layout Standard
 For these reasons, it will be difficult for quantitative estimates of these
  rates and critical densities to be more accurate than a factor of two in
- the best of cases and often substantially more.
+ the best of cases.
 \end_layout
 
 \begin_layout Standard

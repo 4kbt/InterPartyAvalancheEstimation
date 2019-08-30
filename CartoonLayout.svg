@@ -131,10 +131,10 @@
      inkscape:current-layer="layer1"
      showgrid="false"
      units="in"
-     inkscape:window-width="1920"
-     inkscape:window-height="1038"
+     inkscape:window-width="1899"
+     inkscape:window-height="1026"
      inkscape:window-x="0"
-     inkscape:window-y="20"
+     inkscape:window-y="25"
      inkscape:window-maximized="1"
      inkscape:snap-nodes="false" />
   <metadata
@@ -286,7 +286,7 @@
          id="tspan1626-0"
          x="57.242306"
          y="206.51399"
-         style="font-size:3.17499995px;fill:#1a1a1a;stroke-width:0.26458332">startzones</tspan></text>
+         style="font-size:3.17499995px;fill:#1a1a1a;stroke-width:0.26458332">startzone</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
        d="M 44.236171,222.38322 58.01729,208.24786 75.379452,220.98495"
