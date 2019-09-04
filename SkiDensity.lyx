@@ -337,7 +337,7 @@ Astute readers will note that when
 \begin_inset Formula $N_{\text{parties}}$
 \end_inset
 
- is small, the analysis is complex and distracting.
+ is small, the analysis may require more detail to avoid a double-count.
  The large 
 \begin_inset Formula $N_{\text{parties}}$
 \end_inset
@@ -620,6 +620,24 @@ from day to day, but the relative rates between single-party and inter-party
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Illustrative-example-of"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+XXXRC previous note 
+\begin_inset Quotes eld
+\end_inset
+
+estimate rate?
+\begin_inset Quotes erd
+\end_inset
+
+ XXXRC why are these numbers so low?
+\end_layout
 
 \end_inset
 
@@ -1012,15 +1030,14 @@ Optimal conditions
 \end_layout
 
 \begin_layout Standard
-Perhaps paradoxically, 
 \begin_inset Quotes eld
 \end_inset
 
-good
+Good
 \begin_inset Quotes erd
 \end_inset
 
- conditions can also concentrate parties.
+ conditions can concentrate parties.
  Mountains and routes offer only certain optimal times for passage.
  In the Cascades, and perhaps everywhere, this can be seen prominently in
  periods of spring/summer skiing; both snowpack and limited access curtail
@@ -1093,8 +1110,8 @@ name "sec:Significant-Accidents"
 \begin_layout Standard
 Here, we enumerate a series of inter-party incidents, near-misses, and possible
  inter-party incidents.
- A subjective summary from an inter-party-incident context is provided.
- The reader is directed to the references for more detail.
+ We provide a subjective summary from an inter-party-incident perspective.
+ The references offfer expanded detail.
  Several of the incidents appear to have been reported only informally.
  It is a particular surprise that it has been difficult to find formal accident
  reports for many of the Canadian avalanches, all of which have required
@@ -1126,7 +1143,7 @@ For incidents where documentation makes it possible, we have attempted to
 \end_inset
 
 .
- The areas were measured using Caltopo 
+ The areas were measured using Caltopo
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Caltopo"
@@ -1271,8 +1288,8 @@ literal "false"
 
 \end_inset
 
- with large summer slab avalanches, a party of descending skiers triggered
- a slab
+ with large summer slab avalanches, a party of skiers descending the slopes
+ of Tahoma/Mount Rainier triggered a slab
 \begin_inset CommandInset citation
 LatexCommand citep
 key "RyanWilsonThread"
@@ -1372,10 +1389,10 @@ literal "false"
 \begin_inset Formula $\sim200$
 \end_inset
 
- spectators below at the time of the slide, was directly struck by a D3
- slide presumed to have been triggered by a participant.
+ spectators at the time of the slide, was directly struck by a D3 slide
+ presumed to have been triggered by a participant.
  Approximately forty people were buried, with 32 injured and two fatalities.
- The on-scene coordination and rescue response were remarkably effective
+ The on-scene coordination and rapid rescue response were remarkably effective
  for such a chaotic event.
 \end_layout
 
@@ -1575,7 +1592,7 @@ After an extensive search effort, exceeding 3000 person-hours, the solo-skier's
  The accident location, and the injuries to the skier, were consistent with
  an avalanche-related fatality.
  Subsequent investigation revealed that two parties had triggered avalanches
- uphill of the accident site.
+ uphill of the accident site on the afternoon of the skier's disappearance.
  Furthermore, the first of those avalanches can be regarded as an inter-party
  near miss, as a minute's difference in timing would have seen the second
  party struck by the first.
@@ -1856,13 +1873,13 @@ km
 \end_inset
 
 
-\begin_inset Formula $2\text{-5}<n$
+\begin_inset Formula $2\text{-5}<n_{\text{party}}$
 \end_inset
 
 .
  This area is extremely popular.
  
-\begin_inset Formula $n$
+\begin_inset Formula $n_{\text{party}}$
 \end_inset
 
  could easily be 10 times larger.
@@ -1880,7 +1897,7 @@ name "subsec:Hawkins"
 \end_layout
 
 \begin_layout Standard
-As detailed by the NWAC accident report 
+As detailed by the NWAC accident report
 \begin_inset CommandInset citation
 LatexCommand citep
 key "HawkinsMountain"
@@ -1938,7 +1955,7 @@ parties/km
 \end_inset
 
 .
- Avalanche area:0.03-0.05
+ Avalanche area: 0.03-0.05
 \begin_inset space ~
 \end_inset
 
@@ -2209,9 +2226,9 @@ Active measures
 
 \begin_layout Standard
 When we travel in start zones, we are potential triggers for avalanches.
- In addition to passive measures to ensure that we are not skiing atop other
- people, there are small measures we can take to communicate with those
- who might be below.
+ In addition to passive measures to ensure that we are not travelling above
+ other people, there are small measures we can take to communicate with
+ those who might be below.
  Radios (see Section 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2306,7 +2323,7 @@ Entering Couloir!
 
 \begin_layout Standard
 Verbal warnings are, of course, antithetical to a low-impact and quiet winter
- day (and may lead to confusion, as shouts are generally a sign of an emergency).
+ day (and may lead to confusion, as shouts are  a sign of an emergency).
  If the rate of inter-party incidents continues to grow, the necessity of
  such measures, and the approximate skier density at which they are appropriate,
  will become self-evident.
@@ -2492,7 +2509,7 @@ literal "false"
 
 \end_inset
 
- as a ski line..
+ as a ski line.
  In 2004, it was sufficiently rarely skied that it still made occasional
  sense
 \begin_inset CommandInset citation
@@ -2576,14 +2593,14 @@ One of the principal difficulties in avoiding conflict between disparate
 \end_layout
 
 \begin_layout Standard
-The potential problems with such a system are myriad, but it may offer some
- utility to the concientious.
+The potential problems with such a system are myriad, but it may offer utility
+ to the concientious.
 \end_layout
 
 \begin_layout Standard
-A run board may offer greater utility in constrained terrain, like The Slot
- at Snoqualmie Pass, where entering parties might note their number and
- the time at which they entered, as a note for those who follow behind.
+A run board may be more useful in constrained terrain, like The Slot at
+ Snoqualmie Pass, where entering parties might note their number and the
+ time at which they entered, as a note for those who follow behind.
  In The Slot, the overhead inter-party hazard to descending parties is non-negli
 gible.
  The 370
@@ -2675,9 +2692,9 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-In addition to the considerable utility radios add for communication within
- a party, radios offer the opportunity to promote situational awareness
- and coordination between parties.
+In addition to the utility radios have for communication within a party,
+ radios have the potential to improve situational awareness and coordination
+ between parties.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2695,7 +2712,6 @@ literal "false"
 \end_inset
 
 .
- This is a promising trend.
  Both a glance at a map of Bear Creek and the inclusion of two Bear Creek
  accidents in this paper suggest that, for Bear Creek locals, inter-party
  coordination is essential.
@@ -2866,7 +2882,7 @@ We enumerated and discussed a number of possible strategies for mitigating
 \end_layout
 
 \begin_layout Standard
-As this work was drafted in an autumn-2018 Seattle coffee shop, customers
+As this work was first drafted in an autumn-2018 Seattle coffee shop, customers
  discussed how their friends encountered 
 \begin_inset Quotes eld
 \end_inset
@@ -2878,7 +2894,7 @@ lines of cars
  at a local hiking trailhead.
  This aligns with our experience in recent years, with unprecedented numbers
  of wilderness travelers at every trailhead and the disappearance of lonely
- places in the mountains.
+ places in the Cascades.
  Inter-party avalanche incidents are coming, if they have not already arrived.
  It behooves us, individually and as a community, to develop strategies
  to proactively address this emerging hazard.
@@ -3074,7 +3090,7 @@ where
 \begin_inset Formula $f_{\text{trigger}}$
 \end_inset
 
- is the fraction of the start-zone where travel will trigger an avalanche.
+ is the fraction of the start-zone where travelers can trigger an avalanche.
  When avalanche-conditions are `touchy', 
 \begin_inset Formula $f_{\text{trigger}}\sim1$
 \end_inset
@@ -3158,11 +3174,7 @@ where
 \end_layout
 
 \begin_layout Standard
-For simplicity, we can now define 
-\begin_inset Formula $r_{0}$
-\end_inset
-
-:
+For simplicity, we define
 \end_layout
 
 \begin_layout Standard
