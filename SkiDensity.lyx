@@ -104,7 +104,7 @@ We estimate from first principles a common-sense result: When the density
  Furthermore, this model suggests that the likelihood of inter-party incidents
  is quadratic in the density of travelers – twice as many parties quadruples
  the likelihood.
- The argument is made, with selected North American incidents from 2008-2019,
+ The argument is made, with selected North American incidents from 2004-2019,
  that inter-party incidents are a timely concern.
  To spur conversation, we enumerate a variety of untested strategies to
  mitigate inter-party hazard.
@@ -795,7 +795,7 @@ noprefix "false"
 
 .
  Lower Panel: Approximate values of 
-\begin_inset Formula $nA_{\text{avalanche }}$
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche }}$
 \end_inset
 
  from incidents described in Section 
@@ -809,6 +809,11 @@ noprefix "false"
 \end_inset
 
 .
+ It is interesting that all but one of the incidents occurred with 
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.1$
+\end_inset
+
+ 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Approximate-fraction-of"
@@ -1117,7 +1122,7 @@ noprefix "false"
 For incidents where documentation makes it possible, we have attempted to
  measure the areas in question, the number of parties, and compute both
  the party density and 
-\begin_inset Formula $nA_{\text{avalanche}}$
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
 \end_inset
 
 .
@@ -1149,6 +1154,108 @@ noprefix "false"
 \end_inset
 
 ).
+\end_layout
+
+\begin_layout Subsection
+Empress Lake, March 20, 2004
+\end_layout
+
+\begin_layout Standard
+A party of snowmobilers
+\begin_inset CommandInset citation
+LatexCommand citep
+key "HankeNarrative1,Hanke2,EmpressGlobeAndMail,EmpressCastanet"
+literal "false"
+
+\end_inset
+
+ assessed a cliff-drop in steep terrain, concluding that the expected instabilit
+y was sufficiently manageable.
+ The cliff-drop was attempted, triggering a small slab and apparently damaging
+ a sled.
+ As the party regrouped mid-path and assessed the damage, a second party
+ appeared.
+ The second party climbed immediately into the now-overhead start-zone,
+ triggering a D2.5 slide (
+\begin_inset Formula $30$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+m
+\begin_inset Formula $\times125\text{-}150$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+m
+\begin_inset Formula $\times150$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+cm crown).
+ Three were caught, one was killed.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Density: 
+\series default
+Area:
+\begin_inset Formula $\sim1.2$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset Formula $^{2}$
+\end_inset
+
+, 2 parties 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $n_{\text{party}}\sim1.6$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+parties/km
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $A_{\text{avalanche}}\sim0.05$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.08$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1986,7 +2093,17 @@ literal "false"
 \emph on
 in localized avalanche terrain
 \emph default
- would be prudent.
+ would be wise, and ten-times lower (intimated by Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Approximate-fraction-of"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) may be prudent.
 \end_layout
 
 \begin_layout Subsection
@@ -2733,7 +2850,11 @@ We have made a first-principles estimation of the scaling of inter-party
 We explored a series of North-American avalanche incidents in order to show
  varied ways in which inter-party incidents have occurred.
  Moreover, the party-densities at which these incidents occurred are roughly
- consistent with our model.
+ consistent with our model, with many incidents near 
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.1$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -2770,8 +2891,9 @@ Acknowledgements
 \begin_layout Standard
 Big thank-yous to Susan Ashlock for her perpetual support for and tolerance
  of this project; Peg Achterman for helping to bring this paper back to
- life; Jason Alferness, Dallas Glass, and Doug Krause for assistance with
- references; S.A.
+ life; Bruce Jamieson for highlighting the Empress Lake incident; Jason
+ Alferness, Dallas Glass, B.
+ J., and Doug Krause for assistance with references; S.A.
  for proofreading and suggestions; and finally, the many avalanche/search-and-re
 scue organizations who have not only saved many of the lives described herein,
  but also generated the documentation needed to help us prevent incidents
