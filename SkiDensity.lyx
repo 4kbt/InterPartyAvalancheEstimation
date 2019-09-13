@@ -337,7 +337,7 @@ Astute readers will note that when
 \begin_inset Formula $N_{\text{parties}}$
 \end_inset
 
- is small, the analysis may require more detail to avoid a double-count.
+ is small, the analysis will require more detail to avoid a double-count.
  The large 
 \begin_inset Formula $N_{\text{parties}}$
 \end_inset
@@ -609,13 +609,13 @@ greatly
  
 \emph default
 from day to day, but the relative rates between single-party and inter-party
- incidents depend only on 
+ incidents depend, in this model, only on 
 \begin_inset Formula $A_{\text{avalanche}}$
 \end_inset
 
 .
- The parameters were chosen to emulate the Kendall Peak incident; if the
- absolute rates seem low, it is likely because this model does not account
+ The parameters were chosen to emulate the Kendall Peak incident; the absolute
+ rates seem qualitatively low, perhaps because this model does not account
  for travelers' affinity for start zones.
 \begin_inset CommandInset label
 LatexCommand label
@@ -2110,7 +2110,11 @@ literal "false"
 \emph on
 in localized avalanche terrain
 \emph default
- would be wise, and ten-times lower (intimated by Figure 
+ would be wise, and 1-10 parties/km
+\begin_inset Formula $^{2}$
+\end_inset
+
+ (suggested by Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Approximate-fraction-of"
