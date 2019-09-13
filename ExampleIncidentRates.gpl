@@ -15,63 +15,6 @@ rSP(n) = TrackWidth * Speed /AKendall * n * nKendallStartZones * AStartZone *fTr
 
 rIP(n) = rSP(n) * AAvalanche * n
 
-LowDensity = 0.05*1000
-MidDensity = 0.1*1000
-HighDensity = 0.15*1000
-
-D1LowDepth = 0.1;
-D1MidDepth = 0.2;
-D1HighDepth = 0.5;
-D1Mass = 10000
-
-D2LowDepth = 0.3;
-D2MidDepth = 0.5;
-D2HighDepth = 1;
-D2Mass = 100000;
-
-D3LowDepth = 0.5;
-D3MidDepth = 1.2;
-D3HighDepth = 3;
-D3Mass = 1000000;
-
-D1AreaLow  = D1Mass / HighDensity / D1HighDepth
-D1AreaMid  = D1Mass / MidDensity / D1MidDepth
-D1AreaHigh = D1Mass / LowDensity  / D1LowDepth
-
-D2AreaLow  = D2Mass / HighDensity / D2HighDepth
-D2AreaMid  = D2Mass / MidDensity / D2MidDepth
-D2AreaHigh = D2Mass / LowDensity  / D2LowDepth
-print D2AreaMid
-
-D3AreaLow  = D3Mass / HighDensity / D3HighDepth
-D3AreaMid  = D3Mass / MidDensity / D3MidDepth
-D3AreaHigh = D3Mass / LowDensity  / D3LowDepth
-
-#likelihood of triggering.
-L = 0.1;
-
-D1L(x)  = L*D1AreaLow /10*x/1e6*(1+D1AreaLow *x/1e6)
-D1M(x)  = L*D1AreaMid /7 *x/1e6*(1+D1AreaMid *x/1e6)
-D1H(x)  = L*D1AreaHigh/4 *x/1e6*(1+D1AreaHigh*x/1e6)
-D1IL(x) = L*D1AreaLow /10*x/1e6*(  D1AreaLow *x/1e6)
-D1IM(x) = L*D1AreaMid /7 *x/1e6*(  D1AreaMid *x/1e6)
-D1IH(x) = L*D1AreaHigh/4 *x/1e6*(  D1AreaHigh*x/1e6)
-D1SM(x) = L*D1AreaMid /7 *x/1e6
-D2L(x)  = L*D2AreaLow /10*x/1e6*(1+D2AreaLow *x/1e6)
-D2M(x)  = L*D2AreaMid /7 *x/1e6*(1+D2AreaMid *x/1e6)
-D2H(x)  = L*D2AreaHigh/4 *x/1e6*(1+D2AreaHigh*x/1e6)
-D2IL(x) = L*D2AreaLow /10*x/1e6*(  D2AreaLow *x/1e6)
-D2IM(x) = L*D2AreaMid /7 *x/1e6*(  D2AreaMid *x/1e6)
-D2IH(x) = L*D2AreaHigh/4 *x/1e6*(  D2AreaHigh*x/1e6)
-D2SM(x) = L*D2AreaMid /7 *x/1e6
-D3L(x)  = L*D3AreaLow /10*x/1e6*(1+D3AreaLow *x/1e6)
-D3M(x)  = L*D3AreaMid /7 *x/1e6*(1+D3AreaMid *x/1e6)
-D3H(x)  = L*D3AreaHigh/4 *x/1e6*(1+D3AreaHigh*x/1e6)
-D3IL(x) = L*D3AreaLow /10*x/1e6*(  D3AreaLow *x/1e6)
-D3IM(x) = L*D3AreaMid /7 *x/1e6*(  D3AreaMid *x/1e6)
-D3IH(x) = L*D3AreaHigh/4 *x/1e6*(  D3AreaHigh*x/1e6)
-D3SM(x) = L*D3AreaMid /7 *x/1e6
-
 set style fill transparent pattern 4 bo
 set style fill transparent pattern 2 bo
 
@@ -92,33 +35,6 @@ pl [0:200][0:0.006]\
 	rIP(x/1e6)*1e6               lt -1 dt 2 lw 2 tit 'Inter-Party Rate',\
 	rSP(x/1e6)*1e6               lt  2 dt 5 lw 2 tit 'Single-Party Rate'
 	
-#D2M(x)  lt 3      lw 2 tit 'total',\
-	D2IM(x) lt -1 dt 2 lw 2 tit 'inter-party',\
-	D2SM(x) lt 2 dt 5 lw 2 tit 'single-party'
-	
-	#D3M(x) lt 1 tit 'D3 total',\
-	D3IM(x) lt 1 dt 2 tit 'D3 inter-party',\
-	D3SM(x) lt 1 dt 3 tit 'D3 single-party',\
-	D2M(x) lt 2 tit 'D2',\
-	D2IM(x) lt 2 dt 2 tit 'D2 inter-party',\
-	D2SM(x) lt 2 dt 3 tit 'D2 single-party',\
-	D1M(x) lt 3 tit 'D1',\
-	D1IM(x) lt 3 dt 2 tit 'D1 inter-party',\
-	D1SM(x) lt 3 dt 3 tit 'D1 single-party',\
-	
-	#D3L(x) lt 1,\
-	D3H(x) lt 1,\
-	D2L(x) lt 2,\
-	D2H(x) lt 2,\
-	D1L(x) lt 3,\
-	D1H(x) lt 3,\
-	D3IL(x) lt 1 dt 2,\
-	D3IH(x) lt 1 dt 2,\
-	D2IL(x) lt 2 dt 2,\
-	D2IH(x) lt 2 dt 2,\
-	D1IL(x) lt 3 dt 2,\
-	D1IH(x) lt 3 dt 2,\
-
 
 set logsc
 set format y "10^{%T}"
@@ -131,19 +47,6 @@ pl [1:1000][1e-5:0.1][:][1e-5:0.1]\
 	rIP(x/1e6)*1e6               lt -1 dt 2 lw 2 tit 'Inter-Party Rate',\
 	rSP(x/1e6)*1e6               lt  2 dt 5 lw 2 tit 'Single-Party Rate'
 	
-
-#D2M(x)  lt 3      lw 2 tit 'total',\
-	D2IM(x) lt -1 dt 2 lw 2 tit 'inter-party',\
-	D2SM(x) lt 2 dt 5 lw 2 tit 'single-party'
-	
-
-#	'+' u 1:(D3L($1)):(D3H($1)) w filledcurves lt 1 fs pattern 4 tit 'D3 Total',\
-	'+' u 1:(D2L($1)):(D2H($1)) w filledcurves lt 2 fs pattern 5 tit 'D2 Total',\
-	'+' u 1:(D1L($1)):(D1H($1)) w filledcurves lt 3 fs pattern 6 tit 'D1 Total',\
-	'+' u 1:(D3IL($1)):(D3IH($1)) w filledcurves lt 1 fs pattern 2 tit 'D3 Inter-party',\
-	'+' u 1:(D2IL($1)):(D2IH($1)) w filledcurves lt 2 fs pattern 2 tit 'D2 Inter-party',\
-	'+' u 1:(D1IL($1)):(D1IH($1)) w filledcurves lt 3 fs pattern 2 tit 'D1 Inter-party'
-
 
 set ylabel "Incidents /day/km^2\n{/*0.7 Assuming: w = 1m, s = 10km/d, n_{start-zones} = 6/km^2, A_{start-zone} = 300m^2, f_{trigger} = 0.5, A_{avalanche} = 0.01km^2}"
 set y2label '      Days between incidents / km^2 (same assumptions)'
