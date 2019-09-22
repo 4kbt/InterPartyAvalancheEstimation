@@ -198,25 +198,20 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-Many authors have described, directly[XXXRC cite] and indirectly[XXXRC cite],
- the emerging hazard of inter-party incidents.
+Many authors have described, directly
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SlidePodcastScene"
+literal "false"
+
+\end_inset
+
+[XXXRC cite] and indirectly[XXXRC cite], the emerging hazard of inter-party
+ incidents.
  The purpose of this work is to provide a framework within which to discuss
  and estimate the magnitude of the concern, address it directly as a hazard,
  and spur discussion of strategies to reduce the likelihood of future inter-part
 y incidents.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-XXXRC cite Krause' Slide episode.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
@@ -2998,15 +2993,14 @@ Big thank-yous to Susan Ashlock for her perpetual support for and tolerance
 ; Jason Alferness, Dallas Glass, B.
  J., and Doug Krause for assistance with references; S.A.
  for proofreading and suggestions; and finally, the many avalanche/search-and-re
-scue organizations who have not only saved many of the lives described herein,
- but also generated the documentation needed to help us prevent incidents
- in the future.
+scue organizations who have not only saved or recovered many of the people
+ described, but also generated the documentation needed to help us prevent
+ incidents in the future.
 \end_layout
 
 \begin_layout Standard
 This nights-and-weekends work was indirectly supported by CENPA and the
  National Science Foundation (PHY-1607391).
- Thank you.
 \end_layout
 
 \begin_layout Section
