@@ -8,7 +8,7 @@
 \begin_preamble
 \usepackage[colorlinks]{hyperref}
 \end_preamble
-\options longbibliography
+\options longbibliography,nofootbib
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -96,16 +96,24 @@ Inter-Party Avalanche Incidents May Increase Quadratically With Skier Density
 Charles Hagedorn
 \end_layout
 
+\begin_layout Address
+Center for Experimental Nuclear Physics and Astrophysics, Box 354290, University
+ of Washington, Seattle, Washington 98195-4290
+\end_layout
+
+\begin_layout Author Email
+cah49@uw.edu
+\end_layout
+
 \begin_layout Abstract
-We estimate from first principles a common-sense result: When the density
- of backcountry travelers becomes comparable to the size of a day's potential
- avalanches, inter-party avalanche incidents will become a substantial fraction
- of all avalanche incidents.
- Furthermore, this model suggests that the likelihood of inter-party incidents
- is quadratic in the density of travelers – twice as many parties quadruples
- the likelihood.
- The argument is made, with selected North American incidents from 2001-2019,
- that inter-party incidents are a timely concern.
+We estimate, from first-principles, the rate of inter-party avalanche incidents.
+ The model suggests that the likelihood of inter-party incidents is quadratic
+ in the density of parties – twice as many parties quadruples the likelihood.
+ Furthermore, the model predicts that when the party-density times the area
+ of a day's potential avalanches approaches one, inter-party avalanche incidents
+ will become a substantial fraction of all avalanche incidents.
+ The argument is made, with selected North American inter-party incidents
+ from 2001-2019, that inter-party incidents are a timely concern.
  To spur conversation, we enumerate a variety of untested strategies to
  mitigate inter-party hazard.
 \end_layout
@@ -333,11 +341,11 @@ noprefix "false"
 status open
 
 \begin_layout Plain Layout
-Astute readers will note that when 
+When 
 \begin_inset Formula $N_{\text{parties}}$
 \end_inset
 
- is small, the analysis may require more detail to avoid a double-count.
+ is small, the analysis may require more care to avoid a double-count.
  The large 
 \begin_inset Formula $N_{\text{parties}}$
 \end_inset
@@ -620,24 +628,6 @@ from day to day, but the relative rates between single-party and inter-party
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Illustrative-example-of"
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-XXXRC previous note 
-\begin_inset Quotes eld
-\end_inset
-
-estimate rate?
-\begin_inset Quotes erd
-\end_inset
-
- XXXRC why are these numbers so low?
-\end_layout
 
 \end_inset
 
@@ -1196,6 +1186,7 @@ cm deep wind-slab avalanche, sweeping down the route and out of sight.
  the ski area to raise an alarm.
  On the way, they encountered the first party, which was unaware of the
  slide's impact on the second party.
+ [XXXRC needs lots ' citations!]
 \end_layout
 
 \begin_layout Standard
@@ -2501,12 +2492,6 @@ run list
  many mitigation strategies can be built.
 \end_layout
 
-\begin_layout Standard
-It is our understanding [XXXRC NWAC, personal communication] that the NWAC
- plans to publish run lists/maps to facilitate these goals.
- 
-\end_layout
-
 \begin_layout Subsubsection
 Terrain-specific traditions
 \end_layout
@@ -2998,13 +2983,19 @@ Acknowledgements
 \begin_layout Standard
 Big thank-yous to Susan Ashlock for her perpetual support for and tolerance
  of this project; Peg Achterman for helping to bring this paper back to
- life; Bruce Jamieson for highlighting the Empress Lake incident; Jason
- Alferness, Dallas Glass, B.
+ life; Bruce Jamieson for suggesting the Lizard Range and Empress Lake incidents
+; Jason Alferness, Dallas Glass, B.
  J., and Doug Krause for assistance with references; S.A.
  for proofreading and suggestions; and finally, the many avalanche/search-and-re
 scue organizations who have not only saved many of the lives described herein,
  but also generated the documentation needed to help us prevent incidents
  in the future.
+\end_layout
+
+\begin_layout Standard
+This nights-and-weekends work was indirectly supported by CENPA and the
+ National Science Foundation (PHY-1607391).
+ Thank you.
 \end_layout
 
 \begin_layout Section
