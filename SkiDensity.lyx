@@ -1178,7 +1178,15 @@ m-wide and 28
 \begin_inset space ~
 \end_inset
 
-cm deep wind-slab avalanche, sweeping down the route and out of sight.
+cm deep wind-slab avalanche
+\begin_inset CommandInset citation
+LatexCommand citet
+key "CanadaAvalancheBook,LizardRangeAvalancheCanada,LizardRangeCSAC,LizardRangeGlobeAndMail,LizardRangeOttawa"
+literal "false"
+
+\end_inset
+
+, sweeping down the route and out of sight.
  At approximately the same time, a party of thirteen foreign skiers was
  hit by a size-2.5 avalanche while traversing the side of the valley below.
  Six skiers were caught, resulting in two fatalities.
@@ -1186,7 +1194,6 @@ cm deep wind-slab avalanche, sweeping down the route and out of sight.
  the ski area to raise an alarm.
  On the way, they encountered the first party, which was unaware of the
  slide's impact on the second party.
- [XXXRC needs lots ' citations!]
 \end_layout
 
 \begin_layout Standard
@@ -1251,7 +1258,7 @@ Empress Lake, March 20, 2004
 A party of snowmobilers
 \begin_inset CommandInset citation
 LatexCommand citep
-key "HankeNarrative1,Hanke2,EmpressGlobeAndMail,EmpressCastanet"
+key "CanadaAvalancheBook,EmpressLakeAvalancheCanada,HankeNarrative1,Hanke2,EmpressGlobeAndMail,EmpressCastanet"
 literal "false"
 
 \end_inset
@@ -1718,7 +1725,11 @@ km
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.07$
 \end_inset
 
--0.13.
+-
+\begin_inset Formula $0.13$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
