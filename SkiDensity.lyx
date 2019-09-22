@@ -102,6 +102,7 @@ Center for Experimental Nuclear Physics and Astrophysics, Box 354290, University
 \end_layout
 
 \begin_layout Author Email
+
 cah49@uw.edu
 \end_layout
 
@@ -141,19 +142,8 @@ Introduction
 The number and density of backcountry skiers continues to increase
 \begin_inset CommandInset citation
 LatexCommand citep
-key "WWAHumans,AvalancheHourEvelynLees"
+key "WWAHumans,AvalancheHourEvelynLees,MeisenheimerNSAW"
 literal "false"
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-[XXXMA cite...
- NSAW UAC talk] 
-\end_layout
 
 \end_inset
 
@@ -1192,6 +1182,10 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
+Problem-type: Wind slab, cross-loading.
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 Density:
@@ -1294,6 +1288,10 @@ cm crown).
 \end_layout
 
 \begin_layout Standard
+Problem-type: Dry slab
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 Density: 
@@ -1387,6 +1385,10 @@ literal "false"
 
  from Rainier's south side emphasizes the day's instability during what
  is generally prime volcano-ski season.
+\end_layout
+
+\begin_layout Standard
+Problem-type: Slab
 \end_layout
 
 \begin_layout Standard
@@ -1486,6 +1488,10 @@ literal "false"
 \end_inset
 
  notes the probability of legal charges in similar future events.
+\end_layout
+
+\begin_layout Standard
+Problem-type: XXXRC
 \end_layout
 
 \begin_layout Standard
@@ -1636,6 +1642,10 @@ literal "false"
  was intense and sustained.
 \end_layout
 
+\begin_layout Standard
+Problem-type: XXXRC
+\end_layout
+
 \begin_layout Subsection
 Kendall Peak, December 19, 2015
 \begin_inset CommandInset label
@@ -1683,6 +1693,10 @@ After an extensive search effort, exceeding 3000 person-hours, the solo-skier's
  NWAC's analysis of the accident does not take a position on whether the
  fatality was caused by an inter-party avalanche – both a third avalanche
  triggered by the soloist or a natural avalanche remain viable hypotheses.
+\end_layout
+
+\begin_layout Standard
+Problem-type: Slab, probably wind
 \end_layout
 
 \begin_layout Standard
@@ -1758,6 +1772,10 @@ literal "false"
 .
  Both of the skiers below were caught and carried, one sustaining life-threateni
 ng injury.
+\end_layout
+
+\begin_layout Standard
+Problem-type: Slab
 \end_layout
 
 \begin_layout Standard
@@ -1856,6 +1874,10 @@ The judgment from the San Miguel County Court is notable for its detailed
 \end_layout
 
 \begin_layout Standard
+Problem-type: XXXRC
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 Density:
@@ -1944,6 +1966,10 @@ Widespread 1-2 ft storm slabs and larger 3-5 ft wind slabs were reported
 \end_layout
 
 \begin_layout Standard
+Problem-type: Wind slab
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 Density: 
@@ -2007,6 +2033,10 @@ literal "false"
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+Problem-type: XXXRC
 \end_layout
 
 \begin_layout Standard
@@ -2094,6 +2124,31 @@ Seeing many tracks entering and leaving the deposition zone, the uphill
  returning to town.
  The solo skier, reported missing by his wife, was located by probe-line
  the following day.
+\end_layout
+
+\begin_layout Standard
+Problem-type: XXXRC
+\end_layout
+
+\begin_layout Subsection
+Common threads
+\end_layout
+
+\begin_layout Standard
+While this enumeration is not intended to be comprehensive, XXXRC
+\end_layout
+
+\begin_layout Standard
+Party densities in the figure
+\end_layout
+
+\begin_layout Standard
+Problem type
+\end_layout
+
+\begin_layout Standard
+Doug Krause [XXXRC cite][XXXRC acknowledge] suggested looking into the specific
+ a
 \end_layout
 
 \begin_layout Section
@@ -2929,6 +2984,65 @@ privacy code
 .
  If radio traffic is not copious, such a setting could provide the wary
  traveler with slightly more information about other parties.
+\end_layout
+
+\begin_layout Section
+Extensions
+\end_layout
+
+\begin_layout Standard
+The analysis presented in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Estimation"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is very general, and should extend to the estimation of rates for other
+ inter-party backcountry interactions.
+ Krause
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DougKrauseEmail"
+literal "false"
+
+\end_inset
+
+ points out that inter-party rescues may be of similar interest.
+ Inter-party rescues and inter-party observations are interesting both for
+ understanding the rate at which inter-party rescues occur and as a proxy
+ for inter-party accident rates.
+ As the area, 
+\begin_inset Formula $A_{\text{observation}}$
+\end_inset
+
+, over which one party can see or hear an avalanche triggered by another
+ party is much larger than 
+\begin_inset Formula $A_{\text{avalanche}}$
+\end_inset
+
+, we should expect the rate at which parties observe avalanches triggered
+ by others to be much higher than the rate of inter-party incidents.
+ If 
+\begin_inset Formula $A_{\text{observation}}$
+\end_inset
+
+ is substituted for 
+\begin_inset Formula $A_{\text{avalanche}}$
+\end_inset
+
+, the mathematics should be the same.
+ The model then predicts that the rate of inter-party avalanche observations
+ should be roughly 
+\begin_inset Formula $r_{\text{inter-party observation}}\approx r_{0}A_{\text{observation}}n_{\text{party}}^{2}.$
+\end_inset
+
+ As avalanche observations and rescues happen far more often than fatal
+ accidents, there may be an opportunity for new research with more-reliable
+ statistics.
 \end_layout
 
 \begin_layout Section
