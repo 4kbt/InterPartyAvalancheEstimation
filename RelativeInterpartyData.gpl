@@ -23,13 +23,14 @@ unset ytics
 set xlabel 'Parties per avalanche-area'                                         
 set format x "10^{%T}"                                                          
 
-set label 'Empress Lake'		at 0.2e-5,-1 left front
-set label 'Nisqually Glacier' 		at 0.2e-5,-2 left front
-set label 'Boulder/Turbo Mountain' 	at 0.2e-5,-3 left front
-set label 'Kendall Peak' 		at 0.2e-5,-4 left front
-set label 'Grandfather Couloir'		at 0.2e-5,-5 left front
-set label 'Hawkins Mountain' 		at 0.2e-5,-6 left front
+set label 'Lizard Range'		at 0.2e-5,-1 left front
+set label 'Empress Lake'		at 0.2e-5,-2 left front
+set label 'Nisqually Glacier'		at 0.2e-5,-3 left front
+set label 'Boulder/Turbo Mountain' 	at 0.2e-5,-4 left front
+set label 'Kendall Peak' 		at 0.2e-5,-5 left front
+set label 'Grandfather Couloir'		at 0.2e-5,-6 left front
+set label 'Hawkins Mountain'		at 0.2e-5,-7 left front
 
-pl [1e-6:1e2] [-7:0]\
+pl [1e-6:1e2] [-8:0]\
 	'Densities.dat' u 1:(-$0):1:2 w xerror ps 0 lw 2
 

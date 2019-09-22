@@ -104,7 +104,7 @@ We estimate from first principles a common-sense result: When the density
  Furthermore, this model suggests that the likelihood of inter-party incidents
  is quadratic in the density of travelers – twice as many parties quadruples
  the likelihood.
- The argument is made, with selected North American incidents from 2004-2019,
+ The argument is made, with selected North American incidents from 2001-2019,
  that inter-party incidents are a timely concern.
  To spur conversation, we enumerate a variety of untested strategies to
  mitigate inter-party hazard.
@@ -1174,6 +1174,85 @@ noprefix "false"
 \end_layout
 
 \begin_layout Subsection
+Lizard Range, February 13, 2001
+\end_layout
+
+\begin_layout Standard
+A party of five skiers crossed over a ridgeline outside the Fernie Ski Area,
+ intent on skiing a constrained 35-40-degree route.
+ As they prepared for descent, a ski cut triggered a 24
+\begin_inset space ~
+\end_inset
+
+m-wide and 28
+\begin_inset space ~
+\end_inset
+
+cm deep wind-slab avalanche, sweeping down the route and out of sight.
+ At approximately the same time, a party of thirteen foreign skiers was
+ hit by a size-2.5 avalanche while traversing the side of the valley below.
+ Six skiers were caught, resulting in two fatalities.
+ A third party witnessed the entire incident and immediately returned toward
+ the ski area to raise an alarm.
+ On the way, they encountered the first party, which was unaware of the
+ slide's impact on the second party.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Density:
+\series default
+ Area: 2-4.5
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset Formula $^{2}$
+\end_inset
+
+, 3+ parties 
+\begin_inset Formula $\Rightarrow n_{\text{party}}\sim0.7$
+\end_inset
+
+-
+\begin_inset Formula $1.5$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+parties/km
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $A_{\text{avalanche}}\sim0.1$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.04$
+\end_inset
+
+-
+\begin_inset Formula $0.3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
 Empress Lake, March 20, 2004
 \end_layout
 
@@ -1269,10 +1348,14 @@ km
 
 .
  
-\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.08$
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.05$
 \end_inset
 
+-
+\begin_inset Formula $0.1$
+\end_inset
 
+.
 \end_layout
 
 \begin_layout Subsection
@@ -1358,7 +1441,11 @@ km
 
 .
  
-\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.05$
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.03$
+\end_inset
+
+-
+\begin_inset Formula $0.08$
 \end_inset
 
 .
@@ -1452,7 +1539,11 @@ km
 
 .
  
-\begin_inset Formula $3<n_{\text{party}}A_{\text{avalanche}}<20$
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim3$
+\end_inset
+
+-
+\begin_inset Formula $20$
 \end_inset
 
 .
@@ -1633,10 +1724,10 @@ km
 
 .
  
-\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.1$
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.07$
 \end_inset
 
-.
+-0.13.
 \end_layout
 
 \begin_layout Subsection
@@ -1815,7 +1906,7 @@ km
 
 .
  
-\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\approx0.3\text{-}1$
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.3\text{-}1$
 \end_inset
 
 .
@@ -1965,7 +2056,7 @@ km
 
 .
  
-\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\approx0.06\text{-}0.25$
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.06\text{-}0.25$
 \end_inset
 
 .
