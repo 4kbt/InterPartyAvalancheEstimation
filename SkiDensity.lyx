@@ -1146,6 +1146,16 @@ noprefix "false"
 \end_inset
 
 ).
+ At Krause's suggestion
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DougKrauseEmail"
+literal "false"
+
+\end_inset
+
+, we have included avalanche type, to the extent that it is reported in
+ the literature.
 \end_layout
 
 \begin_layout Subsection
@@ -1182,7 +1192,7 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Problem-type: Wind slab, cross-loading.
+Avalanche-type: Wind slab, cross-loading.
 \end_layout
 
 \begin_layout Standard
@@ -1288,7 +1298,7 @@ cm crown).
 \end_layout
 
 \begin_layout Standard
-Problem-type: Dry slab
+Avalanche-type: Dry slab
 \end_layout
 
 \begin_layout Standard
@@ -1491,7 +1501,7 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Problem-type: XXXRC
+Avalanche-type: Persistent Slab (Surface Hoar)
 \end_layout
 
 \begin_layout Standard
@@ -1553,9 +1563,17 @@ Eagle Pass Avalanche, March 19, 2010
 \end_layout
 
 \begin_layout Standard
-No official report appears to be available for this accident; this synopsis
- is composed from news articles and indirect references in the Boulder Mountain
- accident reporting.
+Only an Avalanche Involvement Report
+\begin_inset CommandInset citation
+LatexCommand citep
+key "EaglePassCSAC"
+literal "false"
+
+\end_inset
+
+ and associated photograph appear to be available for this accident; this
+ synopsis is composed from news articles and indirect references in the
+ Boulder Mountain accident reporting.
  One week following the Boulder Mountain slide, a snowmobiling party of
  two triggered a D4 slide above at least one party of at least ten snowmobilers,
  yielding one fatality and at least one injury
@@ -1576,6 +1594,10 @@ literal "false"
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+Avalanche-type: Slab
 \end_layout
 
 \begin_layout Subsection
@@ -1643,7 +1665,7 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Problem-type: XXXRC
+Avalanche-type: Hard Slab
 \end_layout
 
 \begin_layout Subsection
@@ -1696,7 +1718,7 @@ After an extensive search effort, exceeding 3000 person-hours, the solo-skier's
 \end_layout
 
 \begin_layout Standard
-Problem-type: Slab, probably wind
+Avalanche-type: Slab, probably wind
 \end_layout
 
 \begin_layout Standard
@@ -1775,7 +1797,7 @@ ng injury.
 \end_layout
 
 \begin_layout Standard
-Problem-type: Slab
+Avalanche-type: Slab
 \end_layout
 
 \begin_layout Standard
@@ -1874,7 +1896,7 @@ The judgment from the San Miguel County Court is notable for its detailed
 \end_layout
 
 \begin_layout Standard
-Problem-type: XXXRC
+Avalanche-type: Loose-snow
 \end_layout
 
 \begin_layout Standard
@@ -1966,7 +1988,7 @@ Widespread 1-2 ft storm slabs and larger 3-5 ft wind slabs were reported
 \end_layout
 
 \begin_layout Standard
-Problem-type: Wind slab
+Avalanche-type: Wind slab
 \end_layout
 
 \begin_layout Standard
@@ -2036,7 +2058,7 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Problem-type: XXXRC
+Avalanche-type: Soft slab
 \end_layout
 
 \begin_layout Standard
@@ -2127,7 +2149,7 @@ Seeing many tracks entering and leaving the deposition zone, the uphill
 \end_layout
 
 \begin_layout Standard
-Problem-type: XXXRC
+Avalanche-type: Soft slab
 \end_layout
 
 \begin_layout Subsection
@@ -3104,8 +3126,9 @@ Acknowledgements
 Big thank-yous to Susan Ashlock for her perpetual support for and tolerance
  of this project; Peg Achterman for helping to bring this paper back to
  life; Bruce Jamieson for suggesting the Lizard Range and Empress Lake incidents
-; Jason Alferness, Dallas Glass, B.
- J., and Doug Krause for assistance with references; S.A.
+; Doug Krause for directing attention to inter-party avalanche problem-type
+ and inter-party rescues; Jason Alferness, Dallas Glass, B.
+ J., D.K., and Mark Vesely for assistance with references; S.A.
  for proofreading and suggestions; and finally, the many avalanche/search-and-re
 scue organizations who have not only saved or recovered many of the people
  described, but also generated the documentation needed to help us prevent
