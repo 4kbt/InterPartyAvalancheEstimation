@@ -2605,16 +2605,6 @@ literal "false"
 
 \end_inset
 
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-[XXXMI add more citations]
-\end_layout
-
-\end_inset
-
 , the notion of a 
 \begin_inset Quotes eld
 \end_inset
@@ -2918,9 +2908,16 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-In addition to the utility radios have for communication within a party[XXXRC
- Krause], radios have the potential to improve situational awareness and
- coordination between parties.
+In addition to the utility radios have for communication within a party
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SlideSystemicFailure"
+literal "false"
+
+\end_inset
+
+, radios have the potential to improve situational awareness and coordination
+ between parties.
 \end_layout
 
 \begin_layout Subsubsection
