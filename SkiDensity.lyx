@@ -148,6 +148,16 @@ literal "false"
 \end_inset
 
  in the United States and around the world.
+ Many authors have described, directly
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SlidePodcastScene"
+literal "false"
+
+\end_inset
+
+[XXXRC cite] and indirectly[XXXRC cite], the emerging hazard of inter-party
+ incidents.
  At some density of backcountry travelers, avalanches triggered by one party
  will be likely to strike another.
  This work gives formal voice to this idea and, further, suggests that the
@@ -188,17 +198,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-Many authors have described, directly
-\begin_inset CommandInset citation
-LatexCommand citep
-key "SlidePodcastScene"
-literal "false"
-
-\end_inset
-
-[XXXRC cite] and indirectly[XXXRC cite], the emerging hazard of inter-party
- incidents.
- The purpose of this work is to provide a framework within which to discuss
+The purpose of this work is to provide a framework within which to discuss
  and estimate the magnitude of the concern, address it directly as a hazard,
  and spur discussion of strategies to reduce the likelihood of future inter-part
 y incidents.
@@ -216,10 +216,10 @@ name "sec:Estimation"
 \end_layout
 
 \begin_layout Standard
-To assess inter-party avalanche incidents as a concern, it is interesting
- and useful to develop a first-principles model for their likelihood.
- The estimation that follows is a simple approach to the problem that is
- likely to require small corrections to yield quantitiative predictions.
+To assess inter-party avalanche incidents as a concern, it is useful to
+ develop a first-principles model for their likelihood.
+ The estimation that follows is a simple approach that is likely to require
+ small corrections to yield quantitiative predictions.
  This model has qualitative predictive power, predicting both that the inter-par
 ty incident rate is quadratic in party density and that there is a critical
  party-density at which the inter-party incident rate becomes significant.
@@ -264,6 +264,11 @@ and
 \end_inset
 
  is the area of a day's typical individual start-zone.
+ 
+\begin_inset Formula $N_{\text{parties}}$
+\end_inset
+
+ here is 7.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Diagram-showing-the"
@@ -275,10 +280,6 @@ name "fig:Diagram-showing-the"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -361,8 +362,7 @@ party
 \begin_inset Quotes erd
 \end_inset
 
-, but for some of the estimates that follow, we loosely define a party as
- 
+, but for the estimates that follow, we define a party as 
 \begin_inset Quotes eld
 \end_inset
 
@@ -376,7 +376,7 @@ any group, as small as one person, that travels independently
 \end_inset
 
  be the party-density.
- If there are few-enough parties that they only ever get caught in their
+ If there are few-enough parties that they are only ever caught in their
  own avalanches, one expects the avalanche-incident rate per unit area per
  unit time, 
 \begin_inset Formula $r_{\text{single-party}}$
@@ -608,7 +608,7 @@ from day to day, but the relative rates between single-party and inter-party
 
 .
  The parameters were chosen to emulate the Kendall Peak incident; if the
- absolute rates seem low, it is likely because this model does not account
+ absolute rates seem low, it is likely because the model does not account
  for travelers' affinity for start zones.
 \begin_inset CommandInset label
 LatexCommand label
@@ -725,9 +725,10 @@ While it is difficult to predict the overall incident rate, as the determination
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{equation}
-\frac{r_{\text{interparty}}}{r_{\text{incident}}}=\frac{A_{\text{avalanche}}n_{\text{party}}^{2}}{n_{\text{party}}+A_{\text{avalanche}}n_{\text{party}}^{2}}=\frac{1}{\frac{1}{A_{\text{avalanche }}n_{\text{party}}}+1}\label{eq:RelativeIncidentFraction}
-\end{equation}
+\begin{align}
+\frac{r_{\text{interparty}}}{r_{\text{incident}}} & =\frac{A_{\text{avalanche}}n_{\text{party}}^{2}}{n_{\text{party}}+A_{\text{avalanche}}n_{\text{party}}^{2}}\label{eq:RelativeIncidentFraction}\\
+ & =\frac{1}{\frac{1}{A_{\text{avalanche }}n_{\text{party}}}+1}
+\end{align}
 
 \end_inset
 
@@ -802,7 +803,7 @@ noprefix "false"
 \end_inset
 
 .
- It is interesting that all but one of the incidents occurred with 
+ It is interesting that all but two of the incidents occurred with 
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.1$
 \end_inset
 
@@ -894,7 +895,7 @@ Relationship of inter-party incident rate to terrain
 
 \begin_layout Standard
 Looking at the equations alone, one would expect both the incident rate
- and the inter-party incident rates to be relatively low.
+ and the inter-party incident rate to be relatively low.
  Even in mountainous terrain, start-zones are comparatively small, and much
  of the area is not avalanche terrain.
 \end_layout
@@ -1086,11 +1087,11 @@ name "sec:Significant-Accidents"
 Here, we enumerate a series of inter-party incidents, near-misses, and possible
  inter-party incidents.
  We provide a subjective summary from an inter-party-incident perspective.
- The references offfer expanded detail.
+ The references offer expanded detail.
  Several of the incidents appear to have been reported only informally.
- It is a particular surprise that it has been difficult to find formal accident
- reports for many of the Canadian avalanches, all of which have required
- rescue or a coroner.
+ It is a surprise that it has been difficult to find formal accident reports
+ for many of the Canadian avalanches, all of which have required rescue
+ or a coroner.
 \end_layout
 
 \begin_layout Standard
@@ -1200,7 +1201,11 @@ Avalanche-type: Wind slab, cross-loading.
 \series bold
 Density:
 \series default
- Area: 2-4.5
+ 
+\begin_inset Formula $A\sim2$
+\end_inset
+
+-4.5
 \begin_inset space ~
 \end_inset
 
@@ -1306,8 +1311,8 @@ Avalanche-type: Dry slab
 \series bold
 Density: 
 \series default
-Area:
-\begin_inset Formula $\sim1.2$
+
+\begin_inset Formula $A\sim1.2$
 \end_inset
 
 
@@ -1407,7 +1412,7 @@ Problem-type: Slab
 Density: 
 \series default
 Area commonly travelled on the Wilson/lower-Nisqually: 
-\begin_inset Formula $\sim1.3$
+\begin_inset Formula $A\sim1.3$
 \end_inset
 
 
@@ -1510,7 +1515,7 @@ Avalanche-type: Persistent Slab (Surface Hoar)
 Density:
 \series default
  Upper drainage area: 
-\begin_inset Formula $1\text{-}2$
+\begin_inset Formula $A\sim1\text{-}2$
 \end_inset
 
 
@@ -1526,7 +1531,7 @@ km
 \end_inset
 
  
-\begin_inset Formula $15<n_{\text{party}}<100$
+\begin_inset Formula $n_{\text{party}}\approx15\text{-}100$
 \end_inset
 
  parties/km
@@ -1726,7 +1731,15 @@ Avalanche-type: Slab, probably wind
 \series bold
 Density:
 \series default
- Area: 1.0 km
+ 
+\begin_inset Formula $A\sim1.0$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+km
 \begin_inset Formula $^{2}$
 \end_inset
 
@@ -1743,7 +1756,11 @@ Density:
 \end_inset
 
 .
- Avalanche area: 0.01
+ 
+\begin_inset Formula $A_{\text{avalanche}}\sim0.01$
+\end_inset
+
+
 \begin_inset space ~
 \end_inset
 
@@ -1805,7 +1822,11 @@ Avalanche-type: Slab
 \series bold
 Density:
 \series default
- Area: 2-5
+ 
+\begin_inset Formula $A\sim2$
+\end_inset
+
+-5
 \begin_inset space ~
 \end_inset
 
@@ -1819,7 +1840,7 @@ km
 \end_inset
 
  
-\begin_inset Formula $1<n_{\text{party}}<5$
+\begin_inset Formula $n_{\text{party}}\approx1\text{-}5$
 \end_inset
 
 
@@ -1905,7 +1926,7 @@ Avalanche-type: Loose-snow
 Density:
 \series default
  Upper drainage area: 
-\begin_inset Formula $\sim0.16$
+\begin_inset Formula $A\sim0.16$
 \end_inset
 
 
@@ -1933,8 +1954,8 @@ parties/km
 \end_inset
 
 .
- Avalanche area: 
-\begin_inset Formula $0.02\text{-}0.08$
+ 
+\begin_inset Formula $A_{\text{avalanche}}\approx0.02\text{-}0.08$
 \end_inset
 
 
@@ -1996,7 +2017,11 @@ Avalanche-type: Wind slab
 \series bold
 Density: 
 \series default
-Area: 0.4-1.2
+
+\begin_inset Formula $A\sim0.4$
+\end_inset
+
+-1.2
 \begin_inset space ~
 \end_inset
 
@@ -2009,16 +2034,24 @@ km
 \end_inset
 
 
-\begin_inset Formula $2\text{-5}<n_{\text{party}}$
+\begin_inset Formula $n_{\text{party}}>2\text{-}5$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+parties/km
+\begin_inset Formula $^{2}$
 \end_inset
 
 .
- This area is extremely popular.
+ This area is popular.
  
 \begin_inset Formula $n_{\text{party}}$
 \end_inset
 
- could easily be 10 times larger.
+ could be up to 10 times larger.
 \end_layout
 
 \begin_layout Subsection
@@ -2067,7 +2100,7 @@ Avalanche-type: Soft slab
 Density:
 \series default
  Drainage area: 
-\begin_inset Formula $0.6\text{-}1$
+\begin_inset Formula $A\sim0.6\text{-}1$
 \end_inset
 
 
@@ -2083,7 +2116,7 @@ km
 \end_inset
 
 
-\begin_inset Formula $2<n_{\text{party}}<5$
+\begin_inset Formula $n_{\text{party}}\sim2\text{-}5$
 \end_inset
 
 
@@ -2095,7 +2128,11 @@ parties/km
 \end_inset
 
 .
- Avalanche area: 0.03-0.05
+ 
+\begin_inset Formula $A_{\text{avalanche}}\approx0.03$
+\end_inset
+
+-0.05
 \begin_inset space ~
 \end_inset
 
@@ -2630,8 +2667,7 @@ Blueberry Chutes
 km from a parking lot, with a straightforward and comparatively safe alternative
  ascent route that reaches the run at the top.
  It is also possible to ascend the run directly, which is arduous, slow,
- exposed to avalanche hazard, and importantly exposed to skiers dropping
- in from above.
+ exposed to avalanche hazard, and exposed to skiers dropping in from above.
  In addition, those ascending from the bottom sometimes choose to transition
  to downhill skiing mid-slope, spending even longer in a hazardous spot.
  This location has become the site of inter-party conflicts
@@ -2668,7 +2704,7 @@ literal "false"
 
 \end_inset
 
- as a ski line.
+ than a ski line.
  In 2004, it was sufficiently rarely skied that it still made occasional
  sense
 \begin_inset CommandInset citation
@@ -2760,8 +2796,6 @@ The potential problems with such a system are myriad, but it may offer utility
 A run board may be more useful in constrained terrain, like The Slot at
  Snoqualmie Pass, where entering parties might note their number and the
  time at which they entered, as a note for those who follow behind.
- In The Slot, the overhead inter-party hazard to descending parties is non-negli
-gible.
  The 370
 \begin_inset space ~
 \end_inset
@@ -2851,9 +2885,9 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-In addition to the utility radios have for communication within a party,
- radios have the potential to improve situational awareness and coordination
- between parties.
+In addition to the utility radios have for communication within a party[XXXRC
+ Krause], radios have the potential to improve situational awareness and
+ coordination between parties.
 \end_layout
 
 \begin_layout Subsubsection
@@ -3036,7 +3070,7 @@ literal "false"
  points out that inter-party rescues may be of similar interest.
  Inter-party rescues and inter-party observations are interesting both for
  understanding the rate at which inter-party rescues occur and as a proxy
- for inter-party accident rates.
+ for inter-party incident rates.
  As the area, 
 \begin_inset Formula $A_{\text{observation}}$
 \end_inset
@@ -3100,7 +3134,7 @@ We enumerated and discussed a number of possible strategies for mitigating
 \end_layout
 
 \begin_layout Standard
-As this work was first drafted in an autumn-2018 Seattle coffee shop, customers
+As this work was first drafted in an Autumn-2018 Seattle coffee shop, customers
  discussed how their friends encountered 
 \begin_inset Quotes eld
 \end_inset
