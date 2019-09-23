@@ -2198,20 +2198,49 @@ Common threads
 \end_layout
 
 \begin_layout Standard
-While this enumeration is not intended to be comprehensive, XXXRC
+While this enumeration is not intended to be comprehensive, it is interesting
+ to look for commonalities among the incidents.
+ Two jump out immediately: 1) For those incidents where 
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
+\end_inset
+
+ can be estimated, five out of seven overlapped 
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.1$
+\end_inset
+
+.
+ This is in rough agreement with the expectations of Equation
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:RelativeIncidentFraction"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, if slightly on the low side.
+ 2) Eleven out of twelve incidents involved slab avalanches.
+ Whether this is simple correlation with size/frequency or something more
+ meaningful must await further study.
+ The Grandfather Couloir incident shows that loose slides can cause inter-party
+ incidents as well
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+It is the author's opinion that there will eventually be a loose-wet inter-party
+ incident in the Cascades, as the popularity of accessible summer skiing
+ continues to grow.
 \end_layout
 
-\begin_layout Standard
-Party densities in the figure
-\end_layout
+\end_inset
 
-\begin_layout Standard
-Problem type
-\end_layout
-
-\begin_layout Standard
-Doug Krause [XXXRC cite][XXXRC acknowledge] suggested looking into the specific
- a
+.
 \end_layout
 
 \begin_layout Section
