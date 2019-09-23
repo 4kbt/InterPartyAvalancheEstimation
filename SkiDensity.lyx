@@ -142,22 +142,21 @@ Introduction
 The number and density of backcountry skiers continues to increase
 \begin_inset CommandInset citation
 LatexCommand citep
-key "WWAHumans,AvalancheHourEvelynLees,MeisenheimerNSAW"
+key "WWAHumans,AvalancheHourEvelynLees,MeisenheimerNSAW,BackcountryCrowdingDynamics"
 literal "false"
 
 \end_inset
 
  in the United States and around the world.
- Many authors have described, directly
+ Many have written
 \begin_inset CommandInset citation
 LatexCommand citep
-key "SlidePodcastScene"
+key "BackcountryMagazineCrowding,BackcountryComPowderPolice,SlidePodcastScene,CrestedButteEtiquette"
 literal "false"
 
 \end_inset
 
-[XXXRC cite] and indirectly[XXXRC cite], the emerging hazard of inter-party
- incidents.
+ about the emerging hazard of inter-party incidents.
  At some density of backcountry travelers, avalanches triggered by one party
  will be likely to strike another.
  This work gives formal voice to this idea and, further, suggests that the
