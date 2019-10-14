@@ -1195,68 +1195,6 @@ literal "false"
  slide's impact on the second party.
 \end_layout
 
-\begin_layout Standard
-Avalanche-type: Wind slab, cross-loading.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Density:
-\series default
- 
-\begin_inset Formula $A\sim2$
-\end_inset
-
--4.5
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-, 3+ parties 
-\begin_inset Formula $\Rightarrow n_{\text{party}}\sim0.7$
-\end_inset
-
--
-\begin_inset Formula $1.5$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-parties/km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $A_{\text{avalanche}}\sim0.1$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.04$
-\end_inset
-
--
-\begin_inset Formula $0.3$
-\end_inset
-
-.
-\end_layout
-
 \begin_layout Subsection
 Empress Lake, March 20, 2004
 \end_layout
@@ -1305,68 +1243,6 @@ cm crown).
  Three were caught, one was killed.
 \end_layout
 
-\begin_layout Standard
-Avalanche-type: Dry slab
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Density: 
-\series default
-
-\begin_inset Formula $A\sim1.2$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-, 2 parties 
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
- 
-\begin_inset Formula $n_{\text{party}}\sim1.6$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-parties/km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $A_{\text{avalanche}}\sim0.05$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.05$
-\end_inset
-
--
-\begin_inset Formula $0.1$
-\end_inset
-
-.
-\end_layout
-
 \begin_layout Subsection
 Nisqually/Wilson Glaciers, June 14, 2008
 \end_layout
@@ -1403,65 +1279,6 @@ literal "false"
 
  from Rainier's south side emphasizes the day's instability during what
  is generally prime volcano-ski season.
-\end_layout
-
-\begin_layout Standard
-Problem-type: Slab
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Density: 
-\series default
-Area commonly travelled on the Wilson/lower-Nisqually: 
-\begin_inset Formula $A\sim1.3$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 3+ parties 
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
- 
-\begin_inset Formula $n_{\text{party}}\gtrsim2.3$
-\end_inset
-
- parties/km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $A_{\text{avalanche}}\sim0.02$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.03$
-\end_inset
-
--
-\begin_inset Formula $0.08$
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Subsection
@@ -1508,64 +1325,6 @@ literal "false"
  notes the probability of legal charges in similar future events.
 \end_layout
 
-\begin_layout Standard
-Avalanche-type: Persistent Slab (Surface Hoar)
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Density:
-\series default
- Upper drainage area: 
-\begin_inset Formula $A\sim1\text{-}2$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-, 30-100 parties 
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
- 
-\begin_inset Formula $n_{\text{party}}\approx15\text{-}100$
-\end_inset
-
- parties/km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $A_{\text{avalanche}}\sim0.2$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim3$
-\end_inset
-
--
-\begin_inset Formula $20$
-\end_inset
-
-.
-\end_layout
-
 \begin_layout Subsection
 Eagle Pass Avalanche, March 19, 2010
 \end_layout
@@ -1602,10 +1361,6 @@ literal "false"
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-Avalanche-type: Slab
 \end_layout
 
 \begin_layout Subsection
@@ -1672,10 +1427,6 @@ literal "false"
  was intense and sustained.
 \end_layout
 
-\begin_layout Standard
-Avalanche-type: Hard Slab
-\end_layout
-
 \begin_layout Subsection
 Kendall Peak, December 19, 2015
 \begin_inset CommandInset label
@@ -1725,64 +1476,6 @@ After an extensive search effort, exceeding 3000 person-hours, the solo-skier's
  triggered by the soloist or a natural avalanche remain viable hypotheses.
 \end_layout
 
-\begin_layout Standard
-Avalanche-type: Slab, probably wind
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Density:
-\series default
- 
-\begin_inset Formula $A\sim1.0$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-, 9+ parties 
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
- 
-\begin_inset Formula $n_{\text{party}}>9$
-\end_inset
-
- parties/km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $A_{\text{avalanche}}\sim0.01$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.07$
-\end_inset
-
--
-\begin_inset Formula $0.13$
-\end_inset
-
-.
-\end_layout
-
 \begin_layout Subsection
 Rogers Pass, Avalanche Crest, February 14, 2016
 \end_layout
@@ -1814,48 +1507,6 @@ literal "false"
 .
  Both of the skiers below were caught and carried, one sustaining life-threateni
 ng injury.
-\end_layout
-
-\begin_layout Standard
-Avalanche-type: Slab
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Density:
-\series default
- 
-\begin_inset Formula $A\sim2$
-\end_inset
-
--5
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 5+ parties 
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
- 
-\begin_inset Formula $n_{\text{party}}\approx1\text{-}5$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-parties/km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
 \end_layout
 
 \begin_layout Subsection
@@ -1919,64 +1570,6 @@ The judgment from the San Miguel County Court is notable for its detailed
  liable for the injuries sustained by Group 1.
 \end_layout
 
-\begin_layout Standard
-Avalanche-type: Loose-snow
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Density:
-\series default
- Upper drainage area: 
-\begin_inset Formula $A\sim0.16$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-, 2 parties 
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
- 
-\begin_inset Formula $n_{\text{party}}\sim12.5$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-parties/km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $A_{\text{avalanche}}\approx0.02\text{-}0.08$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.3\text{-}1$
-\end_inset
-
-.
-\end_layout
-
 \begin_layout Subsection
 Mt.
  Herman, March 4, 2017
@@ -2011,52 +1604,6 @@ Widespread 1-2 ft storm slabs and larger 3-5 ft wind slabs were reported
  caught in the avalanche.
 \end_layout
 
-\begin_layout Standard
-Avalanche-type: Wind slab
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Density: 
-\series default
-
-\begin_inset Formula $A\sim0.4$
-\end_inset
-
--1.2
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-, 2+ parties 
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
-
-\begin_inset Formula $n_{\text{party}}>2\text{-}5$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-parties/km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- This area is popular.
- 
-\begin_inset Formula $n_{\text{party}}$
-\end_inset
-
- could be up to 10 times larger.
-\end_layout
-
 \begin_layout Subsection
 Hawkins Mountain, March 4, 2017 
 \begin_inset CommandInset label
@@ -2088,64 +1635,6 @@ LatexCommand citep
 key "SnowestHawkins"
 literal "false"
 
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Avalanche-type: Soft slab
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Density:
-\series default
- Drainage area: 
-\begin_inset Formula $A\sim0.6\text{-}1$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-, 2-3 parties 
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
-
-\begin_inset Formula $n_{\text{party}}\sim2\text{-}5$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-parties/km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $A_{\text{avalanche}}\approx0.03$
-\end_inset
-
--0.05
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.06\text{-}0.25$
 \end_inset
 
 .
@@ -2189,7 +1678,969 @@ Seeing many tracks entering and leaving the deposition zone, the uphill
 \end_layout
 
 \begin_layout Standard
-Avalanche-type: Soft slab
+\begin_inset Float table
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="13" columns="7">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="2.6cm">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="2.8cm">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Incident
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Type
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $A$
+\end_inset
+
+ (km
+\begin_inset Formula $^{2}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $N_{\text{parties}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $n_{\text{party}}$
+\end_inset
+
+(parties/km
+\begin_inset Formula $^{2}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $A_{\text{avalanche}}$
+\end_inset
+
+(km
+\begin_inset Formula $^{2}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lizard Range
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wind Slab,
+\begin_inset Newline linebreak
+\end_inset
+
+cross-loading
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2-4.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.7-1.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim0.1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.04-0.3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Empress Lake
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dry Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim1.2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim0.05$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.05-0.1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nisqually/Wilson
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim1.3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\geq2.3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim$
+\end_inset
+
+0.02
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.03-0.08
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Boulder/Turbo Mountain
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Persistent Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1-2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30-100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15-100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim0.2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3-20
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Eagle Pass
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+XXXRC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+XXXRC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+XXXRC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+XXXRC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+XXXRC
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Taylor Mountain
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hard Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+XXXRC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+XXXRC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kendall Peak
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim1.0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+>9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim0.01$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.07-0.13
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Avalanche Crest/Rogers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2-5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1-5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Grandfather Couloir
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Loose Snow
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim0.16$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim12.5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.02-0.08
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.3-1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mount Herman
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wind Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.4-1.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $>2\text{-}5$
+\end_inset
+
+
+\begin_inset Newline linebreak
+\end_inset
+
+likely an underestimate
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hawkins Mountain
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Soft Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.6-1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2-3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2-5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.03-0.05
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.06-0.25
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bear Creek, Temptation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Soft Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+XXXRC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+XXXRC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+XXXRC
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+XXXRC needs caption
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
