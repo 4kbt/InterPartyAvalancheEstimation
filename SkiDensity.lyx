@@ -102,7 +102,6 @@ Center for Experimental Nuclear Physics and Astrophysics, Box 354290, University
 \end_layout
 
 \begin_layout Author Email
-
 cah49@uw.edu
 \end_layout
 
@@ -1346,7 +1345,7 @@ literal "false"
  yielding one fatality and at least one injury
 \begin_inset CommandInset citation
 LatexCommand citep
-key "EaglePassNewsArticle1,EaglePassNewsArticle2"
+key "EaglePassNewsArticle1,EaglePassNewsArticle2,CodeBlackBoulderMountain"
 literal "false"
 
 \end_inset
