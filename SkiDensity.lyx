@@ -2119,7 +2119,7 @@ Slab
 \begin_inset Text
 
 \begin_layout Plain Layout
-XXXRC
+1-2
 \end_layout
 
 \end_inset
@@ -2128,7 +2128,7 @@ XXXRC
 \begin_inset Text
 
 \begin_layout Plain Layout
-XXXRC
+2-3
 \end_layout
 
 \end_inset
@@ -2137,7 +2137,7 @@ XXXRC
 \begin_inset Text
 
 \begin_layout Plain Layout
-XXXRC
+0.5-3
 \end_layout
 
 \end_inset
@@ -2146,7 +2146,10 @@ XXXRC
 \begin_inset Text
 
 \begin_layout Plain Layout
-XXXRC
+\begin_inset Formula $>0.3$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2155,7 +2158,7 @@ XXXRC
 \begin_inset Text
 
 \begin_layout Plain Layout
-XXXRC
+0.15-3
 \end_layout
 
 \end_inset
@@ -2653,10 +2656,6 @@ XXXRC needs caption
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
