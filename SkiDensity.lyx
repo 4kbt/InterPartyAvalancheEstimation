@@ -1107,7 +1107,7 @@ Here, we enumerate a series of inter-party incidents, near-misses, and possible
  The references offer expanded detail.
  Several of the incidents appear to have been reported only informally.
  It is a surprise that it has been difficult to find formal accident reports
- for many of the Canadian avalanches, all of which have required rescue
+ for some modern Canadian avalanches, each of which have required rescue
  or a coroner.
 \end_layout
 
@@ -1174,6 +1174,21 @@ literal "false"
 
 , we have included avalanche type, to the extent that it is reported in
  the literature.
+\end_layout
+
+\begin_layout Standard
+Finally, quantitative estimates that characterize these incidents are shown
+ in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Quantitative-characterization-of"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
@@ -2124,7 +2139,7 @@ Persistent Slab
 \begin_inset Text
 
 \begin_layout Plain Layout
-Eagle Pass
+Eagle Pass (possible)
 \end_layout
 
 \end_inset
@@ -2263,7 +2278,7 @@ Hard Slab
 \begin_inset Text
 
 \begin_layout Plain Layout
-Kendall Peak
+Kendall Peak (possible)
 \end_layout
 
 \end_inset
@@ -2678,7 +2693,24 @@ Soft Slab
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-XXXRC
+Quantitative characterization of inter-party incidents.
+ The estimation of 
+\begin_inset Formula $A$
+\end_inset
+
+ is inherently subjective and uncertain.
+ The model predicts that inter-party incidents become likely as 
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
+\end_inset
+
+ approaches 1.
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Quantitative-characterization-of"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2698,11 +2730,11 @@ Common threads
 \begin_layout Standard
 While this enumeration is not intended to be comprehensive, it is interesting
  to look for commonalities among the incidents.
- Two jump out immediately: 1) For those incidents where 
+ Two stand out: 1) For those incidents where 
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
 \end_inset
 
- can be estimated, five out of seven overlapped 
+ can be estimated, 6 out of 9 overlapped 
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.1$
 \end_inset
 
@@ -2722,9 +2754,11 @@ noprefix "false"
 \end_inset
 
 , if slightly on the low side.
+ The model is, of course, blind to any propensity for parties to avoid one-anoth
+er.
  2) Eleven out of twelve incidents involved slab avalanches.
- Whether this is simple correlation with size/frequency or something more
- meaningful must await further study.
+ Whether this is simple correlation with size/frequency or more meaningful
+ must await further study.
  The Grandfather Couloir incident shows that loose slides can cause inter-party
  incidents as well
 \begin_inset Foot
@@ -2732,7 +2766,7 @@ status open
 
 \begin_layout Plain Layout
 It is the author's opinion that there will eventually be a loose-wet inter-party
- incident in the Cascades, as the popularity of accessible summer skiing
+ incident in the Cascades, as the popularity of accessible Spring skiing
  continues to grow.
 \end_layout
 
@@ -2779,6 +2813,15 @@ Awareness of the increasing likelihood of inter-party conflict with density
 As better understanding of the factors that lead to inter-party avalanche
  incidents becomes understood, it will make sense to bring light to the
  hazard in avalanche bulletins.
+ The key takeaway for forecasters is the apparent importance of avalanche
+ size in determining the likelihood of inter-party incidents, especially
+ in situations (
+\emph on
+e.g.
+
+\emph default
+ persistent weaknesses) where avalanche size alone may not convince travelers
+ to stay home.
 \end_layout
 
 \begin_layout Subsection

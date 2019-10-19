@@ -27,8 +27,8 @@ set label 'Lizard Range'		at 0.2e-5,-1 left front
 set label 'Empress Lake'		at 0.2e-5,-2 left front
 set label 'Nisqually Glacier'		at 0.2e-5,-3 left front
 set label 'Boulder/Turbo Mountain' 	at 0.2e-5,-4 left front
-set label 'Eagle Pass' 			at 0.2e-5,-5 left front
-set label 'Kendall Peak' 		at 0.2e-5,-6 left front
+set label 'Eagle Pass (possible)'	at 0.2e-5,-5 left front
+set label 'Kendall Peak (possible)'	at 0.2e-5,-6 left front
 set label 'Grandfather Couloir'		at 0.2e-5,-7 left front
 set label 'Hawkins Mountain'		at 0.2e-5,-8 left front
 set label 'Temptation'			at 0.2e-5,-9 left front
