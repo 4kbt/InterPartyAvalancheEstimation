@@ -102,6 +102,7 @@ Center for Experimental Nuclear Physics and Astrophysics, Box 354290, University
 \end_layout
 
 \begin_layout Author Email
+
 cah49@uw.edu
 \end_layout
 
@@ -1350,7 +1351,15 @@ Eagle Pass Avalanche, March 19, 2010
 \end_layout
 
 \begin_layout Standard
-Only an Avalanche Involvement Report
+Only an Incident Summary
+\begin_inset CommandInset citation
+LatexCommand citep
+key "EaglePassAvalancheCanada"
+literal "false"
+
+\end_inset
+
+, an Avalanche Involvement Report
 \begin_inset CommandInset citation
 LatexCommand citep
 key "EaglePassCSAC"
@@ -1358,12 +1367,12 @@ literal "false"
 
 \end_inset
 
- and associated photograph appear to be available for this accident; this
- synopsis is composed from news articles and indirect references in the
- Boulder Mountain accident reporting.
+, and an associated photograph appear to be available for this accident;
+ this synopsis is composed from news articles and indirect references in
+ the Boulder Mountain accident reporting.
  One week following the Boulder Mountain slide, a snowmobiling party of
- two triggered a D3.5 slide above at least one party of at least ten snowmobilers
-, yielding one fatality and at least one injury
+ two may have triggered a D3.5 slide above one or two parties of at least
+ ten snowmobilers, yielding one fatality and at least one injury
 \begin_inset CommandInset citation
 LatexCommand citep
 key "EaglePassNewsArticle1,EaglePassNewsArticle2,CodeBlackBoulderMountain"
@@ -1372,7 +1381,7 @@ literal "false"
 \end_inset
 
 .
- The total number of people involved may have been as large as 19
+ The total number of people involved may have been as large as 21
 \begin_inset CommandInset citation
 LatexCommand citep
 key "ParksCanadaBoulderMountainPresentation"
@@ -1552,7 +1561,7 @@ literal "false"
  and subsequent lawsuit
 \begin_inset CommandInset citation
 LatexCommand citep
-key "SanMiguelCountyJudgement"
+key "SanMiguelCountyJudgement,GrandfatherLegalBlog"
 literal "false"
 
 \end_inset
