@@ -138,7 +138,7 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-The number and density of backcountry skiers continues to increase
+The number and density of backcountry travelers continues to increase
 \begin_inset CommandInset citation
 LatexCommand citep
 key "WWAHumans,AvalancheHourEvelynLees,MeisenheimerNSAW,BackcountryCrowdingDynamics"
@@ -478,7 +478,7 @@ r_{\text{interparty}}=r_{0}A_{\text{avalanche}}n_{\text{party}}^{2}.\label{eq:Qu
 
  
 \series bold
-The rate of inter-party incidents should scale like the skier-density 
+The rate of inter-party incidents should scale like the party-density 
 \emph on
 squared
 \series default
@@ -606,7 +606,7 @@ from day to day, but the relative rates between single-party and inter-party
 
 .
  The parameters were chosen to emulate the Kendall Peak incident; if the
- absolute rates seem low, it is likely because the model does not account
+ absolute rates seem low, it is perhaps because the model does not account
  for travelers' affinity for start zones.
 \begin_inset CommandInset label
 LatexCommand label
@@ -945,7 +945,11 @@ parties/km
 
 .
  For scale, the population density of the nearby city of Seattle, Washington
- is about 3,400 people/km
+ is 
+\begin_inset Formula $\sim3400$
+\end_inset
+
+ people/km
 \begin_inset Formula $^{2}$
 \end_inset
 
@@ -977,7 +981,7 @@ It is a guess, but the Pacific-Northwestern inter-party avalanche hazard
 \end_layout
 
 \begin_layout Standard
-On storm-skiing days, day-tripping backcountry skiers embark from a limited
+On storm-skiing days, day-tripping backcountry travelers embark from a limited
  set of trailheads and head for a limited set of 
 \begin_inset Quotes eld
 \end_inset
@@ -988,7 +992,7 @@ safe
 
  objectives.
  In Western Washington State, with a population of thousands of active backcount
-ry skiers
+ry travelers
 \begin_inset CommandInset citation
 LatexCommand citep
 key "NWACAnnualReport2018"
@@ -996,9 +1000,7 @@ literal "false"
 
 \end_inset
 
-, there are approximately nine such popular trailheads: Mount Baker, Stevens
- Pass, Yodelin, Alpental, Commonwealth Basin, Bullion Basin, Paradise, Hurricane
- Ridge, and White Pass.
+, there are approximately nine such popular trailheads.
  As skintracks are forged more-deeply into the morning, they bifurcate,
  but the number of traditional and natural ski options remains slim.
 \end_layout
@@ -1032,7 +1034,7 @@ literal "false"
 
 \end_inset
 
- that 16 people attempted, and many bottlenecked, the ski route on the Grand
+ that 16 people attempted, and bottlenecked, the ski route on the Grand
  Teton.
 \end_layout
 
@@ -1041,13 +1043,14 @@ Wintertime weather windows provide perhaps even more temporal concentration,
  as the number of good days for attempting bold routes is slim, perhaps
  only one or two weekends per season.
  Fortunately, for now, the number of skiers attempting bold winter routes
- seems low-enough that inter-party hazard is likely to be a smaller concern.
+ seems low-enough that inter-party hazard is likely to be a sub-dominant
+ concern.
 \end_layout
 
 \begin_layout Standard
-In addition to temporal concentration at the scale of days, safety and ski-quali
-ty considerations may also concentrate skiers on shorter durations.
- Springtime daily melt-freeze/corn cycles can constrain safe skiing to time
+In addition to temporal concentration at the scale of days, safety and snow-qual
+ity considerations may also concentrate parties on shorter durations.
+ Springtime daily melt-freeze/corn cycles can constrain safe travel to time
  intervals measured in hours.
  The arrival of a storm or imminent warming can force travelers to enter
  or cross slopes before hazard increases.
@@ -1057,8 +1060,8 @@ ty considerations may also concentrate skiers on shorter durations.
 \emph on
 before
 \emph default
- the presence of other skiers can make the slope more hazardous, can concentrate
- parties in small areas.
+ the presence of other parties can make the slope more hazardous, can concentrat
+e parties in small areas.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1066,12 +1069,23 @@ Reduced visibility
 \end_layout
 
 \begin_layout Standard
-If nearby parties cannot be seen, and the distances between parties are
- greater than that allowed by voice contact, it is impossible to be aware
- of anyone above or below.
- In low-visibility conditions in densely-skied areas, this may drive us
- to avoid skiing or ascending an otherwise-reasonable route simply because
- it may not be possible to verify that the route is free of other travelers.
+If nearby parties cannot be seen, as in the Lizard Range incident (Section
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Lizard-Range"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), and the distances between parties are greater than that allowed by voice
+ contact, it is impossible to be aware of anyone above or below.
+ In low-visibility conditions in densely-traveled areas, this may drive
+ us to avoid descending or ascending an otherwise-reasonable route simply
+ because it may not be possible to verify that the route is free of other
+ travelers.
 \end_layout
 
 \begin_layout Section
@@ -1163,6 +1177,13 @@ literal "false"
 
 \begin_layout Subsection
 Lizard Range, February 13, 2001
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Lizard-Range"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1341,8 +1362,8 @@ literal "false"
  synopsis is composed from news articles and indirect references in the
  Boulder Mountain accident reporting.
  One week following the Boulder Mountain slide, a snowmobiling party of
- two triggered a D4 slide above at least one party of at least ten snowmobilers,
- yielding one fatality and at least one injury
+ two triggered a D3.5 slide above at least one party of at least ten snowmobilers
+, yielding one fatality and at least one injury
 \begin_inset CommandInset citation
 LatexCommand citep
 key "EaglePassNewsArticle1,EaglePassNewsArticle2,CodeBlackBoulderMountain"
@@ -2720,7 +2741,7 @@ Awareness and Education
 Awareness of the increasing likelihood of inter-party conflict with density
  may, on its own, help to curtail inter-party incidents.
  That is, of course, the intent of this work.
- In places where the density of skiers approaches the critical density,
+ In places where the density of travelers approaches the critical density,
  the hazard should be discussed and mitigated.
  At least a passing mention of inter-party hazard in avalanche education
  at all levels now seems prudent.
@@ -3168,7 +3189,7 @@ literal "false"
 
 \begin_layout Standard
 The Slot, a committing couloir on Snoqualmie Mountain near Snoqualmie Pass,
- WA, was once regarded more as a climbing route
+ WA, was once regarded as much as a climbing route
 \begin_inset CommandInset citation
 LatexCommand citep
 key "PhilEnigma"
@@ -3176,7 +3197,7 @@ literal "false"
 
 \end_inset
 
- than a ski line.
+ as a ski line.
  In 2004, it was sufficiently rarely skied that it still made occasional
  sense
 \begin_inset CommandInset citation
@@ -3411,7 +3432,7 @@ commonly used to facilitate communication between groups in similar scenarios.
 \end_layout
 
 \begin_layout Standard
-As skier density increases, it may be necessary for backcountry-specific
+As party density increases, it may be necessary for backcountry-specific
  radio manufacturers to add the ability to monitor a community channel and
  an intra-party channel simultaneously, so that intra-party communication
  need not obstruct inter-party communication.
