@@ -321,37 +321,6 @@ noprefix "false"
 \begin_inset Formula $N_{\text{parties}}>1$
 \end_inset
 
-
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-When 
-\begin_inset Formula $N_{\text{parties}}$
-\end_inset
-
- is small, the analysis may require more care to avoid a double-count.
- The large 
-\begin_inset Formula $N_{\text{parties}}$
-\end_inset
-
- analysis still applies when 
-\begin_inset Formula $n_{\text{party}}$
-\end_inset
-
- is small, and the 
-\begin_inset Formula $n_{\text{party}}^{2}$
-\end_inset
-
- scaling should persist for small 
-\begin_inset Formula $N_{\text{parties}}$
-\end_inset
-
-.
-\end_layout
-
-\end_inset
-
 .
  This analysis is independent of the definition of a 
 \begin_inset Quotes eld
@@ -438,8 +407,60 @@ If the average avalanche that day sweeps through an area
 \begin_inset Formula $A_{\text{avalanche}}$
 \end_inset
 
-, the number of other parties that will be struck by that avalanche is then
- approximately 
+, the number of other parties that will be struck by that avalanche is approxima
+tely
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+We assume a uniform distribution of parties and that 
+\begin_inset Formula $N_{\text{parties}}$
+\end_inset
+
+ is 
+\begin_inset Quotes eld
+\end_inset
+
+large
+\begin_inset Quotes erd
+\end_inset
+
+.
+ The result for any 
+\begin_inset Formula $N_{\text{parties }}$
+\end_inset
+
+ is derived in Appendix 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Correctly-handling-N"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ The correction to Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Quadratic Scaling"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is 
+\begin_inset Formula $(N_{\text{parties}}-1)/N_{\text{parties}}$
+\end_inset
+
+, never more-impactful than a factor of two.
+\end_layout
+
+\end_inset
+
+ 
 \begin_inset Formula $A_{\text{avalanche}}n_{\text{party}}$
 \end_inset
 
@@ -490,7 +511,6 @@ squared
 
 ).
  This is the key observation.
- 
 \end_layout
 
 \begin_layout Standard
@@ -3747,6 +3767,239 @@ This nights-and-weekends work was indirectly supported by CENPA and the
 
 \begin_layout Section
 \start_of_appendix
+Correctly handling 
+\begin_inset Formula $N_{\text{parties}}$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Correctly-handling-N"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here, we estimate, without approximation with regard to 
+\begin_inset Formula $N_{\text{parties}}$
+\end_inset
+
+, the quantities derived in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Estimation"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+We begin with the same initial assumption: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{\text{single-party}}=r_{0}\frac{N_{\text{parties}}}{A}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+But now, we include the fact that if there are 
+\begin_inset Formula $N_{\text{parties}}$
+\end_inset
+
+ parties exploring the area 
+\begin_inset Formula $A$
+\end_inset
+
+, only 
+\begin_inset Formula $N_{\text{parties}}-1$
+\end_inset
+
+ parties can be caught in an inter-party avalanche.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{\text{interparty}}=r_{\text{single-party}}(N_{\text{parties}}-1)\frac{A_{\text{avalanche}}}{A}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which simplifies to 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Formula $r_{\text{inter-party}}=r_{0}\frac{N}{A}(N_{\text{parties}}-1)\frac{A_{\text{avalanche}}}{A}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $r_{\text{inter-party}}=r_{0}n_{\text{party}}(N_{\text{parties}}-1)\frac{A_{\text{avalanche}}}{A}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{\text{interparty}}=r_{0}n_{\text{party}}^{2}A_{\text{avalanche}}\frac{N_{\text{parties}}-1}{N_{\text{parties}}}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here, we see that the correction we will need is, in general, a factor of
+ 
+\begin_inset Formula $(N_{\text{parties}}-1)/N_{\text{parties}}$
+\end_inset
+
+, which is bounded above by 1 and below by 1/2.
+\end_layout
+
+\begin_layout Standard
+The definition of the total rate remains unchanged
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r=r_{\text{single-party}}+r_{\text{interparty}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and we can see that Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:RelativeIncidentFraction"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is modified to
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{r_{\text{inter-party}}}{r}=\frac{r_{0}n_{\text{party}}^{2}A_{\text{avalanche}}\frac{N_{\text{parties}}-1}{N_{\text{parties}}}}{r_{0}n_{\text{party}}+r_{0}n_{\text{party}}^{2}A_{\text{avalanche}}\frac{N_{\text{parties}}-1}{N_{\text{parties}}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{r_{\text{inter-party}}}{r}=\frac{n_{\text{party}}A_{\text{avalanche}}\frac{N_{\text{parties}}-1}{N_{\text{parties}}}}{1+n_{\text{party}}A_{\text{avalanche}}\frac{N_{\text{parties}}-1}{N_{\text{parties}}}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{r_{\text{inter-party}}}{r}=\frac{1}{\frac{1}{n_{\text{party}}A_{\text{avalanche}}\frac{N_{\text{parties}}-1}{N_{\text{parties}}}}+1}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is then clear that the true figure of merit is 
+\begin_inset Formula 
+\[
+n_{\text{party}}A_{\text{avalanche}}\frac{N_{\text{parties}}-1}{N_{\text{parties}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and the critical density is
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+n_{\text{critical}}=\frac{N_{\text{parties}}}{N_{\text{parties}}-1}\frac{1}{A_{\text{avalanche}}}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This passes the sanity check, as when 
+\begin_inset Formula $N_{\text{parties}}=2$
+\end_inset
+
+, 
+\begin_inset Formula $n_{\text{critical}}$
+\end_inset
+
+ is two parties per avalanche area – 
+\emph on
+both
+\emph default
+ parties have to be in the same avalanche incident.
+ When 
+\begin_inset Formula $N_{\text{parties}}$
+\end_inset
+
+ is large, no coincidence is required.
+\end_layout
+
+\begin_layout Section
 Estimating the triggering-likelihood 
 \begin_inset Formula $r_{0}$
 \end_inset
