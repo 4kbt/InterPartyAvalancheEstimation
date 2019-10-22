@@ -145,7 +145,7 @@ pl [1:1000][1e-5:0.1][:][1e-5:0.1]\
 	'+' u 1:(D1IL($1)):(D1IH($1)) w filledcurves lt 3 fs pattern 2 tit 'D1 Inter-party'
 
 
-set ylabel "Incidents /day/km^2\n{/*0.7 Assuming: w = 1m, s = 10km/d, n_{start-zones} = 6/km^2, A_{start-zone} = 300m^2, f_{trigger} = 0.5, A_{avalanche} = 0.01km^2}"
+set ylabel "Involvements /day/km^2\n{/*0.7 Assuming: w = 1m, s = 10km/d, n_{start-zones} = 6/km^2, A_{start-zone} = 300m^2, f_{trigger} = 0.5, A_{avalanche} = 0.01km^2}"
 set y2label '      Days between incidents / km^2 (same assumptions)'
 
 #####(Assuming: L=0.1,A_{avalanche} = 2000 m^2, A_{start} = 290 m^2)\nIncidents /day/km^2"#####

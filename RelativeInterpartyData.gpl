@@ -6,8 +6,8 @@ set multiplot layout 2,1
 
 set logsc x
 
-set ylabel 'Fraction of incidents that are inter-party'                         
-              
+set ylabel 'Fraction of involvements that are inter-party'
+ 
 set lmargin at screen 0.15                                                                 
 set key noauto                                                                  
 set logsc x                                                                     

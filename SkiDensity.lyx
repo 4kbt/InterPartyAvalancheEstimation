@@ -89,7 +89,8 @@
 \begin_body
 
 \begin_layout Title
-Inter-Party Avalanche Incidents May Increase Quadratically With Party Density
+Inter-Party Avalanche Involvements May Increase Quadratically With Party
+ Density
 \end_layout
 
 \begin_layout Author
@@ -102,18 +103,20 @@ Center for Experimental Nuclear Physics and Astrophysics, Box 354290, University
 \end_layout
 
 \begin_layout Author Email
+
 cah49@uw.edu
 \end_layout
 
 \begin_layout Abstract
-We estimate, from first-principles, the rate of inter-party avalanche incidents.
- The model suggests that the likelihood of inter-party incidents is quadratic
+We estimate, from first-principles, the rate of inter-party avalanche involvemen
+ts.
+ The model suggests that the likelihood of inter-party involvements is quadratic
  in the density of parties – twice as many parties quadruples the likelihood.
  Furthermore, the model predicts that when the party-density times the area
- of a day's potential avalanches approaches one, inter-party avalanche incidents
- will become a substantial fraction of all avalanche incidents.
+ of a day's potential avalanches approaches one, inter-party avalanche involveme
+nts will become a substantial fraction of all avalanche involvements.
  The argument is made, with selected North American inter-party incidents
- from 2001-2019, that inter-party incidents are a timely concern.
+ from 2001-2019, that inter-party involvements are a timely concern.
  To spur conversation, we enumerate a variety of untested strategies to
  mitigate inter-party hazard.
 \end_layout
@@ -155,11 +158,12 @@ literal "false"
 
 \end_inset
 
- about the emerging hazard of inter-party incidents.
+ about the emerging hazard of inter-party involvements.
  At some density of backcountry travelers, avalanches triggered by one party
  will be likely to strike another.
  This work gives formal voice to this idea and, further, suggests that the
- time when such incidents become frequent is either now or in the near future.
+ time when such involvements become frequent is either now or in the near
+ future.
  In Section 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -199,7 +203,7 @@ noprefix "false"
 The purpose of this work is to provide a framework within which to discuss
  and estimate the magnitude of the concern, address it directly as a hazard,
  and spur discussion of strategies to reduce the likelihood of future inter-part
-y incidents.
+y involvements.
 \end_layout
 
 \begin_layout Section
@@ -214,13 +218,13 @@ name "sec:Estimation"
 \end_layout
 
 \begin_layout Standard
-To assess inter-party avalanche incidents as a concern, it is useful to
- develop a first-principles model for their likelihood.
+To assess inter-party avalanche involvements as a concern, it is useful
+ to develop a first-principles model for their likelihood.
  The estimation that follows is a simple approach that is likely to require
  small corrections to yield quantitiative predictions.
  This model has qualitative predictive power, predicting both that the inter-par
-ty incident rate is quadratic in party density and that there is a critical
- party-density at which the inter-party incident rate becomes significant.
+ty involvement rate is quadratic in party density and that there is a critical
+ party-density at which the inter-party involvement rate becomes significant.
 \end_layout
 
 \begin_layout Standard
@@ -343,9 +347,34 @@ any group, as small as one person, that travels independently
 \end_inset
 
  be the party-density.
+ Here, we define an avalanche 
+\begin_inset Quotes eld
+\end_inset
+
+involvement
+\begin_inset Quotes erd
+\end_inset
+
+ as an interaction between a party and an avalanche, an 
+\begin_inset Quotes eld
+\end_inset
+
+incident
+\begin_inset Quotes erd
+\end_inset
+
+ as an event in which at least one involvement occurs, and an 
+\begin_inset Quotes eld
+\end_inset
+
+accident
+\begin_inset Quotes erd
+\end_inset
+
+ as an incident that yielded significant injury or death.
  If there are few-enough parties that they are only ever caught in their
- own avalanches, one expects the avalanche-incident rate per unit area per
- unit time, 
+ own avalanches, one expects the avalanche-involvement (and incident) rate
+ per unit area per unit time, 
 \begin_inset Formula $r_{\text{single-party}}$
 \end_inset
 
@@ -364,7 +393,8 @@ r_{\text{single-party}}=r_{0}n_{\text{party}}\label{eq:Single party avalanche ra
 \end_layout
 
 \begin_layout Standard
-The implication is straightforward: More parties, proportionally more incidents.
+The implication is straightforward: More parties, proportionally more involvemen
+ts.
  We estimate the many factors subsumed into 
 \begin_inset Formula $r_{0}$
 \end_inset
@@ -467,7 +497,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-So, the rate of inter-party avalanche incidents, 
+So, the rate of inter-party avalanche involvements, 
 \begin_inset Formula $r_{\text{interparty}}$
 \end_inset
 
@@ -499,7 +529,8 @@ r_{\text{interparty}}=r_{0}A_{\text{avalanche}}n_{\text{party}}^{2}.\label{eq:Qu
 
  
 \series bold
-The rate of inter-party incidents should scale like the party-density 
+The rate of inter-party involvements should scale like the party-density
+ 
 \emph on
 squared
 \series default
@@ -517,7 +548,7 @@ Why is
 \begin_inset Formula $n_{\text{party}}^{2}$
 \end_inset
 
- important? Let's look at the rate that parties will be involved in an incident
+ important? Let's look at the rate that parties will have an involvement
  of either kind by summing the rates:
 \end_layout
 
@@ -583,8 +614,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Illustrative plots showing quadratic growth in inter-party incidents surpassing
- linear growth in single-party incidents when 
+Illustrative plots showing quadratic growth in inter-party involvements
+ surpassing linear growth in single-party involvements when 
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
 \end_inset
 
@@ -620,7 +651,7 @@ greatly
  
 \emph default
 from day to day, but the relative rates between single-party and inter-party
- incidents depend only on 
+ involvements depend only on 
 \begin_inset Formula $A_{\text{avalanche}}$
 \end_inset
 
@@ -711,7 +742,7 @@ reference "eq:Combined Single and multi-party accident rate"
 \begin_inset Formula $A_{\text{avalanche}}n_{\text{party}}\gtrsim1$
 \end_inset
 
-, inter-party incidents will dominate.
+, inter-party involvements will dominate.
  This makes sense – once there is roughly one party per avalanche-area,
  any triggered avalanche is likely to hit another party.
  This notion is intuitive – in-bounds avalanches at ski areas are scary
@@ -736,13 +767,13 @@ only
 \end_layout
 
 \begin_layout Standard
-While it is difficult to predict the overall incident rate, as the determination
- of 
+While it is difficult to predict the absolute involvement rate, as the determina
+tion of 
 \begin_inset Formula $r_{0}$
 \end_inset
 
- is uncertain, one can consider the ratio of inter-party incidents to total
- incidents:
+ is uncertain, one can consider the ratio of inter-party involvements to
+ total involvements:
 \end_layout
 
 \begin_layout Standard
@@ -768,8 +799,8 @@ noprefix "false"
 
 \end_inset
 
-, this has the expected behavior, where inter-party incidents become significant
- as 
+, this has the expected behavior, where inter-party involvements become
+ significant as 
 \begin_inset Formula $A_{\text{avalanche}}n_{\text{party}}$
 \end_inset
 
@@ -797,9 +828,9 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Upper Panel: Approximate fraction of inter-party avalanche incidents as
- a function of party-density, measured in units of avalanche-area, as described
- by Equation 
+Upper Panel: Approximate fraction of inter-party avalanche involvements
+ as a function of party-density, measured in units of avalanche-area, as
+ described by Equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:RelativeIncidentFraction"
@@ -850,7 +881,7 @@ name "fig:Approximate-fraction-of"
 \end_layout
 
 \begin_layout Subsection
-Relationship of inter-party incident rate to avalanche size
+Relationship of inter-party involvement rate to avalanche size
 \end_layout
 
 \begin_layout Standard
@@ -869,8 +900,8 @@ reference "eq:Combined Single and multi-party accident rate"
 \end_inset
 
  have an important corollary: If the size or likelihood of a day's avalanches
- is greater, we should expect the rate at which inter-party incidents occur
- to be greater.
+ is greater, we should expect the rate at which inter-party involvements
+ occur to be greater.
  If slides are more likely, 
 \begin_inset Formula $r_{0}$
 \end_inset
@@ -883,11 +914,11 @@ reference "eq:Combined Single and multi-party accident rate"
  As backcountry travelers, larger and more-likely slides will force wary
  travelers to consider larger areas (further uphill) and more places (increased
  number of potential start zones) in the context of inter-party incidents.
- In our model, situations with 
+ In our model, incidents with 
 \begin_inset Formula $A_{\text{avalanche}}n_{\text{party}}\gtrsim1$
 \end_inset
 
- are likely to involve inter-party incidents.
+ are likely to include inter-party involvements.
  Indeed, if 
 \begin_inset Formula $A_{\text{avalanche}}$
 \end_inset
@@ -912,12 +943,12 @@ literal "false"
 \end_layout
 
 \begin_layout Subsection
-Relationship of inter-party incident rate to terrain
+Relationship of inter-party involvement rate to terrain
 \end_layout
 
 \begin_layout Standard
 Looking at the equations alone, one would expect both the incident rate
- and the inter-party incident rate to be relatively low.
+ and the inter-party involvement rate to be relatively low.
  Even in mountainous terrain, start-zones are comparatively small, and much
  of the area is not avalanche terrain.
 \end_layout
@@ -1122,7 +1153,7 @@ name "sec:Significant-Accidents"
 \begin_layout Standard
 Here, we enumerate a series of inter-party incidents, near-misses, and possible
  inter-party incidents.
- We provide a subjective summary from an inter-party-incident perspective.
+ We provide a subjective summary from an inter-party-involvement perspective.
  The references offer expanded detail.
  Several of the incidents appear to have been reported only informally.
  It is a surprise that it has been difficult to find formal accident reports
@@ -1143,8 +1174,8 @@ noprefix "false"
 
 , these incidents are presented in chronological order.
  This enumeration is not intended to be comprehensive, but rather to provide
- both a sense of the varied types of inter-party incidents and to make clear
- that these incidents happen.
+ both a sense of the varied types of inter-party involvements and to make
+ clear that these involvements happen.
 \end_layout
 
 \begin_layout Standard
@@ -1152,6 +1183,16 @@ For incidents where documentation makes it possible, we have attempted to
  measure the areas in question, the number of parties, and compute both
  the party density and 
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
+\end_inset
+
+, summarized in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Quantitative-characterization-of"
+plural "false"
+caps "false"
+noprefix "false"
+
 \end_inset
 
 .
@@ -1171,8 +1212,8 @@ connected
 \begin_inset Quotes erd
 \end_inset
 
- by an observer on the ground; this is an inherently-subjective measurement
- (see Appendix 
+ by an observer on the ground; this is a somewhat-subjective quantity (see
+ Appendix 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:Sensitivity-to-area"
@@ -1191,23 +1232,8 @@ literal "false"
 
 \end_inset
 
-, we have included avalanche type, to the extent that it is reported in
- the literature.
-\end_layout
-
-\begin_layout Standard
-Finally, quantitative estimates that characterize these incidents are shown
- in Table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Quantitative-characterization-of"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
+, we include the avalanche type, to the extent that it is reported in the
+ record.
 \end_layout
 
 \begin_layout Subsection
@@ -2820,7 +2846,7 @@ Awareness and Education
 
 \begin_layout Standard
 Awareness of the increasing likelihood of inter-party conflict with density
- may, on its own, help to curtail inter-party incidents.
+ may, on its own, help to curtail inter-party involvements.
  That is, of course, the intent of this work.
  In places where the density of travelers approaches the critical density,
  the hazard should be discussed and mitigated.
@@ -2830,10 +2856,10 @@ Awareness of the increasing likelihood of inter-party conflict with density
 
 \begin_layout Standard
 As better understanding of the factors that lead to inter-party avalanche
- incidents becomes understood, it will make sense to bring light to the
+ involvements becomes understood, it will make sense to bring light to the
  hazard in avalanche bulletins.
  The key takeaway for forecasters is the apparent importance of avalanche
- size in determining the likelihood of inter-party incidents, especially
+ size in determining the likelihood of inter-party involvements, especially
  in situations (
 \emph on
 e.g.
@@ -2947,8 +2973,7 @@ Examples:
 
 \begin_layout Itemize
 Many ridgelines are not susceptible to slides from above – travelling upon
- such a ridgeline inherently provides substantial protection from any inter-part
-y incident.
+ such a ridgeline provides substantial protection from inter-party hazard.
 \end_layout
 
 \begin_layout Itemize
@@ -2998,9 +3023,9 @@ noprefix "false"
 \end_layout
 
 \begin_layout Itemize
-Avalanche incidents of all kinds only happen in avalanche terrain – if avalanche
-s are a concern, avoiding avalanche terrain is a sure-fire way to avoid
- avalanche incidents of all kinds, including inter-party incidents.
+Avalanches only happen in avalanche terrain – avoiding avalanche terrain
+ is a sure-fire way to avoid avalanche incidents of all kinds, including
+ inter-party incidents.
 \end_layout
 
 \begin_layout Standard
@@ -3660,7 +3685,7 @@ literal "false"
  points out that inter-party rescues may be of similar interest.
  Inter-party rescues and inter-party observations are interesting both for
  understanding the rate at which inter-party rescues occur and as a proxy
- for inter-party incident rates.
+ for inter-party involvement rates.
  As the area, 
 \begin_inset Formula $A_{\text{observation}}$
 \end_inset
@@ -3671,7 +3696,7 @@ literal "false"
 \end_inset
 
 , we should expect the rate at which parties observe avalanches triggered
- by others to be much higher than the rate of inter-party incidents.
+ by others to be much higher than the rate of inter-party involvements.
  If 
 \begin_inset Formula $A_{\text{observation}}$
 \end_inset
@@ -3697,16 +3722,16 @@ Conclusion
 
 \begin_layout Standard
 We have made a first-principles estimation of the scaling of inter-party
- avalanche incidents with party-density and found it to be quadratic.
- Furthermore, we find that inter-party incidents should become a significant
- fraction of avalanche incidents with the localized party density approaches
- one party per avalanche area.
+ avalanche involvements with party-density and found it to be quadratic.
+ Furthermore, we find that inter-party involvements should become a significant
+ fraction of all avalanche involvements when the localized party density
+ approaches one party per avalanche area.
  This result is independent of the day's likelihood of triggering avalanches.
 \end_layout
 
 \begin_layout Standard
 We explored a series of North-American avalanche incidents in order to show
- varied ways in which inter-party incidents have occurred.
+ varied ways in which inter-party involvements have occurred.
  Moreover, the party-densities at which these incidents occurred are roughly
  consistent with our model, with many incidents near 
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.1$
@@ -3720,7 +3745,7 @@ We enumerated and discussed a number of possible strategies for mitigating
  inter-party avalanche hazards.
  Improved awareness, spreading our parties out over greater area, travelling
  with others in mind, implementing regional travel standards, and communicating
- more-effectively may all help to limit the number of incidents.
+ more-effectively may all help to limit the number of involvements.
 \end_layout
 
 \begin_layout Standard
@@ -3737,7 +3762,8 @@ lines of cars
  This aligns with our experience in recent years, with unprecedented numbers
  of wilderness travelers at every trailhead and the disappearance of lonely
  places in the Cascades.
- Inter-party avalanche incidents are coming, if they have not already arrived.
+ Inter-party avalanche involvements are coming, if they have not already
+ arrived.
  It behooves us, individually and as a community, to develop strategies
  to proactively address this emerging hazard.
 \end_layout
@@ -3753,10 +3779,10 @@ Big thank-yous to Susan Ashlock for her perpetual support for and tolerance
 ; Doug Krause for directing attention to inter-party avalanche problem-type
  and inter-party rescues; Jason Alferness, Dallas Glass, B.
  J., D.K., and Mark Vesely for assistance with references; S.A.
- for proofreading and suggestions; and finally, the many avalanche/search-and-re
-scue organizations who have not only saved or recovered many of the people
- described, but also generated the documentation needed to help us prevent
- incidents in the future.
+ and John  for proofreading and suggestions; and finally, the many avalanche/sea
+rch-and-rescue organizations who have not only saved or recovered many of
+ the people described, but also generated the documentation needed to help
+ us prevent incidents in the future.
 \end_layout
 
 \begin_layout Standard
@@ -3903,7 +3929,7 @@ r=r_{\text{single-party}}+r_{\text{interparty}}
 \end_layout
 
 \begin_layout Standard
-and we can see that Equation 
+and Equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:RelativeIncidentFraction"
@@ -3988,14 +4014,15 @@ This passes the sanity check, as when
 
  is two parties per avalanche area – 
 \emph on
-both
+all
 \emph default
- parties have to be in the same avalanche incident.
+ the parties in the area have to be in the same avalanche incident in order
+ for an inter-party involvement to occur.
  When 
 \begin_inset Formula $N_{\text{parties}}$
 \end_inset
 
- is large, no coincidence is required.
+ is large, no such coincidence is required.
 \end_layout
 
 \begin_layout Section
@@ -4305,34 +4332,29 @@ These estimations are sensitive to the determination of
 \end_inset
 
 , which is subjective.
- If our parties and start-zones are uniformly distributed, these rates are
- insensitive to 
+ If our parties and start-zones are uniformly distributed (an underlying
+ assumption of the model), these rates are insensitive to 
 \begin_inset Formula $A$
 \end_inset
 
-, but if our parties tend to congregate near start-zones, 
+.
+ If our parties tend to congregate near start-zones within 
 \begin_inset Formula $A$
 \end_inset
 
-'s determination becomes a challenge; the only compensatory term is the
- time spent within 
+, but the connected terrain is larger, 
 \begin_inset Formula $A$
 \end_inset
 
-, 
-\begin_inset Formula $t$
-\end_inset
-
-, which will tend to decrease as 
-\begin_inset Formula $A$
-\end_inset
-
- contracts.
+'s determination becomes challenging at best.
 \end_layout
 
 \begin_layout Standard
-The crossover from single-party incidents to inter-party incidents is least-sens
-itive:
+The crossover, 
+\begin_inset Formula $n_{\text{critical}}$
+\end_inset
+
+, from single-party involvements to inter-party involvements is least-sensitive:
 \end_layout
 
 \begin_layout Standard
@@ -4347,7 +4369,7 @@ n_{\text{party}}A_{\text{avalanche}}=\frac{N_{\text{parties}}A_{\text{avalanche}
 \end_layout
 
 \begin_layout Standard
-The rate estimations are very sensitive, as 
+Absolute-rate estimations are very sensitive, as 
 \end_layout
 
 \begin_layout Standard
