@@ -4400,7 +4400,7 @@ These estimations are sensitive to the determination of
 \begin_inset Formula $A$
 \end_inset
 
-'s determination becomes challenging at best.
+'s determination becomes challenging.
 \end_layout
 
 \begin_layout Standard
@@ -4423,24 +4423,13 @@ n_{\text{party}}A_{\text{avalanche}}=\frac{N_{\text{parties}}A_{\text{avalanche}
 \end_layout
 
 \begin_layout Standard
-Absolute-rate estimations are very sensitive, as 
+Absolute-rate estimations are more sensitive, as 
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-r_{\text{single-party}}=\frac{N_{\text{parties}}}{A}\frac{w_{\text{party}}s_{\text{party}}f_{\text{trigger}}}{A}\frac{N_{\text{start-zones}}}{A}A_{\text{start-zone}}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-=\frac{1}{A^{3}}N_{\text{parties}}w_{\text{party}}s_{\text{party}}f_{\text{trigger}}N_{\text{start-zones}}A_{\text{start-zone}}
+r_{\text{single-party}}=\frac{N_{\text{parties}}N_{\text{start-zones}}}{A^{2}}w_{\text{party}}s_{\text{party}}f_{\text{trigger}}A_{\text{start-zone}}
 \]
 
 \end_inset
@@ -4451,7 +4440,7 @@ r_{\text{single-party}}=\frac{N_{\text{parties}}}{A}\frac{w_{\text{party}}s_{\te
 \begin_layout Standard
 For these reasons, it will be difficult for quantitative estimates of these
  rates and critical densities to be more accurate than a factor of two in
- the best of cases.
+ the many cases.
 \end_layout
 
 \begin_layout Standard
