@@ -621,7 +621,7 @@ Illustrative plots showing quadratic growth in inter-party involvements
 
  exceeds 1; when there is more than one party per avalanche-area.
  In this example, the critical density is 
-\begin_inset Formula $n_{\text{critical}}=100$
+\begin_inset Formula $n_{\text{critical}}=5$
 \end_inset
 
 
@@ -633,7 +633,11 @@ parties/km
 \end_inset
 
 .
- The vertical scale is poorly-determined (see Appendix 
+ The vertical scale will vary greatly
+\emph on
+ 
+\emph default
+from day to day (see Appendix 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:Deriving-likelihood"
@@ -643,22 +647,15 @@ noprefix "false"
 
 \end_inset
 
-), and will vary 
-\bar under
-greatly
-\emph on
-\bar default
- 
-\emph default
-from day to day, but the relative rates between single-party and inter-party
- involvements depend only on 
+), but the relative rates between single-party and inter-party involvements
+ depend only on 
 \begin_inset Formula $A_{\text{avalanche}}$
 \end_inset
 
 .
- The parameters were chosen to emulate the Kendall Peak incident; if the
- absolute rates seem low, it is perhaps because the model does not account
- for travelers' affinity for start zones.
+ The parameters were chosen to highlight the importance of avalanche size
+ in addition to density – when avalanches are large or parties are close
+ together, inter-party involvement becomes likely.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Illustrative-example-of"
