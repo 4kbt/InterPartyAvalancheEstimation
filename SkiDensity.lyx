@@ -102,7 +102,6 @@ Center for Experimental Nuclear Physics and Astrophysics, Box 354290, University
 \end_layout
 
 \begin_layout Author Email
-
 cah49@uw.edu
 \end_layout
 
@@ -4354,7 +4353,7 @@ The rate estimations are very sensitive, as
 \begin_layout Standard
 \begin_inset Formula 
 \[
-r_{\text{single-party}}=\frac{N_{\text{parties}}}{A}\frac{w_{\text{party}}s_{\text{party}}f_{\text{trigger}}}{A}\frac{1}{t}\frac{N_{\text{start-zones}}}{A}A_{\text{start-zone}}
+r_{\text{single-party}}=\frac{N_{\text{parties}}}{A}\frac{w_{\text{party}}s_{\text{party}}f_{\text{trigger}}}{A}\frac{N_{\text{start-zones}}}{A}A_{\text{start-zone}}
 \]
 
 \end_inset
@@ -4365,7 +4364,7 @@ r_{\text{single-party}}=\frac{N_{\text{parties}}}{A}\frac{w_{\text{party}}s_{\te
 \begin_layout Standard
 \begin_inset Formula 
 \[
-=\frac{1}{A^{3}t}N_{\text{parties}}w_{\text{party}}s_{\text{party}}f_{\text{trigger}}N_{\text{start-zones}}A_{\text{start-zone}}
+=\frac{1}{A^{3}}N_{\text{parties}}w_{\text{party}}s_{\text{party}}f_{\text{trigger}}N_{\text{start-zones}}A_{\text{start-zone}}
 \]
 
 \end_inset
