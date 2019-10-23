@@ -200,10 +200,10 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-The purpose of this work is to provide a framework within which to discuss
- and estimate the magnitude of the concern, address it directly as a hazard,
- and spur discussion of strategies to reduce the likelihood of future inter-part
-y involvements.
+This work provides a framework within which to discuss and estimate the
+ magnitude of the concern, addresses it directly as a hazard, and attempts
+ to spur discussion of strategies to reduce the likelihood of future inter-party
+ involvements.
 \end_layout
 
 \begin_layout Section
@@ -620,7 +620,19 @@ Illustrative plots showing quadratic growth in inter-party involvements
 \end_inset
 
  exceeds 1; when there is more than one party per avalanche-area.
- In this example, the critical density is 
+ The inter-party critical density for an 
+\begin_inset Formula $A_{\text{avalanche}}=0.2$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset Formula $^{2}$
+\end_inset
+
+ avalanche, as in this example, is 
 \begin_inset Formula $n_{\text{critical}}=5$
 \end_inset
 
@@ -633,11 +645,8 @@ parties/km
 \end_inset
 
 .
- The vertical scale will vary greatly
-\emph on
+ The vertical scale will vary widely with snowpack properties (see Appendix
  
-\emph default
-from day to day (see Appendix 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:Deriving-likelihood"
@@ -653,9 +662,9 @@ noprefix "false"
 \end_inset
 
 .
- The parameters were chosen to highlight the importance of avalanche size
- in addition to density – when avalanches are large or parties are close
- together, inter-party involvement becomes likely.
+ The parameters chosen for these plots highlight the importance of both
+ avalanche size and party density – when avalanches are large or parties
+ are close together, inter-party involvement becomes likely.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Illustrative-example-of"
@@ -854,10 +863,10 @@ noprefix "false"
 
 .
  It is interesting that all but two of the incidents occurred with 
-\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.1$
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
 \end_inset
 
- 
+ near 0.1.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Approximate-fraction-of"
@@ -3784,7 +3793,7 @@ Big thank-yous to Susan Ashlock for her perpetual support for and tolerance
 
 \begin_layout Standard
 This nights-and-weekends work was indirectly supported by CENPA and the
- National Science Foundation (PHY-1607391).
+ National Science Foundation (PHY-1607391 and PHY-1912514).
 \end_layout
 
 \begin_layout Section
