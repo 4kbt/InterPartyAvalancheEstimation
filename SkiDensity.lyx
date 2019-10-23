@@ -103,7 +103,6 @@ Center for Experimental Nuclear Physics and Astrophysics, Box 354290, University
 \end_layout
 
 \begin_layout Author Email
-
 cah49@uw.edu
 \end_layout
 
@@ -3772,6 +3771,22 @@ lines of cars
  arrived.
  It behooves us, individually and as a community, to develop strategies
  to proactively address this emerging hazard.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+The source code and data needed to generate this document is freely-available
+\begin_inset CommandInset citation
+LatexCommand citep
+key "GithubRepository"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
