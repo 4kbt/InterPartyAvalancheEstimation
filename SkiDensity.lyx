@@ -788,7 +788,7 @@ tion of
 \begin_inset Formula 
 \begin{align}
 \frac{r_{\text{interparty}}}{r_{\text{incident}}} & =\frac{A_{\text{avalanche}}n_{\text{party}}^{2}}{n_{\text{party}}+A_{\text{avalanche}}n_{\text{party}}^{2}}\label{eq:RelativeIncidentFraction}\\
- & =\frac{1}{\frac{1}{A_{\text{avalanche }}n_{\text{party}}}+1}\nonumber 
+ & =\frac{1}{\frac{1}{n_{\text{party}}A_{\text{avalanche }}}+1}\nonumber 
 \end{align}
 
 \end_inset
@@ -809,7 +809,7 @@ noprefix "false"
 
 , this has the expected behavior, where inter-party involvements become
  significant as 
-\begin_inset Formula $A_{\text{avalanche}}n_{\text{party}}$
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
 \end_inset
 
  approaches 1.
@@ -864,7 +864,7 @@ noprefix "false"
 \end_inset
 
 .
- It is interesting that all but two of the incidents occurred with 
+ It is interesting that all but three of the incidents occurred with 
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
 \end_inset
 
@@ -1266,7 +1266,7 @@ m-wide and 28
 \begin_inset space ~
 \end_inset
 
-cm deep wind-slab avalanche
+cm-deep wind-slab avalanche
 \begin_inset CommandInset citation
 LatexCommand citep
 key "CanadaAvalancheBook,LizardRangeAvalancheCanada,LizardRangeCSAC,LizardRangeGlobeAndMail,LizardRangeOttawa"
@@ -1557,7 +1557,17 @@ literal "false"
 .
  The number of skiers and parties in the area was unusually high, with at
  least nine parties recreating in a single square kilometer.
- In the Table, the estimations of 
+ In Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Quantitative-characterization-of"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, the estimations of 
 \begin_inset Formula $A$
 \end_inset
 
@@ -2753,6 +2763,8 @@ Quantitative characterization of inter-party incidents.
 \end_inset
 
  approaches 1.
+ Eleven out of twelve incidents involve slab avalanches.
+ 
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:Quantitative-characterization-of"
@@ -2788,7 +2800,7 @@ While this enumeration is not intended to be comprehensive, it is interesting
 \end_inset
 
 .
- This is in rough agreement with the expectations of Equation
+ This is smaller than the most-natural expectation of Equation
 \begin_inset space ~
 \end_inset
 
@@ -2802,7 +2814,7 @@ noprefix "false"
 
 \end_inset
 
-, if slightly on the low side.
+, but it is encouraging to find a possible invariant.
  The model is, of course, blind to any propensity for parties to avoid one-anoth
 er.
  2) Eleven out of twelve incidents involved slab avalanches.
@@ -2837,7 +2849,7 @@ name "sec:Mitigation"
 
 \begin_layout Standard
 It is unlikely, and perhaps undesirable, that the number of backcountry
- travelers be reduced.
+ travelers will be reduced.
  Therefore, we must find ways to limit the likelihood of inter-party incidents.
  The following are strategies that may mitigate the risk.
  There are certainly more – these are suggested to organize and catalyze
@@ -2862,7 +2874,7 @@ Awareness of the increasing likelihood of inter-party conflict with density
 As better understanding of the factors that lead to inter-party avalanche
  involvements becomes understood, it will make sense to bring light to the
  hazard in avalanche bulletins.
- The key takeaway for forecasters is the apparent importance of avalanche
+ A key takeaway for forecasters is the apparent importance of avalanche
  size in determining the likelihood of inter-party involvements, especially
  in situations (
 \emph on
@@ -2920,7 +2932,7 @@ As advocacy organizations work to expand wintertime access, it may be reasonable
 
  in area
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "SWAG"
 literal "false"
 
@@ -3307,8 +3319,8 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-The Slot, a committing couloir on Snoqualmie Mountain near Snoqualmie Pass,
- WA, was once regarded as much as a climbing route
+The Slot, a couloir on Snoqualmie Mountain near Snoqualmie Pass, WA, was
+ once regarded as much as a climbing route
 \begin_inset CommandInset citation
 LatexCommand citep
 key "PhilEnigma"
@@ -3391,10 +3403,9 @@ Run board
 \begin_layout Standard
 One of the principal difficulties in avoiding conflict between disparate
  groups is the simple awareness of the existence and location of other parties.
- If parties leaving a trailhead were to publicly note their number, intended
- destination, and approximate schedule, perhaps akin to filing a flight
- plan, subsequent parties would have the opportunity to know who might be
- ahead, and where.
+ If parties leaving a trailhead were to note their number, intended destination,
+ and approximate schedule, perhaps akin to filing a flight plan, subsequent
+ parties would have the opportunity to know who might be ahead, and where.
  Furthermore, if a radio channel were appended, communication with those
  ahead might be possible.
 \end_layout
@@ -3514,8 +3525,8 @@ Community channel/party channel
 \end_layout
 
 \begin_layout Standard
-There are certain regions, Telluride's Bear Creek in particular, that have
- begun to define community radio channels 
+Some regions, Telluride's Bear Creek in particular, have begun to define
+ community radio channels 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "BearCreekEdgerlyISSW,TellurideBackcountryRadio,ConwayRadioProtocol,BCASafetyBlurb,BearCreekShopArticle"
@@ -3539,7 +3550,8 @@ literal "false"
 
 \end_inset
 
- regarding the Bear Creek accident specifically states that radios are 
+ regarding the Grandfather Couloir accident specifically states that radios
+ are 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3666,7 +3678,7 @@ Extensions
 \end_layout
 
 \begin_layout Standard
-The analysis presented in Section 
+The model presented in Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:Estimation"
@@ -3676,8 +3688,8 @@ noprefix "false"
 
 \end_inset
 
- is very general, and should extend to the estimation of rates for other
- inter-party backcountry interactions.
+ is general, and should extend to the estimation of rates for other inter-party
+ backcountry interactions.
  Krause
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -3710,8 +3722,8 @@ literal "false"
 \end_inset
 
 , the mathematics should be the same.
- The model then predicts that the rate of inter-party avalanche observations
- should be roughly 
+ The model then predicts that the rate of inter-party avalanche observations/res
+cues should be roughly 
 \begin_inset Formula $r_{\text{inter-party observation}}\approx r_{0}A_{\text{observation}}n_{\text{party}}^{2}.$
 \end_inset
 
@@ -3725,19 +3737,20 @@ Conclusion
 \end_layout
 
 \begin_layout Standard
-We have made a first-principles estimation of the scaling of inter-party
- avalanche involvements with party-density and found it to be quadratic.
+We made a first-principles estimation of the scaling of inter-party avalanche
+ involvements with party-density and found it to be quadratic.
  Furthermore, we find that inter-party involvements should become a significant
  fraction of all avalanche involvements when the localized party density
  approaches one party per avalanche area.
- This result is independent of the day's likelihood of triggering avalanches.
+ This result is independent of the day's likelihood of triggering avalanches,
+ and may have utility for avalanche forecasters.
 \end_layout
 
 \begin_layout Standard
 We explored a series of North-American avalanche incidents in order to show
  varied ways in which inter-party involvements have occurred.
  Moreover, the party-densities at which these incidents occurred are roughly
- consistent with our model, with many incidents near 
+ consistent with the model, with many incidents near 
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.1$
 \end_inset
 
@@ -3793,8 +3806,8 @@ Acknowledgments
 \end_layout
 
 \begin_layout Standard
-Big thank-yous to Susan Ashlock for her perpetual support for and tolerance
- of this project; Peg Achterman for helping to bring this paper back to
+Big thank-yous to Susan Ashlock for her perpetual support for, and tolerance
+ of, this project; Peg Achterman for helping to bring this paper back to
  life; Bruce Jamieson for suggesting the Lizard Range and Empress Lake incidents
 ; Doug Krause for directing attention to inter-party avalanche problem-type
  and inter-party rescues; Jason Alferness, Dallas Glass, B.
@@ -4311,7 +4324,7 @@ If we switch to densities (
 \begin_layout Standard
 \begin_inset Formula 
 \[
-r_{\text{single-party}}tA=n_{\text{party}}A_{\text{party}}n_{\text{start-zones}}AA_{\text{start-zone}}f_{\text{trigger}}
+r_{\text{single-party}}tA=n_{\text{party}}A_{\text{party}}n_{\text{start-zones}}A_{\text{start-zone}}f_{\text{trigger}}A
 \]
 
 \end_inset
@@ -4390,6 +4403,16 @@ r_{\text{single-party}}=r_{0}n_{\text{party}}
 
 \begin_layout Standard
 as required.
+ 
+\begin_inset Formula $r_{0}$
+\end_inset
+
+ will depend upon party-type, as 
+\begin_inset Formula $s_{\text{party}}$
+\end_inset
+
+ varys by at least an order of magnitude between mechanized and non-mechanized
+ travel.
 \end_layout
 
 \begin_layout Subsection
@@ -4463,7 +4486,7 @@ r_{\text{single-party}}=\frac{N_{\text{parties}}N_{\text{start-zones}}}{A^{2}}w_
 \begin_layout Standard
 For these reasons, it will be difficult for quantitative estimates of these
  rates and critical densities to be more accurate than a factor of two in
- the many cases.
+ many cases.
 \end_layout
 
 \begin_layout Standard
