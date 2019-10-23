@@ -5,4 +5,10 @@
 *.bak
 *.emergency
 *.swp
+*.tex
+*.bbl
+*.out
+*.aux
+*.blg
+*.log
 
