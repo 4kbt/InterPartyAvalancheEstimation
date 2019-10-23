@@ -94,7 +94,8 @@ Inter-Party Avalanche Involvements May Increase Quadratically With Party
 \end_layout
 
 \begin_layout Author
-Charles Hagedorn
+Charles A.
+ Hagedorn
 \end_layout
 
 \begin_layout Address
@@ -1792,10 +1793,6 @@ Seeing many tracks entering and leaving the deposition zone, the uphill
 wide true
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -3780,7 +3777,7 @@ lines of cars
 \begin_inset Newline newline
 \end_inset
 
-The source code and data needed to generate this document is freely-available
+The source code and data needed to generate this document are freely-available
 \begin_inset CommandInset citation
 LatexCommand citep
 key "GithubRepository"
