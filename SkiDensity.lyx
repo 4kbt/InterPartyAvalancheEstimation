@@ -111,13 +111,15 @@ We estimate, from first-principles, the rate of inter-party avalanche involvemen
 ts.
  The model suggests that the likelihood of inter-party involvements is quadratic
  in the density of parties – twice as many parties quadruples the likelihood.
- Furthermore, the model predicts that when the party-density times the area
+ The model predicts that when the product of the party-density and the area
  of a day's potential avalanches approaches one, inter-party avalanche involveme
 nts will become a substantial fraction of all avalanche involvements.
- The argument is made, with selected North American inter-party incidents
- from 2001-2019, that inter-party involvements are a timely concern.
- To spur conversation, we enumerate a variety of untested strategies to
- mitigate inter-party hazard.
+ As a corollary, the relative rate of inter-party involvements is expected
+ to increase with avalanche size.
+ We argue, with selected North American inter-party incidents from 2001-2019,
+ that inter-party involvements are a timely concern.
+ To spur conversation, we enumerate a variety of strategies that may mitigate
+ inter-party hazard.
 \end_layout
 
 \begin_layout Standard
@@ -220,7 +222,7 @@ name "sec:Estimation"
 To assess inter-party avalanche involvements as a concern, it is useful
  to develop a first-principles model for their likelihood.
  The estimation that follows is a simple approach that is likely to require
- small corrections to yield quantitiative predictions.
+ small corrections to yield quantitative predictions.
  This model has qualitative predictive power, predicting both that the inter-par
 ty involvement rate is quadratic in party density and that there is a critical
  party-density at which the inter-party involvement rate becomes significant.
@@ -1030,9 +1032,9 @@ Storm-skiing
 
 \begin_layout Standard
 It is a guess, but the Pacific-Northwestern inter-party avalanche hazard
- may be at its greatest on deep-snow storm-skiing days, when trailbreaking
+ may be at its greatest on deep-snow storm-skiing days, when trail-breaking
  is arduous, avalanches are likely, and powder fever is high.
- Arduous trailbreaking may be the most-powerful concentrator of backcountry
+ Arduous trail-breaking may be the most-powerful concentrator of backcountry
  travelers, amplifying the already-powerful magnetism of an extant skintrack.
 \end_layout
 
@@ -1079,7 +1081,7 @@ Good
  periods of spring/summer skiing; both snowpack and limited access curtail
  skiing at other times.
  There are narrow optimal windows for all of Tahoma/Rainier's Fuhrer Finger,
- the North Face of the Northwest Ridge of Pahto/Adams, and Ulrich's Couloirs
+ the North Face of the Northwest Ridge of Pahto/Adams, and Ulrich's Couloir
  of Stuart – these are listed for their combination of popularity and constraine
 d terrain, where a small summer slide can ravage anyone below.
  Indeed, on April 1, 2019, it was reported
@@ -2837,7 +2839,7 @@ name "sec:Mitigation"
 \end_layout
 
 \begin_layout Standard
-It is unlikely, and perhaps undesireable, that the number of backcountry
+It is unlikely, and perhaps undesirable, that the number of backcountry
  travelers be reduced.
  Therefore, we must find ways to limit the likelihood of inter-party incidents.
  The following are strategies that may mitigate the risk.
@@ -2977,7 +2979,7 @@ Examples:
 \end_layout
 
 \begin_layout Itemize
-Many ridgelines are not susceptible to slides from above – travelling upon
+Many ridgelines are not susceptible to slides from above – traveling upon
  such a ridgeline provides substantial protection from inter-party hazard.
 \end_layout
 
@@ -3051,7 +3053,7 @@ Active measures
 
 \begin_layout Standard
 When we travel in start zones, we are potential triggers for avalanches.
- In addition to passive measures to ensure that we are not travelling above
+ In addition to passive measures to ensure that we are not traveling above
  other people, there are small measures we can take to communicate with
  those who might be below.
  Radios (see Section 
@@ -3353,8 +3355,8 @@ Back Bowls
  The slide paths and runouts from that terrain reach the valley bottom.
  Passing beneath the area during times of control work, or traveling beneath
  the lift-accessible backcountry during times of instability is inadvisable.
- Furthermore, the skiers returning to the ski area are often travelling
- fast on the most-tempting skintrack.
+ Furthermore, the skiers returning to the ski area are often traveling fast
+ on the most-tempting skintrack.
  Recent efforts
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -3402,7 +3404,7 @@ One of the principal difficulties in avoiding conflict between disparate
 
 \begin_layout Standard
 The potential problems with such a system are myriad, but it may offer utility
- to the concientious.
+ to the conscientious.
 \end_layout
 
 \begin_layout Standard
@@ -3418,10 +3420,10 @@ m-tall couloir has a visibility-obscuring dog-leg about a third of the way
  Without coordination between parties in the couloir, it is possible for
  a group descending the couloir to be impacted by the actions of a group
  they have never seen.
- A concientious party arriving at the Slot's entrance could, seeing that
+ A conscientious party arriving at the Slot's entrance could, seeing that
  a party had entered the couloir only minutes before, choose to wait a few
  minutes for those below to clear the run.
- The social-network shareability of a photo of a run board atop a popular
+ The social-network share-ability of a photo of a run board atop a popular
  run (#firsttracks ?) might increase the likelihood of its use.
  A 
 \begin_inset Quotes eld
@@ -3748,7 +3750,7 @@ We explored a series of North-American avalanche incidents in order to show
 \begin_layout Standard
 We enumerated and discussed a number of possible strategies for mitigating
  inter-party avalanche hazards.
- Improved awareness, spreading our parties out over greater area, travelling
+ Improved awareness, spreading our parties out over greater area, traveling
  with others in mind, implementing regional travel standards, and communicating
  more-effectively may all help to limit the number of involvements.
 \end_layout
@@ -3790,7 +3792,7 @@ literal "false"
 \end_layout
 
 \begin_layout Section
-Acknowledgements
+Acknowledgments
 \end_layout
 
 \begin_layout Standard
