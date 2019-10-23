@@ -1,9 +1,9 @@
-SkiDensity.pdf: SkiDensity.lyx ExampleIncidentRates.pdf RelativeInterpartyData.pdf
-	lyx -batch -e pdflatex $<
+SkiDensity.pdf: SkiDensity.lyx ExampleIncidentRates.pdf RelativeInterpartyData.pdf Makefile
+	lyx -batch --export "pdf2" -dbg info,latex $<
 
 
-ExampleIncidentRates.pdf: ExampleIncidentRates.gpl
+ExampleIncidentRates.pdf: ExampleIncidentRates.gpl Makefile
 	gnuplot $<
 
-RelativeInterpartyData.pdf: RelativeInterpartyData.gpl Densities.dat
+RelativeInterpartyData.pdf: RelativeInterpartyData.gpl Densities.dat Makefile
 	gnuplot $<
