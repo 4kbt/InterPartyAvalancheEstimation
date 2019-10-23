@@ -8,7 +8,7 @@
 \begin_preamble
 \usepackage[colorlinks]{hyperref}
 \end_preamble
-\options longbibliography
+\options longbibliography,nofootinbib
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -89,23 +89,34 @@
 \begin_body
 
 \begin_layout Title
-Inter-Party Avalanche Incidents May Increase Quadratically With Skier Density
+Inter-Party Avalanche Involvements May Increase Quadratically With Party
+ Density
 \end_layout
 
 \begin_layout Author
 Charles Hagedorn
 \end_layout
 
+\begin_layout Address
+Center for Experimental Nuclear Physics and Astrophysics, Box 354290, University
+ of Washington, Seattle, Washington 98195-4290
+\end_layout
+
+\begin_layout Author Email
+
+cah49@uw.edu
+\end_layout
+
 \begin_layout Abstract
-We estimate from first principles a common-sense result: When the density
- of backcountry travelers becomes comparable to the size of a day's potential
- avalanches, inter-party avalanche incidents will become a substantial fraction
- of all avalanche incidents.
- Furthermore, this model suggests that the likelihood of inter-party incidents
- is quadratic in the density of travelers – twice as many parties quadruples
- the likelihood.
- The argument is made, with selected North American incidents from 2004-2019,
- that inter-party incidents are a timely concern.
+We estimate, from first-principles, the rate of inter-party avalanche involvemen
+ts.
+ The model suggests that the likelihood of inter-party involvements is quadratic
+ in the density of parties – twice as many parties quadruples the likelihood.
+ Furthermore, the model predicts that when the party-density times the area
+ of a day's potential avalanches approaches one, inter-party avalanche involveme
+nts will become a substantial fraction of all avalanche involvements.
+ The argument is made, with selected North American inter-party incidents
+ from 2001-2019, that inter-party involvements are a timely concern.
  To spur conversation, we enumerate a variety of untested strategies to
  mitigate inter-party hazard.
 \end_layout
@@ -130,30 +141,29 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-The number and density of backcountry skiers continues to increase
+The number and density of backcountry travelers continues to increase
 \begin_inset CommandInset citation
 LatexCommand citep
-key "WWAHumans,AvalancheHourEvelynLees"
+key "WWAHumans,AvalancheHourEvelynLees,MeisenheimerNSAW,BackcountryCrowdingDynamics"
 literal "false"
 
 \end_inset
 
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-[XXXMA cite...
- NSAW UAC talk] 
-\end_layout
+ in the United States and around the world.
+ Many have written
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BackcountryMagazineCrowding,BackcountryComPowderPolice,SlidePodcastScene,CrestedButteEtiquette"
+literal "false"
 
 \end_inset
 
- in the United States and around the world.
+ about the emerging hazard of inter-party involvements.
  At some density of backcountry travelers, avalanches triggered by one party
  will be likely to strike another.
  This work gives formal voice to this idea and, further, suggests that the
- time when such incidents become frequent is either now or in the near future.
+ time when such involvements become frequent is either now or in the near
+ future.
  In Section 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -190,25 +200,10 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-Many authors have described, directly[XXXRC cite] and indirectly[XXXRC cite],
- the emerging hazard of inter-party incidents.
- The purpose of this work is to provide a framework within which to discuss
+The purpose of this work is to provide a framework within which to discuss
  and estimate the magnitude of the concern, address it directly as a hazard,
  and spur discussion of strategies to reduce the likelihood of future inter-part
-y incidents.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-XXXRC cite Krause' Slide episode.
-\end_layout
-
-\end_inset
-
-
+y involvements.
 \end_layout
 
 \begin_layout Section
@@ -223,13 +218,13 @@ name "sec:Estimation"
 \end_layout
 
 \begin_layout Standard
-To assess inter-party avalanche incidents as a concern, it is interesting
- and useful to develop a first-principles model for their likelihood.
- The estimation that follows is a simple approach to the problem that is
- likely to require small corrections to yield quantitiative predictions.
+To assess inter-party avalanche involvements as a concern, it is useful
+ to develop a first-principles model for their likelihood.
+ The estimation that follows is a simple approach that is likely to require
+ small corrections to yield quantitiative predictions.
  This model has qualitative predictive power, predicting both that the inter-par
-ty incident rate is quadratic in party density and that there is a critical
- party-density at which the inter-party incident rate becomes significant.
+ty involvement rate is quadratic in party density and that there is a critical
+ party-density at which the inter-party involvement rate becomes significant.
 \end_layout
 
 \begin_layout Standard
@@ -271,6 +266,11 @@ and
 \end_inset
 
  is the area of a day's typical individual start-zone.
+ 
+\begin_inset Formula $N_{\text{parties}}$
+\end_inset
+
+ here is 7.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Diagram-showing-the"
@@ -282,10 +282,6 @@ name "fig:Diagram-showing-the"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -328,37 +324,6 @@ noprefix "false"
 \begin_inset Formula $N_{\text{parties}}>1$
 \end_inset
 
-
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Astute readers will note that when 
-\begin_inset Formula $N_{\text{parties}}$
-\end_inset
-
- is small, the analysis will require more detail to avoid a double-count.
- The large 
-\begin_inset Formula $N_{\text{parties}}$
-\end_inset
-
- analysis still applies when 
-\begin_inset Formula $n_{\text{party}}$
-\end_inset
-
- is small, and the 
-\begin_inset Formula $n_{\text{party}}^{2}$
-\end_inset
-
- scaling should persist for small 
-\begin_inset Formula $N_{\text{parties}}$
-\end_inset
-
-.
-\end_layout
-
-\end_inset
-
 .
  This analysis is independent of the definition of a 
 \begin_inset Quotes eld
@@ -368,8 +333,7 @@ party
 \begin_inset Quotes erd
 \end_inset
 
-, but for some of the estimates that follow, we loosely define a party as
- 
+, but for the estimates that follow, we define a party as 
 \begin_inset Quotes eld
 \end_inset
 
@@ -383,9 +347,34 @@ any group, as small as one person, that travels independently
 \end_inset
 
  be the party-density.
- If there are few-enough parties that they only ever get caught in their
- own avalanches, one expects the avalanche-incident rate per unit area per
- unit time, 
+ Here, we define an avalanche 
+\begin_inset Quotes eld
+\end_inset
+
+involvement
+\begin_inset Quotes erd
+\end_inset
+
+ as an interaction between a party and an avalanche, an 
+\begin_inset Quotes eld
+\end_inset
+
+incident
+\begin_inset Quotes erd
+\end_inset
+
+ as an event in which at least one involvement occurs, and an 
+\begin_inset Quotes eld
+\end_inset
+
+accident
+\begin_inset Quotes erd
+\end_inset
+
+ as an incident that yielded significant injury or death.
+ If there are few-enough parties that they are only ever caught in their
+ own avalanches, one expects the avalanche-involvement (and incident) rate
+ per unit area per unit time, 
 \begin_inset Formula $r_{\text{single-party}}$
 \end_inset
 
@@ -404,7 +393,8 @@ r_{\text{single-party}}=r_{0}n_{\text{party}}\label{eq:Single party avalanche ra
 \end_layout
 
 \begin_layout Standard
-The implication is straightforward: More parties, proportionally more incidents.
+The implication is straightforward: More parties, proportionally more involvemen
+ts.
  We estimate the many factors subsumed into 
 \begin_inset Formula $r_{0}$
 \end_inset
@@ -446,8 +436,60 @@ If the average avalanche that day sweeps through an area
 \begin_inset Formula $A_{\text{avalanche}}$
 \end_inset
 
-, the number of other parties that will be struck by that avalanche is then
- approximately 
+, the number of other parties that will be struck by that avalanche is approxima
+tely
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+We assume a uniform distribution of parties and that 
+\begin_inset Formula $N_{\text{parties}}$
+\end_inset
+
+ is 
+\begin_inset Quotes eld
+\end_inset
+
+large
+\begin_inset Quotes erd
+\end_inset
+
+.
+ The result for any 
+\begin_inset Formula $N_{\text{parties }}$
+\end_inset
+
+ is derived in Appendix 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Correctly-handling-N"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ The correction to Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Quadratic Scaling"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is 
+\begin_inset Formula $(N_{\text{parties}}-1)/N_{\text{parties}}$
+\end_inset
+
+, never more-impactful than a factor of two.
+\end_layout
+
+\end_inset
+
+ 
 \begin_inset Formula $A_{\text{avalanche}}n_{\text{party}}$
 \end_inset
 
@@ -455,7 +497,7 @@ If the average avalanche that day sweeps through an area
 \end_layout
 
 \begin_layout Standard
-So, the rate of inter-party avalanche incidents, 
+So, the rate of inter-party avalanche involvements, 
 \begin_inset Formula $r_{\text{interparty}}$
 \end_inset
 
@@ -487,7 +529,8 @@ r_{\text{interparty}}=r_{0}A_{\text{avalanche}}n_{\text{party}}^{2}.\label{eq:Qu
 
  
 \series bold
-The rate of inter-party incidents should scale like the skier-density 
+The rate of inter-party involvements should scale like the party-density
+ 
 \emph on
 squared
 \series default
@@ -498,7 +541,6 @@ squared
 
 ).
  This is the key observation.
- 
 \end_layout
 
 \begin_layout Standard
@@ -506,7 +548,7 @@ Why is
 \begin_inset Formula $n_{\text{party}}^{2}$
 \end_inset
 
- important? Let's look at the rate that parties will be involved in an incident
+ important? Let's look at the rate that parties will have an involvement
  of either kind by summing the rates:
 \end_layout
 
@@ -572,14 +614,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Illustrative plots showing quadratic growth in inter-party incidents surpassing
- linear growth in single-party incidents when 
+Illustrative plots showing quadratic growth in inter-party involvements
+ surpassing linear growth in single-party involvements when 
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
 \end_inset
 
  exceeds 1; when there is more than one party per avalanche-area.
  In this example, the critical density is 
-\begin_inset Formula $n_{\text{critical}}=100$
+\begin_inset Formula $n_{\text{critical}}=5$
 \end_inset
 
 
@@ -591,7 +633,11 @@ parties/km
 \end_inset
 
 .
- The vertical scale is poorly-determined (see Appendix 
+ The vertical scale will vary greatly
+\emph on
+ 
+\emph default
+from day to day (see Appendix 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:Deriving-likelihood"
@@ -601,43 +647,18 @@ noprefix "false"
 
 \end_inset
 
-), and will vary 
-\bar under
-greatly
-\emph on
-\bar default
- 
-\emph default
-from day to day, but the relative rates between single-party and inter-party
- incidents depend, in this model, only on 
+), but the relative rates between single-party and inter-party involvements
+ depend only on 
 \begin_inset Formula $A_{\text{avalanche}}$
 \end_inset
 
 .
- The parameters were chosen to emulate the Kendall Peak incident; the absolute
- rates seem qualitatively low, perhaps because this model does not account
- for travelers' affinity for start zones.
+ The parameters were chosen to highlight the importance of avalanche size
+ in addition to density – when avalanches are large or parties are close
+ together, inter-party involvement becomes likely.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Illustrative-example-of"
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-XXXRC previous note 
-\begin_inset Quotes eld
-\end_inset
-
-estimate rate?
-\begin_inset Quotes erd
-\end_inset
-
- XXXRC why are these numbers so low?
-\end_layout
 
 \end_inset
 
@@ -659,7 +680,11 @@ estimate rate?
 \end_layout
 
 \begin_layout Standard
-An illustrative plot of these rates is shown in Figure 
+An illustrative plot of these rates is shown in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Illustrative-example-of"
@@ -714,7 +739,7 @@ reference "eq:Combined Single and multi-party accident rate"
 \begin_inset Formula $A_{\text{avalanche}}n_{\text{party}}\gtrsim1$
 \end_inset
 
-, inter-party incidents will dominate.
+, inter-party involvements will dominate.
  This makes sense – once there is roughly one party per avalanche-area,
  any triggered avalanche is likely to hit another party.
  This notion is intuitive – in-bounds avalanches at ski areas are scary
@@ -739,20 +764,21 @@ only
 \end_layout
 
 \begin_layout Standard
-While it is difficult to predict the overall incident rate, as the determination
- of 
+While it is difficult to predict the absolute involvement rate, as the determina
+tion of 
 \begin_inset Formula $r_{0}$
 \end_inset
 
- is uncertain, one can consider the ratio of inter-party incidents to total
- incidents:
+ is uncertain, one can consider the ratio of inter-party involvements to
+ total involvements:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{equation}
-\frac{r_{\text{interparty}}}{r_{\text{incident}}}=\frac{A_{\text{avalanche}}n_{\text{party}}^{2}}{n_{\text{party}}+A_{\text{avalanche}}n_{\text{party}}^{2}}=\frac{1}{\frac{1}{A_{\text{avalanche }}n_{\text{party}}}+1}\label{eq:RelativeIncidentFraction}
-\end{equation}
+\begin{align}
+\frac{r_{\text{interparty}}}{r_{\text{incident}}} & =\frac{A_{\text{avalanche}}n_{\text{party}}^{2}}{n_{\text{party}}+A_{\text{avalanche}}n_{\text{party}}^{2}}\label{eq:RelativeIncidentFraction}\\
+ & =\frac{1}{\frac{1}{A_{\text{avalanche }}n_{\text{party}}}+1}\nonumber 
+\end{align}
 
 \end_inset
 
@@ -770,8 +796,8 @@ noprefix "false"
 
 \end_inset
 
-, this has the expected behavior, where inter-party incidents become significant
- as 
+, this has the expected behavior, where inter-party involvements become
+ significant as 
 \begin_inset Formula $A_{\text{avalanche}}n_{\text{party}}$
 \end_inset
 
@@ -799,9 +825,9 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Upper Panel: Approximate fraction of inter-party avalanche incidents as
- a function of party-density, measured in units of avalanche-area, as described
- by Equation 
+Upper Panel: Approximate fraction of inter-party avalanche involvements
+ as a function of party-density, measured in units of avalanche-area, as
+ described by Equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:RelativeIncidentFraction"
@@ -827,7 +853,7 @@ noprefix "false"
 \end_inset
 
 .
- It is interesting that all but one of the incidents occurred with 
+ It is interesting that all but two of the incidents occurred with 
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.1$
 \end_inset
 
@@ -852,7 +878,7 @@ name "fig:Approximate-fraction-of"
 \end_layout
 
 \begin_layout Subsection
-Relationship of inter-party incident rate to avalanche size
+Relationship of inter-party involvement rate to avalanche size
 \end_layout
 
 \begin_layout Standard
@@ -871,8 +897,8 @@ reference "eq:Combined Single and multi-party accident rate"
 \end_inset
 
  have an important corollary: If the size or likelihood of a day's avalanches
- is greater, we should expect the rate at which inter-party incidents occur
- to be greater.
+ is greater, we should expect the rate at which inter-party involvements
+ occur to be greater.
  If slides are more likely, 
 \begin_inset Formula $r_{0}$
 \end_inset
@@ -885,11 +911,11 @@ reference "eq:Combined Single and multi-party accident rate"
  As backcountry travelers, larger and more-likely slides will force wary
  travelers to consider larger areas (further uphill) and more places (increased
  number of potential start zones) in the context of inter-party incidents.
- In our model, situations with 
+ In our model, incidents with 
 \begin_inset Formula $A_{\text{avalanche}}n_{\text{party}}\gtrsim1$
 \end_inset
 
- are likely to involve inter-party incidents.
+ are likely to include inter-party involvements.
  Indeed, if 
 \begin_inset Formula $A_{\text{avalanche}}$
 \end_inset
@@ -914,12 +940,12 @@ literal "false"
 \end_layout
 
 \begin_layout Subsection
-Relationship of inter-party incident rate to terrain
+Relationship of inter-party involvement rate to terrain
 \end_layout
 
 \begin_layout Standard
 Looking at the equations alone, one would expect both the incident rate
- and the inter-party incident rates to be relatively low.
+ and the inter-party involvement rate to be relatively low.
  Even in mountainous terrain, start-zones are comparatively small, and much
  of the area is not avalanche terrain.
 \end_layout
@@ -967,7 +993,11 @@ parties/km
 
 .
  For scale, the population density of the nearby city of Seattle, Washington
- is about 3,400 people/km
+ is 
+\begin_inset Formula $\sim3400$
+\end_inset
+
+ people/km
 \begin_inset Formula $^{2}$
 \end_inset
 
@@ -999,7 +1029,7 @@ It is a guess, but the Pacific-Northwestern inter-party avalanche hazard
 \end_layout
 
 \begin_layout Standard
-On storm-skiing days, day-tripping backcountry skiers embark from a limited
+On storm-skiing days, day-tripping backcountry travelers embark from a limited
  set of trailheads and head for a limited set of 
 \begin_inset Quotes eld
 \end_inset
@@ -1010,7 +1040,7 @@ safe
 
  objectives.
  In Western Washington State, with a population of thousands of active backcount
-ry skiers
+ry travelers
 \begin_inset CommandInset citation
 LatexCommand citep
 key "NWACAnnualReport2018"
@@ -1018,9 +1048,7 @@ literal "false"
 
 \end_inset
 
-, there are approximately nine such popular trailheads: Mount Baker, Stevens
- Pass, Yodelin, Alpental, Commonwealth Basin, Bullion Basin, Paradise, Hurricane
- Ridge, and White Pass.
+, there are approximately nine such popular trailheads.
  As skintracks are forged more-deeply into the morning, they bifurcate,
  but the number of traditional and natural ski options remains slim.
 \end_layout
@@ -1054,8 +1082,8 @@ literal "false"
 
 \end_inset
 
- that 15 parties attempted, and many bottlenecked, the ski route on the
- Grand Teton.
+ that 16 people attempted, and bottlenecked, the ski route on the Grand
+ Teton.
 \end_layout
 
 \begin_layout Standard
@@ -1063,13 +1091,14 @@ Wintertime weather windows provide perhaps even more temporal concentration,
  as the number of good days for attempting bold routes is slim, perhaps
  only one or two weekends per season.
  Fortunately, for now, the number of skiers attempting bold winter routes
- seems low-enough that inter-party hazard is likely to be a smaller concern.
+ seems low-enough that inter-party hazard is likely to be a sub-dominant
+ concern.
 \end_layout
 
 \begin_layout Standard
-In addition to temporal concentration at the scale of days, safety and ski-quali
-ty considerations may also concentrate skiers on shorter durations.
- Springtime daily melt-freeze/corn cycles can constrain safe skiing to time
+In addition to temporal concentration at the scale of days, safety and snow-qual
+ity considerations may also concentrate parties on shorter durations.
+ Springtime daily melt-freeze/corn cycles can constrain safe travel to time
  intervals measured in hours.
  The arrival of a storm or imminent warming can force travelers to enter
  or cross slopes before hazard increases.
@@ -1079,8 +1108,8 @@ ty considerations may also concentrate skiers on shorter durations.
 \emph on
 before
 \emph default
- the presence of other skiers can make the slope more hazardous, can concentrate
- parties in small areas.
+ the presence of other parties can make the slope more hazardous, can concentrat
+e parties in small areas.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1088,12 +1117,23 @@ Reduced visibility
 \end_layout
 
 \begin_layout Standard
-If nearby parties cannot be seen, and the distances between parties are
- greater than that allowed by voice contact, it is impossible to be aware
- of anyone above or below.
- In low-visibility conditions in densely-skied areas, this may drive us
- to avoid skiing or ascending an otherwise-reasonable route simply because
- it may not be possible to verify that the route is free of other travelers.
+If nearby parties cannot be seen, as in the Lizard Range incident (Section
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Lizard-Range"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), and the distances between parties are greater than that allowed by voice
+ contact, it is impossible to be aware of anyone above or below.
+ In low-visibility conditions in densely-traveled areas, this may drive
+ us to avoid descending or ascending an otherwise-reasonable route simply
+ because it may not be possible to verify that the route is free of other
+ travelers.
 \end_layout
 
 \begin_layout Section
@@ -1110,12 +1150,12 @@ name "sec:Significant-Accidents"
 \begin_layout Standard
 Here, we enumerate a series of inter-party incidents, near-misses, and possible
  inter-party incidents.
- We provide a subjective summary from an inter-party-incident perspective.
- The references offfer expanded detail.
+ We provide a subjective summary from an inter-party-involvement perspective.
+ The references offer expanded detail.
  Several of the incidents appear to have been reported only informally.
- It is a particular surprise that it has been difficult to find formal accident
- reports for many of the Canadian avalanches, all of which have required
- rescue or a coroner.
+ It is a surprise that it has been difficult to find formal accident reports
+ for some modern Canadian avalanches, each of which have required rescue
+ or a coroner.
 \end_layout
 
 \begin_layout Standard
@@ -1131,8 +1171,8 @@ noprefix "false"
 
 , these incidents are presented in chronological order.
  This enumeration is not intended to be comprehensive, but rather to provide
- both a sense of the varied types of inter-party incidents and to make clear
- that these incidents happen.
+ both a sense of the varied types of inter-party involvements and to make
+ clear that these involvements happen.
 \end_layout
 
 \begin_layout Standard
@@ -1140,6 +1180,16 @@ For incidents where documentation makes it possible, we have attempted to
  measure the areas in question, the number of parties, and compute both
  the party density and 
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
+\end_inset
+
+, summarized in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Quantitative-characterization-of"
+plural "false"
+caps "false"
+noprefix "false"
+
 \end_inset
 
 .
@@ -1159,8 +1209,8 @@ connected
 \begin_inset Quotes erd
 \end_inset
 
- by an observer on the ground; this is an inherently-subjective measurement
- (see Appendix 
+ by an observer on the ground; this is a somewhat-subjective quantity (see
+ Appendix 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:Sensitivity-to-area"
@@ -1171,6 +1221,56 @@ noprefix "false"
 \end_inset
 
 ).
+ At Krause's suggestion
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DougKrauseEmail"
+literal "false"
+
+\end_inset
+
+, we include the avalanche type, to the extent that it is reported in the
+ record.
+\end_layout
+
+\begin_layout Subsection
+Lizard Range, February 13, 2001
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Lizard-Range"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A party of five skiers crossed over a ridgeline outside the Fernie Ski Area,
+ intent on skiing a constrained 35-40-degree route.
+ As they prepared for descent, a ski cut triggered a 24
+\begin_inset space ~
+\end_inset
+
+m-wide and 28
+\begin_inset space ~
+\end_inset
+
+cm deep wind-slab avalanche
+\begin_inset CommandInset citation
+LatexCommand citep
+key "CanadaAvalancheBook,LizardRangeAvalancheCanada,LizardRangeCSAC,LizardRangeGlobeAndMail,LizardRangeOttawa"
+literal "false"
+
+\end_inset
+
+, sweeping down the route and out of sight.
+ At approximately the same time, a party of thirteen foreign skiers was
+ hit by a size-2.5 avalanche while traversing the side of the valley below.
+ Six skiers were caught, resulting in two fatalities.
+ A third party witnessed the entire incident and immediately returned toward
+ the ski area to raise an alarm.
+ On the way, they encountered the first party, which was unaware of the
+ slide's impact on the second party.
 \end_layout
 
 \begin_layout Subsection
@@ -1181,7 +1281,7 @@ Empress Lake, March 20, 2004
 A party of snowmobilers
 \begin_inset CommandInset citation
 LatexCommand citep
-key "HankeNarrative1,Hanke2,EmpressGlobeAndMail,EmpressCastanet"
+key "CanadaAvalancheBook,EmpressLakeAvalancheCanada,HankeNarrative1,Hanke2,EmpressGlobeAndMail,EmpressCastanet"
 literal "false"
 
 \end_inset
@@ -1221,60 +1321,6 @@ cm crown).
  Three were caught, one was killed.
 \end_layout
 
-\begin_layout Standard
-
-\series bold
-Density: 
-\series default
-Area:
-\begin_inset Formula $\sim1.2$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-, 2 parties 
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
- 
-\begin_inset Formula $n_{\text{party}}\sim1.6$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-parties/km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $A_{\text{avalanche}}\sim0.05$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.08$
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Nisqually/Wilson Glaciers, June 14, 2008
 \end_layout
@@ -1311,57 +1357,6 @@ literal "false"
 
  from Rainier's south side emphasizes the day's instability during what
  is generally prime volcano-ski season.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Density: 
-\series default
-Area commonly travelled on the Wilson/lower-Nisqually: 
-\begin_inset Formula $\sim1.3$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 3+ parties 
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
- 
-\begin_inset Formula $n_{\text{party}}\gtrsim2.3$
-\end_inset
-
- parties/km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $A_{\text{avalanche}}\sim0.02$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.05$
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Subsection
@@ -1408,76 +1403,42 @@ literal "false"
  notes the probability of legal charges in similar future events.
 \end_layout
 
-\begin_layout Standard
-
-\series bold
-Density:
-\series default
- Upper drainage area: 
-\begin_inset Formula $1\text{-}2$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-, 30-100 parties 
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
- 
-\begin_inset Formula $15<n_{\text{party}}<100$
-\end_inset
-
- parties/km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $A_{\text{avalanche}}\sim0.2$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $3<n_{\text{party}}A_{\text{avalanche}}<20$
-\end_inset
-
-.
-\end_layout
-
 \begin_layout Subsection
 Eagle Pass Avalanche, March 19, 2010
 \end_layout
 
 \begin_layout Standard
-No official report appears to be available for this accident; this synopsis
- is composed from news articles and indirect references in the Boulder Mountain
- accident reporting.
- One week following the Boulder Mountain slide, a snowmobiling party of
- two triggered a D4 slide above at least one party of at least ten snowmobilers,
- yielding one fatality and at least one injury
+Only an Incident Summary
 \begin_inset CommandInset citation
 LatexCommand citep
-key "EaglePassNewsArticle1,EaglePassNewsArticle2"
+key "EaglePassAvalancheCanada"
+literal "false"
+
+\end_inset
+
+, an Avalanche Involvement Report
+\begin_inset CommandInset citation
+LatexCommand citep
+key "EaglePassCSAC"
+literal "false"
+
+\end_inset
+
+, and an associated photograph appear to be available for this accident;
+ this synopsis is composed from news articles and indirect references in
+ the Boulder Mountain accident reporting.
+ One week following the Boulder Mountain slide, a snowmobiling party of
+ two may have triggered a D3.5 slide above one or two parties of at least
+ ten snowmobilers, yielding one fatality and at least one injury
+\begin_inset CommandInset citation
+LatexCommand citep
+key "EaglePassNewsArticle1,EaglePassNewsArticle2,CodeBlackBoulderMountain"
 literal "false"
 
 \end_inset
 
 .
- The total number of people involved may have been as large as 19
+ The total number of people involved may have been as large as 21
 \begin_inset CommandInset citation
 LatexCommand citep
 key "ParksCanadaBoulderMountainPresentation"
@@ -1583,7 +1544,21 @@ literal "false"
 \end_inset
 
 .
- The number of skiers and parties in the area was remarkably high.
+ The number of skiers and parties in the area was unusually high, with at
+ least nine parties recreating in a single square kilometer.
+ In the Table, the estimations of 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $N$
+\end_inset
+
+ are correlated, hence the diminished range of 
+\begin_inset Formula $n_{\text{party}}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1599,44 +1574,6 @@ After an extensive search effort, exceeding 3000 person-hours, the solo-skier's
  NWAC's analysis of the accident does not take a position on whether the
  fatality was caused by an inter-party avalanche – both a third avalanche
  triggered by the soloist or a natural avalanche remain viable hypotheses.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Density:
-\series default
- Area: 1.0 km
-\begin_inset Formula $^{2}$
-\end_inset
-
-, 9+ parties 
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
- 
-\begin_inset Formula $n_{\text{party}}>9$
-\end_inset
-
- parties/km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- Avalanche area: 0.01
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.1$
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Subsection
@@ -1672,40 +1609,6 @@ literal "false"
 ng injury.
 \end_layout
 
-\begin_layout Standard
-
-\series bold
-Density:
-\series default
- Area: 2-5
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 5+ parties 
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
- 
-\begin_inset Formula $1<n_{\text{party}}<5$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-parties/km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\end_layout
-
 \begin_layout Subsection
 Grandfather Couloir, April 3, 2016
 \begin_inset CommandInset label
@@ -1729,7 +1632,7 @@ literal "false"
  and subsequent lawsuit
 \begin_inset CommandInset citation
 LatexCommand citep
-key "SanMiguelCountyJudgement"
+key "SanMiguelCountyJudgement,GrandfatherLegalBlog"
 literal "false"
 
 \end_inset
@@ -1767,60 +1670,6 @@ The judgment from the San Miguel County Court is notable for its detailed
  liable for the injuries sustained by Group 1.
 \end_layout
 
-\begin_layout Standard
-
-\series bold
-Density:
-\series default
- Upper drainage area: 
-\begin_inset Formula $\sim0.16$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-, 2 parties 
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
- 
-\begin_inset Formula $n_{\text{party}}\sim12.5$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-parties/km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- Avalanche area: 
-\begin_inset Formula $0.02\text{-}0.08$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\approx0.3\text{-}1$
-\end_inset
-
-.
-\end_layout
-
 \begin_layout Subsection
 Mt.
  Herman, March 4, 2017
@@ -1855,36 +1704,6 @@ Widespread 1-2 ft storm slabs and larger 3-5 ft wind slabs were reported
  caught in the avalanche.
 \end_layout
 
-\begin_layout Standard
-
-\series bold
-Density: 
-\series default
-Area: 0.4-1.2
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-, 2+ parties 
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
-
-\begin_inset Formula $2\text{-5}<n_{\text{party}}$
-\end_inset
-
-.
- This area is extremely popular.
- 
-\begin_inset Formula $n_{\text{party}}$
-\end_inset
-
- could easily be 10 times larger.
-\end_layout
-
 \begin_layout Subsection
 Hawkins Mountain, March 4, 2017 
 \begin_inset CommandInset label
@@ -1916,56 +1735,6 @@ LatexCommand citep
 key "SnowestHawkins"
 literal "false"
 
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Density:
-\series default
- Drainage area: 
-\begin_inset Formula $0.6\text{-}1$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-, 2-3 parties 
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
-
-\begin_inset Formula $2<n_{\text{party}}<5$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-parties/km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- Avalanche area: 0.03-0.05
-\begin_inset space ~
-\end_inset
-
-km
-\begin_inset Formula $^{2}$
-\end_inset
-
-.
- 
-\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\approx0.06\text{-}0.25$
 \end_inset
 
 .
@@ -2008,6 +1777,1046 @@ Seeing many tracks entering and leaving the deposition zone, the uphill
  the following day.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float table
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="13" columns="7">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="2.6cm">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="2.8cm">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Incident
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Type
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $A$
+\end_inset
+
+ (km
+\begin_inset Formula $^{2}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $N_{\text{parties}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $n_{\text{party}}$
+\end_inset
+
+(parties/km
+\begin_inset Formula $^{2}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $A_{\text{avalanche}}$
+\end_inset
+
+(km
+\begin_inset Formula $^{2}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lizard Range
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wind Slab,
+\begin_inset Newline linebreak
+\end_inset
+
+cross-loading
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2-4.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.7-1.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim0.1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.04-0.3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Empress Lake
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dry Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim1.2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim0.05$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.05-0.1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nisqually/Wilson
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim1.3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\geq2.3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim$
+\end_inset
+
+0.02
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.03-0.08
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Boulder/Turbo Mountain
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Persistent Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1-2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30-100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15-100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim0.2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3-20
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Eagle Pass (possible)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1-2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2-3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.5-3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $>0.3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.15-3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Taylor Mountain
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hard Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim0.8$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $>0.3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kendall Peak (possible)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.2-1.0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3-9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9-15
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.003-0.01
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.03-0.15
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Avalanche Crest/Rogers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2-5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1-5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Grandfather Couloir
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Loose Snow
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim0.16$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim12.5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.02-0.08
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.3-1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mount Herman
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wind Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.4-1.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $>2\text{-}5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hawkins Mountain
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Soft Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.6-1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2-3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2-5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.03-0.05
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.06-0.25
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bear Creek, Temptation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Soft Slab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.3$
+\end_inset
+
+-
+\begin_inset Formula $1.3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.5-7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim0.03$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.05-0.2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Quantitative characterization of inter-party incidents.
+ The estimation of 
+\begin_inset Formula $A$
+\end_inset
+
+ is inherently subjective and uncertain.
+ The model predicts that inter-party incidents become likely as 
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
+\end_inset
+
+ approaches 1.
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Quantitative-characterization-of"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Common threads
+\end_layout
+
+\begin_layout Standard
+While this enumeration is not intended to be comprehensive, it is interesting
+ to look for commonalities among the incidents.
+ Two stand out: 1) For those incidents where 
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
+\end_inset
+
+ can be estimated, 6 out of 9 overlapped 
+\begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.1$
+\end_inset
+
+.
+ This is in rough agreement with the expectations of Equation
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:RelativeIncidentFraction"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, if slightly on the low side.
+ The model is, of course, blind to any propensity for parties to avoid one-anoth
+er.
+ 2) Eleven out of twelve incidents involved slab avalanches.
+ Whether this is simple correlation with size/frequency or more meaningful
+ must await further study.
+ The Grandfather Couloir incident shows that loose slides can cause inter-party
+ incidents as well
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+It is the author's opinion that there will eventually be a loose-wet inter-party
+ incident in the Cascades, as the popularity of accessible Spring skiing
+ continues to grow.
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Section
 Mitigation
 \begin_inset CommandInset label
@@ -2034,9 +2843,9 @@ Awareness and Education
 
 \begin_layout Standard
 Awareness of the increasing likelihood of inter-party conflict with density
- may, on its own, help to curtail inter-party incidents.
+ may, on its own, help to curtail inter-party involvements.
  That is, of course, the intent of this work.
- In places where the density of skiers approaches the critical density,
+ In places where the density of travelers approaches the critical density,
  the hazard should be discussed and mitigated.
  At least a passing mention of inter-party hazard in avalanche education
  at all levels now seems prudent.
@@ -2044,8 +2853,17 @@ Awareness of the increasing likelihood of inter-party conflict with density
 
 \begin_layout Standard
 As better understanding of the factors that lead to inter-party avalanche
- incidents becomes understood, it will make sense to bring light to the
+ involvements becomes understood, it will make sense to bring light to the
  hazard in avalanche bulletins.
+ The key takeaway for forecasters is the apparent importance of avalanche
+ size in determining the likelihood of inter-party involvements, especially
+ in situations (
+\emph on
+e.g.
+
+\emph default
+ persistent weaknesses) where avalanche size alone may not convince travelers
+ to stay home.
 \end_layout
 
 \begin_layout Subsection
@@ -2110,11 +2928,7 @@ literal "false"
 \emph on
 in localized avalanche terrain
 \emph default
- would be wise, and 1-10 parties/km
-\begin_inset Formula $^{2}$
-\end_inset
-
- (suggested by Figure 
+ would be wise, and ten-times lower (intimated by Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Approximate-fraction-of"
@@ -2156,8 +2970,7 @@ Examples:
 
 \begin_layout Itemize
 Many ridgelines are not susceptible to slides from above – travelling upon
- such a ridgeline inherently provides substantial protection from any inter-part
-y incident.
+ such a ridgeline provides substantial protection from inter-party hazard.
 \end_layout
 
 \begin_layout Itemize
@@ -2170,7 +2983,7 @@ literal "false"
 
 \end_inset
 
- at Roger's Pass, Source Lake Basin and Mushroom Couloir at Snoqualmie Pass.
+ at Rogers Pass, Source Lake Basin and Mushroom Couloir at Snoqualmie Pass.
  Avoiding those areas during times that 
 \emph on
 human-triggered
@@ -2207,9 +3020,9 @@ noprefix "false"
 \end_layout
 
 \begin_layout Itemize
-Avalanche incidents of all kinds only happen in avalanche terrain – if avalanche
-s are a concern, avoiding avalanche terrain is a sure-fire way to avoid
- avalanche incidents of all kinds, including inter-party incidents.
+Avalanches only happen in avalanche terrain – avoiding avalanche terrain
+ is a sure-fire way to avoid avalanche incidents of all kinds, including
+ inter-party incidents.
 \end_layout
 
 \begin_layout Standard
@@ -2374,16 +3187,6 @@ literal "false"
 
 \end_inset
 
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-[XXXMI add more citations]
-\end_layout
-
-\end_inset
-
 , the notion of a 
 \begin_inset Quotes eld
 \end_inset
@@ -2412,12 +3215,6 @@ run list
  incidents – they may even serve to concentrate travelers during times of
  higher hazard – a strong basis for communication is bedrock upon which
  many mitigation strategies can be built.
-\end_layout
-
-\begin_layout Standard
-It is our understanding [XXXRC NWAC, personal communication] that the NWAC
- plans to publish run lists/maps to facilitate these goals.
- 
 \end_layout
 
 \begin_layout Subsubsection
@@ -2475,8 +3272,7 @@ Blueberry Chutes
 km from a parking lot, with a straightforward and comparatively safe alternative
  ascent route that reaches the run at the top.
  It is also possible to ascend the run directly, which is arduous, slow,
- exposed to avalanche hazard, and importantly exposed to skiers dropping
- in from above.
+ exposed to avalanche hazard, and exposed to skiers dropping in from above.
  In addition, those ascending from the bottom sometimes choose to transition
  to downhill skiing mid-slope, spending even longer in a hazardous spot.
  This location has become the site of inter-party conflicts
@@ -2505,7 +3301,7 @@ literal "false"
 
 \begin_layout Standard
 The Slot, a committing couloir on Snoqualmie Mountain near Snoqualmie Pass,
- WA, was once regarded more as a climbing route
+ WA, was once regarded as much as a climbing route
 \begin_inset CommandInset citation
 LatexCommand citep
 key "PhilEnigma"
@@ -2605,8 +3401,6 @@ The potential problems with such a system are myriad, but it may offer utility
 A run board may be more useful in constrained terrain, like The Slot at
  Snoqualmie Pass, where entering parties might note their number and the
  time at which they entered, as a note for those who follow behind.
- In The Slot, the overhead inter-party hazard to descending parties is non-negli
-gible.
  The 370
 \begin_inset space ~
 \end_inset
@@ -2696,8 +3490,15 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-In addition to the utility radios have for communication within a party,
- radios have the potential to improve situational awareness and coordination
+In addition to the utility radios have for communication within a party
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SlideSystemicFailure"
+literal "false"
+
+\end_inset
+
+, radios have the potential to improve situational awareness and coordination
  between parties.
 \end_layout
 
@@ -2743,7 +3544,7 @@ commonly used to facilitate communication between groups in similar scenarios.
 \end_layout
 
 \begin_layout Standard
-As skier density increases, it may be necessary for backcountry-specific
+As party density increases, it may be necessary for backcountry-specific
  radio manufacturers to add the ability to monitor a community channel and
  an intra-party channel simultaneously, so that intra-party communication
  need not obstruct inter-party communication.
@@ -2854,21 +3655,80 @@ privacy code
 \end_layout
 
 \begin_layout Section
+Extensions
+\end_layout
+
+\begin_layout Standard
+The analysis presented in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Estimation"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is very general, and should extend to the estimation of rates for other
+ inter-party backcountry interactions.
+ Krause
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DougKrauseEmail"
+literal "false"
+
+\end_inset
+
+ points out that inter-party rescues may be of similar interest.
+ Inter-party rescues and inter-party observations are interesting both for
+ understanding the rate at which inter-party rescues occur and as a proxy
+ for inter-party involvement rates.
+ As the area, 
+\begin_inset Formula $A_{\text{observation}}$
+\end_inset
+
+, over which one party can see or hear an avalanche triggered by another
+ party is much larger than 
+\begin_inset Formula $A_{\text{avalanche}}$
+\end_inset
+
+, we should expect the rate at which parties observe avalanches triggered
+ by others to be much higher than the rate of inter-party involvements.
+ If 
+\begin_inset Formula $A_{\text{observation}}$
+\end_inset
+
+ is substituted for 
+\begin_inset Formula $A_{\text{avalanche}}$
+\end_inset
+
+, the mathematics should be the same.
+ The model then predicts that the rate of inter-party avalanche observations
+ should be roughly 
+\begin_inset Formula $r_{\text{inter-party observation}}\approx r_{0}A_{\text{observation}}n_{\text{party}}^{2}.$
+\end_inset
+
+ As avalanche observations and rescues happen far more often than fatal
+ accidents, there may be an opportunity for new research with more-reliable
+ statistics.
+\end_layout
+
+\begin_layout Section
 Conclusion
 \end_layout
 
 \begin_layout Standard
 We have made a first-principles estimation of the scaling of inter-party
- avalanche incidents with party-density and found it to be quadratic.
- Furthermore, we find that inter-party incidents should become a significant
- fraction of avalanche incidents with the localized party density approaches
- one party per avalanche area.
+ avalanche involvements with party-density and found it to be quadratic.
+ Furthermore, we find that inter-party involvements should become a significant
+ fraction of all avalanche involvements when the localized party density
+ approaches one party per avalanche area.
  This result is independent of the day's likelihood of triggering avalanches.
 \end_layout
 
 \begin_layout Standard
 We explored a series of North-American avalanche incidents in order to show
- varied ways in which inter-party incidents have occurred.
+ varied ways in which inter-party involvements have occurred.
  Moreover, the party-densities at which these incidents occurred are roughly
  consistent with our model, with many incidents near 
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.1$
@@ -2882,11 +3742,11 @@ We enumerated and discussed a number of possible strategies for mitigating
  inter-party avalanche hazards.
  Improved awareness, spreading our parties out over greater area, travelling
  with others in mind, implementing regional travel standards, and communicating
- more-effectively may all help to limit the number of incidents.
+ more-effectively may all help to limit the number of involvements.
 \end_layout
 
 \begin_layout Standard
-As this work was first drafted in an autumn-2018 Seattle coffee shop, customers
+As this work was first drafted in an Autumn-2018 Seattle coffee shop, customers
  discussed how their friends encountered 
 \begin_inset Quotes eld
 \end_inset
@@ -2899,7 +3759,8 @@ lines of cars
  This aligns with our experience in recent years, with unprecedented numbers
  of wilderness travelers at every trailhead and the disappearance of lonely
  places in the Cascades.
- Inter-party avalanche incidents are coming, if they have not already arrived.
+ Inter-party avalanche involvements are coming, if they have not already
+ arrived.
  It behooves us, individually and as a community, to develop strategies
  to proactively address this emerging hazard.
 \end_layout
@@ -2911,17 +3772,257 @@ Acknowledgements
 \begin_layout Standard
 Big thank-yous to Susan Ashlock for her perpetual support for and tolerance
  of this project; Peg Achterman for helping to bring this paper back to
- life; Bruce Jamieson for highlighting the Empress Lake incident; Jason
- Alferness, Dallas Glass, B.
- J., and Doug Krause for assistance with references; S.A.
- for proofreading and suggestions; and finally, the many avalanche/search-and-re
-scue organizations who have not only saved many of the lives described herein,
- but also generated the documentation needed to help us prevent incidents
- in the future.
+ life; Bruce Jamieson for suggesting the Lizard Range and Empress Lake incidents
+; Doug Krause for directing attention to inter-party avalanche problem-type
+ and inter-party rescues; Jason Alferness, Dallas Glass, B.
+ J., D.K., and Mark Vesely for assistance with references; S.A.
+ and John Greendeer Lee for proofreading and suggestions; and finally, the
+ many avalanche/search-and-rescue organizations who have not only saved
+ or recovered many of the people described, but also generated the documentation
+ needed to help us prevent incidents in the future.
+\end_layout
+
+\begin_layout Standard
+This nights-and-weekends work was indirectly supported by CENPA and the
+ National Science Foundation (PHY-1607391).
 \end_layout
 
 \begin_layout Section
 \start_of_appendix
+Correctly handling 
+\begin_inset Formula $N_{\text{parties}}$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Correctly-handling-N"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here, we estimate, without approximation with regard to 
+\begin_inset Formula $N_{\text{parties}}$
+\end_inset
+
+, the quantities derived in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Estimation"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+We begin with the same initial assumption: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{\text{single-party}}=r_{0}\frac{N_{\text{parties}}}{A}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+But now, we include the fact that if there are 
+\begin_inset Formula $N_{\text{parties}}$
+\end_inset
+
+ parties exploring the area 
+\begin_inset Formula $A$
+\end_inset
+
+, only 
+\begin_inset Formula $N_{\text{parties}}-1$
+\end_inset
+
+ parties can be caught in an inter-party avalanche.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{\text{interparty}}=r_{\text{single-party}}(N_{\text{parties}}-1)\frac{A_{\text{avalanche}}}{A}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which simplifies to 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Formula $r_{\text{inter-party}}=r_{0}\frac{N}{A}(N_{\text{parties}}-1)\frac{A_{\text{avalanche}}}{A}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $r_{\text{inter-party}}=r_{0}n_{\text{party}}(N_{\text{parties}}-1)\frac{A_{\text{avalanche}}}{A}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{\text{interparty}}=r_{0}n_{\text{party}}^{2}A_{\text{avalanche}}\frac{N_{\text{parties}}-1}{N_{\text{parties}}}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here, we see that the correction we will need is, in general, a factor of
+ 
+\begin_inset Formula $(N_{\text{parties}}-1)/N_{\text{parties}}$
+\end_inset
+
+, which is bounded above by 1 and below by 1/2.
+\end_layout
+
+\begin_layout Standard
+The definition of the total rate remains unchanged
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r=r_{\text{single-party}}+r_{\text{interparty}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:RelativeIncidentFraction"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is modified to
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{r_{\text{inter-party}}}{r}=\frac{r_{0}n_{\text{party}}^{2}A_{\text{avalanche}}\frac{N_{\text{parties}}-1}{N_{\text{parties}}}}{r_{0}n_{\text{party}}+r_{0}n_{\text{party}}^{2}A_{\text{avalanche}}\frac{N_{\text{parties}}-1}{N_{\text{parties}}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{r_{\text{inter-party}}}{r}=\frac{n_{\text{party}}A_{\text{avalanche}}\frac{N_{\text{parties}}-1}{N_{\text{parties}}}}{1+n_{\text{party}}A_{\text{avalanche}}\frac{N_{\text{parties}}-1}{N_{\text{parties}}}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{r_{\text{inter-party}}}{r}=\frac{1}{\frac{1}{n_{\text{party}}A_{\text{avalanche}}\frac{N_{\text{parties}}-1}{N_{\text{parties}}}}+1}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is then clear that the true figure of merit is 
+\begin_inset Formula 
+\[
+n_{\text{party}}A_{\text{avalanche}}\frac{N_{\text{parties}}-1}{N_{\text{parties}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and the critical density is
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+n_{\text{critical}}=\frac{N_{\text{parties}}}{N_{\text{parties}}-1}\frac{1}{A_{\text{avalanche}}}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This passes the sanity check, as when 
+\begin_inset Formula $N_{\text{parties}}=2$
+\end_inset
+
+, 
+\begin_inset Formula $n_{\text{critical}}$
+\end_inset
+
+ is two parties per avalanche area – 
+\emph on
+all
+\emph default
+ the parties in the area have to be in the same avalanche incident in order
+ for an inter-party involvement to occur.
+ When 
+\begin_inset Formula $N_{\text{parties}}$
+\end_inset
+
+ is large, no such coincidence is required.
+\end_layout
+
+\begin_layout Section
 Estimating the triggering-likelihood 
 \begin_inset Formula $r_{0}$
 \end_inset
@@ -3008,7 +4109,7 @@ km/d.
 \begin_layout Standard
 \begin_inset Formula 
 \[
-N_{\text{slides}}=N_{\text{parties}}\frac{A_{\text{party}}}{A}N_{\text{start-zones}}\frac{A_{\text{start-zone}}}{A}f_{\text{trigger}}
+N_{\text{slides}}=N_{\text{parties}}\frac{A_{\text{party}}}{A}N_{\text{start-zones}}A_{\text{start-zone}}f_{\text{trigger}}
 \]
 
 \end_inset
@@ -3094,13 +4195,38 @@ where
 \begin_inset Formula $f_{\text{trigger}}$
 \end_inset
 
- is the fraction of the start-zone where travelers can trigger an avalanche.
+ is the number of trigger points per unit area in the start zones.
  When avalanche-conditions are `touchy', 
 \begin_inset Formula $f_{\text{trigger}}\sim1$
 \end_inset
 
+
+\begin_inset space ~
+\end_inset
+
+m
+\begin_inset Formula $^{-2}$
+\end_inset
+
 ; when conditions are `stubborn', 
 \begin_inset Formula $f_{\text{trigger }}\ll1$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+m
+\begin_inset Formula $^{-2}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $N_{\text{start-zones}}A_{\text{start-zone}}$
+\end_inset
+
+ is necessarily smaller than 
+\begin_inset Formula $A$
 \end_inset
 
 .
@@ -3120,6 +4246,38 @@ has units of avalanches
 \end_layout
 
 \begin_layout Standard
+This model passes two simple limiting-case checks: If there is but one square
+ meter of triggerable area, and a single party covers 10
+\begin_inset space ~
+\end_inset
+
+km/d (0.01
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset Formula $^{2}$
+\end_inset
+
+), and 
+\begin_inset Formula $A=1$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset Formula $^{2}$
+\end_inset
+
+, we should expect 0.01 slides/day.
+ If every square meter is a triggerable start-zone, we should expect to
+ see 10,000 slides/day.
+ 
+\end_layout
+
+\begin_layout Standard
 If we switch to densities (
 \begin_inset Formula $r_{\text{single-party}}t\equiv N_{\text{slides}}/A$
 \end_inset
@@ -3130,7 +4288,7 @@ If we switch to densities (
 \begin_layout Standard
 \begin_inset Formula 
 \[
-r_{\text{single-party}}tA=n_{\text{party}}A_{\text{party}}n_{\text{start-zones}}A_{\text{start-zone}}f_{\text{trigger}}
+r_{\text{single-party}}tA=n_{\text{party}}A_{\text{party}}n_{\text{start-zones}}AA_{\text{start-zone}}f_{\text{trigger}}
 \]
 
 \end_inset
@@ -3161,7 +4319,7 @@ status collapsed
 \begin_layout Standard
 \begin_inset Formula 
 \[
-r_{\text{single-party}}=\frac{w_{\text{party}}s_{\text{party}}f_{\text{trigger}}}{A}n_{\text{party}}n_{\text{start-zones}}A_{\text{start-zone}}
+r_{\text{single-party}}=w_{\text{party}}s_{\text{party}}f_{\text{trigger}}n_{\text{party}}n_{\text{start-zones}}A_{\text{start-zone}}
 \]
 
 \end_inset
@@ -3184,7 +4342,7 @@ For simplicity, we define
 \begin_layout Standard
 \begin_inset Formula 
 \[
-r_{0}\equiv\frac{w_{\text{party}}s_{\text{party}}f_{\text{trigger}}}{A}n_{\text{start-zones}}A_{\text{start-zone}}
+r_{0}\equiv w_{\text{party}}s_{\text{party}}f_{\text{trigger}}n_{\text{start-zones}}A_{\text{start-zone}}
 \]
 
 \end_inset
@@ -3228,34 +4386,29 @@ These estimations are sensitive to the determination of
 \end_inset
 
 , which is subjective.
- If our parties and start-zones are uniformly distributed, these rates are
- insensitive to 
+ If our parties and start-zones are uniformly distributed (an underlying
+ assumption of the model), these rates are insensitive to 
 \begin_inset Formula $A$
 \end_inset
 
-, but if our parties tend to congregate near start-zones, 
+.
+ If our parties tend to congregate near start-zones within 
 \begin_inset Formula $A$
 \end_inset
 
-'s determination becomes a challenge; the only compensatory term is the
- time spent within 
+, but the connected terrain is larger, 
 \begin_inset Formula $A$
 \end_inset
 
-, 
-\begin_inset Formula $t$
-\end_inset
-
-, which will tend to decrease as 
-\begin_inset Formula $A$
-\end_inset
-
- contracts.
+'s determination becomes challenging.
 \end_layout
 
 \begin_layout Standard
-The crossover from single-party incidents to inter-party incidents is least-sens
-itive:
+The crossover, 
+\begin_inset Formula $n_{\text{critical}}$
+\end_inset
+
+, from single-party involvements to inter-party involvements is least-sensitive:
 \end_layout
 
 \begin_layout Standard
@@ -3270,24 +4423,13 @@ n_{\text{party}}A_{\text{avalanche}}=\frac{N_{\text{parties}}A_{\text{avalanche}
 \end_layout
 
 \begin_layout Standard
-The rate estimations are very sensitive, as 
+Absolute-rate estimations are more sensitive, as 
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-r_{\text{single-party}}=\frac{N_{\text{parties}}}{A}\frac{w_{\text{party}}s_{\text{party}}f_{\text{trigger}}}{A}\frac{1}{t}\frac{N_{\text{start-zones}}}{A}A_{\text{start-zone}}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-=\frac{1}{A^{3}t}N_{\text{parties}}w_{\text{party}}s_{\text{party}}f_{\text{trigger}}N_{\text{start-zones}}A_{\text{start-zone}}
+r_{\text{single-party}}=\frac{N_{\text{parties}}N_{\text{start-zones}}}{A^{2}}w_{\text{party}}s_{\text{party}}f_{\text{trigger}}A_{\text{start-zone}}
 \]
 
 \end_inset
@@ -3298,7 +4440,7 @@ r_{\text{single-party}}=\frac{N_{\text{parties}}}{A}\frac{w_{\text{party}}s_{\te
 \begin_layout Standard
 For these reasons, it will be difficult for quantitative estimates of these
  rates and critical densities to be more accurate than a factor of two in
- the best of cases.
+ the many cases.
 \end_layout
 
 \begin_layout Standard
@@ -3306,7 +4448,6 @@ For these reasons, it will be difficult for quantitative estimates of these
 LatexCommand bibtex
 btprint "btPrintCited"
 bibfiles "SkiDensity"
-options "apsrev4-2"
 
 \end_inset
 
