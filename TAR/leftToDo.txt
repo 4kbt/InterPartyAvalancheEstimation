@@ -1,8 +1,5 @@
 TAR:
 Send new plots to Lynne
-Fix figure captions
-Suggest photo captions
-Sync acknowledgements
 Include involvement definition
+Mug shot.
 References
-
