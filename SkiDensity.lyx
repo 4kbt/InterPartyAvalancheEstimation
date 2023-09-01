@@ -6,7 +6,7 @@
 \origin unavailable
 \textclass elsearticle_issw2018
 \begin_preamble
-\usepackage[colorlinks]{hyperref}
+%\usepackage[colorlinks]{hyperref}
 \end_preamble
 \options 3p,authoryear,times,twocolumn
 \use_default_options true
@@ -35,7 +35,7 @@
 \paperfontsize default
 \spacing single
 \use_hyperref false
-\papersize default
+\papersize a4paper
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
@@ -89,8 +89,8 @@
 \begin_body
 
 \begin_layout Title
-Inter-Party Avalanche Involvements May Increase Quadratically With Party
- Density
+INTER-PARTY AVALANCHE INVOLVEMENTS MAY INCREASE QUADRATICALLY WITH PARTY
+ DENSITY
 \end_layout
 
 \begin_layout Author
@@ -100,11 +100,8 @@ Charles A.
 
 \begin_layout Address
 Center for Experimental Nuclear Physics and Astrophysics, Box 354290, University
- of Washington, Seattle, Washington 98195-4290
-\end_layout
-
-\begin_layout Part*
-cah49@uw.edu
+ of Washington, Seattle, Washington 98195-4290, Present address: Nanoradian
+ LLC, Seattle WA, charlie@hagedorn.xyz
 \end_layout
 
 \begin_layout Abstract
@@ -139,7 +136,7 @@ literal "false"
 \end_layout
 
 \begin_layout Section
-Introduction
+INTRODUCTION
 \end_layout
 
 \begin_layout Standard
@@ -209,7 +206,7 @@ This work provides a framework within which to discuss and estimate the
 \end_layout
 
 \begin_layout Section
-Estimation
+ESTIMATION
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Estimation"
@@ -1148,7 +1145,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Section
-Significant Incidents
+SIGNIFICANT INCIDENTS
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Significant-Accidents"
@@ -2837,7 +2834,7 @@ It is the author's opinion that there will eventually be a loose-wet inter-party
 \end_layout
 
 \begin_layout Section
-Mitigation
+MITIGATION
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Mitigation"
@@ -3674,7 +3671,7 @@ privacy code
 \end_layout
 
 \begin_layout Section
-Extensions
+EXTENSIONS
 \end_layout
 
 \begin_layout Standard
@@ -3733,7 +3730,7 @@ cues should be roughly
 \end_layout
 
 \begin_layout Section
-Conclusion
+CONCLUSION
 \end_layout
 
 \begin_layout Standard
@@ -3802,7 +3799,7 @@ literal "false"
 \end_layout
 
 \begin_layout Section
-Acknowledgments
+ACKNOWLEDGEMENTS
 \end_layout
 
 \begin_layout Standard

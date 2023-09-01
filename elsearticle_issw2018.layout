@@ -1,3 +1,13 @@
 #\DeclareLaTeXClass[elsarticle_issw2018,article]{elsarticle_issw2018}
 
 Input article.layout
+
+NoStyle Address
+Style Address
+   LaTeXType command
+   LaTeXName address
+   LabelString "Nacho Address"
+   InTitle 1
+End
+
+
