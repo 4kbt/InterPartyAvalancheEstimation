@@ -16,3 +16,9 @@ Style Abstract
    LaTeXName abstract
    InTitle 1
 End
+
+Style Keywords
+   LaTeXType environment
+   LaTeXName keyword
+   InTitle 1
+End

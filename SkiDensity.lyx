@@ -6,7 +6,7 @@
 \origin unavailable
 \textclass elsearticle_issw2018
 \begin_preamble
-%\usepackage[colorlinks]{hyperref}
+\usepackage[colorlinks]{hyperref}
 \end_preamble
 \options 3p,authoryear,times,twocolumn
 \use_default_options true
@@ -138,14 +138,19 @@ ts.
  The model suggests that the likelihood of inter-party involvements is quadratic
  in the density of parties – twice as many parties quadruples the likelihood.
  The model predicts that when the product of the party-density and the area
- of a day's potential avalanches approaches one, inter-party avalanche involveme
-nts will become a substantial fraction of all avalanche involvements.
+ of a day's potential avalanches appraches one, inter-party avalanche involvemen
+ts will become a substantial fraction of all avalanche involvements.
  As a corollary, the relative rate of inter-party involvements is expected
  to increase with avalanche size.
  We argue, with selected North American inter-party incidents from 2001-2019,
  that inter-party involvements are a timely concern.
  To spur conversation, we enumerate a variety of strategies that may mitigate
  inter-party hazard.
+\end_layout
+
+\begin_layout Keywords
+inter-party avalanche catalog, backcountry crowding, first-principles model,
+ party density, backcountry travel techniques
 \end_layout
 
 \begin_layout Standard
@@ -861,9 +866,9 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Upper Panel: Approximate fraction of inter-party avalanche involvements
- as a function of party-density, measured in units of avalanche-area, as
- described by Equation 
+Upper: Approximate fraction of inter-party avalanche involvements as a function
+ of party-density, measured in units of avalanche-area, as described by
+ Equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:RelativeIncidentFraction"
@@ -874,7 +879,7 @@ noprefix "false"
 \end_inset
 
 .
- Lower Panel: Approximate values of 
+ Lower: Approximate values of 
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche }}$
 \end_inset
 
@@ -889,7 +894,7 @@ noprefix "false"
 \end_inset
 
 .
- It is interesting that all but three of the incidents occurred with 
+ All but three of the incidents occurred with 
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
 \end_inset
 
