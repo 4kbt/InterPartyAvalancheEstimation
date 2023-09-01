@@ -10,4 +10,9 @@ Style Address
    InTitle 1
 End
 
-
+NoStyle Abstract
+Style Abstract
+   LaTeXType environment
+   LaTeXName abstract
+   InTitle 1
+End

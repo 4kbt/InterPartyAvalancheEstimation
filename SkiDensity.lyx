@@ -96,12 +96,40 @@ INTER-PARTY AVALANCHE INVOLVEMENTS MAY INCREASE QUADRATICALLY WITH PARTY
 \begin_layout Author
 Charles A.
  Hagedorn
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+corref{complete address}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+cortext[complete_address]{Corresponding author address:
+\backslash
+
+\backslash
+Charles A.
+ Hagedorn, Nanoradian LLC, Seattle WA 98105;
+\backslash
+
+\backslash
+email: charlie@hagedorn.xyz}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Address
-Center for Experimental Nuclear Physics and Astrophysics, Box 354290, University
- of Washington, Seattle, Washington 98195-4290, Present address: Nanoradian
- LLC, Seattle WA, charlie@hagedorn.xyz
+Center for Experimental Nuclear Physics and Astrophysics, University of
+ Washington / Nanoradian LLC, Seattle, WA, USA
 \end_layout
 
 \begin_layout Abstract
