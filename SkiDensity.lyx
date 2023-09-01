@@ -4,11 +4,11 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass revtex4-1
+\textclass elsearticle_issw2018
 \begin_preamble
 \usepackage[colorlinks]{hyperref}
 \end_preamble
-\options longbibliography,nofootinbib
+\options 3p,authoryear,times,twocolumn
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -103,7 +103,7 @@ Center for Experimental Nuclear Physics and Astrophysics, Box 354290, University
  of Washington, Seattle, Washington 98195-4290
 \end_layout
 
-\begin_layout Author Email
+\begin_layout Part*
 cah49@uw.edu
 \end_layout
 
@@ -4494,6 +4494,7 @@ For these reasons, it will be difficult for quantitative estimates of these
 LatexCommand bibtex
 btprint "btPrintCited"
 bibfiles "SkiDensity"
+options "Copernicus"
 
 \end_inset
 
