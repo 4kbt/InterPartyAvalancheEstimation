@@ -1250,7 +1250,7 @@ connected
 \end_inset
 
  by an observer on the ground; this is a somewhat-subjective quantity (see
-  
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:Sensitivity-to-area"
@@ -1835,6 +1835,23 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\backslash
+resizebox{
+\backslash
+textwidth}{!}{%
+\end_layout
+
+\end_inset
+
+
 \begin_inset Tabular
 <lyxtabular version="3" rows="13" columns="7">
 <features tabularvalignment="middle">
@@ -2771,6 +2788,17 @@ Soft Slab
 </cell>
 </row>
 </lyxtabular>
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
 
 \end_inset
 
