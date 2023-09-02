@@ -36,7 +36,7 @@
 \spacing single
 \use_hyperref false
 \papersize a4paper
-\use_geometry true
+\use_geometry false
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -76,7 +76,7 @@
 \math_numbering_side default
 \quotes_style english
 \dynamic_quotes 0
-\papercolumns 2
+\papercolumns 1
 \papersides 1
 \paperpagestyle default
 \tracking_changes false
@@ -431,7 +431,7 @@ ts.
 \begin_inset Formula $r_{0}$
 \end_inset
 
- (avalanches per party per unit time) in Appendix 
+ (avalanches per party per unit time) in  
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:Deriving-likelihood"
@@ -491,7 +491,7 @@ large
 \begin_inset Formula $N_{\text{parties }}$
 \end_inset
 
- is derived in Appendix 
+ is derived in  
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:Correctly-handling-N"
@@ -677,8 +677,7 @@ parties/km
 \end_inset
 
 .
- The vertical scale will vary widely with snowpack properties (see Appendix
- 
+ The vertical scale will vary widely with snowpack properties (see  
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:Deriving-likelihood"
@@ -1251,7 +1250,7 @@ connected
 \end_inset
 
  by an observer on the ground; this is a somewhat-subjective quantity (see
- Appendix 
+  
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:Sensitivity-to-area"
