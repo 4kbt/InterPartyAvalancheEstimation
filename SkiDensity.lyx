@@ -918,7 +918,22 @@ name "fig:Approximate-fraction-of"
 \end_layout
 
 \begin_layout Subsection
-Relationship of inter-party involvement rate to avalanche size
+Relationship of inter-party involvement rate to
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+*
+\end_layout
+
+\end_inset
+
+ avalanche size
 \end_layout
 
 \begin_layout Standard
@@ -980,7 +995,22 @@ literal "false"
 \end_layout
 
 \begin_layout Subsection
-Relationship of inter-party involvement rate to terrain
+Relationship of inter-party involvement rate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+*
+\end_layout
+
+\end_inset
+
+ to terrain
 \end_layout
 
 \begin_layout Standard
@@ -1053,7 +1083,22 @@ literal "false"
 \end_layout
 
 \begin_layout Subsection
-Weather and snow conditions as density and consequence amplifiers
+Weather and snow conditions as density and
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+*
+\end_layout
+
+\end_inset
+
+ consequence amplifiers
 \end_layout
 
 \begin_layout Subsubsection
@@ -1627,7 +1672,22 @@ After an extensive search effort, exceeding 3000 person-hours, the solo-skier's
 \end_layout
 
 \begin_layout Subsection
-Rogers Pass, Avalanche Crest, February 14, 2016
+Rogers Pass, Avalanche Crest,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+*
+\end_layout
+
+\end_inset
+
+ February 14, 2016
 \end_layout
 
 \begin_layout Standard
@@ -1791,7 +1851,22 @@ literal "false"
 \end_layout
 
 \begin_layout Subsection
-Bear Creek, Temptation slide path, February 19, 2019
+Bear Creek, Temptation slide path,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+*
+\end_layout
+
+\end_inset
+
+ February 19, 2019
 \end_layout
 
 \begin_layout Standard
