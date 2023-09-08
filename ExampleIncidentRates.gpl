@@ -25,12 +25,15 @@ set margins 13,12,-1,-1
 unset ylabel
 
 set ytics nomirror
+set link y2
 set y2tics ("10" 0.1, "2" 0.5, "1" 1)
 
 pl [0:10][0:1.5]\
 	(rIP(x/1e6) + rSP(x/1e6))*1e6 lt  3      lw 2 tit 'Total',\
 	rIP(x/1e6)*1e6               lt -1 dt 2 lw 2 tit 'Inter-Party Rate',\
 	rSP(x/1e6)*1e6               lt  2 dt 5 lw 2 tit 'Single-Party Rate'
+
+unset link y2
 	
 set logsc
 set format y "10^{%T}"
@@ -56,7 +59,8 @@ set size 1,1
 set border 0
 unset tics
 unset xlabel
-unset logsc
+unset logsc y
+unset logsc y2
 
 plot [][0:1] -1
 
