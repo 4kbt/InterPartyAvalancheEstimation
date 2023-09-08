@@ -721,7 +721,7 @@ name "fig:Illustrative-example-of"
 \end_layout
 
 \begin_layout Standard
-An illustrative plot of these rates is shown in Figure
+A plot of these rates is shown in Figure
 \begin_inset space ~
 \end_inset
 
@@ -747,7 +747,7 @@ If the party density,
 \begin_inset Formula $n_{\text{party}}^{2}$
 \end_inset
 
- is smaller still, just as 
+ is smaller, just as 
 \begin_inset Formula $(0.1)^{2}$
 \end_inset
 
@@ -783,8 +783,8 @@ reference "eq:Combined Single and multi-party accident rate"
 , inter-party involvements will dominate.
  This makes sense – once there is roughly one party per avalanche-area,
  any triggered avalanche is likely to hit another party.
- This notion is intuitive – in-bounds avalanches at ski areas are scary
- in large part because the skier-density is so high.
+ This notion is intuitive: in-bounds avalanches at ski areas are scary in
+ part because the skier-density is so high.
  
 \end_layout
 
@@ -798,9 +798,8 @@ We define this critical density as
 \bar under
 only
 \bar default
- on the expected size of a day's avalanches, and not on any other property
- of a day's anticipated instability, including the likelihood of triggering
- a slide.
+ on the size of a day's avalanches, and not on any other property of a day's
+ instability, including the likelihood of triggering a slide.
  
 \end_layout
 
@@ -1107,9 +1106,9 @@ Storm-skiing
 \end_layout
 
 \begin_layout Standard
-It is a guess, but the Pacific-Northwestern inter-party avalanche hazard
- may be at its greatest on deep-snow storm-skiing days, when trail-breaking
- is arduous, avalanches are likely, and powder fever is high.
+It is a guess, but Pacific-Northwestern inter-party avalanche hazard may
+ be greatest on deep-snow storm-skiing days, when trail-breaking is arduous,
+ avalanches are likely, and powder fever is high.
  Arduous trail-breaking may be the most-powerful concentrator of backcountry
  travelers, amplifying the already-powerful magnetism of an extant skintrack.
 \end_layout
@@ -1153,13 +1152,12 @@ Good
 
  conditions can concentrate parties.
  Mountains and routes offer only certain optimal times for passage.
- In the Cascades, and perhaps everywhere, this can be seen prominently in
- periods of spring/summer skiing; both snowpack and limited access curtail
- skiing at other times.
+ In the Cascades, this can be seen prominently in periods of spring/summer
+ skiing; both snowpack and limited access curtail skiing at other times.
  There are narrow optimal windows for all of Tahoma/Rainier's Fuhrer Finger,
  the North Face of the Northwest Ridge of Pahto/Adams, and Ulrich's Couloir
  of Stuart – these are listed for their combination of popularity and constraine
-d terrain, where a small summer slide can ravage anyone below.
+d terrain, where a small summer slide can ravage parties below.
  Indeed, on April 1, 2019, it was reported
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1239,32 +1237,21 @@ Here, we enumerate a series of inter-party incidents, near-misses, and possible
  We provide a subjective summary from an inter-party-involvement perspective.
  The references offer expanded detail.
  Several of the incidents appear to have been reported only informally.
- It is a surprise that it has been difficult to find formal accident reports
+ It is surprising that it has been difficult to find formal accident reports
  for some modern Canadian avalanches, each of which have required rescue
  or a coroner.
 \end_layout
 
 \begin_layout Standard
-While the catalyst for this paper is the accident described in Section 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "subsec:December19"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, these incidents are presented in chronological order.
- This enumeration is not intended to be comprehensive, but rather to provide
+This enumeration is not intended to be comprehensive, but rather to provide
  both a sense of the varied types of inter-party involvements and to make
  clear that these involvements happen.
 \end_layout
 
 \begin_layout Standard
-For incidents where documentation makes it possible, we have attempted to
- measure the areas in question, the number of parties, and compute both
- the party density and 
+For incidents where it is possible, we have attempted to measure the areas
+ in question, the number of parties, and compute both the party density
+ and 
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
 \end_inset
 
@@ -1331,9 +1318,9 @@ name "subsec:Lizard-Range"
 \end_layout
 
 \begin_layout Standard
-A party of five skiers crossed over a ridgeline outside the Fernie Ski Area,
+A party of five skiers crossed a ridgeline outside the Fernie Ski Area,
  intent on skiing a constrained 35-40-degree route.
- As they prepared for descent, a ski cut triggered a 24
+ As they prepared to descend, a ski cut triggered a 24
 \begin_inset space ~
 \end_inset
 
@@ -1352,7 +1339,7 @@ literal "false"
 , sweeping down the route and out of sight.
  At approximately the same time, a party of thirteen foreign skiers was
  hit by a size-2.5 avalanche while traversing the side of the valley below.
- Six skiers were caught, resulting in two fatalities.
+ Six skiers were caught, with two fatalities.
  A third party witnessed the entire incident and immediately returned toward
  the ski area to raise an alarm.
  On the way, they encountered the first party, which was unaware of the
@@ -1467,11 +1454,11 @@ literal "false"
 
  of which the author is aware: A snowmobiling festival/competition, with
  snowmobiles highmarking above 
-\begin_inset Formula $\sim200$
+\begin_inset Formula $200$
 \end_inset
 
- spectators at the time of the slide, was directly struck by a D3 slide
- presumed to have been triggered by a participant.
+ spectators at the time of the slide, was struck by a D3 slide presumed
+ to have been triggered by a participant.
  Approximately forty people were buried, with 32 injured and two fatalities.
  The on-scene coordination and rapid rescue response were remarkably effective
  for such a chaotic event.
@@ -1548,9 +1535,9 @@ Frenzy
 \end_layout
 
 \begin_layout Standard
-In November of 2011, the year's first skiable snow arrived atop faceted
- autumn snow, drawing many backcountry skiers into the un-opened Little
- Cottonwood Canyon ski resorts.
+The year's first skiable snow arrived atop faceted autumn snow, drawing
+ many backcountry skiers into the un-opened Little Cottonwood Canyon ski
+ resorts.
  At least 11 human-triggered avalanches were reported, yielding one fatality
  and one broken femur.
  Perhaps most-striking in the fatality's accident report
@@ -1588,7 +1575,7 @@ literal "false"
  The uptrack was buried under up to twenty feet of debris.
  Fortunately, nobody was caught, though a small shift in timing would have
  yielded an inter-party accident.
- The outcry and subsequent discussion
+ The outcry and discussion
 \begin_inset CommandInset citation
 LatexCommand citep
 key "TaylorMountainTARMusings,TaylorMountainTetonAT,TaylorMountainTetonValleyNews"
@@ -1611,7 +1598,7 @@ name "subsec:December19"
 \end_layout
 
 \begin_layout Standard
-This accident is the catalyst for this work.
+This accident catalyzed this work.
  As detailed by the NWAC accident report
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1658,18 +1645,18 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-After an extensive search effort, exceeding 3000 person-hours, the solo-skier's
+After an extensive search, exceeding 3000 person-hours, the solo-skier's
  remains were recovered on June 4, 2016.
- The accident location, and the injuries to the skier, were consistent with
+ The accident location and the injuries to the skier were consistent with
  an avalanche-related fatality.
  Subsequent investigation revealed that two parties had triggered avalanches
  uphill of the accident site on the afternoon of the skier's disappearance.
- Furthermore, the first of those avalanches can be regarded as an inter-party
- near miss, as a minute's difference in timing would have seen the second
- party struck by the first.
- NWAC's analysis of the accident does not take a position on whether the
- fatality was caused by an inter-party avalanche – both a third avalanche
- triggered by the soloist or a natural avalanche remain viable hypotheses.
+ Furthermore, the first of those avalanches was an inter-party near miss,
+ as a minute's difference in timing would have seen the second party struck
+ by the first.
+ NWAC's analysis of the accident does not take a position whether the fatality
+ was caused by an inter-party avalanche – both a third avalanche triggered
+ by the soloist or a natural avalanche remain viable hypotheses.
 \end_layout
 
 \begin_layout Subsection
@@ -1754,8 +1741,9 @@ literal "false"
  mid-route choke.
  Recognizing the inter-party hazard, the two parties agreed to let Group
  1 ski and rappel first, while Group 2 waited above for a cell-phone call.
- (Group 1 had radios, and the region, Bear Creek, has a pioneering community
- radio protocol, see Section 
+ (Group 1 had radios, but Group 2 did not.
+ The region, Bear Creek, has a pioneering community radio protocol, see
+ Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:Radios"
@@ -1765,12 +1753,12 @@ noprefix "false"
 
 \end_inset
 
-, but Group 2 did not.) Group 1 skied the couloir without incident but, while
- mid-rappel, was struck by a slide from above, sustaining injury.
+.) Group 1 skied the couloir without incident but, while mid-rappel, was
+ struck by a slide from above, sustaining injury.
  Group 2 had waited roughly 45 minutes and attempted to call Group 1 once.
- Warming snow and the imminent arrival of at least one more Group had spurred
+ Warming snow and the imminent arrival of at least one more Group spurred
  Group 2 into skiing before receiving a call from Group 1.
- Group 2 triggered an R1D1 sluff – the same slide that struck Group 1.
+ Group 2 triggered an R1D1 sluff – the slide that struck Group 1.
 \end_layout
 
 \begin_layout Standard
@@ -1840,7 +1828,7 @@ literal "false"
  lunch in the runout zone, with their machines turned off.
  The lower party ran from the slide – their sleds and rescue gear were buried.
  The lower party was able to rescue one of the triggering snowmobilers and
- locate/extract the body of the second
+ extract the body of the second
 \begin_inset CommandInset citation
 LatexCommand citep
 key "SnowestHawkins"
@@ -1881,8 +1869,8 @@ literal "false"
 \end_inset
 
  route.
- Partway through the descent, a boarder triggered a slide that stepped down,
- D2 in size, running 2,000 vertical feet
+ During the descent, a boarder triggered a slide that stepped down, D2 in
+ size, running 2,000 vertical feet
 \begin_inset CommandInset citation
 LatexCommand citep
 key "TemptationCAICAccidentReport"
@@ -2922,13 +2910,12 @@ Common threads
 \end_layout
 
 \begin_layout Standard
-While this enumeration is not intended to be comprehensive, it is interesting
- to look for commonalities among the incidents.
- Two stand out: 1) For those incidents where 
+It is interesting to look for commonalities among the incidents.
+ Two stand out: 1) Where 
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}$
 \end_inset
 
- can be estimated, 6 out of 9 overlapped 
+ can be estimated, 6 of 9 incidents overlapped 
 \begin_inset Formula $n_{\text{party}}A_{\text{avalanche}}\sim0.1$
 \end_inset
 
@@ -2959,9 +2946,9 @@ er.
 status open
 
 \begin_layout Plain Layout
-It is the author's opinion that there will eventually be a loose-wet inter-party
- incident in the Cascades, as the popularity of accessible Spring skiing
- continues to grow.
+It is the author's expectation there will eventually be a loose-wet inter-party
+ incident in the Cascades as the popularity of accessible Spring skiing
+ grows.
 \end_layout
 
 \end_inset
@@ -3042,18 +3029,17 @@ literal "false"
 
 \end_inset
 
-, the author has sharply curtailed trips into densely-skied terrain, choosing
- lesser-known destinations, difficult access, or lower-quality snow in order
- to decrease overhead risk from other parties.
- While this strategy has limits, there are still lonely places with great
- skiing to be found on the map.
+, the author has curtailed trips into densely-skied terrain, choosing lesser-kno
+wn destinations, difficult access, or lower-quality snow in order to decrease
+ overhead risk from other parties.
+ While this strategy has limits, lonely places with great skiing still exist.
 \end_layout
 
 \begin_layout Standard
-As advocacy organizations work to expand wintertime access, it may be reasonable
- to add safety to the reasons for improved access.
- Inferring from our estimates, it is natural to encourage party densities
- below one per characteristic-avalanche-size.
+As advocacy organizations work to expand wintertime access, they can add
+ safety to the rationale for improved access.
+ From our estimates, it is natural to encourage party densities below one
+ per characteristic-avalanche-size.
  D2 slides are roughly 0.01 km
 \begin_inset Formula $^{2}$
 \end_inset
@@ -3090,7 +3076,7 @@ noprefix "false"
 
 \end_inset
 
-) may be prudent.
+) is prudent.
 \end_layout
 
 \begin_layout Subsection
@@ -3121,8 +3107,14 @@ Examples:
 \end_layout
 
 \begin_layout Itemize
-Many ridgelines are not susceptible to slides from above – traveling upon
- such a ridgeline provides substantial protection from inter-party hazard.
+Avalanches only happen in avalanche terrain – avoiding avalanche terrain
+ is the sure-fire way to avoid avalanche incidents of all kinds, including
+ inter-party incidents.
+\end_layout
+
+\begin_layout Itemize
+Many ridgelines are not susceptible to slides from above – traveling such
+ a route provides substantial protection from inter-party hazard.
 \end_layout
 
 \begin_layout Itemize
@@ -3169,12 +3161,6 @@ noprefix "false"
  terrain.
  When assessing safe spots, the likelihood of human triggers above must
  be considered.
-\end_layout
-
-\begin_layout Itemize
-Avalanches only happen in avalanche terrain – avoiding avalanche terrain
- is a sure-fire way to avoid avalanche incidents of all kinds, including
- inter-party incidents.
 \end_layout
 
 \begin_layout Standard
@@ -3322,7 +3308,7 @@ Regional travel standards for routes
 
 \begin_layout Standard
 Just as we all agree to drive on one side of a road in order to prevent
- head-on automotive collisions, community standards can improve mutually-benefic
+ head-on automotive collisions, community standards may improve mutually-benefic
 ial cooperation between parties who have never met.
 \end_layout
 
@@ -3359,7 +3345,7 @@ run list
  is a shared enumeration/mapping of regions and ski runs used to facilitate
  discussion and improve adherence to each day's terrain assessment/plan.
  In courses at the Washington Alpine Club, run lists have become an integral
- part of our courses, and our students often refer to them after the course
+ part of our courses and our students often refer to them after the course
  is complete.
  A publicly-shared run list can serve as a basis for conditions reporting,
  incident response, and general communication.
@@ -3939,11 +3925,11 @@ ACKNOWLEDGEMENTS
 \end_layout
 
 \begin_layout Standard
-Big thank-yous to Susan Ashlock for her perpetual support for, and tolerance
- of, this project; Peg Achterman for helping to bring this paper back to
- life; Bruce Jamieson for suggesting the Lizard Range and Empress Lake incidents
-; Doug Krause for directing attention to inter-party avalanche problem-type
- and inter-party rescues; Jason Alferness, Dallas Glass, B.
+Thank-you to Susan Ashlock for perpetual support for, and tolerance of,
+ this work; Peg Achterman for bringing this paper back to life; Bruce Jamieson
+ for suggesting the Lizard Range and Empress Lake incidents; Doug Krause
+ for directing attention to inter-party avalanche problem-type and inter-party
+ rescues; Jason Alferness, Dallas Glass, B.
  J., D.K., and Mark Vesely for assistance with references; S.A.
  and John Greendeer Lee for proofreading and suggestions; and finally, the
  many avalanche/search-and-rescue organizations who have not only saved
