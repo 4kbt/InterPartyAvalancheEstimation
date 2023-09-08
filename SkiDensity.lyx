@@ -167,6 +167,34 @@ literal "false"
 \end_inset
 
 , and for you.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+This paper was written in 2019 and submitted for the pandemic-cancelled
+ 2020 ISSW.
+ Since that time, there have been at least four inter-party fatalities
+\begin_inset CommandInset citation
+LatexCommand citep
+key "WilsonGlade"
+literal "false"
+
+\end_inset
+
+, five inter-party incidents, and two near-misses in North America
+\begin_inset CommandInset citation
+LatexCommand citep
+key "InterPartyRepository"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
