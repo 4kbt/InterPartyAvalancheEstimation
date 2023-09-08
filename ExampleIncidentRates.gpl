@@ -49,15 +49,16 @@ set y2label '      Days between incidents / km^2 (same assumptions)'
 
 #####(Assuming: L=0.1,A_{avalanche} = 2000 m^2, A_{start} = 290 m^2)\nIncidents /day/km^2"#####
 
-#set lmargin -1
-#set rmargin -1
-#set origin 0,0
-#set size 1,1
-#set border 0
-#unset tics
-#unset xlabel
+set lmargin -1
+set rmargin -1
+set origin 0,0
+set size 1,1
+set border 0
+unset tics
+unset xlabel
+unset logsc
 
-#plot [][0:1] -1
+plot [][0:1] -1
 
 unset multiplot
 
