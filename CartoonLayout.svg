@@ -2,21 +2,21 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="CartoonLayout.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    id="svg8"
    version="1.1"
    viewBox="0 0 127 101.6"
    height="4in"
-   width="5in">
+   width="5in"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2">
     <marker
@@ -125,18 +125,21 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.0814414"
-     inkscape:cx="246.81525"
-     inkscape:cy="191.16258"
+     inkscape:cx="246.94426"
+     inkscape:cy="187.12994"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="in"
-     inkscape:window-width="1899"
-     inkscape:window-height="1026"
+     inkscape:window-width="1896"
+     inkscape:window-height="1140"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="28"
      inkscape:window-maximized="1"
-     inkscape:snap-nodes="false" />
+     inkscape:snap-nodes="false"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -234,7 +237,7 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="63.665363"
        y="242.22296"
        id="text1620"><tspan
@@ -242,21 +245,16 @@
          id="tspan1618"
          x="63.665363"
          y="242.22296"
-         style="font-size:7.05555534px;stroke-width:0.26458332;fill:#1a1a1a;">A</tspan></text>
+         style="font-size:7.05556px;fill:#1a1a1a;stroke-width:0.264583">A</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.82222222px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.82222px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="110.17415"
        y="246.77049"
-       id="text1624"><tspan
-         sodipodi:role="line"
-         id="tspan1622"
-         x="110.17415"
-         y="250.54193"
-         style="stroke-width:0.26458332;font-size:2.82222222px;" /></text>
+       id="text1624" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.17499995px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="66.972664"
        y="245.11685"
        id="text1628"><tspan
@@ -264,52 +262,7 @@
          id="tspan1626"
          x="66.972664"
          y="245.11685"
-         style="font-size:3.17499995px;stroke-width:0.26458332;fill:#1a1a1a;">avalanche</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="52.526932"
-       y="204.13252"
-       id="text1620-3"><tspan
-         sodipodi:role="line"
-         id="tspan1618-3"
-         x="52.526932"
-         y="204.13252"
-         style="font-size:7.05555534px;fill:#1a1a1a;stroke-width:0.26458332">A</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.17499995px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="57.242306"
-       y="206.51399"
-       id="text1628-8"><tspan
-         sodipodi:role="line"
-         id="tspan1626-0"
-         x="57.242306"
-         y="206.51399"
-         style="font-size:3.17499995px;fill:#1a1a1a;stroke-width:0.26458332">startzone</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
-       d="M 44.236171,222.38322 58.01729,208.24786 75.379452,220.98495"
-       id="path1668"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="31.184315"
-       y="282.05801"
-       id="text1620-3-5"><tspan
-         sodipodi:role="line"
-         id="tspan1618-3-6"
-         x="31.184315"
-         y="282.05801"
-         style="font-size:7.05555534px;fill:#1a1a1a;stroke-width:0.26458332">A</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker2006)"
-       d="m 36.609245,282.3817 15.635197,6.10155"
-       id="path2002"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+         style="font-size:3.175px;fill:#1a1a1a;stroke-width:0.264583">avalanche</tspan></text>
     <circle
        style="opacity:0.93699999;fill:#1a1afb;fill-opacity:1;stroke:none;stroke-width:0.26176241;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.66169152"
        id="path2106"
@@ -360,7 +313,7 @@
        r="0.9669165" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="3.3050013"
        y="292.42383"
        id="text2161"><tspan
@@ -368,7 +321,7 @@
          id="tspan2159"
          x="3.3050013"
          y="292.42383"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.26458332">Parties:</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583">Parties:</tspan></text>
     <rect
        style="opacity:0.93699999;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.36500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2319"
@@ -381,5 +334,16 @@
        d="m 50.591942,293.69498 21.99097,-11.82174 -11.186157,-3.43212 12.20308,-3.17788 -10.677696,-4.19481 12.075966,-2.66942 -12.075966,-8.26251 -9.025194,-4.70327 -7.118467,-2.28808 9.279427,-4.19481 -8.643847,-1.77961 9.15231,-5.46597 -8.008273,-1.90673 6.482887,-2.66942 6.10154,-4.83039 -2.796537,-4.19481"
        id="path2321"
        inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:152.4px;line-height:11.5384px;font-family:'Droid Sans Mono';-inkscape-font-specification:'Droid Sans Mono';letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="61.964237"
+       y="202.6727"
+       id="text164"><tspan
+         sodipodi:role="line"
+         id="tspan162"
+         style="stroke-width:0.264583px"
+         x="61.964237"
+         y="202.6727">`</tspan></text>
   </g>
 </svg>
