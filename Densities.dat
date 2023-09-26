@@ -1,11 +1,18 @@
-nALow nAHigh
-0.04	0.3  #Lizard
-0.05	0.1  #Empress
-0.03	0.08 #Nisqually
-3	20   #Boulder/Turbo
-0.15	3    #Eagle Pass
-0.03	0.15 #Kendall
-0.3	1    #Grandfather
-0.06	0.25 #Hawkins
-0.05	0.2  #Temptation
+nALow nAHigh nearMiss
+0.04	0.3  0 #Lizard
+0.05	0.1  0 #Empress
+0.03	0.08 1 #Nisqually
+3	20   0 #Boulder/Turbo
+0.15	3    0 #Eagle Pass
+0.03	0.15 0 #Kendall
+0.3	1    0 #Grandfather
+0.06	0.25 0 #Hawkins
+0.05	0.2  0 #Temptation
+4e-3    0.03 1 #Bagley Basin
+1.4e-4	4e-3 1 #Bridger Range
+2e-3    2    0 #Hyalite
+0.2	0.5  0 #Wilson Glade
+0.06	0.11 0 #Jim Hill
+0.06	3    0 #Tuckerman Left
+1.7	2    0 #Sliver Couloir
 
