@@ -1,4 +1,4 @@
-set term pdf size 4,5  
+set term pdf size 5,6.25  
 set output 'RelativeInterpartyData.pdf'  
                                                     
 
@@ -6,22 +6,25 @@ set multiplot layout 2,1
 
 set logsc x
 
-set ylabel 'Fraction of involvements that are inter-party'
+set ylabel 'Fraction of involvements that are inter-party' font ",15"
  
 set lmargin at screen 0.15                                                                 
 set key noauto                                                                  
 set logsc x                                                                     
                                                                                 
-set ytics 0,0.5,1                                                               
+set ytics font ",15"  0,0.5,1
 set format x ""                                                          
+
+set arrow 1 from 1,0 to 1,1 nohead lc rgb "#bbbbbb" 
                                                                                 
 pl [1e-6:100][0:1]\
-        1/(1/x+1)
+        1/(1/x+1) lw 2
 
 set ylabel " "
 unset ytics
-set xlabel 'Parties per avalanche-area'                                         
-set format x "10^{%T}"                                                          
+set xlabel 'Parties per avalanche-area' font ",15"
+set format x "10^{%T}"
+set xtics font ",15"
 
 set label 'Lizard Range'		at 0.2e-5,-1  left front
 set label 'Empress Lake'		at 0.2e-5,-2  left front
@@ -40,11 +43,12 @@ set label 'Jim Hill'                    at 0.2e-5,-14 left front
 set label 'Tuckerman Left'              at 0.2e-5,-15 left front
 set label 'Sliver Couloir'              at 0.2e-5,-16 left front
 
-set key noauto above 
+set key noauto bottom left horizontal font ",9" 
+set arrow 1 from 1,0 to 1,-17.7 nohead front lc rgb "#bbbbbb" 
 
-pl [1e-6:1e2] [-17:0]\
+pl [1e-6:1e2] [-17.7:0]\
+        -9.5 lt 1 lc rgb "#eeeeee" lw 2 w filledcurves x1,\
 	'Densities.dat' u 1:(-$0):1:2:(($3*2+1)) w xerror ps 0 lw 2 lc variable,\
         'Densities.dat' u (0):($0):1:2 w xerror lt 3 ps 0 lw 2 tit 'Near Miss',\
-	'Densities.dat' u (0):($0):1:2 w xerror lt 1 ps 0 lw 2 tit 'Involvement',\
-        -9.5 lt 0
+	'Densities.dat' u (0):($0):1:2 w xerror lt 1 ps 0 lw 2 tit 'Involvement' 
 
