@@ -24,7 +24,9 @@ set ylabel "North-American Incidents"
 unset ytics
 set xlabel 'Parties per avalanche-area' font ",15"
 set format x "10^{%T}"
-set xtics font ",15"
+set xtics font ",18"
+set tics front
+unset ytics 
 
 set label 'Lizard Range'		at 0.2e-5,-1  left front
 set label 'Empress Lake'		at 0.2e-5,-2  left front
@@ -46,7 +48,7 @@ set label 'Sliver Couloir'              at 0.2e-5,-16 left front
 set key noauto bottom left horizontal font ",9" 
 set arrow 1 from 1,0 to 1,-17.7 nohead front lc rgb "#bbbbbb" 
 
-pl [1e-6:1e2] [-17.7:0]\
+pl [1e-6:1e2] [-17.7:-0.001]\
         -9.5 lt 1 lc rgb "#eeeeee" lw 2 w filledcurves x1,\
 	'Densities.dat' u 1:(-$0):1:2:(($3*2+1)) w xerror ps 0 lw 2 lc variable,\
         'Densities.dat' u (0):($0):1:2 w xerror lt 3 ps 0 lw 2 tit 'Near Miss',\
